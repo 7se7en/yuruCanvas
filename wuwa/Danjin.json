@@ -1,0 +1,836 @@
+{
+    "canvas_width": 2481,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 137.0,
+            "y": 50.0,
+            "width": 273,
+            "height": 48,
+            "text": "Execution (LMB)",
+            "font_size": 24
+        },
+        {
+            "id": 1,
+            "x": 1648.0,
+            "y": 460.0,
+            "width": 265,
+            "height": 48,
+            "text": "Ruby Blossom",
+            "font_size": 24
+        },
+        {
+            "id": 2,
+            "x": 1956.0,
+            "y": 469.0,
+            "width": 148,
+            "height": 24,
+            "text": "Maximum 120",
+            "font_size": 12
+        },
+        {
+            "id": 3,
+            "x": 1111.0,
+            "y": 375.0,
+            "width": 300,
+            "height": 24,
+            "text": "Generates 10 Ruby Blossom per cast",
+            "font_size": 12
+        },
+        {
+            "id": 4,
+            "x": 1483.0,
+            "y": 267.0,
+            "width": 536,
+            "height": 48,
+            "text": "Crimson Fragment (E)",
+            "font_size": 24
+        },
+        {
+            "id": 5,
+            "x": 1497.0,
+            "y": 682.0,
+            "width": 413,
+            "height": 48,
+            "text": "Chaoscleave (Hold LMB)",
+            "font_size": 24
+        },
+        {
+            "id": 6,
+            "x": 155.0,
+            "y": 232.0,
+            "width": 473,
+            "height": 48,
+            "text": "Ruby Shades (Dodge Counter)",
+            "font_size": 24
+        },
+        {
+            "id": 7,
+            "x": 504.0,
+            "y": 444.0,
+            "width": 327,
+            "height": 48,
+            "text": "Crimson Erosion (E)",
+            "font_size": 24
+        },
+        {
+            "id": 8,
+            "x": 264.0,
+            "y": 350.0,
+            "width": 248,
+            "height": 50,
+            "text": "After casting Dodge Counter, unlocks Crimson Erosion",
+            "font_size": 12
+        },
+        {
+            "id": 9,
+            "x": 343.0,
+            "y": 138.0,
+            "width": 237,
+            "height": 52,
+            "text": "After casting Basic Attack 2, unlocks Crimson Erosion",
+            "font_size": 12
+        },
+        {
+            "id": 10,
+            "x": 1403.0,
+            "y": 72.0,
+            "width": 297,
+            "height": 48,
+            "text": "Vindication (Intro)",
+            "font_size": 24
+        },
+        {
+            "id": 11,
+            "x": 1168.0,
+            "y": 182.0,
+            "width": 191,
+            "height": 53,
+            "text": "After casting Intro, unlocks Crimson Erosion",
+            "font_size": 12
+        },
+        {
+            "id": 12,
+            "x": 1138.0,
+            "y": 409.0,
+            "width": 232,
+            "height": 24,
+            "text": "Lose 3% of Max HP per cast",
+            "font_size": 12
+        },
+        {
+            "id": 13,
+            "x": 395.0,
+            "y": 538.0,
+            "width": 167,
+            "height": 24,
+            "text": "Can be cast twice",
+            "font_size": 12
+        },
+        {
+            "id": 14,
+            "x": 612.0,
+            "y": 550.0,
+            "width": 252,
+            "height": 55,
+            "text": "Second cast of Crimson Erosion applies Incinerating Will",
+            "font_size": 12
+        },
+        {
+            "id": 15,
+            "x": 644.0,
+            "y": 663.0,
+            "width": 283,
+            "height": 48,
+            "text": "Incinerating Will",
+            "font_size": 24
+        },
+        {
+            "id": 16,
+            "x": 951.0,
+            "y": 677.0,
+            "width": 330,
+            "height": 24,
+            "text": "Marked enemies take 20% more damage",
+            "font_size": 12
+        },
+        {
+            "id": 17,
+            "x": 746.0,
+            "y": 214.0,
+            "width": 332,
+            "height": 48,
+            "text": "Sanguine Pulse (E)",
+            "font_size": 24
+        },
+        {
+            "id": 18,
+            "x": 608.0,
+            "y": 87.0,
+            "width": 223,
+            "height": 54,
+            "text": "After casting Basic Attack 3, unlocks Sanguine Pulse",
+            "font_size": 12
+        },
+        {
+            "id": 19,
+            "x": 763.0,
+            "y": 294.0,
+            "width": 219,
+            "height": 24,
+            "text": "Can be cast three times",
+            "font_size": 12
+        },
+        {
+            "id": 20,
+            "x": 954.0,
+            "y": 634.0,
+            "width": 155,
+            "height": 24,
+            "text": "12 second duration",
+            "font_size": 12
+        },
+        {
+            "id": 21,
+            "x": 1937.0,
+            "y": 696.0,
+            "width": 195,
+            "height": 24,
+            "text": "Generates 50 Concerto",
+            "font_size": 12
+        },
+        {
+            "id": 22,
+            "x": 1731.0,
+            "y": 85.0,
+            "width": 194,
+            "height": 24,
+            "text": "Generates 10 Concerto",
+            "font_size": 12
+        },
+        {
+            "id": 23,
+            "x": 1781.0,
+            "y": 768.0,
+            "width": 323,
+            "height": 24,
+            "text": "Consumes either 60 or 120 Ruby Blossom",
+            "font_size": 12
+        },
+        {
+            "id": 24,
+            "x": 1726.0,
+            "y": 881.0,
+            "width": 237,
+            "height": 53,
+            "text": "DMG multiplied by 240% if consuming 120 Ruby Blossom",
+            "font_size": 12
+        },
+        {
+            "id": 25,
+            "x": 1344.0,
+            "y": 784.0,
+            "width": 191,
+            "height": 54,
+            "text": "Basic Attack afterwards to perform Scatterbloom",
+            "font_size": 12
+        },
+        {
+            "id": 26,
+            "x": 1222.0,
+            "y": 879.0,
+            "width": 326,
+            "height": 48,
+            "text": "Scatterbloom (LMB)",
+            "font_size": 24
+        },
+        {
+            "id": 27,
+            "x": 1886.0,
+            "y": 537.0,
+            "width": 202,
+            "height": 53,
+            "text": "Unlocks Chaoscleave at 60 or more Ruby Blossom",
+            "font_size": 12
+        },
+        {
+            "id": 28,
+            "x": 1563.0,
+            "y": 805.0,
+            "width": 290,
+            "height": 24,
+            "text": "Heals Danjin for 36% of Max HP",
+            "font_size": 12
+        },
+        {
+            "id": 29,
+            "x": 1117.0,
+            "y": 445.0,
+            "width": 278,
+            "height": 24,
+            "text": "Generates no Concerto for casting",
+            "font_size": 12
+        },
+        {
+            "id": 30,
+            "x": 235.0,
+            "y": 697.0,
+            "width": 345,
+            "height": 48,
+            "text": "Crimson Bloom (R)",
+            "font_size": 24
+        },
+        {
+            "id": 31,
+            "x": 317.0,
+            "y": 772.0,
+            "width": 188,
+            "height": 53,
+            "text": "Eight smaller attacks, then casts Scarlet Burst",
+            "font_size": 12
+        },
+        {
+            "id": 32,
+            "x": 20.0,
+            "y": 706.0,
+            "width": 195,
+            "height": 24,
+            "text": "Generates 20 Concerto",
+            "font_size": 12
+        },
+        {
+            "id": 33,
+            "x": 300.0,
+            "y": 854.0,
+            "width": 226,
+            "height": 48,
+            "text": "Scarlet Burst",
+            "font_size": 24
+        },
+        {
+            "id": 34,
+            "x": 2103.0,
+            "y": 41.0,
+            "width": 272,
+            "height": 48,
+            "text": "Duality (Outro)",
+            "font_size": 24
+        },
+        {
+            "id": 35,
+            "x": 2038.0,
+            "y": 118.0,
+            "width": 407,
+            "height": 47,
+            "text": "Incoming Resonator's Havoc DMG multiplied by 123% for 14 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 37,
+            "x": 65.0,
+            "y": 467.0,
+            "width": 314,
+            "height": 96,
+            "text": "If casting Crimson Erosion through Dodge Counter method:\n    DMG Bonus +20%\n    Lose 6% of Max HP per cast\n    Generates twice as much Ruby Blossom",
+            "font_size": 12
+        },
+        {
+            "id": 39,
+            "x": 29.0,
+            "y": 582.0,
+            "width": 379,
+            "height": 48,
+            "text": "Crimson Light (Inherent)",
+            "font_size": 24
+        },
+        {
+            "id": 40,
+            "x": 1027.0,
+            "y": 37.0,
+            "width": 293,
+            "height": 48,
+            "text": "Overflow (Inherent)",
+            "font_size": 24
+        },
+        {
+            "id": 41,
+            "x": 870.0,
+            "y": 123.0,
+            "width": 391,
+            "height": 24,
+            "text": "Grants Heavy Attack DMG Bonus +30% for 5 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 42,
+            "x": 862.0,
+            "y": 73.0,
+            "width": 130,
+            "height": 24,
+            "text": "Does not stack",
+            "font_size": 12
+        },
+        {
+            "id": 43,
+            "x": 492.0,
+            "y": 1026.0,
+            "width": 224,
+            "height": 48,
+            "text": "Resonance 1",
+            "font_size": 24
+        },
+        {
+            "id": 44,
+            "x": 729.0,
+            "y": 1026.0,
+            "width": 224,
+            "height": 48,
+            "text": "Resonance 2",
+            "font_size": 24
+        },
+        {
+            "id": 45,
+            "x": 494.0,
+            "y": 1085.0,
+            "width": 224,
+            "height": 48,
+            "text": "Resonance 3",
+            "font_size": 24
+        },
+        {
+            "id": 46,
+            "x": 728.0,
+            "y": 1085.0,
+            "width": 224,
+            "height": 48,
+            "text": "Resonance 4",
+            "font_size": 24
+        },
+        {
+            "id": 47,
+            "x": 730.0,
+            "y": 1147.0,
+            "width": 224,
+            "height": 48,
+            "text": "Resonance 5",
+            "font_size": 24
+        },
+        {
+            "id": 48,
+            "x": 968.0,
+            "y": 1147.0,
+            "width": 224,
+            "height": 48,
+            "text": "Resonance 6",
+            "font_size": 24
+        },
+        {
+            "id": 49,
+            "x": 657.0,
+            "y": 734.0,
+            "width": 225,
+            "height": 51,
+            "text": "On hitting marked enemies, gain ATK +5% for 6 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 50,
+            "x": 762.0,
+            "y": 821.0,
+            "width": 165,
+            "height": 24,
+            "text": "Maximum 6 stacks",
+            "font_size": 12
+        },
+        {
+            "id": 51,
+            "x": 652.0,
+            "y": 859.0,
+            "width": 272,
+            "height": 24,
+            "text": "Lose 1 stack when taking damage",
+            "font_size": 12
+        },
+        {
+            "id": 52,
+            "x": 918.0,
+            "y": 747.0,
+            "width": 326,
+            "height": 24,
+            "text": "DMG Bonus +20% against marked enemies",
+            "font_size": 12
+        },
+        {
+            "id": 53,
+            "x": 439.0,
+            "y": 1152.0,
+            "width": 235,
+            "height": 24,
+            "text": "Liberation DMG Bonus +30%",
+            "font_size": 12
+        },
+        {
+            "id": 54,
+            "x": 1502.0,
+            "y": 539.0,
+            "width": 352,
+            "height": 24,
+            "text": "Crit Rate +15% while above 60 Ruby Blossom",
+            "font_size": 12
+        },
+        {
+            "id": 55,
+            "x": 1271.0,
+            "y": 577.0,
+            "width": 232,
+            "height": 68,
+            "text": "Buff persists while consuming Ruby Blossom on Chaoscleave until Scatterbloom is cast",
+            "font_size": 12
+        },
+        {
+            "id": 56,
+            "x": 688.0,
+            "y": 1210.0,
+            "width": 213,
+            "height": 24,
+            "text": "Havoc DMG Bonus +15%",
+            "font_size": 12
+        },
+        {
+            "id": 57,
+            "x": 716.0,
+            "y": 1248.0,
+            "width": 322,
+            "height": 24,
+            "text": "Havoc DMG Bonus +15% if below 60% HP",
+            "font_size": 12
+        },
+        {
+            "id": 58,
+            "x": 1607.0,
+            "y": 844.0,
+            "width": 311,
+            "height": 24,
+            "text": "Party gains ATK +20% for 20 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 59,
+            "x": 912.0,
+            "y": 786.0,
+            "width": 102,
+            "height": 24,
+            "text": "Danjin only",
+            "font_size": 12
+        },
+        {
+            "id": 60,
+            "x": 1833.0,
+            "y": 336.0,
+            "width": 179,
+            "height": 24,
+            "text": "0 second Cooldown",
+            "font_size": 12
+        },
+        {
+            "id": 61,
+            "x": 679.0,
+            "y": 349.0,
+            "width": 308,
+            "height": 48,
+            "text": "Last hit of third cast of Sanguine Pulse generates an additional 10 Ruby Blossoms",
+            "font_size": 12
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 1,
+            "end_id": 2
+        },
+        {
+            "start_id": 6,
+            "end_id": 8
+        },
+        {
+            "start_id": 8,
+            "end_id": 7
+        },
+        {
+            "start_id": 0,
+            "end_id": 9
+        },
+        {
+            "start_id": 9,
+            "end_id": 7
+        },
+        {
+            "start_id": 11,
+            "end_id": 10
+        },
+        {
+            "start_id": 11,
+            "end_id": 7
+        },
+        {
+            "start_id": 12,
+            "end_id": 4
+        },
+        {
+            "start_id": 7,
+            "end_id": 12
+        },
+        {
+            "start_id": 7,
+            "end_id": 13
+        },
+        {
+            "start_id": 7,
+            "end_id": 14
+        },
+        {
+            "start_id": 14,
+            "end_id": 15
+        },
+        {
+            "start_id": 15,
+            "end_id": 16
+        },
+        {
+            "start_id": 0,
+            "end_id": 18
+        },
+        {
+            "start_id": 18,
+            "end_id": 17
+        },
+        {
+            "start_id": 17,
+            "end_id": 12
+        },
+        {
+            "start_id": 17,
+            "end_id": 19
+        },
+        {
+            "start_id": 15,
+            "end_id": 20
+        },
+        {
+            "start_id": 21,
+            "end_id": 5
+        },
+        {
+            "start_id": 10,
+            "end_id": 22
+        },
+        {
+            "start_id": 1,
+            "end_id": 23
+        },
+        {
+            "start_id": 23,
+            "end_id": 5
+        },
+        {
+            "start_id": 5,
+            "end_id": 24
+        },
+        {
+            "start_id": 5,
+            "end_id": 25
+        },
+        {
+            "start_id": 25,
+            "end_id": 26
+        },
+        {
+            "start_id": 1,
+            "end_id": 27
+        },
+        {
+            "start_id": 27,
+            "end_id": 5
+        },
+        {
+            "start_id": 5,
+            "end_id": 23
+        },
+        {
+            "start_id": 23,
+            "end_id": 24
+        },
+        {
+            "start_id": 5,
+            "end_id": 28
+        },
+        {
+            "start_id": 26,
+            "end_id": 24
+        },
+        {
+            "start_id": 26,
+            "end_id": 29
+        },
+        {
+            "start_id": 7,
+            "end_id": 29
+        },
+        {
+            "start_id": 17,
+            "end_id": 29
+        },
+        {
+            "start_id": 4,
+            "end_id": 29
+        },
+        {
+            "start_id": 30,
+            "end_id": 31
+        },
+        {
+            "start_id": 30,
+            "end_id": 32
+        },
+        {
+            "start_id": 31,
+            "end_id": 33
+        },
+        {
+            "start_id": 34,
+            "end_id": 35
+        },
+        {
+            "start_id": 8,
+            "end_id": 37
+        },
+        {
+            "start_id": 37,
+            "end_id": 7
+        },
+        {
+            "start_id": 37,
+            "end_id": 1
+        },
+        {
+            "start_id": 37,
+            "end_id": 39
+        },
+        {
+            "start_id": 40,
+            "end_id": 41
+        },
+        {
+            "start_id": 41,
+            "end_id": 17
+        },
+        {
+            "start_id": 41,
+            "end_id": 42
+        },
+        {
+            "start_id": 15,
+            "end_id": 49
+        },
+        {
+            "start_id": 43,
+            "end_id": 49
+        },
+        {
+            "start_id": 49,
+            "end_id": 50
+        },
+        {
+            "start_id": 49,
+            "end_id": 51
+        },
+        {
+            "start_id": 15,
+            "end_id": 52
+        },
+        {
+            "start_id": 52,
+            "end_id": 44
+        },
+        {
+            "start_id": 45,
+            "end_id": 53
+        },
+        {
+            "start_id": 46,
+            "end_id": 54
+        },
+        {
+            "start_id": 54,
+            "end_id": 1
+        },
+        {
+            "start_id": 55,
+            "end_id": 26
+        },
+        {
+            "start_id": 55,
+            "end_id": 54
+        },
+        {
+            "start_id": 55,
+            "end_id": 5
+        },
+        {
+            "start_id": 47,
+            "end_id": 56
+        },
+        {
+            "start_id": 47,
+            "end_id": 57
+        },
+        {
+            "start_id": 5,
+            "end_id": 58
+        },
+        {
+            "start_id": 48,
+            "end_id": 58
+        },
+        {
+            "start_id": 7,
+            "end_id": 3
+        },
+        {
+            "start_id": 17,
+            "end_id": 3
+        },
+        {
+            "start_id": 4,
+            "end_id": 3
+        },
+        {
+            "start_id": 3,
+            "end_id": 1
+        },
+        {
+            "start_id": 49,
+            "end_id": 59
+        },
+        {
+            "start_id": 52,
+            "end_id": 59
+        },
+        {
+            "start_id": 33,
+            "end_id": 29
+        },
+        {
+            "start_id": 4,
+            "end_id": 60
+        },
+        {
+            "start_id": 61,
+            "end_id": 3
+        },
+        {
+            "start_id": 61,
+            "end_id": 19
+        }
+    ]
+}

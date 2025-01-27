@@ -1,0 +1,834 @@
+{
+    "canvas_width": 2481,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 430.0,
+            "y": 128.0,
+            "width": 281,
+            "height": 48,
+            "text": "Pero, Easy (LMB)",
+            "font_size": 24
+        },
+        {
+            "id": 1,
+            "x": 434.0,
+            "y": 428.0,
+            "width": 322,
+            "height": 122,
+            "text": "Generates Imagination while being held. Release or reach three Forte bars performs the Heavy Attack\nIf you have at least one Forte bar, on hit, Roccia becomes airborne and enters Beyond Imagination state",
+            "font_size": 12
+        },
+        {
+            "id": 2,
+            "x": 1011.0,
+            "y": 246.0,
+            "width": 294,
+            "height": 48,
+            "text": "Imagination (Forte)",
+            "font_size": 24
+        },
+        {
+            "id": 3,
+            "x": 1572.0,
+            "y": 329.0,
+            "width": 333,
+            "height": 48,
+            "text": "Beyond Imagination",
+            "font_size": 24
+        },
+        {
+            "id": 4,
+            "x": 774.0,
+            "y": 194.0,
+            "width": 199,
+            "height": 24,
+            "text": "Generates Imagination",
+            "font_size": 12
+        },
+        {
+            "id": 5,
+            "x": 1004.0,
+            "y": 206.0,
+            "width": 305,
+            "height": 24,
+            "text": "Maximum 300, split into three segments",
+            "font_size": 12
+        },
+        {
+            "id": 6,
+            "x": 1871.0,
+            "y": 103.0,
+            "width": 316,
+            "height": 48,
+            "text": "Acrobatic Trick (E)",
+            "font_size": 24
+        },
+        {
+            "id": 7,
+            "x": 2066.0,
+            "y": 169.0,
+            "width": 232,
+            "height": 65,
+            "text": "Large AOE vortex that makes Roccia airborne and enter Beyond Imagination state",
+            "font_size": 12
+        },
+        {
+            "id": 8,
+            "x": 763.0,
+            "y": 313.0,
+            "width": 261,
+            "height": 24,
+            "text": "Generates up to 200 Imagination",
+            "font_size": 12
+        },
+        {
+            "id": 9,
+            "x": 1826.0,
+            "y": 167.0,
+            "width": 191,
+            "height": 24,
+            "text": "Generates 20 Concerto",
+            "font_size": 12
+        },
+        {
+            "id": 10,
+            "x": 1089.0,
+            "y": 611.0,
+            "width": 354,
+            "height": 48,
+            "text": "Real Fantasy (j.LMB)",
+            "font_size": 24
+        },
+        {
+            "id": 12,
+            "x": 1113.0,
+            "y": 564.0,
+            "width": 274,
+            "height": 24,
+            "text": "Costs 100 Imagination to perform",
+            "font_size": 12
+        },
+        {
+            "id": 13,
+            "x": 1120.0,
+            "y": 674.0,
+            "width": 279,
+            "height": 70,
+            "text": "3-stage Heavy Attack that launches you mid-air if you have 100 or more Imagination",
+            "font_size": 12
+        },
+        {
+            "id": 14,
+            "x": 1426.0,
+            "y": 705.0,
+            "width": 230,
+            "height": 24,
+            "text": "Stage 1 generates 10 Concerto",
+            "font_size": 12
+        },
+        {
+            "id": 15,
+            "x": 1427.0,
+            "y": 737.0,
+            "width": 229,
+            "height": 24,
+            "text": "Stage 2 generates 16 Concerto",
+            "font_size": 12
+        },
+        {
+            "id": 16,
+            "x": 1428.0,
+            "y": 768.0,
+            "width": 230,
+            "height": 24,
+            "text": "Stage 3 generates 25 Concerto",
+            "font_size": 12
+        },
+        {
+            "id": 17,
+            "x": 1211.0,
+            "y": 509.0,
+            "width": 514,
+            "height": 24,
+            "text": "Beyond Imagination unlocks access to Real Fantasy only while airborne",
+            "font_size": 12
+        },
+        {
+            "id": 18,
+            "x": 1120.0,
+            "y": 1048.0,
+            "width": 412,
+            "height": 48,
+            "text": "Commedia Improvviso! (R)",
+            "font_size": 24
+        },
+        {
+            "id": 19,
+            "x": 1169.0,
+            "y": 1108.0,
+            "width": 310,
+            "height": 67,
+            "text": "Party gains Flat ATK equal to 1 per 0.1% of Roccia's Crit Rate over 50% for 30 seconds, up to 200 ATK",
+            "font_size": 12
+        },
+        {
+            "id": 20,
+            "x": 1136.0,
+            "y": 1188.0,
+            "width": 370,
+            "height": 24,
+            "text": "At least 70% Crit Rate is needed to reach the max",
+            "font_size": 12
+        },
+        {
+            "id": 21,
+            "x": 634.0,
+            "y": 1297.0,
+            "width": 273,
+            "height": 48,
+            "text": "Pero, Help (Intro)",
+            "font_size": 24
+        },
+        {
+            "id": 22,
+            "x": 1015.0,
+            "y": 1312.0,
+            "width": 184,
+            "height": 24,
+            "text": "Generates 10 Concerto",
+            "font_size": 12
+        },
+        {
+            "id": 23,
+            "x": 625.0,
+            "y": 1124.0,
+            "width": 223,
+            "height": 24,
+            "text": "Combos into Basic Attack 4",
+            "font_size": 12
+        },
+        {
+            "id": 24,
+            "x": 2049.0,
+            "y": 1308.0,
+            "width": 390,
+            "height": 48,
+            "text": "Applause, Please! (Outro)",
+            "font_size": 24
+        },
+        {
+            "id": 25,
+            "x": 2114.0,
+            "y": 1197.0,
+            "width": 254,
+            "height": 85,
+            "text": "Incoming Resonator gains:\n    Havoc DMG Amp. +20%\n    Basic Attack DMG Amp. +25% \nfor 14 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 26,
+            "x": 1550.0,
+            "y": 1058.0,
+            "width": 202,
+            "height": 24,
+            "text": "Generates 20 Concerto",
+            "font_size": 12
+        },
+        {
+            "id": 27,
+            "x": 679.0,
+            "y": 1251.0,
+            "width": 235,
+            "height": 24,
+            "text": "Generates 100 Imagination",
+            "font_size": 12
+        },
+        {
+            "id": 28,
+            "x": 1578.0,
+            "y": 399.0,
+            "width": 318,
+            "height": 24,
+            "text": "State gained through connected abilities",
+            "font_size": 12
+        },
+        {
+            "id": 29,
+            "x": 409.0,
+            "y": 359.0,
+            "width": 370,
+            "height": 48,
+            "text": "Pero, Easy (Hold LMB)",
+            "font_size": 24
+        },
+        {
+            "id": 31,
+            "x": 176.0,
+            "y": 341.0,
+            "width": 190,
+            "height": 48,
+            "text": "The Heavy Attack itself occurs ON RELEASE",
+            "font_size": 12
+        },
+        {
+            "id": 32,
+            "x": 1891.0,
+            "y": 1021.0,
+            "width": 543,
+            "height": 48,
+            "text": "Immersive Performance (Inherent 1)",
+            "font_size": 24
+        },
+        {
+            "id": 33,
+            "x": 2038.0,
+            "y": 1085.0,
+            "width": 277,
+            "height": 56,
+            "text": "Gain ATK +20% for 12 seconds when performing connected abilities",
+            "font_size": 12
+        },
+        {
+            "id": 35,
+            "x": 59.0,
+            "y": 736.0,
+            "width": 225,
+            "height": 48,
+            "text": "Resonance 1",
+            "font_size": 24
+        },
+        {
+            "id": 36,
+            "x": 1572.0,
+            "y": 169.0,
+            "width": 222,
+            "height": 24,
+            "text": "Generates 100 Imagination",
+            "font_size": 12
+        },
+        {
+            "id": 37,
+            "x": 1470.0,
+            "y": 211.0,
+            "width": 159,
+            "height": 24,
+            "text": "+100 Imagination",
+            "font_size": 12
+        },
+        {
+            "id": 38,
+            "x": 1736.0,
+            "y": 209.0,
+            "width": 125,
+            "height": 24,
+            "text": "+10 Concerto",
+            "font_size": 12
+        },
+        {
+            "id": 39,
+            "x": 871.0,
+            "y": 673.0,
+            "width": 183,
+            "height": 24,
+            "text": "Can have Super Armor",
+            "font_size": 12
+        },
+        {
+            "id": 40,
+            "x": 59.0,
+            "y": 799.0,
+            "width": 226,
+            "height": 48,
+            "text": "Resonance 2",
+            "font_size": 24
+        },
+        {
+            "id": 41,
+            "x": 869.0,
+            "y": 780.0,
+            "width": 315,
+            "height": 120,
+            "text": "When casting each stage, party gains:\n    Havoc DMG Bonus +10%\nfor 30 seconds, up to three stacks (+30%)\nWhen reaching three stacks, party gains:\n    Havoc DMG Bonus +10%\nfor 30 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 43,
+            "x": 517.0,
+            "y": 1166.0,
+            "width": 145,
+            "height": 84,
+            "text": "Roccia gains:\n    Crit Rate +10%\n    Crit DMG +30% \nfor 15 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 44,
+            "x": 62.0,
+            "y": 863.0,
+            "width": 222,
+            "height": 48,
+            "text": "Resonance 3",
+            "font_size": 24
+        },
+        {
+            "id": 45,
+            "x": 60.0,
+            "y": 927.0,
+            "width": 228,
+            "height": 48,
+            "text": "Resonance 4",
+            "font_size": 24
+        },
+        {
+            "id": 46,
+            "x": 816.0,
+            "y": 708.0,
+            "width": 278,
+            "height": 24,
+            "text": "DMG Multiplier +60% for 12 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 47,
+            "x": 62.0,
+            "y": 991.0,
+            "width": 229,
+            "height": 48,
+            "text": "Resonance 5",
+            "font_size": 24
+        },
+        {
+            "id": 48,
+            "x": 1234.0,
+            "y": 1001.0,
+            "width": 184,
+            "height": 24,
+            "text": "DMG multplied by 120%",
+            "font_size": 12
+        },
+        {
+            "id": 49,
+            "x": 216.0,
+            "y": 433.0,
+            "width": 201,
+            "height": 24,
+            "text": "DMG multiplied by 180%",
+            "font_size": 12
+        },
+        {
+            "id": 50,
+            "x": 67.0,
+            "y": 1057.0,
+            "width": 221,
+            "height": 48,
+            "text": "Resonance 6",
+            "font_size": 24
+        },
+        {
+            "id": 51,
+            "x": 824.0,
+            "y": 741.0,
+            "width": 254,
+            "height": 24,
+            "text": "Can ignore 60% of Enemy DEF",
+            "font_size": 12
+        },
+        {
+            "id": 52,
+            "x": 1747.0,
+            "y": 848.0,
+            "width": 400,
+            "height": 48,
+            "text": "Reality Recreation (j.LMB)",
+            "font_size": 24
+        },
+        {
+            "id": 53,
+            "x": 1221.0,
+            "y": 804.0,
+            "width": 646,
+            "height": 24,
+            "text": "Resonance 6 unlocks access to Reality Recreation after performing Real Fantasy Stage 3",
+            "font_size": 12
+        },
+        {
+            "id": 54,
+            "x": 1798.0,
+            "y": 909.0,
+            "width": 302,
+            "height": 65,
+            "text": "Heavy Attack that launches you mid-air, putting you back into Beyond Imagination state (no Imagination cost)",
+            "font_size": 12
+        },
+        {
+            "id": 55,
+            "x": 2169.0,
+            "y": 860.0,
+            "width": 153,
+            "height": 24,
+            "text": "Has Super Armor",
+            "font_size": 12
+        },
+        {
+            "id": 56,
+            "x": 1652.0,
+            "y": 1183.0,
+            "width": 353,
+            "height": 48,
+            "text": "Magic Box (Inherent 2)",
+            "font_size": 24
+        },
+        {
+            "id": 57,
+            "x": 1689.0,
+            "y": 1252.0,
+            "width": 282,
+            "height": 58,
+            "text": "Incoming Resonator's utility is replaced with Magic Box for 14 seconds",
+            "font_size": 12
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 1,
+            "end_id": 2
+        },
+        {
+            "start_id": 3,
+            "end_id": 1
+        },
+        {
+            "start_id": 2,
+            "end_id": 3
+        },
+        {
+            "start_id": 3,
+            "end_id": 1
+        },
+        {
+            "start_id": 2,
+            "end_id": 1
+        },
+        {
+            "start_id": 4,
+            "end_id": 0
+        },
+        {
+            "start_id": 4,
+            "end_id": 2
+        },
+        {
+            "start_id": 2,
+            "end_id": 5
+        },
+        {
+            "start_id": 6,
+            "end_id": 7
+        },
+        {
+            "start_id": 7,
+            "end_id": 3
+        },
+        {
+            "start_id": 1,
+            "end_id": 8
+        },
+        {
+            "start_id": 8,
+            "end_id": 2
+        },
+        {
+            "start_id": 9,
+            "end_id": 6
+        },
+        {
+            "start_id": 10,
+            "end_id": 12
+        },
+        {
+            "start_id": 12,
+            "end_id": 2
+        },
+        {
+            "start_id": 10,
+            "end_id": 13
+        },
+        {
+            "start_id": 13,
+            "end_id": 14
+        },
+        {
+            "start_id": 13,
+            "end_id": 15
+        },
+        {
+            "start_id": 13,
+            "end_id": 16
+        },
+        {
+            "start_id": 3,
+            "end_id": 17
+        },
+        {
+            "start_id": 17,
+            "end_id": 10
+        },
+        {
+            "start_id": 18,
+            "end_id": 19
+        },
+        {
+            "start_id": 19,
+            "end_id": 20
+        },
+        {
+            "start_id": 21,
+            "end_id": 22
+        },
+        {
+            "start_id": 21,
+            "end_id": 23
+        },
+        {
+            "start_id": 23,
+            "end_id": 0
+        },
+        {
+            "start_id": 24,
+            "end_id": 25
+        },
+        {
+            "start_id": 26,
+            "end_id": 18
+        },
+        {
+            "start_id": 21,
+            "end_id": 27
+        },
+        {
+            "start_id": 27,
+            "end_id": 2
+        },
+        {
+            "start_id": 6,
+            "end_id": 7
+        },
+        {
+            "start_id": 1,
+            "end_id": 8
+        },
+        {
+            "start_id": 3,
+            "end_id": 17
+        },
+        {
+            "start_id": 28,
+            "end_id": 3
+        },
+        {
+            "start_id": 28,
+            "end_id": 6
+        },
+        {
+            "start_id": 0,
+            "end_id": 23
+        },
+        {
+            "start_id": 0,
+            "end_id": 4
+        },
+        {
+            "start_id": 8,
+            "end_id": 2
+        },
+        {
+            "start_id": 29,
+            "end_id": 8
+        },
+        {
+            "start_id": 29,
+            "end_id": 1
+        },
+        {
+            "start_id": 28,
+            "end_id": 29
+        },
+        {
+            "start_id": 2,
+            "end_id": 4
+        },
+        {
+            "start_id": 2,
+            "end_id": 8
+        },
+        {
+            "start_id": 2,
+            "end_id": 12
+        },
+        {
+            "start_id": 2,
+            "end_id": 5
+        },
+        {
+            "start_id": 27,
+            "end_id": 2
+        },
+        {
+            "start_id": 31,
+            "end_id": 29
+        },
+        {
+            "start_id": 32,
+            "end_id": 33
+        },
+        {
+            "start_id": 33,
+            "end_id": 29
+        },
+        {
+            "start_id": 33,
+            "end_id": 6
+        },
+        {
+            "start_id": 6,
+            "end_id": 36
+        },
+        {
+            "start_id": 2,
+            "end_id": 36
+        },
+        {
+            "start_id": 37,
+            "end_id": 36
+        },
+        {
+            "start_id": 37,
+            "end_id": 35
+        },
+        {
+            "start_id": 38,
+            "end_id": 9
+        },
+        {
+            "start_id": 38,
+            "end_id": 35
+        },
+        {
+            "start_id": 39,
+            "end_id": 10
+        },
+        {
+            "start_id": 39,
+            "end_id": 35
+        },
+        {
+            "start_id": 13,
+            "end_id": 41
+        },
+        {
+            "start_id": 41,
+            "end_id": 40
+        },
+        {
+            "start_id": 21,
+            "end_id": 43
+        },
+        {
+            "start_id": 44,
+            "end_id": 43
+        },
+        {
+            "start_id": 45,
+            "end_id": 46
+        },
+        {
+            "start_id": 13,
+            "end_id": 46
+        },
+        {
+            "start_id": 48,
+            "end_id": 18
+        },
+        {
+            "start_id": 47,
+            "end_id": 48
+        },
+        {
+            "start_id": 29,
+            "end_id": 49
+        },
+        {
+            "start_id": 49,
+            "end_id": 47
+        },
+        {
+            "start_id": 50,
+            "end_id": 51
+        },
+        {
+            "start_id": 10,
+            "end_id": 51
+        },
+        {
+            "start_id": 50,
+            "end_id": 53
+        },
+        {
+            "start_id": 53,
+            "end_id": 52
+        },
+        {
+            "start_id": 53,
+            "end_id": 16
+        },
+        {
+            "start_id": 52,
+            "end_id": 55
+        },
+        {
+            "start_id": 52,
+            "end_id": 54
+        },
+        {
+            "start_id": 28,
+            "end_id": 52
+        },
+        {
+            "start_id": 56,
+            "end_id": 57
+        },
+        {
+            "start_id": 24,
+            "end_id": 57
+        },
+        {
+            "start_id": 46,
+            "end_id": 10
+        },
+        {
+            "start_id": 46,
+            "end_id": 45
+        },
+        {
+            "start_id": 41,
+            "end_id": 13
+        },
+        {
+            "start_id": 14,
+            "end_id": 13
+        },
+        {
+            "start_id": 13,
+            "end_id": 15
+        },
+        {
+            "start_id": 13,
+            "end_id": 16
+        },
+        {
+            "start_id": 10,
+            "end_id": 13
+        }
+    ]
+}

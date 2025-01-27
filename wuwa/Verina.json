@@ -1,0 +1,615 @@
+{
+    "canvas_width": 2481,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 115.0,
+            "y": 119.0,
+            "width": 284,
+            "height": 48,
+            "text": "Cultivation (LMB)",
+            "font_size": 24
+        },
+        {
+            "id": 1,
+            "x": 429.0,
+            "y": 84.0,
+            "width": 231,
+            "height": 24,
+            "text": "Can attack three times midair",
+            "font_size": 12
+        },
+        {
+            "id": 2,
+            "x": 1052.0,
+            "y": 131.0,
+            "width": 337,
+            "height": 48,
+            "text": "Botany Experiment (E)",
+            "font_size": 24
+        },
+        {
+            "id": 3,
+            "x": 1414.0,
+            "y": 140.0,
+            "width": 182,
+            "height": 24,
+            "text": "Generates 30 Concerto",
+            "font_size": 12
+        },
+        {
+            "id": 4,
+            "x": 752.0,
+            "y": 119.0,
+            "width": 229,
+            "height": 50,
+            "text": "Basic Attack 5 generates one Photosynthesis Energy on hit",
+            "font_size": 12
+        },
+        {
+            "id": 5,
+            "x": 983.0,
+            "y": 418.0,
+            "width": 476,
+            "height": 48,
+            "text": "Photosynthesis Energy (Forte)",
+            "font_size": 24
+        },
+        {
+            "id": 6,
+            "x": 1048.0,
+            "y": 201.0,
+            "width": 348,
+            "height": 24,
+            "text": "Generates one Photosynthesis Energy on hit",
+            "font_size": 12
+        },
+        {
+            "id": 7,
+            "x": 1848.0,
+            "y": 418.0,
+            "width": 363,
+            "height": 48,
+            "text": "Verdant Growth (Intro)",
+            "font_size": 24
+        },
+        {
+            "id": 8,
+            "x": 2233.0,
+            "y": 429.0,
+            "width": 196,
+            "height": 24,
+            "text": "Generates 10 Concerto",
+            "font_size": 12
+        },
+        {
+            "id": 9,
+            "x": 1501.0,
+            "y": 428.0,
+            "width": 321,
+            "height": 24,
+            "text": "Generates one Photosynthesis Energy on hit",
+            "font_size": 12
+        },
+        {
+            "id": 10,
+            "x": 1022.0,
+            "y": 510.0,
+            "width": 211,
+            "height": 51,
+            "text": "Generate 12 Concerto per stack consumed",
+            "font_size": 12
+        },
+        {
+            "id": 11,
+            "x": 1279.0,
+            "y": 521.0,
+            "width": 105,
+            "height": 65,
+            "text": "Maximum four stacks",
+            "font_size": 12
+        },
+        {
+            "id": 12,
+            "x": 38.0,
+            "y": 314.0,
+            "width": 445,
+            "height": 50,
+            "text": "Starflower Blooms (Hold LMB)",
+            "font_size": 24
+        },
+        {
+            "id": 13,
+            "x": 665.0,
+            "y": 414.0,
+            "width": 263,
+            "height": 53,
+            "text": "Ground glide attack that consumes a Photosynthesis Energy",
+            "font_size": 12
+        },
+        {
+            "id": 15,
+            "x": 587.0,
+            "y": 244.0,
+            "width": 411,
+            "height": 50,
+            "text": "Starflower Blooms (j.LMB)",
+            "font_size": 24
+        },
+        {
+            "id": 16,
+            "x": 1023.0,
+            "y": 260.0,
+            "width": 534,
+            "height": 24,
+            "text": "Aerial attack that consumes a Photosynthesis Energy up to three times",
+            "font_size": 12
+        },
+        {
+            "id": 17,
+            "x": 787.0,
+            "y": 632.0,
+            "width": 392,
+            "height": 48,
+            "text": "Arboreal Flourish (R)",
+            "font_size": 24
+        },
+        {
+            "id": 18,
+            "x": 1262.0,
+            "y": 605.0,
+            "width": 194,
+            "height": 24,
+            "text": "Generates 20 Concerto",
+            "font_size": 12
+        },
+        {
+            "id": 19,
+            "x": 1261.0,
+            "y": 677.0,
+            "width": 404,
+            "height": 24,
+            "text": "Applies Photosynthesis Mark on all enemies in range",
+            "font_size": 12
+        },
+        {
+            "id": 20,
+            "x": 1750.0,
+            "y": 685.0,
+            "width": 322,
+            "height": 48,
+            "text": "Photosynthesis Mark",
+            "font_size": 24
+        },
+        {
+            "id": 21,
+            "x": 1766.0,
+            "y": 748.0,
+            "width": 286,
+            "height": 92,
+            "text": "Other resonators hitting marked enemies trigger a coordinated attack from Verina up to once per second that also heals the active character",
+            "font_size": 12
+        },
+        {
+            "id": 22,
+            "x": 2112.0,
+            "y": 692.0,
+            "width": 166,
+            "height": 24,
+            "text": "12 second duration",
+            "font_size": 12
+        },
+        {
+            "id": 23,
+            "x": 1355.0,
+            "y": 807.0,
+            "width": 313,
+            "height": 48,
+            "text": "Blossom (Outro)",
+            "font_size": 24
+        },
+        {
+            "id": 24,
+            "x": 1377.0,
+            "y": 877.0,
+            "width": 267,
+            "height": 109,
+            "text": "Heal incoming resonator for 19% of Verina's ATK every second for 6 seconds\nAll resonators get DMG Amp. +15% for 30 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 25,
+            "x": 287.0,
+            "y": 491.0,
+            "width": 216,
+            "height": 80,
+            "text": "Gift of Nature (Inherent 1)",
+            "font_size": 24
+        },
+        {
+            "id": 26,
+            "x": 65.0,
+            "y": 631.0,
+            "width": 523,
+            "height": 49,
+            "text": "All resonators get ATK +20% for 20 seconds when using connected abilities",
+            "font_size": 12
+        },
+        {
+            "id": 27,
+            "x": 97.0,
+            "y": 992.0,
+            "width": 386,
+            "height": 48,
+            "text": "Grace of Life (Inherent 2)",
+            "font_size": 24
+        },
+        {
+            "id": 28,
+            "x": 142.0,
+            "y": 1060.0,
+            "width": 292,
+            "height": 76,
+            "text": "Prevents fatal damage once per 10 minutes and grants a shield equal to 120% of Verina's ATK for 10 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 29,
+            "x": 1684.0,
+            "y": 894.0,
+            "width": 304,
+            "height": 73,
+            "text": "[Resonance 1] Heal incoming resonator for 20% of Verina's ATK every 5 seconds for 30 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 30,
+            "x": 1750.0,
+            "y": 1012.0,
+            "width": 174,
+            "height": 32,
+            "text": "Total Healing = 234%",
+            "font_size": 12
+        },
+        {
+            "id": 31,
+            "x": 1628.0,
+            "y": 140.0,
+            "width": 148,
+            "height": 24,
+            "text": "[Resonance 2] +10",
+            "font_size": 12
+        },
+        {
+            "id": 32,
+            "x": 1435.0,
+            "y": 201.0,
+            "width": 143,
+            "height": 24,
+            "text": "[Resonance 2] +1",
+            "font_size": 12
+        },
+        {
+            "id": 33,
+            "x": 2086.0,
+            "y": 775.0,
+            "width": 221,
+            "height": 24,
+            "text": "[Resonance 3] Healing +12%",
+            "font_size": 12
+        },
+        {
+            "id": 34,
+            "x": 543.0,
+            "y": 717.0,
+            "width": 792,
+            "height": 24,
+            "text": "[Resonance 4] All resonators get Spectro DMG Bonus +15% for 24 seconds when using connected abilities",
+            "font_size": 12
+        },
+        {
+            "id": 35,
+            "x": 112.0,
+            "y": 730.0,
+            "width": 294,
+            "height": 127,
+            "text": "[Resonance 5] Heals on resonators below 50% HP are increased by 20% (such as when consuming Photosynthesis Energy)",
+            "font_size": 12
+        },
+        {
+            "id": 37,
+            "x": 636.0,
+            "y": 360.0,
+            "width": 224,
+            "height": 24,
+            "text": "[Resonance 6] DMG +20%",
+            "font_size": 12
+        },
+        {
+            "id": 38,
+            "x": 1328.0,
+            "y": 327.0,
+            "width": 652,
+            "height": 24,
+            "text": "[Resonance 6] Trigger a coordinated attack as if target is marked by Photosynthesis Mark",
+            "font_size": 12
+        },
+        {
+            "id": 39,
+            "x": 1836.0,
+            "y": 218.0,
+            "width": 484,
+            "height": 87,
+            "text": "Concerto Sources",
+            "font_size": 36
+        },
+        {
+            "id": 40,
+            "x": 243.0,
+            "y": 241.0,
+            "width": 253,
+            "height": 24,
+            "text": "On hit, leaves Verina airborne",
+            "font_size": 12
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 0,
+            "end_id": 1
+        },
+        {
+            "start_id": 2,
+            "end_id": 3
+        },
+        {
+            "start_id": 0,
+            "end_id": 4
+        },
+        {
+            "start_id": 4,
+            "end_id": 5
+        },
+        {
+            "start_id": 2,
+            "end_id": 6
+        },
+        {
+            "start_id": 6,
+            "end_id": 5
+        },
+        {
+            "start_id": 7,
+            "end_id": 8
+        },
+        {
+            "start_id": 9,
+            "end_id": 7
+        },
+        {
+            "start_id": 9,
+            "end_id": 5
+        },
+        {
+            "start_id": 5,
+            "end_id": 10
+        },
+        {
+            "start_id": 5,
+            "end_id": 11
+        },
+        {
+            "start_id": 12,
+            "end_id": 13
+        },
+        {
+            "start_id": 13,
+            "end_id": 10
+        },
+        {
+            "start_id": 15,
+            "end_id": 16
+        },
+        {
+            "start_id": 16,
+            "end_id": 10
+        },
+        {
+            "start_id": 17,
+            "end_id": 18
+        },
+        {
+            "start_id": 17,
+            "end_id": 19
+        },
+        {
+            "start_id": 19,
+            "end_id": 20
+        },
+        {
+            "start_id": 20,
+            "end_id": 21
+        },
+        {
+            "start_id": 20,
+            "end_id": 22
+        },
+        {
+            "start_id": 23,
+            "end_id": 24
+        },
+        {
+            "start_id": 25,
+            "end_id": 26
+        },
+        {
+            "start_id": 26,
+            "end_id": 12
+        },
+        {
+            "start_id": 26,
+            "end_id": 15
+        },
+        {
+            "start_id": 26,
+            "end_id": 17
+        },
+        {
+            "start_id": 26,
+            "end_id": 23
+        },
+        {
+            "start_id": 27,
+            "end_id": 28
+        },
+        {
+            "start_id": 23,
+            "end_id": 29
+        },
+        {
+            "start_id": 24,
+            "end_id": 30
+        },
+        {
+            "start_id": 29,
+            "end_id": 30
+        },
+        {
+            "start_id": 3,
+            "end_id": 31
+        },
+        {
+            "start_id": 6,
+            "end_id": 32
+        },
+        {
+            "start_id": 21,
+            "end_id": 33
+        },
+        {
+            "start_id": 34,
+            "end_id": 12
+        },
+        {
+            "start_id": 34,
+            "end_id": 15
+        },
+        {
+            "start_id": 34,
+            "end_id": 17
+        },
+        {
+            "start_id": 34,
+            "end_id": 23
+        },
+        {
+            "start_id": 35,
+            "end_id": 21
+        },
+        {
+            "start_id": 35,
+            "end_id": 17
+        },
+        {
+            "start_id": 35,
+            "end_id": 15
+        },
+        {
+            "start_id": 35,
+            "end_id": 12
+        },
+        {
+            "start_id": 35,
+            "end_id": 23
+        },
+        {
+            "start_id": 37,
+            "end_id": 12
+        },
+        {
+            "start_id": 37,
+            "end_id": 15
+        },
+        {
+            "start_id": 38,
+            "end_id": 12
+        },
+        {
+            "start_id": 38,
+            "end_id": 15
+        },
+        {
+            "start_id": 38,
+            "end_id": 21
+        },
+        {
+            "start_id": 13,
+            "end_id": 5
+        },
+        {
+            "start_id": 13,
+            "end_id": 12
+        },
+        {
+            "start_id": 13,
+            "end_id": 5
+        },
+        {
+            "start_id": 16,
+            "end_id": 15
+        },
+        {
+            "start_id": 16,
+            "end_id": 5
+        },
+        {
+            "start_id": 15,
+            "end_id": 16
+        },
+        {
+            "start_id": 16,
+            "end_id": 10
+        },
+        {
+            "start_id": 13,
+            "end_id": 12
+        },
+        {
+            "start_id": 13,
+            "end_id": 10
+        },
+        {
+            "start_id": 39,
+            "end_id": 18
+        },
+        {
+            "start_id": 39,
+            "end_id": 3
+        },
+        {
+            "start_id": 39,
+            "end_id": 31
+        },
+        {
+            "start_id": 39,
+            "end_id": 10
+        },
+        {
+            "start_id": 5,
+            "end_id": 32
+        },
+        {
+            "start_id": 12,
+            "end_id": 40
+        },
+        {
+            "start_id": 40,
+            "end_id": 15
+        },
+        {
+            "start_id": 40,
+            "end_id": 12
+        }
+    ]
+}

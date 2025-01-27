@@ -1,0 +1,543 @@
+{
+    "canvas_width": 2481,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 266.0,
+            "y": 72.0,
+            "width": 419,
+            "height": 48,
+            "text": "Kitty Slash (Basic Attack)",
+            "font_size": 24
+        },
+        {
+            "id": 1,
+            "x": 633.0,
+            "y": 173.0,
+            "width": 276,
+            "height": 52,
+            "text": "Basic Attack 5 has a 33.33% chance to repeat three more times",
+            "font_size": 12
+        },
+        {
+            "id": 2,
+            "x": 239.0,
+            "y": 296.0,
+            "width": 466,
+            "height": 48,
+            "text": "Crimson Blade (Heavy Attack)",
+            "font_size": 24
+        },
+        {
+            "id": 3,
+            "x": 173.0,
+            "y": 180.0,
+            "width": 244,
+            "height": 55,
+            "text": "Can combo into Crimson Blade after Basic Attack 1, 2, or 3",
+            "font_size": 12
+        },
+        {
+            "id": 4,
+            "x": 1009.0,
+            "y": 46.0,
+            "width": 344,
+            "height": 48,
+            "text": "Can't Touch Me-ow~",
+            "font_size": 24
+        },
+        {
+            "id": 5,
+            "x": 1387.0,
+            "y": 61.0,
+            "width": 189,
+            "height": 24,
+            "text": "This is just a dodge",
+            "font_size": 12
+        },
+        {
+            "id": 6,
+            "x": 1897.0,
+            "y": 258.0,
+            "width": 216,
+            "height": 48,
+            "text": "Over Here!",
+            "font_size": 24
+        },
+        {
+            "id": 7,
+            "x": 2129.0,
+            "y": 215.0,
+            "width": 229,
+            "height": 24,
+            "text": "This is just a dodge counter",
+            "font_size": 12
+        },
+        {
+            "id": 8,
+            "x": 1960.0,
+            "y": 424.0,
+            "width": 279,
+            "height": 48,
+            "text": "Phantom Claws",
+            "font_size": 24
+        },
+        {
+            "id": 9,
+            "x": 2081.0,
+            "y": 501.0,
+            "width": 251,
+            "height": 24,
+            "text": "This is just a dodge counter",
+            "font_size": 12
+        },
+        {
+            "id": 10,
+            "x": 1450.0,
+            "y": 623.0,
+            "width": 334,
+            "height": 48,
+            "text": "Surprise Attack (E)",
+            "font_size": 24
+        },
+        {
+            "id": 11,
+            "x": 1620.0,
+            "y": 717.0,
+            "width": 268,
+            "height": 24,
+            "text": "Has damage interruption armor",
+            "font_size": 12
+        },
+        {
+            "id": 12,
+            "x": 1308.0,
+            "y": 712.0,
+            "width": 238,
+            "height": 55,
+            "text": "Can consume 40 Energy to increase DMG dealt by 11.59x",
+            "font_size": 12
+        },
+        {
+            "id": 13,
+            "x": 1362.0,
+            "y": 813.0,
+            "width": 397,
+            "height": 48,
+            "text": "Super Surprise Attack! (E)",
+            "font_size": 24
+        },
+        {
+            "id": 14,
+            "x": 1899.0,
+            "y": 1148.0,
+            "width": 308,
+            "height": 48,
+            "text": "Claw Swipe (Intro)",
+            "font_size": 24
+        },
+        {
+            "id": 15,
+            "x": 1552.0,
+            "y": 1166.0,
+            "width": 268,
+            "height": 48,
+            "text": "Claw Smash (R)",
+            "font_size": 24
+        },
+        {
+            "id": 16,
+            "x": 1369.0,
+            "y": 257.0,
+            "width": 365,
+            "height": 48,
+            "text": "Stealthy Catwalk (Core)",
+            "font_size": 24
+        },
+        {
+            "id": 17,
+            "x": 1662.0,
+            "y": 343.0,
+            "width": 209,
+            "height": 63,
+            "text": "On hit, gain buff:\n    DMG increased by 60% \n    for 6 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 18,
+            "x": 910.0,
+            "y": 753.0,
+            "width": 279,
+            "height": 48,
+            "text": "Catwalk (Core)",
+            "font_size": 24
+        },
+        {
+            "id": 19,
+            "x": 977.0,
+            "y": 838.0,
+            "width": 302,
+            "height": 105,
+            "text": "If your party has a character that shares an Attribute or Faction with Nekomata:\n    When any character inflicts Assault, \n    Super Surprise Attack DMG increased\n    by 35%",
+            "font_size": 12
+        },
+        {
+            "id": 20,
+            "x": 809.0,
+            "y": 967.0,
+            "width": 172,
+            "height": 24,
+            "text": "Maximum 2 stacks",
+            "font_size": 12
+        },
+        {
+            "id": 21,
+            "x": 723.0,
+            "y": 854.0,
+            "width": 207,
+            "height": 48,
+            "text": "Assault",
+            "font_size": 24
+        },
+        {
+            "id": 22,
+            "x": 588.0,
+            "y": 916.0,
+            "width": 241,
+            "height": 24,
+            "text": "Generic Physical-based debuff",
+            "font_size": 12
+        },
+        {
+            "id": 23,
+            "x": 1397.0,
+            "y": 432.0,
+            "width": 446,
+            "height": 48,
+            "text": "Cat's Paw (Intro/Quick Assist)",
+            "font_size": 24
+        },
+        {
+            "id": 24,
+            "x": 1382.0,
+            "y": 507.0,
+            "width": 412,
+            "height": 24,
+            "text": "Can only be triggered if the on-field character is launched",
+            "font_size": 12
+        },
+        {
+            "id": 25,
+            "x": 1909.0,
+            "y": 925.0,
+            "width": 388,
+            "height": 48,
+            "text": "Shadow Strike (Intro)",
+            "font_size": 24
+        },
+        {
+            "id": 26,
+            "x": 2038.0,
+            "y": 1005.0,
+            "width": 370,
+            "height": 24,
+            "text": "Can only be triggered on defensive assist",
+            "font_size": 12
+        },
+        {
+            "id": 27,
+            "x": 47.0,
+            "y": 492.0,
+            "width": 317,
+            "height": 72,
+            "text": "Resonance 1",
+            "font_size": 36
+        },
+        {
+            "id": 28,
+            "x": 528.0,
+            "y": 456.0,
+            "width": 322,
+            "height": 72,
+            "text": "Resonance 2",
+            "font_size": 36
+        },
+        {
+            "id": 29,
+            "x": 147.0,
+            "y": 749.0,
+            "width": 319,
+            "height": 72,
+            "text": "Resonance 3",
+            "font_size": 36
+        },
+        {
+            "id": 30,
+            "x": 1116.0,
+            "y": 1003.0,
+            "width": 338,
+            "height": 72,
+            "text": "Resonance 4",
+            "font_size": 36
+        },
+        {
+            "id": 31,
+            "x": 159.0,
+            "y": 1010.0,
+            "width": 321,
+            "height": 72,
+            "text": "Resonance 5",
+            "font_size": 36
+        },
+        {
+            "id": 32,
+            "x": 965.0,
+            "y": 1227.0,
+            "width": 352,
+            "height": 72,
+            "text": "Resonance 6",
+            "font_size": 36
+        },
+        {
+            "id": 33,
+            "x": 194.0,
+            "y": 609.0,
+            "width": 196,
+            "height": 46,
+            "text": "If only one enemy on field, Energy Regen +25%",
+            "font_size": 12
+        },
+        {
+            "id": 34,
+            "x": 939.0,
+            "y": 417.0,
+            "width": 263,
+            "height": 24,
+            "text": "Ignore 16% of Physical Resistance",
+            "font_size": 12
+        },
+        {
+            "id": 35,
+            "x": 916.0,
+            "y": 573.0,
+            "width": 322,
+            "height": 53,
+            "text": "If the enemy is stunned, all attacks from Nekomata are considered Back Attacks",
+            "font_size": 12
+        },
+        {
+            "id": 36,
+            "x": 1009.0,
+            "y": 466.0,
+            "width": 207,
+            "height": 48,
+            "text": "Back Attack",
+            "font_size": 24
+        },
+        {
+            "id": 37,
+            "x": 129.0,
+            "y": 887.0,
+            "width": 260,
+            "height": 45,
+            "text": "Level +2 to Basic Attack, Dodge, Special Attack, and Chain Attack",
+            "font_size": 12
+        },
+        {
+            "id": 38,
+            "x": 1430.0,
+            "y": 900.0,
+            "width": 297,
+            "height": 24,
+            "text": "On cast, Crit Rate +7% for 15 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 39,
+            "x": 1560.0,
+            "y": 960.0,
+            "width": 155,
+            "height": 48,
+            "text": "Maximum 2 stacks, independent timers",
+            "font_size": 12
+        },
+        {
+            "id": 40,
+            "x": 1681.0,
+            "y": 1258.0,
+            "width": 328,
+            "height": 24,
+            "text": "On cast, Crit DMG +18% until leaving battle",
+            "font_size": 12
+        },
+        {
+            "id": 41,
+            "x": 2026.0,
+            "y": 1305.0,
+            "width": 156,
+            "height": 24,
+            "text": "Maximum 3 stacks",
+            "font_size": 12
+        },
+        {
+            "id": 42,
+            "x": 1695.0,
+            "y": 1318.0,
+            "width": 250,
+            "height": 24,
+            "text": "Can gain maximum stacks on kill",
+            "font_size": 12
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 0,
+            "end_id": 1
+        },
+        {
+            "start_id": 0,
+            "end_id": 3
+        },
+        {
+            "start_id": 3,
+            "end_id": 2
+        },
+        {
+            "start_id": 4,
+            "end_id": 5
+        },
+        {
+            "start_id": 6,
+            "end_id": 7
+        },
+        {
+            "start_id": 8,
+            "end_id": 9
+        },
+        {
+            "start_id": 11,
+            "end_id": 10
+        },
+        {
+            "start_id": 12,
+            "end_id": 10
+        },
+        {
+            "start_id": 13,
+            "end_id": 12
+        },
+        {
+            "start_id": 13,
+            "end_id": 11
+        },
+        {
+            "start_id": 16,
+            "end_id": 17
+        },
+        {
+            "start_id": 17,
+            "end_id": 6
+        },
+        {
+            "start_id": 17,
+            "end_id": 8
+        },
+        {
+            "start_id": 18,
+            "end_id": 19
+        },
+        {
+            "start_id": 19,
+            "end_id": 13
+        },
+        {
+            "start_id": 20,
+            "end_id": 19
+        },
+        {
+            "start_id": 21,
+            "end_id": 19
+        },
+        {
+            "start_id": 21,
+            "end_id": 22
+        },
+        {
+            "start_id": 23,
+            "end_id": 24
+        },
+        {
+            "start_id": 23,
+            "end_id": 17
+        },
+        {
+            "start_id": 25,
+            "end_id": 26
+        },
+        {
+            "start_id": 27,
+            "end_id": 33
+        },
+        {
+            "start_id": 29,
+            "end_id": 37
+        },
+        {
+            "start_id": 31,
+            "end_id": 37
+        },
+        {
+            "start_id": 13,
+            "end_id": 38
+        },
+        {
+            "start_id": 38,
+            "end_id": 30
+        },
+        {
+            "start_id": 38,
+            "end_id": 39
+        },
+        {
+            "start_id": 15,
+            "end_id": 40
+        },
+        {
+            "start_id": 14,
+            "end_id": 40
+        },
+        {
+            "start_id": 40,
+            "end_id": 32
+        },
+        {
+            "start_id": 41,
+            "end_id": 40
+        },
+        {
+            "start_id": 42,
+            "end_id": 40
+        },
+        {
+            "start_id": 41,
+            "end_id": 42
+        },
+        {
+            "start_id": 28,
+            "end_id": 35
+        },
+        {
+            "start_id": 35,
+            "end_id": 36
+        },
+        {
+            "start_id": 36,
+            "end_id": 34
+        },
+        {
+            "start_id": 36,
+            "end_id": 28
+        }
+    ]
+}
