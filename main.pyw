@@ -445,7 +445,7 @@ class CanvasApp:
         self.canvas_frame.pack(fill=tk.BOTH, expand=True)
 
         # Create the canvas with scrollbars
-        self.canvas = tk.Canvas(self.canvas_frame, width=200, height=200, bg="lightgray", scrollregion=(0, 0, 200, 200))
+        self.canvas = tk.Canvas(self.canvas_frame, width=400, height=200, bg="lightgray", scrollregion=(0, 0, 400, 200))
         self.hscroll = tk.Scrollbar(self.canvas_frame, orient=tk.HORIZONTAL, command=self.canvas.xview)
         self.vscroll = tk.Scrollbar(self.canvas_frame, orient=tk.VERTICAL, command=self.canvas.yview)
         self.canvas.configure(xscrollcommand=self.hscroll.set, yscrollcommand=self.vscroll.set)
@@ -471,25 +471,21 @@ class CanvasApp:
         # File menu
         file_menu = tk.Menu(menu_bar, tearoff=0)
         menu_bar.add_cascade(label="File", menu=file_menu)
-        file_menu.add_command(label="Load Canvas", command=self.load_canvas)
+        file_menu.add_command(label="New Canvas", command=self.new_canvas, accelerator="Ctrl+N")
+        file_menu.add_command(label="Load Canvas", command=self.load_canvas, accelerator="Ctrl+L")
         file_menu.add_command(label="Save Canvas", command=self.save_canvas, accelerator="Ctrl+S")
         file_menu.add_command(label="Save As", command=self.save_as_canvas, accelerator="Ctrl+Shift+S")
 
         # Edit menu
         edit_menu = tk.Menu(menu_bar, tearoff=0)
         menu_bar.add_cascade(label="Edit", menu=edit_menu)
-        edit_menu.add_command(label="Add Text Bubble", command=self.add_text_bubble, accelerator="Ctrl+N")
+        edit_menu.add_command(label="Add Text Bubble", command=self.add_text_bubble)
         edit_menu.add_command(label="Resize Canvas", command=self.change_canvas_size, accelerator="Ctrl+R")
 
         # Debug menu
         debug_menu = tk.Menu(menu_bar, tearoff=0)
         menu_bar.add_cascade(label="Debug", menu=debug_menu)
         debug_menu.add_command(label="Open Debug Window", command=self.open_debug_window)
-        
-        # Help menu
-        help_menu = tk.Menu(menu_bar, tearoff=0)
-        menu_bar.add_cascade(label="Help", menu=help_menu)
-        help_menu.add_command(label="View Help", command=self.show_help)
 
         # Bind mouse events for drawing lines
         self.canvas.bind("<Button-3>", self.start_line)  # Right-click press
@@ -511,9 +507,10 @@ class CanvasApp:
         self.selected_bubble = None  # Track the selected bubble for context menu
 
         # Bind keys
+        self.root.bind("<Control-n>", lambda event: self.new_canvas())
+        self.root.bind("<Control-l>", lambda event: self.load_canvas())
         self.root.bind("<Control-s>", lambda event: self.save_canvas())
-        self.root.bind("<Control-Shift-S>", lambda event: self.save_as_canvas())
-        self.root.bind("<Control-n>", lambda event: self.add_text_bubble())        
+        self.root.bind("<Control-Shift-S>", lambda event: self.save_as_canvas())     
         self.root.bind("<Control-r>", lambda event: self.change_canvas_size())
 
         # Load a file if provided as an argument
@@ -669,10 +666,19 @@ class CanvasApp:
                 json.dump(canvas_state, f, indent=4)
         except Exception as e:
             messagebox.showerror("Error", f"Failed to save file: {e}")
+            
+    def new_canvas(self):
+        self.canvas.delete("all")
+        self.text_bubbles = []
+        self.lines = []
+        self.next_bubble_id = 0
+        self.last_loaded_file_path = ""
+        self.root.title("yuruCanvas")
 
     def load_canvas(self):
         # Load the canvas state from a file
         file_path = filedialog.askopenfilename(filetypes=[("JSON files", "*.json")])
+        print(file_path)
         if file_path:
             self.load_canvas_from_file(file_path)
             self.last_loaded_file_path = file_path  # Update the last loaded file path
@@ -687,6 +693,8 @@ class CanvasApp:
             self.text_bubbles = []
             self.lines = []
             self.next_bubble_id = 0
+            
+            self.root.title("yuruCanvas - " + file_path)  # Set the window title
 
             # Recreate text bubbles
             id_to_bubble = {}
@@ -830,26 +838,6 @@ class CanvasApp:
     def delete_selected_bubble_connections(self):
         if self.selected_bubble:
             self.selected_bubble.delete_all_connections()
-            
-    def show_help(self):
-        # Create a message box with help information
-        help_text = """
-Mouse Gestures:
-- Double Left-Click: Create a new text bubble.
-- Right-Click + Drag to another bubble: Draw a connection between two bubbles.
-- Right-Click + Drag but stay in same bubble: Open right click menu (ghetto as fuck)
-- Double Left-Click on a bubble: Edit the bubble's text and font size.
-
-Keyboard Shortcuts:
-- Ctrl + N: Add a new text bubble.
-- Ctrl + S: Save the canvas.
-- Ctrl + Shift + S: Save the canvas as a new file.
-- Ctrl + R: Resize the canvas (when loading file, canvas will limit itself to the further bubbles)
-
-Debug Menu:
-- If you resize a bubble and it throws itself off-screen, this can help bring it back.
-        """
-        messagebox.showinfo("Help", help_text.strip())
 
 if __name__ == "__main__":
     # Use TkinterDnD for the root window
