@@ -633,6 +633,7 @@ class CanvasApp:
         if file_path:
             self._save_canvas_to_file(file_path)
             self.last_loaded_file_path = file_path  # Update the last loaded file path
+            self.root.title("yuruCanvas - " + file_path)  # Set the window title
 
     def _save_canvas_to_file(self, file_path):
         # Serialize the canvas state
