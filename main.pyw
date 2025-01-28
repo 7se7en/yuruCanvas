@@ -12,7 +12,7 @@ except ImportError:
     sys.exit(1)
 
 class TextBubble:
-    def __init__(self, canvas, x, y, text, width=100, height=50, id=None, app=None):
+    def __init__(self, canvas, x, y, text, width=215, height=48, id=None, app=None):
         self.canvas = canvas
         self.text = text
         self.id = id  # Unique identifier for the bubble

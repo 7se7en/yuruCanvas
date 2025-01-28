@@ -1,6 +1,6 @@
 {
-    "canvas_width": 2481,
-    "canvas_height": 1380,
+    "canvas_width": 2485,
+    "canvas_height": 1384,
     "text_bubbles": [
         {
             "id": 0,
@@ -336,15 +336,6 @@
             "font_size": 12
         },
         {
-            "id": 39,
-            "x": 1836.0,
-            "y": 218.0,
-            "width": 484,
-            "height": 87,
-            "text": "Concerto Sources",
-            "font_size": 36
-        },
-        {
             "id": 40,
             "x": 243.0,
             "y": 241.0,
@@ -577,22 +568,6 @@
         },
         {
             "start_id": 13,
-            "end_id": 10
-        },
-        {
-            "start_id": 39,
-            "end_id": 18
-        },
-        {
-            "start_id": 39,
-            "end_id": 3
-        },
-        {
-            "start_id": 39,
-            "end_id": 31
-        },
-        {
-            "start_id": 39,
             "end_id": 10
         },
         {

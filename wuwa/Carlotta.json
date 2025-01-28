@@ -1166,22 +1166,6 @@
             "end_id": 50
         },
         {
-            "start_id": 49,
-            "end_id": 75
-        },
-        {
-            "start_id": 75,
-            "end_id": 1
-        },
-        {
-            "start_id": 49,
-            "end_id": 75
-        },
-        {
-            "start_id": 1,
-            "end_id": 75
-        },
-        {
             "start_id": 21,
             "end_id": 76
         },
@@ -1196,14 +1180,6 @@
         {
             "start_id": 76,
             "end_id": 18
-        },
-        {
-            "start_id": 77,
-            "end_id": 65
-        },
-        {
-            "start_id": 2,
-            "end_id": 77
         },
         {
             "start_id": 78,
@@ -1228,22 +1204,6 @@
         {
             "start_id": 3,
             "end_id": 82
-        },
-        {
-            "start_id": 65,
-            "end_id": 77
-        },
-        {
-            "start_id": 2,
-            "end_id": 77
-        },
-        {
-            "start_id": 2,
-            "end_id": 77
-        },
-        {
-            "start_id": 77,
-            "end_id": 65
         },
         {
             "start_id": 3,
@@ -1312,6 +1272,22 @@
         {
             "start_id": 87,
             "end_id": 91
+        },
+        {
+            "start_id": 2,
+            "end_id": 77
+        },
+        {
+            "start_id": 77,
+            "end_id": 65
+        },
+        {
+            "start_id": 49,
+            "end_id": 75
+        },
+        {
+            "start_id": 1,
+            "end_id": 75
         }
     ]
 }
