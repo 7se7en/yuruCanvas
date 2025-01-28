@@ -12,7 +12,6 @@ Requires Python and tkinterdnd2 to have access to drag and drop load functionali
 * Double Click : Add new bubble
 * Left Click and Drag : Move bubble around
 * Right Click and Drag to another Bubble: Connect to bubbles together with a line
-* Right Click, Drag, Release on same Bubble : Open context menu (very jank, trying to fix)
 
 # Quick Way to Load files
 

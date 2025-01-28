@@ -601,23 +601,25 @@ class CanvasApp:
             self.current_line = self.canvas.create_line(event.x, event.y, event.x, event.y, fill="black", width=2)
 
     def end_line(self, event):
-        if self.start_bubble and self.current_line:
-            # Find the text bubble released on
+        if self.start_bubble:
+            # Check if the mouse was released on the same bubble where the right-click started
             for bubble in self.text_bubbles:
                 x1, y1, x2, y2 = bubble.get_position()
                 if x1 <= event.x <= x2 and y1 <= event.y <= y2:
-                    if bubble != self.start_bubble:
-                        # Create a connection line
-                        line = ConnectionLine(self.canvas, self.start_bubble, bubble)
-                        self.lines.append(line)
-                    else:
+                    if bubble == self.start_bubble:
                         # If released on the same bubble, open the context menu
                         self.selected_bubble = bubble
                         self.show_canvas_context_menu(event)
+                    else:
+                        # If released on a different bubble, create a connection line
+                        line = ConnectionLine(self.canvas, self.start_bubble, bubble)
+                        self.lines.append(line)
                     break
+
+            # Reset the line and start bubble
             self.current_line = None
             self.start_bubble = None
-            self.right_click_start_bubble = None  # Reset tracking
+            self.right_click_start_bubble = None
 
     def save_canvas(self):
         if self.last_loaded_file_path:
