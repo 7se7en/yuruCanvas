@@ -472,9 +472,11 @@ class CanvasApp:
         file_menu = tk.Menu(menu_bar, tearoff=0)
         menu_bar.add_cascade(label="File", menu=file_menu)
         file_menu.add_command(label="New Canvas", command=self.new_canvas, accelerator="Ctrl+N")
-        file_menu.add_command(label="Load Canvas", command=self.load_canvas, accelerator="Ctrl+L")
-        file_menu.add_command(label="Save Canvas", command=self.save_canvas, accelerator="Ctrl+S")
+        file_menu.add_command(label="Load Canvas", command=self.load_canvas, accelerator="Ctrl+O")
+        file_menu.add_command(label="Save", command=self.save_canvas, accelerator="Ctrl+S")
         file_menu.add_command(label="Save As", command=self.save_as_canvas, accelerator="Ctrl+Shift+S")
+        file_menu.add_separator()
+        file_menu.add_command(label="Close", command=self.new_canvas, accelerator="Ctrl+W")
 
         # Edit menu
         edit_menu = tk.Menu(menu_bar, tearoff=0)
@@ -508,7 +510,8 @@ class CanvasApp:
 
         # Bind keys
         self.root.bind("<Control-n>", lambda event: self.new_canvas())
-        self.root.bind("<Control-l>", lambda event: self.load_canvas())
+        self.root.bind("<Control-w>", lambda event: self.new_canvas())
+        self.root.bind("<Control-o>", lambda event: self.load_canvas())
         self.root.bind("<Control-s>", lambda event: self.save_canvas())
         self.root.bind("<Control-Shift-S>", lambda event: self.save_as_canvas())     
         self.root.bind("<Control-r>", lambda event: self.change_canvas_size())
