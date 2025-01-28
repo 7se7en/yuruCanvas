@@ -458,6 +458,11 @@ class CanvasApp:
         # Configure the frame to expand with the window
         self.canvas_frame.grid_rowconfigure(0, weight=1)
         self.canvas_frame.grid_columnconfigure(0, weight=1)
+        
+        # Bind mouse wheel events for scrolling
+        self.canvas.bind("<MouseWheel>", self.on_mouse_wheel)  # Vertical scrolling
+        self.canvas.bind("<Control-MouseWheel>", self.on_ctrl_mouse_wheel)  # Horizontal scrolling (Windows/Linux)
+        self.canvas.bind("<Option-MouseWheel>", self.on_ctrl_mouse_wheel)  # Horizontal scrolling (macOS)
 
         self.text_bubbles = []
         self.lines = []
@@ -520,6 +525,72 @@ class CanvasApp:
         if file_path:
             self.load_canvas_from_file(file_path)
 
+    def on_mouse_wheel(self, event):
+        # Check if the mouse is hovering over a bubble before scrolling
+        self.check_hover_before_scroll()
+
+        # Perform the scroll
+        if event.delta:
+            self.canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+        elif event.num == 4:  # Linux: Scroll up
+            self.canvas.yview_scroll(-1, "units")
+        elif event.num == 5:  # Linux: Scroll down
+            self.canvas.yview_scroll(1, "units")
+
+        # Check if the mouse is hovering over a new bubble after scrolling
+        self.check_hover_after_scroll()
+
+    def on_ctrl_mouse_wheel(self, event):
+        # Check if the mouse is hovering over a bubble before scrolling
+        self.check_hover_before_scroll()
+
+        # Perform the scroll
+        if event.delta:
+            self.canvas.xview_scroll(int(-1 * (event.delta / 120)), "units")
+        elif event.num == 4:  # Linux: Scroll left
+            self.canvas.xview_scroll(-1, "units")
+        elif event.num == 5:  # Linux: Scroll right
+            self.canvas.xview_scroll(1, "units")
+
+        # Check if the mouse is hovering over a new bubble after scrolling
+        self.check_hover_after_scroll()
+
+    def check_hover_before_scroll(self):
+        # Get the current mouse position in canvas coordinates
+        x, y = self.get_mouse_canvas_coords()
+        if x is None or y is None:
+            return
+
+        # Check if the mouse is currently hovering over a bubble
+        for bubble in self.text_bubbles:
+            x1, y1, x2, y2 = bubble.get_position()
+            if x1 <= x <= x2 and y1 <= y <= y2:
+                # Trigger on_leave to remove hover effects
+                bubble.on_leave(None)
+                break
+
+    def check_hover_after_scroll(self):
+        # Get the current mouse position in canvas coordinates
+        x, y = self.get_mouse_canvas_coords()
+        if x is None or y is None:
+            return
+
+        # Check if the mouse is now hovering over a new bubble
+        for bubble in self.text_bubbles:
+            x1, y1, x2, y2 = bubble.get_position()
+            if x1 <= x <= x2 and y1 <= y <= y2:
+                # Trigger on_hover to apply hover effects
+                bubble.on_hover(None)
+                break
+
+    def get_mouse_canvas_coords(self):
+        # Get the mouse position relative to the screen
+        screen_x, screen_y = self.canvas.winfo_pointerxy()
+        # Convert to canvas coordinates
+        canvas_x = self.canvas.canvasx(screen_x - self.canvas.winfo_rootx())
+        canvas_y = self.canvas.canvasy(screen_y - self.canvas.winfo_rooty())
+        return canvas_x, canvas_y
+    
     def create_bubble_on_canvas(self, event):
         # Check if the user clicked on a blank part of the canvas (not on a bubble)
         clicked_on_bubble = False
