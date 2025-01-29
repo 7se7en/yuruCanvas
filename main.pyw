@@ -12,7 +12,7 @@ except ImportError:
     sys.exit(1)
 
 class TextBubble:
-    def __init__(self, canvas, x, y, text, width=215, height=48, id=None, app=None):
+    def __init__(self, canvas, x, y, text, width=220, height=48, id=None, app=None):
         self.canvas = canvas
         self.text = text
         self.id = id  # Unique identifier for the bubble
@@ -476,10 +476,10 @@ class CanvasApp:
         # File menu
         file_menu = tk.Menu(menu_bar, tearoff=0)
         menu_bar.add_cascade(label="File", menu=file_menu)
-        file_menu.add_command(label="New Canvas", command=self.new_canvas, accelerator="Ctrl+N")
-        file_menu.add_command(label="Load Canvas", command=self.load_canvas, accelerator="Ctrl+O")
+        file_menu.add_command(label="New", command=self.new_canvas, accelerator="Ctrl+N")
+        file_menu.add_command(label="Open...", command=self.load_canvas, accelerator="Ctrl+O")
         file_menu.add_command(label="Save", command=self.save_canvas, accelerator="Ctrl+S")
-        file_menu.add_command(label="Save As", command=self.save_as_canvas, accelerator="Ctrl+Shift+S")
+        file_menu.add_command(label="Save As...", command=self.save_as_canvas, accelerator="Ctrl+Shift+S")
         file_menu.add_separator()
         file_menu.add_command(label="Close", command=self.new_canvas, accelerator="Ctrl+W")
 
@@ -487,7 +487,7 @@ class CanvasApp:
         edit_menu = tk.Menu(menu_bar, tearoff=0)
         menu_bar.add_cascade(label="Edit", menu=edit_menu)
         edit_menu.add_command(label="Add Text Bubble", command=self.add_text_bubble)
-        edit_menu.add_command(label="Resize Canvas", command=self.change_canvas_size, accelerator="Ctrl+R")
+        edit_menu.add_command(label="Resize...", command=self.change_canvas_size, accelerator="Ctrl+R")
 
         # Debug menu
         debug_menu = tk.Menu(menu_bar, tearoff=0)
@@ -592,11 +592,15 @@ class CanvasApp:
         return canvas_x, canvas_y
     
     def create_bubble_on_canvas(self, event):
+        # Convert event coordinates to canvas scroll-adjusted coordinates
+        x = self.canvas.canvasx(event.x)
+        y = self.canvas.canvasy(event.y)
+        
         # Check if the user clicked on a blank part of the canvas (not on a bubble)
         clicked_on_bubble = False
         for bubble in self.text_bubbles:
-            x1, y1, x2, y2 = bubble.get_position()
-            if x1 <= event.x <= x2 and y1 <= event.y <= y2:
+            bx1, by1, bx2, by2 = bubble.get_position()
+            if bx1 <= x <= bx2 and by1 <= y <= by2:
                 clicked_on_bubble = True
                 break
 
@@ -605,8 +609,8 @@ class CanvasApp:
             # Open a dialog to input text
             text = simpledialog.askstring("Input", "Enter text for the bubble:", parent=self.root)
             if text:
-                # Create a new bubble at the double-click location
-                bubble = TextBubble(self.canvas, event.x, event.y, text, id=self.next_bubble_id)
+                # Create a new bubble at the adjusted coordinates
+                bubble = TextBubble(self.canvas, x, y, text, id=self.next_bubble_id)
                 self.next_bubble_id += 1
                 self.text_bubbles.append(bubble)
 
@@ -652,8 +656,8 @@ class CanvasApp:
         text = simpledialog.askstring("Input", "Enter text for the bubble:", parent=self.root)
         if text:
             # Place the new bubble in the center of the canvas
-            x = (self.canvas.winfo_width() // 2) - 50
-            y = (self.canvas.winfo_height() // 2) - 25
+            x = (self.canvas.winfo_width() // 2) - 110 # half default width
+            y = (self.canvas.winfo_height() // 2) - 24 # half default height
             bubble = TextBubble(self.canvas, x, y, text, id=self.next_bubble_id, app=self)
             self.next_bubble_id += 1
             self.text_bubbles.append(bubble)

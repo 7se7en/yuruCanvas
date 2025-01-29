@@ -1,6 +1,6 @@
 {
-    "canvas_width": 2481,
-    "canvas_height": 1380,
+    "canvas_width": 1841,
+    "canvas_height": 1020,
     "text_bubbles": [
         {
             "id": 1,
@@ -31,8 +31,8 @@
         },
         {
             "id": 4,
-            "x": 975.0,
-            "y": 766.0,
+            "x": 1099.0,
+            "y": 827.0,
             "width": 228,
             "height": 48,
             "text": "Resonance 4",
@@ -49,8 +49,8 @@
         },
         {
             "id": 6,
-            "x": 2170.0,
-            "y": 1062.0,
+            "x": 2154.0,
+            "y": 1069.0,
             "width": 221,
             "height": 48,
             "text": "Resonance 6",
@@ -76,11 +76,11 @@
         },
         {
             "id": 9,
-            "x": 214.0,
-            "y": 179.0,
-            "width": 255,
-            "height": 47,
-            "text": "Converts to Necessary Measures if you have Moldable Crystals",
+            "x": 164.0,
+            "y": 192.0,
+            "width": 362,
+            "height": 24,
+            "text": "if you have Moldable Crystals, perform this instead",
             "font_size": 12
         },
         {
@@ -103,11 +103,11 @@
         },
         {
             "id": 12,
-            "x": 864.0,
-            "y": 685.0,
-            "width": 229,
-            "height": 49,
-            "text": "Unlocks Containment Tactics when Substance is full",
+            "x": 900.0,
+            "y": 703.0,
+            "width": 222,
+            "height": 24,
+            "text": "unlocks when Substance is full",
             "font_size": 12
         },
         {
@@ -229,11 +229,11 @@
         },
         {
             "id": 26,
-            "x": 1186.0,
-            "y": 686.0,
-            "width": 196,
-            "height": 62,
-            "text": "Unlocks Imminent Oblivion when Substance is full and Tinted Crystal is active",
+            "x": 950.0,
+            "y": 777.0,
+            "width": 419,
+            "height": 24,
+            "text": "unlocks when Substance is full and Tinted Crystal is active",
             "font_size": 12
         },
         {
@@ -427,8 +427,8 @@
         },
         {
             "id": 48,
-            "x": 1313.0,
-            "y": 841.0,
+            "x": 1343.0,
+            "y": 836.0,
             "width": 323,
             "height": 48,
             "text": "Era of New Wave (R)",
@@ -490,8 +490,8 @@
         },
         {
             "id": 55,
-            "x": 1525.0,
-            "y": 1041.0,
+            "x": 1536.0,
+            "y": 1001.0,
             "width": 195,
             "height": 24,
             "text": "Activates Twilight Tango",
@@ -526,11 +526,11 @@
         },
         {
             "id": 59,
-            "x": 2001.0,
-            "y": 842.0,
-            "width": 375,
+            "x": 2075.0,
+            "y": 845.0,
+            "width": 188,
             "height": 48,
-            "text": "Death Knell (Basic/R)",
+            "text": "Death Knell",
             "font_size": 24
         },
         {
@@ -580,11 +580,11 @@
         },
         {
             "id": 65,
-            "x": 2046.0,
-            "y": 468.0,
-            "width": 333,
+            "x": 2122.0,
+            "y": 472.0,
+            "width": 176,
             "height": 48,
-            "text": "Fatal Finale (Basic/R)",
+            "text": "Fatal Finale",
             "font_size": 24
         },
         {
@@ -733,8 +733,8 @@
         },
         {
             "id": 83,
-            "x": 541.0,
-            "y": 631.0,
+            "x": 524.0,
+            "y": 637.0,
             "width": 215,
             "height": 24,
             "text": "Multiplies damage by 193%",
@@ -742,8 +742,8 @@
         },
         {
             "id": 84,
-            "x": 706.0,
-            "y": 786.0,
+            "x": 704.0,
+            "y": 774.0,
             "width": 178,
             "height": 66,
             "text": "Party gains Resonance Skill DMG Bonus +25% for 30 seconds",
