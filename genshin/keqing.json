@@ -1,0 +1,361 @@
+{
+    "canvas_width": 2481,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 133.0,
+            "y": 178.0,
+            "width": 461,
+            "height": 48,
+            "text": "Yunlai Swordsmanship (Basic)",
+            "font_size": 24
+        },
+        {
+            "id": 1,
+            "x": 1178.0,
+            "y": 401.0,
+            "width": 359,
+            "height": 48,
+            "text": "Stellar Restoration (E)",
+            "font_size": 24
+        },
+        {
+            "id": 2,
+            "x": 1619.0,
+            "y": 465.0,
+            "width": 215,
+            "height": 24,
+            "text": "Creates a Lightning Stiletto",
+            "font_size": 12
+        },
+        {
+            "id": 3,
+            "x": 1560.0,
+            "y": 660.0,
+            "width": 267,
+            "height": 48,
+            "text": "Lightning Stiletto",
+            "font_size": 24
+        },
+        {
+            "id": 4,
+            "x": 1148.0,
+            "y": 598.0,
+            "width": 266,
+            "height": 24,
+            "text": "Can be dashed to by casting again",
+            "font_size": 12
+        },
+        {
+            "id": 5,
+            "x": 441.0,
+            "y": 389.0,
+            "width": 55,
+            "height": 24,
+            "text": "hold",
+            "font_size": 12
+        },
+        {
+            "id": 6,
+            "x": 534.0,
+            "y": 465.0,
+            "width": 215,
+            "height": 48,
+            "text": "Heavy Attack",
+            "font_size": 24
+        },
+        {
+            "id": 7,
+            "x": 861.0,
+            "y": 672.0,
+            "width": 95,
+            "height": 24,
+            "text": "detonates",
+            "font_size": 12
+        },
+        {
+            "id": 8,
+            "x": 346.0,
+            "y": 732.0,
+            "width": 301,
+            "height": 48,
+            "text": "Starward Sword (R)",
+            "font_size": 24
+        },
+        {
+            "id": 9,
+            "x": 1353.0,
+            "y": 538.0,
+            "width": 315,
+            "height": 24,
+            "text": "Keqing gains Electro Infusion for 5 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 10,
+            "x": 299.0,
+            "y": 853.0,
+            "width": 403,
+            "height": 24,
+            "text": "Crit Rate +15% and Energy Regen +15% for 8 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 11,
+            "x": 813.0,
+            "y": 393.0,
+            "width": 230,
+            "height": 48,
+            "text": "Constellation 1",
+            "font_size": 24
+        },
+        {
+            "id": 12,
+            "x": 915.0,
+            "y": 515.0,
+            "width": 245,
+            "height": 46,
+            "text": "Deals additional AOE damage at start and end points of teleport",
+            "font_size": 12
+        },
+        {
+            "id": 13,
+            "x": 664.0,
+            "y": 181.0,
+            "width": 230,
+            "height": 48,
+            "text": "Constellation 2",
+            "font_size": 24
+        },
+        {
+            "id": 14,
+            "x": 618.0,
+            "y": 366.0,
+            "width": 49,
+            "height": 24,
+            "text": "on hit",
+            "font_size": 12
+        },
+        {
+            "id": 15,
+            "x": 816.0,
+            "y": 282.0,
+            "width": 228,
+            "height": 81,
+            "text": "If enemy is affected by Electro, 50% chance to generate one Elemental Particle once per 5 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 16,
+            "x": 861.0,
+            "y": 895.0,
+            "width": 223,
+            "height": 48,
+            "text": "Constellation 3",
+            "font_size": 24
+        },
+        {
+            "id": 17,
+            "x": 783.0,
+            "y": 811.0,
+            "width": 69,
+            "height": 24,
+            "text": "Level +3",
+            "font_size": 12
+        },
+        {
+            "id": 18,
+            "x": 1546.0,
+            "y": 769.0,
+            "width": 234,
+            "height": 48,
+            "text": "Constellation 4",
+            "font_size": 24
+        },
+        {
+            "id": 19,
+            "x": 1156.0,
+            "y": 750.0,
+            "width": 275,
+            "height": 24,
+            "text": "on triggering Electro-related Reaction",
+            "font_size": 12
+        },
+        {
+            "id": 20,
+            "x": 1191.0,
+            "y": 827.0,
+            "width": 209,
+            "height": 24,
+            "text": "ATK +25% for 10 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 21,
+            "x": 1532.0,
+            "y": 217.0,
+            "width": 225,
+            "height": 48,
+            "text": "Constellation 5",
+            "font_size": 24
+        },
+        {
+            "id": 22,
+            "x": 1556.0,
+            "y": 331.0,
+            "width": 75,
+            "height": 24,
+            "text": "Level +3",
+            "font_size": 12
+        },
+        {
+            "id": 23,
+            "x": 109.0,
+            "y": 471.0,
+            "width": 227,
+            "height": 48,
+            "text": "Constellation 6",
+            "font_size": 24
+        },
+        {
+            "id": 24,
+            "x": 315.0,
+            "y": 563.0,
+            "width": 222,
+            "height": 62,
+            "text": "For each different attack, gain Electro DMG Bonus +6% for 8 seconds, up to +24%",
+            "font_size": 12
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 1,
+            "end_id": 2
+        },
+        {
+            "start_id": 2,
+            "end_id": 3
+        },
+        {
+            "start_id": 3,
+            "end_id": 4
+        },
+        {
+            "start_id": 4,
+            "end_id": 1
+        },
+        {
+            "start_id": 0,
+            "end_id": 5
+        },
+        {
+            "start_id": 5,
+            "end_id": 6
+        },
+        {
+            "start_id": 6,
+            "end_id": 7
+        },
+        {
+            "start_id": 7,
+            "end_id": 3
+        },
+        {
+            "start_id": 4,
+            "end_id": 7
+        },
+        {
+            "start_id": 4,
+            "end_id": 9
+        },
+        {
+            "start_id": 8,
+            "end_id": 10
+        },
+        {
+            "start_id": 4,
+            "end_id": 12
+        },
+        {
+            "start_id": 11,
+            "end_id": 12
+        },
+        {
+            "start_id": 6,
+            "end_id": 14
+        },
+        {
+            "start_id": 0,
+            "end_id": 14
+        },
+        {
+            "start_id": 13,
+            "end_id": 14
+        },
+        {
+            "start_id": 14,
+            "end_id": 15
+        },
+        {
+            "start_id": 16,
+            "end_id": 17
+        },
+        {
+            "start_id": 17,
+            "end_id": 8
+        },
+        {
+            "start_id": 18,
+            "end_id": 19
+        },
+        {
+            "start_id": 19,
+            "end_id": 20
+        },
+        {
+            "start_id": 9,
+            "end_id": 19
+        },
+        {
+            "start_id": 7,
+            "end_id": 19
+        },
+        {
+            "start_id": 8,
+            "end_id": 19
+        },
+        {
+            "start_id": 12,
+            "end_id": 19
+        },
+        {
+            "start_id": 21,
+            "end_id": 22
+        },
+        {
+            "start_id": 22,
+            "end_id": 1
+        },
+        {
+            "start_id": 23,
+            "end_id": 24
+        },
+        {
+            "start_id": 0,
+            "end_id": 24
+        },
+        {
+            "start_id": 6,
+            "end_id": 24
+        },
+        {
+            "start_id": 8,
+            "end_id": 24
+        },
+        {
+            "start_id": 1,
+            "end_id": 24
+        }
+    ]
+}

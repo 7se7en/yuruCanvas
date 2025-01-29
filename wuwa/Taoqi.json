@@ -512,10 +512,6 @@
         },
         {
             "start_id": 19,
-            "end_id": 21
-        },
-        {
-            "start_id": 19,
             "end_id": 22
         },
         {
@@ -575,32 +571,8 @@
             "end_id": 16
         },
         {
-            "start_id": 21,
-            "end_id": 31
-        },
-        {
-            "start_id": 31,
-            "end_id": 24
-        },
-        {
-            "start_id": 31,
-            "end_id": 19
-        },
-        {
-            "start_id": 31,
-            "end_id": 24
-        },
-        {
             "start_id": 19,
             "end_id": 32
-        },
-        {
-            "start_id": 19,
-            "end_id": 33
-        },
-        {
-            "start_id": 33,
-            "end_id": 24
         },
         {
             "start_id": 16,

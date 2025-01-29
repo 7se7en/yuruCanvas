@@ -1,0 +1,384 @@
+{
+    "canvas_width": 2481,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 384.0,
+            "y": 267.0,
+            "width": 316,
+            "height": 48,
+            "text": "Sharpshooter (Basic)",
+            "font_size": 24
+        },
+        {
+            "id": 1,
+            "x": 1253.0,
+            "y": 348.0,
+            "width": 325,
+            "height": 48,
+            "text": "Explosive Puppet (E)",
+            "font_size": 24
+        },
+        {
+            "id": 2,
+            "x": 1376.0,
+            "y": 473.0,
+            "width": 89,
+            "height": 24,
+            "text": "summons",
+            "font_size": 12
+        },
+        {
+            "id": 3,
+            "x": 1470.0,
+            "y": 635.0,
+            "width": 215,
+            "height": 48,
+            "text": "Baron Bunny",
+            "font_size": 24
+        },
+        {
+            "id": 4,
+            "x": 1445.0,
+            "y": 521.0,
+            "width": 207,
+            "height": 24,
+            "text": "hold longer to throw further",
+            "font_size": 12
+        },
+        {
+            "id": 5,
+            "x": 651.0,
+            "y": 507.0,
+            "width": 200,
+            "height": 48,
+            "text": "Aimed Shot",
+            "font_size": 24
+        },
+        {
+            "id": 6,
+            "x": 539.0,
+            "y": 387.0,
+            "width": 56,
+            "height": 24,
+            "text": "hold",
+            "font_size": 12
+        },
+        {
+            "id": 7,
+            "x": 532.0,
+            "y": 664.0,
+            "width": 363,
+            "height": 24,
+            "text": "On hitting Weak Spot, ATK +15% for 10 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 8,
+            "x": 1617.0,
+            "y": 768.0,
+            "width": 55,
+            "height": 24,
+            "text": "Taunt",
+            "font_size": 12
+        },
+        {
+            "id": 9,
+            "x": 1689.0,
+            "y": 723.0,
+            "width": 327,
+            "height": 24,
+            "text": "Explodes when destroyed or duration expires",
+            "font_size": 12
+        },
+        {
+            "id": 10,
+            "x": 681.0,
+            "y": 842.0,
+            "width": 215,
+            "height": 48,
+            "text": "Fiery Rain (R)",
+            "font_size": 24
+        },
+        {
+            "id": 11,
+            "x": 482.0,
+            "y": 968.0,
+            "width": 359,
+            "height": 24,
+            "text": "Has Crit Rate +10% and 30% increased range",
+            "font_size": 12
+        },
+        {
+            "id": 12,
+            "x": 1862.0,
+            "y": 295.0,
+            "width": 265,
+            "height": 48,
+            "text": "Gliding Champion",
+            "font_size": 24
+        },
+        {
+            "id": 13,
+            "x": 1823.0,
+            "y": 378.0,
+            "width": 350,
+            "height": 24,
+            "text": "Party gains Gliding Stamina consumption -20%",
+            "font_size": 12
+        },
+        {
+            "id": 14,
+            "x": 186.0,
+            "y": 670.0,
+            "width": 225,
+            "height": 48,
+            "text": "Constellation 1",
+            "font_size": 24
+        },
+        {
+            "id": 15,
+            "x": 292.0,
+            "y": 596.0,
+            "width": 362,
+            "height": 24,
+            "text": "Fires an additional arrow with 80% less damage",
+            "font_size": 12
+        },
+        {
+            "id": 16,
+            "x": 1110.0,
+            "y": 640.0,
+            "width": 221,
+            "height": 48,
+            "text": "Constellation 2",
+            "font_size": 24
+        },
+        {
+            "id": 17,
+            "x": 1144.0,
+            "y": 754.0,
+            "width": 104,
+            "height": 24,
+            "text": "hitting its foot",
+            "font_size": 12
+        },
+        {
+            "id": 18,
+            "x": 1200.0,
+            "y": 891.0,
+            "width": 304,
+            "height": 24,
+            "text": "Explodes, multiplying damage by 300%",
+            "font_size": 12
+        },
+        {
+            "id": 20,
+            "x": 186.0,
+            "y": 881.0,
+            "width": 232,
+            "height": 48,
+            "text": "Constellation 3",
+            "font_size": 24
+        },
+        {
+            "id": 21,
+            "x": 500.0,
+            "y": 872.0,
+            "width": 87,
+            "height": 24,
+            "text": "Level +3",
+            "font_size": 12
+        },
+        {
+            "id": 22,
+            "x": 1835.0,
+            "y": 481.0,
+            "width": 222,
+            "height": 48,
+            "text": "Constellation 4",
+            "font_size": 24
+        },
+        {
+            "id": 23,
+            "x": 1583.0,
+            "y": 457.0,
+            "width": 126,
+            "height": 24,
+            "text": "Cooldown -20%",
+            "font_size": 12
+        },
+        {
+            "id": 24,
+            "x": 1762.0,
+            "y": 637.0,
+            "width": 167,
+            "height": 24,
+            "text": "Can hold two charges",
+            "font_size": 12
+        },
+        {
+            "id": 25,
+            "x": 1073.0,
+            "y": 480.0,
+            "width": 221,
+            "height": 48,
+            "text": "Constellation 5",
+            "font_size": 24
+        },
+        {
+            "id": 26,
+            "x": 1346.0,
+            "y": 564.0,
+            "width": 85,
+            "height": 24,
+            "text": "Level +3",
+            "font_size": 12
+        },
+        {
+            "id": 27,
+            "x": 715.0,
+            "y": 1031.0,
+            "width": 505,
+            "height": 24,
+            "text": "Party gains Movement Speed +15% and ATK +15% for 10 seconds",
+            "font_size": 12
+        },
+        {
+            "id": 28,
+            "x": 1098.0,
+            "y": 1117.0,
+            "width": 229,
+            "height": 48,
+            "text": "Constellation 6",
+            "font_size": 24
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 1,
+            "end_id": 2
+        },
+        {
+            "start_id": 2,
+            "end_id": 3
+        },
+        {
+            "start_id": 2,
+            "end_id": 4
+        },
+        {
+            "start_id": 0,
+            "end_id": 6
+        },
+        {
+            "start_id": 6,
+            "end_id": 5
+        },
+        {
+            "start_id": 5,
+            "end_id": 7
+        },
+        {
+            "start_id": 3,
+            "end_id": 8
+        },
+        {
+            "start_id": 3,
+            "end_id": 9
+        },
+        {
+            "start_id": 1,
+            "end_id": 4
+        },
+        {
+            "start_id": 4,
+            "end_id": 3
+        },
+        {
+            "start_id": 10,
+            "end_id": 11
+        },
+        {
+            "start_id": 12,
+            "end_id": 13
+        },
+        {
+            "start_id": 14,
+            "end_id": 15
+        },
+        {
+            "start_id": 5,
+            "end_id": 15
+        },
+        {
+            "start_id": 3,
+            "end_id": 17
+        },
+        {
+            "start_id": 5,
+            "end_id": 17
+        },
+        {
+            "start_id": 17,
+            "end_id": 18
+        },
+        {
+            "start_id": 16,
+            "end_id": 17
+        },
+        {
+            "start_id": 18,
+            "end_id": 3
+        },
+        {
+            "start_id": 20,
+            "end_id": 21
+        },
+        {
+            "start_id": 21,
+            "end_id": 10
+        },
+        {
+            "start_id": 22,
+            "end_id": 23
+        },
+        {
+            "start_id": 23,
+            "end_id": 3
+        },
+        {
+            "start_id": 3,
+            "end_id": 24
+        },
+        {
+            "start_id": 22,
+            "end_id": 24
+        },
+        {
+            "start_id": 25,
+            "end_id": 26
+        },
+        {
+            "start_id": 26,
+            "end_id": 3
+        },
+        {
+            "start_id": 10,
+            "end_id": 27
+        },
+        {
+            "start_id": 28,
+            "end_id": 27
+        },
+        {
+            "start_id": 22,
+            "end_id": 23
+        },
+        {
+            "start_id": 23,
+            "end_id": 1
+        }
+    ]
+}
