@@ -638,7 +638,7 @@ class CanvasApp:
         return canvas_x, canvas_y
     
     def create_bubble_on_canvas(self, event):
-        # Convert event coordinates to canvas scroll-adjusted coordinates
+        # Convert to canvas coordinates
         x = self.canvas.canvasx(event.x)
         y = self.canvas.canvasy(event.y)
         
@@ -709,11 +709,14 @@ class CanvasApp:
             self.text_bubbles.append(bubble)
 
     def start_line(self, event):
-        # Find the text bubble clicked on
+        # Convert viewport coordinates to canvas coordinates
+        x = self.canvas.canvasx(event.x)
+        y = self.canvas.canvasy(event.y)
+        
         for bubble in self.text_bubbles:
-            x1, y1, x2, y2 = bubble.get_position()
-            if x1 <= event.x <= x2 and y1 <= event.y <= y2:
-                self.right_click_start_bubble = bubble  # Track the bubble
+            bx1, by1, bx2, by2 = bubble.get_position()
+            if bx1 <= x <= bx2 and by1 <= y <= by2:
+                self.right_click_start_bubble = bubble
                 self.start_bubble = bubble
                 break
 
@@ -723,10 +726,13 @@ class CanvasApp:
 
     def end_line(self, event):
         if self.start_bubble:
-            # Check if the mouse was released on the same bubble where the right-click started
+            # Convert coordinates
+            x = self.canvas.canvasx(event.x)
+            y = self.canvas.canvasy(event.y)
+            
             for bubble in self.text_bubbles:
-                x1, y1, x2, y2 = bubble.get_position()
-                if x1 <= event.x <= x2 and y1 <= event.y <= y2:
+                bx1, by1, bx2, by2 = bubble.get_position()
+                if bx1 <= x <= bx2 and by1 <= y <= by2:
                     if bubble == self.start_bubble:
                         # If released on the same bubble, open the context menu
                         self.selected_bubble = bubble
@@ -939,9 +945,24 @@ class CanvasApp:
         self.canvas.bind("<ButtonRelease-3>", self.end_line)  # Right-click release
 
     def show_canvas_context_menu(self, event):
-        # Show the context menu at the cursor position
+        # Convert viewport coordinates to canvas coordinates accounting for scrolling
+        x = self.canvas.canvasx(event.x)
+        y = self.canvas.canvasy(event.y)
+        
+        # Clear previous selection
+        self.selected_bubble = None
+        
+        # Find which bubble was clicked
+        for bubble in self.text_bubbles:
+            bx1, by1, bx2, by2 = bubble.get_position()
+            if bx1 <= x <= bx2 and by1 <= y <= by2:
+                self.selected_bubble = bubble
+                break
+        
+        # Only show menu if a bubble was actually clicked
         if self.selected_bubble:
             try:
+                # Show menu at original screen coordinates (not canvas coordinates)
                 self.canvas_context_menu.tk_popup(event.x_root, event.y_root)
             finally:
                 self.canvas_context_menu.grab_release()
