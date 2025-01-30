@@ -203,18 +203,59 @@ class TextBubble:
         self.lines.clear()
 
     def on_hover(self, event):
+        level0 = {self}
+        level1 = set()
+        level2 = set()
+
+        # Collect connection levels (existing code)
         for line in self.lines:
-            line.set_highlight(True)
-        for bubble in self.get_connected_bubbles():
-            self.canvas.itemconfig(bubble.rect, outline="red", width=4)
-        self.canvas.itemconfig(self.rect, outline="blue", width=4)
+            other_bubble = line.end_bubble if line.start_bubble == self else line.start_bubble
+            level1.add(other_bubble)
+        for bubble in level1:
+            for line in bubble.lines:
+                other = line.end_bubble if line.start_bubble == bubble else line.start_bubble
+                if other not in level0 and other not in level1:
+                    level2.add(other)
+
+        # Update styling with color fading instead of text stipple
+        for bubble in self.app.text_bubbles:
+            if bubble in level0:
+                self.canvas.itemconfig(bubble.rect, outline="blue", width=4, stipple="")
+                self.canvas.itemconfig(bubble.label, fill="black")
+            elif bubble in level1:
+                self.canvas.itemconfig(bubble.rect, outline="red", width=2, stipple="")
+                self.canvas.itemconfig(bubble.label, fill="black")
+            elif bubble in level2:
+                self.canvas.itemconfig(bubble.rect, outline="black", width=3, stipple="")
+                self.canvas.itemconfig(bubble.label, fill="black")
+            else:
+                self.canvas.itemconfig(bubble.rect, fill="white", outline="gray", stipple="gray50")  # Gray background
+                self.canvas.itemconfig(bubble.label, fill="gray")  # Gray text instead of stipple
+
+        # Style lines
+        for line in self.app.lines:
+            start = line.start_bubble
+            end = line.end_bubble
+            if start in level0 or end in level0:
+                line.set_highlight("red", 2, "")
+            elif (start in level1 or end in level1) and (start not in level0 and end not in level0):
+                line.set_highlight("black", 3, "")
+            else:
+                line.set_highlight("gray", 1, "gray50")
 
     def on_leave(self, event):
-        for line in self.lines:
-            line.set_highlight(False)
-        for bubble in self.get_connected_bubbles():
-            self.canvas.itemconfig(bubble.rect, outline="black", width=1)
-        self.canvas.itemconfig(self.rect, outline="black", width=1)
+        # Revert all elements
+        for bubble in self.app.text_bubbles:
+            self.canvas.itemconfig(bubble.rect, 
+                                fill="white", 
+                                outline="black", 
+                                width=1, 
+                                stipple="")  # Remove stipple
+            self.canvas.itemconfig(bubble.label, 
+                                fill="black")  # Reset text color
+                                
+        for line in self.app.lines:
+            line.set_highlight("black", 2, "")
 
     def get_connected_bubbles(self):
         # Get all bubbles connected to this bubble
@@ -410,15 +451,13 @@ class ConnectionLine:
         else:
             return None
 
-    def set_highlight(self, highlighted):
-        color = "red" if highlighted else "black"
-        width = 4 if highlighted else 2
+    def set_highlight(self, color, width, stipple=""):
         if self.line:
-            self.canvas.itemconfig(self.line, fill=color, width=width)
+            self.canvas.itemconfig(self.line, fill=color, width=width, stipple=stipple)
         if self.arrow1:
-            self.canvas.itemconfig(self.arrow1, fill=color, width=width)
+            self.canvas.itemconfig(self.arrow1, fill=color, width=width, stipple=stipple)
         if self.arrow2:
-            self.canvas.itemconfig(self.arrow2, fill=color, width=width)
+            self.canvas.itemconfig(self.arrow2, fill=color, width=width, stipple=stipple)
 
     def delete(self):
         if self.line:
