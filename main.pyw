@@ -192,14 +192,16 @@ class TextBubble:
         self.update_connected_lines()
 
     def delete_all_connections(self):
-        for line in self.lines:
+        for line in list(self.lines):  # Iterate over copy of list
             line.delete()
+            # Remove from both connected bubbles
             if line.start_bubble == self:
                 line.end_bubble.lines.remove(line)
             else:
                 line.start_bubble.lines.remove(line)
-            if self.app and line in self.app.lines:
-                self.app.lines.remove(line)
+            # Remove from app's lines list through canvas reference
+            if self.canvas.app and line in self.canvas.app.lines:
+                self.canvas.app.lines.remove(line)
         self.lines.clear()
 
     def on_hover(self, event):
@@ -226,7 +228,7 @@ class TextBubble:
                 self.canvas.itemconfig(bubble.rect, outline="red", width=2, stipple="")
                 self.canvas.itemconfig(bubble.label, fill="black")
             elif bubble in level2:
-                self.canvas.itemconfig(bubble.rect, outline="black", width=3, stipple="")
+                self.canvas.itemconfig(bubble.rect, outline="black", width=2, stipple="")
                 self.canvas.itemconfig(bubble.label, fill="black")
             else:
                 self.canvas.itemconfig(bubble.rect, fill="white", outline="gray", stipple="gray50")  # Gray background
@@ -239,7 +241,7 @@ class TextBubble:
             if start in level0 or end in level0:
                 line.set_highlight("red", 2, "")
             elif (start in level1 or end in level1) and (start not in level0 and end not in level0):
-                line.set_highlight("black", 3, "")
+                line.set_highlight("black", 2, "")
             else:
                 line.set_highlight("gray", 1, "gray50")
 
@@ -466,6 +468,10 @@ class ConnectionLine:
             self.canvas.delete(self.arrow1)
         if self.arrow2:
             self.canvas.delete(self.arrow2)
+        # Access app through the canvas's app reference
+        if hasattr(self.canvas, 'app') and self.canvas.app:
+            if self in self.canvas.app.lines:
+                self.canvas.app.lines.remove(self)
     
     def _distance(self, p1, p2):
         # Calculate the Euclidean distance between two points
@@ -488,6 +494,7 @@ class CanvasApp:
         self.hscroll = tk.Scrollbar(self.canvas_frame, orient=tk.HORIZONTAL, command=self.canvas.xview)
         self.vscroll = tk.Scrollbar(self.canvas_frame, orient=tk.VERTICAL, command=self.canvas.yview)
         self.canvas.configure(xscrollcommand=self.hscroll.set, yscrollcommand=self.vscroll.set)
+        self.canvas.app = self
 
         # Grid layout for canvas and scrollbars
         self.canvas.grid(row=0, column=0, sticky="nsew")
@@ -957,7 +964,10 @@ class CanvasApp:
 
     def delete_selected_bubble_connections(self):
         if self.selected_bubble:
+            # Use the improved delete_all_connections method
             self.selected_bubble.delete_all_connections()
+            # Force immediate canvas update
+            self.canvas.update_idletasks()
 
 if __name__ == "__main__":
     # Use TkinterDnD for the root window

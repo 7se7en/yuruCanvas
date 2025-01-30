@@ -1,6 +1,6 @@
 {
-    "canvas_width": 2481,
-    "canvas_height": 1380,
+    "canvas_width": 2485,
+    "canvas_height": 1384,
     "text_bubbles": [
         {
             "id": 0,
@@ -58,8 +58,8 @@
         },
         {
             "id": 6,
-            "x": 319.0,
-            "y": 572.0,
+            "x": 323.0,
+            "y": 574.0,
             "width": 46,
             "height": 24,
             "text": "hold",
@@ -485,14 +485,6 @@
             "end_id": 4
         },
         {
-            "start_id": 5,
-            "end_id": 6
-        },
-        {
-            "start_id": 6,
-            "end_id": 7
-        },
-        {
             "start_id": 7,
             "end_id": 8
         },
@@ -511,10 +503,6 @@
         {
             "start_id": 10,
             "end_id": 11
-        },
-        {
-            "start_id": 0,
-            "end_id": 6
         },
         {
             "start_id": 8,
@@ -787,6 +775,14 @@
         {
             "start_id": 51,
             "end_id": 50
+        },
+        {
+            "start_id": 0,
+            "end_id": 6
+        },
+        {
+            "start_id": 6,
+            "end_id": 7
         }
     ]
 }

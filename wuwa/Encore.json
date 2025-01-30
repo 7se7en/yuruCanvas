@@ -1,6 +1,6 @@
 {
-    "canvas_width": 2481,
-    "canvas_height": 1380,
+    "canvas_width": 1841,
+    "canvas_height": 1020,
     "text_bubbles": [
         {
             "id": 0,
@@ -506,32 +506,8 @@
             "end_id": 7
         },
         {
-            "start_id": 0,
-            "end_id": 9
-        },
-        {
-            "start_id": 3,
-            "end_id": 9
-        },
-        {
-            "start_id": 6,
-            "end_id": 9
-        },
-        {
-            "start_id": 2,
-            "end_id": 9
-        },
-        {
-            "start_id": 9,
-            "end_id": 8
-        },
-        {
             "start_id": 1,
             "end_id": 2
-        },
-        {
-            "start_id": 10,
-            "end_id": 9
         },
         {
             "start_id": 10,
@@ -591,15 +567,7 @@
         },
         {
             "start_id": 22,
-            "end_id": 21
-        },
-        {
-            "start_id": 22,
             "end_id": 23
-        },
-        {
-            "start_id": 23,
-            "end_id": 21
         },
         {
             "start_id": 17,
@@ -624,46 +592,6 @@
         {
             "start_id": 27,
             "end_id": 26
-        },
-        {
-            "start_id": 28,
-            "end_id": 9
-        },
-        {
-            "start_id": 19,
-            "end_id": 9
-        },
-        {
-            "start_id": 22,
-            "end_id": 9
-        },
-        {
-            "start_id": 24,
-            "end_id": 9
-        },
-        {
-            "start_id": 0,
-            "end_id": 9
-        },
-        {
-            "start_id": 21,
-            "end_id": 9
-        },
-        {
-            "start_id": 3,
-            "end_id": 9
-        },
-        {
-            "start_id": 6,
-            "end_id": 9
-        },
-        {
-            "start_id": 10,
-            "end_id": 9
-        },
-        {
-            "start_id": 9,
-            "end_id": 8
         },
         {
             "start_id": 28,
@@ -828,6 +756,26 @@
         {
             "start_id": 49,
             "end_id": 52
+        },
+        {
+            "start_id": 0,
+            "end_id": 9
+        },
+        {
+            "start_id": 3,
+            "end_id": 9
+        },
+        {
+            "start_id": 6,
+            "end_id": 9
+        },
+        {
+            "start_id": 23,
+            "end_id": 21
+        },
+        {
+            "start_id": 21,
+            "end_id": 9
         }
     ]
 }
