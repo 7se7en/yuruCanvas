@@ -225,7 +225,7 @@ class TextBubble:
                 self.canvas.itemconfig(bubble.rect, outline="blue", width=4, stipple="")
                 self.canvas.itemconfig(bubble.label, fill="black")
             elif bubble in level1:
-                self.canvas.itemconfig(bubble.rect, outline="red", width=2, stipple="")
+                self.canvas.itemconfig(bubble.rect, outline="red", width=3, stipple="")
                 self.canvas.itemconfig(bubble.label, fill="black")
             elif bubble in level2:
                 self.canvas.itemconfig(bubble.rect, outline="black", width=2, stipple="")
@@ -239,7 +239,7 @@ class TextBubble:
             start = line.start_bubble
             end = line.end_bubble
             if start in level0 or end in level0:
-                line.set_highlight("red", 2, "")
+                line.set_highlight("red", 3, "")
             elif (start in level1 or end in level1) and (start not in level0 and end not in level0):
                 line.set_highlight("black", 2, "")
             else:
@@ -656,7 +656,7 @@ class CanvasApp:
             text = simpledialog.askstring("Input", "Enter text for the bubble:", parent=self.root)
             if text:
                 # Create a new bubble at the adjusted coordinates
-                bubble = TextBubble(self.canvas, x, y, text, id=self.next_bubble_id)
+                bubble = TextBubble(self.canvas, x, y, text, id=self.next_bubble_id, app=self)  # Add app=self here
                 self.next_bubble_id += 1
                 self.text_bubbles.append(bubble)
 
@@ -973,6 +973,9 @@ class CanvasApp:
 
     def delete_selected_bubble(self):
         if self.selected_bubble:
+            # Trigger on_leave to clear hover effects
+            self.selected_bubble.on_leave(None)
+            
             # Delete all connections first
             self.selected_bubble.delete_all_connections()
             # Remove the bubble from the canvas
@@ -982,6 +985,8 @@ class CanvasApp:
                 self.canvas.delete(handle)
             # Remove the bubble from the list
             self.text_bubbles.remove(self.selected_bubble)
+            # Clear the selection
+            self.selected_bubble = None
 
     def delete_selected_bubble_connections(self):
         if self.selected_bubble:
