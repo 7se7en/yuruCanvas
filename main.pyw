@@ -143,19 +143,6 @@ class TextBubble:
             self.canvas.itemconfig(self.check_mark, state='hidden')
         self.update_text_position()
         
-    def update_line_visibility(self, visible):
-        lines_to_modify = set()
-        # Collect all direct connections
-        for line in self.lines:
-            lines_to_modify.add(line)
-            # Collect connections from connected bubbles
-            other_bubble = line.end_bubble if line.start_bubble == self else line.start_bubble
-            lines_to_modify.update(other_bubble.lines)
-        
-        # Update visibility
-        for line in lines_to_modify:
-            line.set_visibility(visible)
-        
     def update_text_position(self):
         x1, y1, x2, y2 = self.canvas.coords(self.rect)
         if self.checkbox_visible:
@@ -388,16 +375,6 @@ class TextBubble:
                                 outline="black")
         for line in self.app.lines:
             line.set_highlight("black", 2, "")
-
-    def get_connected_bubbles(self):
-        # Get all bubbles connected to this bubble
-        connected_bubbles = set()
-        for line in self.lines:
-            if line.start_bubble == self:
-                connected_bubbles.add(line.end_bubble)
-            else:
-                connected_bubbles.add(line.start_bubble)
-        return connected_bubbles
 
 class ConnectionLine:
     def __init__(self, canvas, start_bubble, end_bubble):
@@ -651,7 +628,6 @@ class CanvasApp:
         self.text_bubbles = []
         self.lines = []
         self.next_bubble_id = 0  # Unique ID for each bubble
-        self.right_click_start_bubble = None  # Track the bubble where right-click was pressed
 
         # Add a menu bar at the top
         menu_bar = tk.Menu(self.root)
@@ -854,7 +830,6 @@ class CanvasApp:
         for bubble in self.text_bubbles:
             bx1, by1, bx2, by2 = bubble.get_position()
             if bx1 <= x <= bx2 and by1 <= y <= by2:
-                self.right_click_start_bubble = bubble
                 self.start_bubble = bubble
                 break
 
@@ -884,7 +859,6 @@ class CanvasApp:
             # Reset the line and start bubble
             self.current_line = None
             self.start_bubble = None
-            self.right_click_start_bubble = None
 
     def save_canvas(self):
         if self.last_loaded_file_path:
