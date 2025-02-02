@@ -22,9 +22,7 @@ class TextBubble:
         self.app = app  # Reference to the CanvasApp instance
         self.checkbox_visible = False  # Default invisible
         self.checked = False
-        self.visible = True  # Add visibility state        
-        checkbox_size = 15
-        padding = 5
+        self.visible = True  # Add visibility state
 
         # Draw the rectangle and text
         self.rect = canvas.create_rectangle(x, y, x + self.width, y + self.height, fill="white", outline="black")
@@ -36,14 +34,18 @@ class TextBubble:
             x + self.width / 2, y + self.height / 2, text=text, fill="black", width=self.width - 10, anchor="center", font=("Arial", self.font_size)
         )  # Center-align text
         
-        # Checkbox elements (initially hidden)
+        # Create centered checkbox elements
+        checkbox_size = 15
+        padding = 5
+        initial_checkbox_y = y + (height / 2) - 1 - checkbox_size/2
+        
         self.checkbox_rect = canvas.create_rectangle(
-            x + padding, y + padding, 
-            x + padding + checkbox_size, y + padding + checkbox_size,
+            x + padding, initial_checkbox_y,
+            x + padding + checkbox_size, initial_checkbox_y + checkbox_size,
             fill="white", outline="black", state='hidden'
         )
         self.check_mark = canvas.create_text(
-            x + padding + checkbox_size/2, y + padding + checkbox_size/2,
+            x + padding + checkbox_size/2, y + height/2,
             text="✓", font=("Arial", 12), state='hidden'
         )
 
@@ -165,14 +167,33 @@ class TextBubble:
         self.update_text_position()
         
     def update_text_position(self):
+        # Get current bubble position
         x1, y1, x2, y2 = self.canvas.coords(self.rect)
+        
+        # Calculate checkbox position (centered vertically)
+        checkbox_size = 15
+        padding = 5
+        checkbox_y_center = y1 + (self.height / 2) - 1
+        
+        # Update checkbox rectangle position
+        self.canvas.coords(self.checkbox_rect,
+                          x1 + padding,
+                          checkbox_y_center - checkbox_size/2,
+                          x1 + padding + checkbox_size,
+                          checkbox_y_center + checkbox_size/2)
+        
+        # Update checkmark position
+        self.canvas.coords(self.check_mark,
+                          x1 + padding + checkbox_size/2,
+                          checkbox_y_center)
+        
+        # Update text position based on checkbox visibility
         if self.checkbox_visible:
-            checkbox_width = 5 + 15 + 5  # padding + size + padding
-            text_x = x1 + checkbox_width + (self.width - checkbox_width) / 2
+            text_x = x1 + padding + checkbox_size + padding + (self.width - (padding*2 + checkbox_size)) / 2
         else:
             text_x = x1 + self.width / 2
-        text_y = y1 + self.height / 2
-        self.canvas.coords(self.label, text_x, text_y)
+            
+        self.canvas.coords(self.label, text_x, y1 + self.height/2)
 
     def get_position(self):
         return self.canvas.coords(self.rect)
@@ -293,6 +314,9 @@ class TextBubble:
         # Save button
         def save_text():
             new_text = text_box.get("1.0", tk.END).strip()  # Get all text from the text box
+            was_visible = self.checkbox_visible
+            new_visible = toggleable_var.get()
+            
             if new_text:
                 self.text = new_text
                 # Update font size based on selection
@@ -304,7 +328,29 @@ class TextBubble:
                     self.font_size = 12  # Default size
                 self.canvas.itemconfig(self.label, text=new_text, font=("Arial", self.font_size))
                 # Update checkbox visibility based on toggleable checkbox
-                self.set_checkbox_visible(toggleable_var.get())
+            self.set_checkbox_visible(toggleable_var.get())
+            # Adjust width if visibility changed
+            if new_visible != was_visible:
+                width_adjustment = 25  # Width needed for checkbox + padding
+                if new_visible:
+                    self.width += width_adjustment
+                else:
+                    self.width = max(self.width - width_adjustment, 100)  # Minimum width
+                
+                # Update canvas elements
+                x1, y1, x2, y2 = self.canvas.coords(self.rect)
+                new_x2 = x1 + self.width
+                self.canvas.coords(self.rect, x1, y1, new_x2, y2)
+                
+                # Update resize handle position
+                resize_handle = self.resize_handles[0]
+                self.canvas.coords(resize_handle, 
+                                 new_x2 - 5, y2 - 5, 
+                                 new_x2 + 5, y2 + 5)
+                
+                # Update text position
+                self.update_text_position()
+            
             edit_window.destroy()
         
         save_button = tk.Button(button_frame, text="Save", command=save_text)

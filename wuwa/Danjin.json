@@ -9,7 +9,10 @@
             "width": 273,
             "height": 48,
             "text": "Execution (Basic)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 1,
@@ -18,7 +21,10 @@
             "width": 265,
             "height": 48,
             "text": "Ruby Blossom",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 2,
@@ -27,7 +33,10 @@
             "width": 148,
             "height": 24,
             "text": "Maximum 120",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 3,
@@ -36,7 +45,10 @@
             "width": 300,
             "height": 24,
             "text": "Generates 10 Ruby Blossom per cast",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 4,
@@ -45,7 +57,10 @@
             "width": 536,
             "height": 48,
             "text": "Crimson Fragment (E)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 5,
@@ -54,7 +69,10 @@
             "width": 316,
             "height": 48,
             "text": "Chaoscleave (Heavy)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 6,
@@ -63,7 +81,10 @@
             "width": 473,
             "height": 48,
             "text": "Ruby Shades (Dodge Counter)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 7,
@@ -72,7 +93,10 @@
             "width": 327,
             "height": 48,
             "text": "Crimson Erosion (E)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 9,
@@ -81,7 +105,10 @@
             "width": 183,
             "height": 24,
             "text": "Basic Attack 2",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 10,
@@ -90,7 +117,10 @@
             "width": 297,
             "height": 48,
             "text": "Vindication (Intro)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 11,
@@ -99,7 +129,10 @@
             "width": 80,
             "height": 24,
             "text": "unlocks",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 12,
@@ -108,7 +141,10 @@
             "width": 232,
             "height": 24,
             "text": "Lose 3% of Max HP per cast",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 13,
@@ -117,7 +153,10 @@
             "width": 167,
             "height": 24,
             "text": "Can be cast twice",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 14,
@@ -126,7 +165,10 @@
             "width": 158,
             "height": 46,
             "text": "Second cast applies Incinerating Will",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 15,
@@ -135,7 +177,10 @@
             "width": 283,
             "height": 48,
             "text": "Incinerating Will",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 16,
@@ -144,7 +189,10 @@
             "width": 139,
             "height": 65,
             "text": "Marked enemies take 20% more damage",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 17,
@@ -153,7 +201,10 @@
             "width": 332,
             "height": 48,
             "text": "Sanguine Pulse (E)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 18,
@@ -162,7 +213,10 @@
             "width": 176,
             "height": 24,
             "text": "Basic Attack 3 unlocks",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 19,
@@ -171,7 +225,10 @@
             "width": 219,
             "height": 24,
             "text": "Can be cast three times",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 20,
@@ -180,7 +237,10 @@
             "width": 155,
             "height": 24,
             "text": "12 second duration",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 21,
@@ -189,7 +249,10 @@
             "width": 195,
             "height": 24,
             "text": "Generates 50 Concerto",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 22,
@@ -198,7 +261,10 @@
             "width": 194,
             "height": 24,
             "text": "Generates 10 Concerto",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 23,
@@ -207,7 +273,10 @@
             "width": 323,
             "height": 24,
             "text": "Consumes either 60 or 120 Ruby Blossom",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 24,
@@ -216,7 +285,10 @@
             "width": 237,
             "height": 53,
             "text": "DMG multiplied by 240% if consuming 120 Ruby Blossom",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 25,
@@ -225,7 +297,10 @@
             "width": 100,
             "height": 24,
             "text": "combos into",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 26,
@@ -234,7 +309,10 @@
             "width": 206,
             "height": 48,
             "text": "Scatterbloom",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 27,
@@ -243,7 +321,10 @@
             "width": 202,
             "height": 53,
             "text": "Unlocks Chaoscleave at 60 or more Ruby Blossom",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 28,
@@ -252,7 +333,10 @@
             "width": 290,
             "height": 24,
             "text": "Heals Danjin for 36% of Max HP",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 29,
@@ -261,7 +345,10 @@
             "width": 278,
             "height": 24,
             "text": "Generates no Concerto for casting",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 30,
@@ -270,7 +357,10 @@
             "width": 345,
             "height": 48,
             "text": "Crimson Bloom (R)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 31,
@@ -279,7 +369,10 @@
             "width": 188,
             "height": 53,
             "text": "Eight smaller attacks, then casts Scarlet Burst",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 32,
@@ -288,7 +381,10 @@
             "width": 195,
             "height": 24,
             "text": "Generates 20 Concerto",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 33,
@@ -297,7 +393,10 @@
             "width": 226,
             "height": 48,
             "text": "Scarlet Burst",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 34,
@@ -306,7 +405,10 @@
             "width": 272,
             "height": 48,
             "text": "Duality (Outro)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 35,
@@ -315,7 +417,10 @@
             "width": 407,
             "height": 47,
             "text": "Incoming Resonator's Havoc DMG multiplied by 123% for 14 seconds",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 37,
@@ -324,7 +429,10 @@
             "width": 314,
             "height": 96,
             "text": "If casting Crimson Erosion through Dodge Counter method:\n    DMG Bonus +20%\n    Lose 6% of Max HP per cast\n    Generates twice as much Ruby Blossom",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 41,
@@ -333,7 +441,10 @@
             "width": 391,
             "height": 24,
             "text": "Grants Heavy Attack DMG Bonus +30% for 5 seconds",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 42,
@@ -342,7 +453,10 @@
             "width": 130,
             "height": 24,
             "text": "Does not stack",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 43,
@@ -351,7 +465,10 @@
             "width": 224,
             "height": 48,
             "text": "Resonance 1",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 44,
@@ -360,7 +477,10 @@
             "width": 224,
             "height": 48,
             "text": "Resonance 2",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 45,
@@ -369,7 +489,10 @@
             "width": 224,
             "height": 48,
             "text": "Resonance 3",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 46,
@@ -378,7 +501,10 @@
             "width": 224,
             "height": 48,
             "text": "Resonance 4",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 47,
@@ -387,7 +513,10 @@
             "width": 224,
             "height": 48,
             "text": "Resonance 5",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 48,
@@ -396,34 +525,22 @@
             "width": 224,
             "height": 48,
             "text": "Resonance 6",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 49,
             "x": 603.0,
             "y": 859.0,
-            "width": 225,
-            "height": 51,
-            "text": "On hitting marked enemies, gain ATK +5% for 6 seconds",
-            "font_size": 12
-        },
-        {
-            "id": 50,
-            "x": 458.0,
-            "y": 969.0,
-            "width": 165,
-            "height": 24,
-            "text": "Maximum 6 stacks",
-            "font_size": 12
-        },
-        {
-            "id": 51,
-            "x": 690.0,
-            "y": 953.0,
-            "width": 272,
-            "height": 24,
-            "text": "Lose 1 stack when taking damage",
-            "font_size": 12
+            "width": 217,
+            "height": 100,
+            "text": "On hitting marked enemies, gain ATK +5% for 6 seconds, up to ATK +30%.\nLose one stack when taking damage",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 52,
@@ -432,7 +549,10 @@
             "width": 326,
             "height": 24,
             "text": "DMG Bonus +20% against marked enemies",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 53,
@@ -441,7 +561,10 @@
             "width": 235,
             "height": 24,
             "text": "Liberation DMG Bonus +30%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 54,
@@ -450,7 +573,10 @@
             "width": 352,
             "height": 24,
             "text": "Crit Rate +15% while above 60 Ruby Blossom",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 55,
@@ -459,7 +585,10 @@
             "width": 232,
             "height": 68,
             "text": "Buff persists while consuming Ruby Blossom on Chaoscleave until Scatterbloom is cast",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 56,
@@ -468,7 +597,10 @@
             "width": 213,
             "height": 24,
             "text": "Havoc DMG Bonus +15%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 57,
@@ -477,7 +609,10 @@
             "width": 322,
             "height": 24,
             "text": "Havoc DMG Bonus +15% if below 60% HP",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 58,
@@ -486,16 +621,22 @@
             "width": 311,
             "height": 24,
             "text": "Party gains ATK +20% for 20 seconds",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 59,
-            "x": 837.0,
-            "y": 810.0,
+            "x": 850.0,
+            "y": 808.0,
             "width": 102,
             "height": 24,
             "text": "Danjin only",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 60,
@@ -504,7 +645,10 @@
             "width": 179,
             "height": 24,
             "text": "0 second Cooldown",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 61,
@@ -513,285 +657,347 @@
             "width": 244,
             "height": 47,
             "text": "Last hit of third cast generates an additional 10 Ruby Blossoms",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         }
     ],
     "connections": [
         {
             "start_id": 1,
-            "end_id": 2
+            "end_id": 2,
+            "visible": true
         },
         {
             "start_id": 11,
-            "end_id": 7
+            "end_id": 7,
+            "visible": true
         },
         {
             "start_id": 7,
-            "end_id": 13
+            "end_id": 13,
+            "visible": true
         },
         {
             "start_id": 7,
-            "end_id": 14
+            "end_id": 14,
+            "visible": true
         },
         {
             "start_id": 14,
-            "end_id": 15
+            "end_id": 15,
+            "visible": true
         },
         {
             "start_id": 15,
-            "end_id": 16
+            "end_id": 16,
+            "visible": true
         },
         {
             "start_id": 0,
-            "end_id": 18
+            "end_id": 18,
+            "visible": true
         },
         {
             "start_id": 18,
-            "end_id": 17
+            "end_id": 17,
+            "visible": true
         },
         {
             "start_id": 17,
-            "end_id": 19
+            "end_id": 19,
+            "visible": true
         },
         {
             "start_id": 15,
-            "end_id": 20
+            "end_id": 20,
+            "visible": true
         },
         {
             "start_id": 21,
-            "end_id": 5
+            "end_id": 5,
+            "visible": true
         },
         {
             "start_id": 5,
-            "end_id": 25
+            "end_id": 25,
+            "visible": true
         },
         {
             "start_id": 25,
-            "end_id": 26
+            "end_id": 26,
+            "visible": true
         },
         {
             "start_id": 1,
-            "end_id": 27
+            "end_id": 27,
+            "visible": true
         },
         {
             "start_id": 27,
-            "end_id": 5
+            "end_id": 5,
+            "visible": true
         },
         {
             "start_id": 5,
-            "end_id": 28
+            "end_id": 28,
+            "visible": true
         },
         {
             "start_id": 26,
-            "end_id": 29
+            "end_id": 29,
+            "visible": true
         },
         {
             "start_id": 7,
-            "end_id": 29
+            "end_id": 29,
+            "visible": true
         },
         {
             "start_id": 17,
-            "end_id": 29
+            "end_id": 29,
+            "visible": true
         },
         {
             "start_id": 4,
-            "end_id": 29
+            "end_id": 29,
+            "visible": true
         },
         {
             "start_id": 30,
-            "end_id": 31
+            "end_id": 31,
+            "visible": true
         },
         {
             "start_id": 30,
-            "end_id": 32
+            "end_id": 32,
+            "visible": true
         },
         {
             "start_id": 31,
-            "end_id": 33
+            "end_id": 33,
+            "visible": true
         },
         {
             "start_id": 34,
-            "end_id": 35
+            "end_id": 35,
+            "visible": true
         },
         {
             "start_id": 15,
-            "end_id": 49
+            "end_id": 49,
+            "visible": true
         },
         {
             "start_id": 43,
-            "end_id": 49
-        },
-        {
-            "start_id": 49,
-            "end_id": 50
-        },
-        {
-            "start_id": 49,
-            "end_id": 51
+            "end_id": 49,
+            "visible": true
         },
         {
             "start_id": 15,
-            "end_id": 52
+            "end_id": 52,
+            "visible": true
         },
         {
             "start_id": 45,
-            "end_id": 53
+            "end_id": 53,
+            "visible": true
         },
         {
             "start_id": 55,
-            "end_id": 26
+            "end_id": 26,
+            "visible": true
         },
         {
             "start_id": 55,
-            "end_id": 5
+            "end_id": 5,
+            "visible": true
         },
         {
             "start_id": 47,
-            "end_id": 56
+            "end_id": 56,
+            "visible": true
         },
         {
             "start_id": 47,
-            "end_id": 57
+            "end_id": 57,
+            "visible": true
         },
         {
             "start_id": 5,
-            "end_id": 58
+            "end_id": 58,
+            "visible": true
         },
         {
             "start_id": 48,
-            "end_id": 58
+            "end_id": 58,
+            "visible": true
         },
         {
             "start_id": 7,
-            "end_id": 3
+            "end_id": 3,
+            "visible": true
         },
         {
             "start_id": 17,
-            "end_id": 3
+            "end_id": 3,
+            "visible": true
         },
         {
             "start_id": 4,
-            "end_id": 3
+            "end_id": 3,
+            "visible": true
         },
         {
             "start_id": 3,
-            "end_id": 1
+            "end_id": 1,
+            "visible": true
         },
         {
             "start_id": 33,
-            "end_id": 29
+            "end_id": 29,
+            "visible": true
         },
         {
             "start_id": 4,
-            "end_id": 60
+            "end_id": 60,
+            "visible": true
         },
         {
             "start_id": 10,
-            "end_id": 22
+            "end_id": 22,
+            "visible": true
         },
         {
             "start_id": 10,
-            "end_id": 11
+            "end_id": 11,
+            "visible": true
         },
         {
             "start_id": 17,
-            "end_id": 41
+            "end_id": 41,
+            "visible": true
         },
         {
             "start_id": 41,
-            "end_id": 42
+            "end_id": 42,
+            "visible": true
         },
         {
             "start_id": 6,
-            "end_id": 11
+            "end_id": 11,
+            "visible": true
         },
         {
             "start_id": 37,
-            "end_id": 6
+            "end_id": 6,
+            "visible": true
         },
         {
             "start_id": 7,
-            "end_id": 37
+            "end_id": 37,
+            "visible": true
         },
         {
             "start_id": 37,
-            "end_id": 1
+            "end_id": 1,
+            "visible": true
         },
         {
             "start_id": 17,
-            "end_id": 12
+            "end_id": 12,
+            "visible": true
         },
         {
             "start_id": 7,
-            "end_id": 12
+            "end_id": 12,
+            "visible": true
         },
         {
             "start_id": 4,
-            "end_id": 12
+            "end_id": 12,
+            "visible": true
         },
         {
             "start_id": 19,
-            "end_id": 61
+            "end_id": 61,
+            "visible": true
         },
         {
             "start_id": 61,
-            "end_id": 1
-        },
-        {
-            "start_id": 59,
-            "end_id": 49
-        },
-        {
-            "start_id": 59,
-            "end_id": 52
+            "end_id": 1,
+            "visible": true
         },
         {
             "start_id": 44,
-            "end_id": 52
+            "end_id": 52,
+            "visible": true
         },
         {
             "start_id": 1,
-            "end_id": 54
+            "end_id": 54,
+            "visible": true
         },
         {
             "start_id": 46,
-            "end_id": 54
+            "end_id": 54,
+            "visible": true
         },
         {
             "start_id": 54,
-            "end_id": 55
+            "end_id": 55,
+            "visible": true
         },
         {
             "start_id": 1,
-            "end_id": 23
+            "end_id": 23,
+            "visible": true
         },
         {
             "start_id": 5,
-            "end_id": 23
+            "end_id": 23,
+            "visible": true
         },
         {
             "start_id": 24,
-            "end_id": 5
+            "end_id": 5,
+            "visible": true
         },
         {
             "start_id": 23,
-            "end_id": 24
+            "end_id": 24,
+            "visible": true
         },
         {
             "start_id": 24,
-            "end_id": 26
+            "end_id": 26,
+            "visible": true
         },
         {
             "start_id": 0,
-            "end_id": 9
+            "end_id": 9,
+            "visible": true
         },
         {
             "start_id": 9,
-            "end_id": 11
+            "end_id": 11,
+            "visible": true
         },
         {
             "start_id": 13,
-            "end_id": 14
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 44,
+            "end_id": 59,
+            "visible": true
+        },
+        {
+            "start_id": 59,
+            "end_id": 52,
+            "visible": true
         }
     ]
 }
