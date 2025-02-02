@@ -20,6 +20,11 @@ class TextBubble:
         self.height = height  # Set height from the start
         self.font_size = 12  # Default font size (small)
         self.app = app  # Reference to the CanvasApp instance
+        self.checkbox_visible = False  # Default invisible
+        self.checked = False
+        self.visible = True  # Add visibility state        
+        checkbox_size = 15
+        padding = 5
 
         # Draw the rectangle and text
         self.rect = canvas.create_rectangle(x, y, x + self.width, y + self.height, fill="white", outline="black")
@@ -30,11 +35,26 @@ class TextBubble:
         self.label = canvas.create_text(
             x + self.width / 2, y + self.height / 2, text=text, fill="black", width=self.width - 10, anchor="center", font=("Arial", self.font_size)
         )  # Center-align text
+        
+        # Checkbox elements (initially hidden)
+        self.checkbox_rect = canvas.create_rectangle(
+            x + padding, y + padding, 
+            x + padding + checkbox_size, y + padding + checkbox_size,
+            fill="white", outline="black", state='hidden'
+        )
+        self.check_mark = canvas.create_text(
+            x + padding + checkbox_size/2, y + padding + checkbox_size/2,
+            text="✓", font=("Arial", 12), state='hidden'
+        )
 
         # Add resize handles
         self.resize_handles = [
             canvas.create_rectangle(x + self.width - 5, y + self.height - 5, x + self.width + 5, y + self.height + 5, fill="blue")
         ]
+        
+        # Compiles list of all elements
+        self.main_elements = [self.rect, self.label] + self.resize_handles
+        self.checkbox_elements = [self.checkbox_rect, self.check_mark]
 
         self.lines = []  # Store lines connected to this bubble
 
@@ -45,6 +65,8 @@ class TextBubble:
         self.canvas.tag_bind(self.label, "<Button-1>", self.start_drag)
         self.canvas.tag_bind(self.label, "<B1-Motion>", self.on_drag)
         self.canvas.tag_bind(self.label, "<Double-Button-1>", self.edit_text)
+        self.canvas.tag_bind(self.checkbox_rect, "<Button-1>", self.toggle_check)
+        self.canvas.tag_bind(self.check_mark, "<Button-1>", self.toggle_check)
         for handle in self.resize_handles:
             self.canvas.tag_bind(handle, "<Button-1>", self.start_resize)
             self.canvas.tag_bind(handle, "<B1-Motion>", self.on_resize)
@@ -54,6 +76,95 @@ class TextBubble:
         self.canvas.tag_bind(self.rect, "<Leave>", self.on_leave)
         self.canvas.tag_bind(self.label, "<Enter>", self.on_hover)
         self.canvas.tag_bind(self.label, "<Leave>", self.on_leave)
+    
+    def set_visibility(self, visible):
+        state = 'normal' if visible else 'hidden'
+        for item in self.main_elements:
+            self.canvas.itemconfig(item, state=state)
+        # Checkbox visibility handled separately
+        self._update_checkbox_visibility()
+        
+    def _update_checkbox_visibility(self):
+        if self.checkbox_visible:
+            self.canvas.itemconfig(self.checkbox_rect, state='normal')
+            self.canvas.itemconfig(self.check_mark, 
+                                 state='normal' if self.checked else 'hidden')
+        else:
+            for item in self.checkbox_elements:
+                self.canvas.itemconfig(item, state='hidden')
+    
+    def get_relevant_connections(self):
+        first_level_lines = set(self.lines)
+        end_bubbles = set()
+        
+        # Get all direct connections
+        for line in first_level_lines:
+            other_bubble = line.end_bubble if line.start_bubble == self else line.start_bubble
+            end_bubbles.add(other_bubble)
+        
+        # Get lines from end bubbles
+        second_level_lines = set()
+        for bubble in end_bubbles:
+            second_level_lines.update(bubble.lines)
+        
+        # Combine all lines to affect
+        all_lines = first_level_lines.union(second_level_lines)
+        
+        return all_lines, end_bubbles
+
+    def toggle_check(self, event):
+        self.checked = not self.checked
+        if self.checked:
+            # Show elements
+            self.canvas.itemconfig(self.check_mark, state='normal')
+            lines, bubbles = self.get_relevant_connections()
+            for line in lines:
+                line.set_visibility(True)
+            for bubble in bubbles:
+                bubble.set_visibility(True)
+                bubble.set_checkbox_visible(bubble.checkbox_visible)
+        else:
+            # Hide elements
+            self.canvas.itemconfig(self.check_mark, state='hidden')
+            lines, bubbles = self.get_relevant_connections()
+            for line in lines:
+                line.set_visibility(False)
+            for bubble in bubbles:
+                bubble.set_visibility(False)
+        return "break"
+        
+    def set_checkbox_visible(self, visible):
+        self.checkbox_visible = visible
+        if visible:
+            self.canvas.itemconfig(self.checkbox_rect, state='normal')
+            self.canvas.itemconfig(self.check_mark, state='normal' if self.checked else 'hidden')
+        else:
+            self.canvas.itemconfig(self.checkbox_rect, state='hidden')
+            self.canvas.itemconfig(self.check_mark, state='hidden')
+        self.update_text_position()
+        
+    def update_line_visibility(self, visible):
+        lines_to_modify = set()
+        # Collect all direct connections
+        for line in self.lines:
+            lines_to_modify.add(line)
+            # Collect connections from connected bubbles
+            other_bubble = line.end_bubble if line.start_bubble == self else line.start_bubble
+            lines_to_modify.update(other_bubble.lines)
+        
+        # Update visibility
+        for line in lines_to_modify:
+            line.set_visibility(visible)
+        
+    def update_text_position(self):
+        x1, y1, x2, y2 = self.canvas.coords(self.rect)
+        if self.checkbox_visible:
+            checkbox_width = 5 + 15 + 5  # padding + size + padding
+            text_x = x1 + checkbox_width + (self.width - checkbox_width) / 2
+        else:
+            text_x = x1 + self.width / 2
+        text_y = y1 + self.height / 2
+        self.canvas.coords(self.label, text_x, text_y)
 
     def get_position(self):
         return self.canvas.coords(self.rect)
@@ -63,6 +174,8 @@ class TextBubble:
         # Bring the bubble and its label to the top
         self.canvas.tag_raise(self.rect)
         self.canvas.tag_raise(self.label)
+        self.canvas.tag_raise(self.checkbox_rect)
+        self.canvas.tag_raise(self.check_mark)
         for handle in self.resize_handles:
             self.canvas.tag_raise(handle)
 
@@ -72,6 +185,9 @@ class TextBubble:
         if dx != 0 or dy != 0:  # Only update if the bubble has moved
             self.canvas.move(self.rect, dx, dy)
             self.canvas.move(self.label, dx, dy)
+            self.canvas.move(self.checkbox_rect, dx, dy)
+            self.canvas.move(self.check_mark, dx, dy)
+            self.update_text_position()  # Update text position if needed
             for handle in self.resize_handles:
                 self.canvas.move(handle, dx, dy)
             self.drag_data["x"] = event.x
@@ -110,6 +226,7 @@ class TextBubble:
         self.canvas.coords(self.resize_handles[0], x1 + self.width - 5, y1 + self.height - 5, x1 + self.width + 5, y1 + self.height + 5)
 
         self.update_connected_lines()
+        self.update_text_position()
 
     def update_connected_lines(self):
         for line in self.lines:
@@ -127,7 +244,7 @@ class TextBubble:
         parent_height = self.canvas.winfo_height()
         
         window_width = 400  # Width of the edit window
-        window_height = 300  # Increased height for the edit window
+        window_height = 330  # Increased height for the edit window
         
         x = parent_x + (parent_width // 2) - (window_width // 2)
         y = parent_y + (parent_height // 2) - (window_height // 2)
@@ -157,7 +274,11 @@ class TextBubble:
         font_size_menu = ttk.Combobox(edit_window, textvariable=font_size_var, values=["Small", "Medium", "Large"])
         font_size_menu.pack(pady=5)
         
-        # Button frame for Save and Delete buttons
+        toggleable_var = tk.BooleanVar(value=self.checkbox_visible)
+        toggleable_check = ttk.Checkbutton(edit_window, text="Toggleable", variable=toggleable_var)
+        toggleable_check.pack(pady=5)
+        
+        # Button frame for Save button
         button_frame = tk.Frame(edit_window)
         button_frame.pack(pady=10)
         
@@ -174,10 +295,14 @@ class TextBubble:
                 else:
                     self.font_size = 12  # Default size
                 self.canvas.itemconfig(self.label, text=new_text, font=("Arial", self.font_size))
+                # Update checkbox visibility based on toggleable checkbox
+                self.set_checkbox_visible(toggleable_var.get())
             edit_window.destroy()
         
         save_button = tk.Button(button_frame, text="Save", command=save_text)
         save_button.pack(side=tk.LEFT, padx=5)
+        
+        
 
     def reset_position(self):
         # Move the bubble to the center of the canvas
@@ -233,6 +358,8 @@ class TextBubble:
             else:
                 self.canvas.itemconfig(bubble.rect, fill="white", outline="gray", stipple="gray50")  # Gray background
                 self.canvas.itemconfig(bubble.label, fill="gray")  # Gray text instead of stipple
+                self.canvas.itemconfig(bubble.checkbox_rect, outline="gray", stipple="gray50")
+                self.canvas.itemconfig(bubble.check_mark, fill="gray")
 
         # Style lines
         for line in self.app.lines:
@@ -255,7 +382,10 @@ class TextBubble:
                                 stipple="")  # Remove stipple
             self.canvas.itemconfig(bubble.label, 
                                 fill="black")  # Reset text color
-                                
+            self.canvas.itemconfig(bubble.check_mark,
+                                fill="black")
+            self.canvas.itemconfig(bubble.checkbox_rect,
+                                outline="black")
         for line in self.app.lines:
             line.set_highlight("black", 2, "")
 
@@ -280,6 +410,14 @@ class ConnectionLine:
         self.update_position()
         start_bubble.lines.append(self)
         end_bubble.lines.append(self)
+        self.visible = True
+        
+    def set_visibility(self, visible):
+        self.visible = visible
+        state = 'normal' if visible else 'hidden'
+        for item in [self.line, self.arrow1, self.arrow2]:
+            if item:
+                self.canvas.itemconfig(item, state=state)
 
     def update_position(self):
         # Get the perimeter intersection points
@@ -784,6 +922,9 @@ class CanvasApp:
                 "height": bubble.height,
                 "text": bubble.text,
                 "font_size": bubble.font_size,
+                "checkbox_visible": bubble.checkbox_visible,
+                "checked": bubble.checked,
+                "visible": bubble.visible,
             })
 
         # Save connections
@@ -791,6 +932,7 @@ class CanvasApp:
             canvas_state["connections"].append({
                 "start_id": line.start_bubble.id,
                 "end_id": line.end_bubble.id,
+                "visible": line.visible,
             })
 
         # Save to the file
@@ -838,6 +980,19 @@ class CanvasApp:
                 )
                 # Set the font size and update the label
                 bubble.font_size = bubble_data.get("font_size", 12)  # Default to 12 if not present
+                bubble.checkbox_visible = bubble_data.get("checkbox_visible", False)
+                bubble.checked = bubble_data.get("checked", True) # Default to checked if not present
+                bubble.visible = bubble_data.get("visible", True)
+                # Update visuals based on state
+                bubble._update_checkbox_visibility()
+                bubble.update_text_position()
+                bubble.set_visibility(bubble.visible)
+                if bubble.checkbox_visible:
+                    bubble.canvas.itemconfig(bubble.checkbox_rect, state='normal')
+                    bubble.canvas.itemconfig(bubble.check_mark, state='normal' if bubble.checked else 'hidden')
+                else:
+                    bubble.canvas.itemconfig(bubble.checkbox_rect, state='hidden')
+                    bubble.canvas.itemconfig(bubble.check_mark, state='hidden')
                 self.canvas.itemconfig(bubble.label, font=("Arial", bubble.font_size))  # Apply the font size
                 self.text_bubbles.append(bubble)
                 id_to_bubble[bubble_data["id"]] = bubble
@@ -849,7 +1004,20 @@ class CanvasApp:
                 start_bubble = id_to_bubble[connection["start_id"]]
                 end_bubble = id_to_bubble[connection["end_id"]]
                 line = ConnectionLine(self.canvas, start_bubble, end_bubble)
+                line.visible = connection.get("visible", True)
+                line.set_visibility(line.visible)
                 self.lines.append(line)
+                
+            # After creating bubbles and connections
+            for bubble in self.text_bubbles:
+                if bubble.checkbox_visible and not bubble.checked:
+                    lines, bubbles_to_hide = bubble.get_relevant_connections()
+                    # Hide elements but preserve state
+                    for line in lines:
+                        line.set_visibility(False)
+                    for b in bubbles_to_hide:
+                        b.set_visibility(False)  # Hides main elements only
+                        b._update_checkbox_visibility()  # Updates checkbox visuals based on preserved state
 
             # Update the canvas size and scroll region based on the loaded content
             canvas_width = canvas_state.get("canvas_width", 800)  # Default to 800 if not present

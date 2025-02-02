@@ -1,0 +1,522 @@
+{
+    "canvas_width": 2481,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 358.0,
+            "y": 159.0,
+            "width": 220,
+            "height": 48,
+            "text": "Boltsunder (Q)",
+            "font_size": 24
+        },
+        {
+            "id": 1,
+            "x": 944.0,
+            "y": 149.0,
+            "width": 183,
+            "height": 48,
+            "text": "Waraxe (E)",
+            "font_size": 24
+        },
+        {
+            "id": 2,
+            "x": 1233.0,
+            "y": 442.0,
+            "width": 316,
+            "height": 48,
+            "text": "Thunderhunt (Talent)",
+            "font_size": 24
+        },
+        {
+            "id": 3,
+            "x": 1113.0,
+            "y": 325.0,
+            "width": 160,
+            "height": 24,
+            "text": "Triggers Thunderhunt",
+            "font_size": 12
+        },
+        {
+            "id": 4,
+            "x": 2148.0,
+            "y": 59.0,
+            "width": 250,
+            "height": 48,
+            "text": "Outside Sources",
+            "font_size": 24
+        },
+        {
+            "id": 5,
+            "x": 1620.0,
+            "y": 315.0,
+            "width": 392,
+            "height": 24,
+            "text": "When another teammate attacks, triggers Thunderhunt",
+            "font_size": 12
+        },
+        {
+            "id": 6,
+            "x": 1350.0,
+            "y": 547.0,
+            "width": 339,
+            "height": 24,
+            "text": "Enemies hit take increased damage for 2 turns",
+            "font_size": 12
+        },
+        {
+            "id": 7,
+            "x": 1920.0,
+            "y": 419.0,
+            "width": 416,
+            "height": 24,
+            "text": "Gain one stack of Flying Aureus for every two ally attacks",
+            "font_size": 12
+        },
+        {
+            "id": 8,
+            "x": 1297.0,
+            "y": 693.0,
+            "width": 220,
+            "height": 48,
+            "text": "Flying Aureus",
+            "font_size": 24
+        },
+        {
+            "id": 9,
+            "x": 1351.0,
+            "y": 791.0,
+            "width": 101,
+            "height": 24,
+            "text": "Maximum 12",
+            "font_size": 12
+        },
+        {
+            "id": 10,
+            "x": 1381.0,
+            "y": 358.0,
+            "width": 162,
+            "height": 24,
+            "text": "Trigger once per turn",
+            "font_size": 12
+        },
+        {
+            "id": 11,
+            "x": 575.0,
+            "y": 739.0,
+            "width": 199,
+            "height": 48,
+            "text": "Terrasplit (#)",
+            "font_size": 24
+        },
+        {
+            "id": 12,
+            "x": 952.0,
+            "y": 753.0,
+            "width": 157,
+            "height": 24,
+            "text": "consume six stacks",
+            "font_size": 12
+        },
+        {
+            "id": 13,
+            "x": 355.0,
+            "y": 537.0,
+            "width": 293,
+            "height": 48,
+            "text": "Boltsunder Blitz (Q)",
+            "font_size": 24
+        },
+        {
+            "id": 14,
+            "x": 729.0,
+            "y": 547.0,
+            "width": 319,
+            "height": 48,
+            "text": "Waraxe Skyward (E)",
+            "font_size": 24
+        },
+        {
+            "id": 15,
+            "x": 434.0,
+            "y": 354.0,
+            "width": 71,
+            "height": 24,
+            "text": "replaces",
+            "font_size": 12
+        },
+        {
+            "id": 16,
+            "x": 950.0,
+            "y": 394.0,
+            "width": 71,
+            "height": 24,
+            "text": "replaces",
+            "font_size": 12
+        },
+        {
+            "id": 17,
+            "x": 621.0,
+            "y": 642.0,
+            "width": 68,
+            "height": 24,
+            "text": "unlocks",
+            "font_size": 12
+        },
+        {
+            "id": 18,
+            "x": 182.0,
+            "y": 441.0,
+            "width": 150,
+            "height": 47,
+            "text": "DMG multiplied vs. Weakness Broken",
+            "font_size": 12
+        },
+        {
+            "id": 19,
+            "x": 1002.0,
+            "y": 471.0,
+            "width": 173,
+            "height": 44,
+            "text": "DMG multiplied vs non-Weakness Broken",
+            "font_size": 12
+        },
+        {
+            "id": 20,
+            "x": 627.0,
+            "y": 450.0,
+            "width": 184,
+            "height": 47,
+            "text": "can be cast a combined total of six times",
+            "font_size": 12
+        },
+        {
+            "id": 21,
+            "x": 246.0,
+            "y": 686.0,
+            "width": 262,
+            "height": 45,
+            "text": "Weakness Break Efficiency +100% vs. non-Weakness Broken",
+            "font_size": 12
+        },
+        {
+            "id": 22,
+            "x": 575.0,
+            "y": 842.0,
+            "width": 122,
+            "height": 24,
+            "text": "Deals damage",
+            "font_size": 12
+        },
+        {
+            "id": 23,
+            "x": 1977.0,
+            "y": 760.0,
+            "width": 338,
+            "height": 48,
+            "text": "Stormborn (Technique)",
+            "font_size": 24
+        },
+        {
+            "id": 24,
+            "x": 2066.0,
+            "y": 882.0,
+            "width": 151,
+            "height": 24,
+            "text": "Enter Onrush state",
+            "font_size": 12
+        },
+        {
+            "id": 25,
+            "x": 2003.0,
+            "y": 999.0,
+            "width": 165,
+            "height": 48,
+            "text": "Onrush",
+            "font_size": 24
+        },
+        {
+            "id": 26,
+            "x": 2035.0,
+            "y": 1125.0,
+            "width": 102,
+            "height": 24,
+            "text": "Vortex effect",
+            "font_size": 12
+        },
+        {
+            "id": 27,
+            "x": 1810.0,
+            "y": 1106.0,
+            "width": 185,
+            "height": 24,
+            "text": "Movement Speed +50%",
+            "font_size": 12
+        },
+        {
+            "id": 28,
+            "x": 1807.0,
+            "y": 1009.0,
+            "width": 79,
+            "height": 24,
+            "text": "on attack",
+            "font_size": 12
+        },
+        {
+            "id": 29,
+            "x": 1505.0,
+            "y": 985.0,
+            "width": 124,
+            "height": 72,
+            "text": "Deal 200% of Feixiao's ATK to all enemies",
+            "font_size": 12
+        },
+        {
+            "id": 30,
+            "x": 1358.0,
+            "y": 939.0,
+            "width": 126,
+            "height": 24,
+            "text": "Guaranteed Crit",
+            "font_size": 12
+        },
+        {
+            "id": 31,
+            "x": 1167.0,
+            "y": 1002.0,
+            "width": 272,
+            "height": 43,
+            "text": "DMG multiplier +100% per additional enemy pulled in, up to +1,000%",
+            "font_size": 12
+        },
+        {
+            "id": 32,
+            "x": 1633.0,
+            "y": 842.0,
+            "width": 240,
+            "height": 24,
+            "text": "Gain one stack of Flying Aureus",
+            "font_size": 12
+        },
+        {
+            "id": 33,
+            "x": 1191.0,
+            "y": 159.0,
+            "width": 196,
+            "height": 24,
+            "text": "Gain ATK +48% for 3 turns",
+            "font_size": 12
+        },
+        {
+            "id": 34,
+            "x": 1578.0,
+            "y": 703.0,
+            "width": 204,
+            "height": 24,
+            "text": "Start battle with three stacks",
+            "font_size": 12
+        },
+        {
+            "id": 35,
+            "x": 1667.0,
+            "y": 420.0,
+            "width": 153,
+            "height": 60,
+            "text": "At start of turn, if not triggered, add one to ally attack count",
+            "font_size": 12
+        },
+        {
+            "id": 36,
+            "x": 744.0,
+            "y": 647.0,
+            "width": 180,
+            "height": 42,
+            "text": "Considered Follow-up ATK DMG",
+            "font_size": 12
+        },
+        {
+            "id": 37,
+            "x": 1026.0,
+            "y": 625.0,
+            "width": 296,
+            "height": 24,
+            "text": "Follow-up ATK DMG Crit DMG +36%",
+            "font_size": 12
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 1,
+            "end_id": 3
+        },
+        {
+            "start_id": 3,
+            "end_id": 2
+        },
+        {
+            "start_id": 4,
+            "end_id": 5
+        },
+        {
+            "start_id": 5,
+            "end_id": 2
+        },
+        {
+            "start_id": 2,
+            "end_id": 6
+        },
+        {
+            "start_id": 4,
+            "end_id": 7
+        },
+        {
+            "start_id": 7,
+            "end_id": 8
+        },
+        {
+            "start_id": 8,
+            "end_id": 9
+        },
+        {
+            "start_id": 2,
+            "end_id": 10
+        },
+        {
+            "start_id": 8,
+            "end_id": 12
+        },
+        {
+            "start_id": 12,
+            "end_id": 11
+        },
+        {
+            "start_id": 14,
+            "end_id": 16
+        },
+        {
+            "start_id": 16,
+            "end_id": 1
+        },
+        {
+            "start_id": 13,
+            "end_id": 15
+        },
+        {
+            "start_id": 15,
+            "end_id": 0
+        },
+        {
+            "start_id": 11,
+            "end_id": 17
+        },
+        {
+            "start_id": 17,
+            "end_id": 14
+        },
+        {
+            "start_id": 17,
+            "end_id": 13
+        },
+        {
+            "start_id": 13,
+            "end_id": 18
+        },
+        {
+            "start_id": 14,
+            "end_id": 19
+        },
+        {
+            "start_id": 14,
+            "end_id": 20
+        },
+        {
+            "start_id": 13,
+            "end_id": 20
+        },
+        {
+            "start_id": 11,
+            "end_id": 21
+        },
+        {
+            "start_id": 11,
+            "end_id": 22
+        },
+        {
+            "start_id": 23,
+            "end_id": 24
+        },
+        {
+            "start_id": 24,
+            "end_id": 25
+        },
+        {
+            "start_id": 25,
+            "end_id": 26
+        },
+        {
+            "start_id": 25,
+            "end_id": 27
+        },
+        {
+            "start_id": 25,
+            "end_id": 28
+        },
+        {
+            "start_id": 28,
+            "end_id": 29
+        },
+        {
+            "start_id": 29,
+            "end_id": 30
+        },
+        {
+            "start_id": 29,
+            "end_id": 31
+        },
+        {
+            "start_id": 28,
+            "end_id": 32
+        },
+        {
+            "start_id": 32,
+            "end_id": 8
+        },
+        {
+            "start_id": 1,
+            "end_id": 33
+        },
+        {
+            "start_id": 8,
+            "end_id": 34
+        },
+        {
+            "start_id": 2,
+            "end_id": 35
+        },
+        {
+            "start_id": 35,
+            "end_id": 7
+        },
+        {
+            "start_id": 13,
+            "end_id": 36
+        },
+        {
+            "start_id": 14,
+            "end_id": 36
+        },
+        {
+            "start_id": 11,
+            "end_id": 36
+        },
+        {
+            "start_id": 2,
+            "end_id": 37
+        },
+        {
+            "start_id": 36,
+            "end_id": 37
+        }
+    ]
+}
