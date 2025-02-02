@@ -30,7 +30,7 @@ class TextBubble:
         self.rect = canvas.create_rectangle(x, y, x + self.width, y + self.height, fill="white", outline="black")
         
         # Draw the ID
-        self.label = canvas.create_text( x , y , text=id, fill="black", width=30, anchor="w", font=("Arial", self.font_size))
+        # self.label = canvas.create_text( x , y , text=id, fill="black", width=30, anchor="w", font=("Arial", self.font_size))
         
         self.label = canvas.create_text(
             x + self.width / 2, y + self.height / 2, text=text, fill="black", width=self.width - 10, anchor="center", font=("Arial", self.font_size)
