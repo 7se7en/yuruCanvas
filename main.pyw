@@ -30,7 +30,7 @@ class TextBubble:
         self.rect = canvas.create_rectangle(x, y, x + self.width, y + self.height, fill="white", outline="black")
         
         # Draw the ID
-        # self.label = canvas.create_text( x , y , text=id, fill="black", width=30, anchor="w", font=("Arial", self.font_size))
+        self.label = canvas.create_text( x , y , text=id, fill="black", width=30, anchor="w", font=("Arial", self.font_size))
         
         self.label = canvas.create_text(
             x + self.width / 2, y + self.height / 2, text=text, fill="black", width=self.width - 10, anchor="center", font=("Arial", self.font_size)
@@ -81,6 +81,7 @@ class TextBubble:
         state = 'normal' if visible else 'hidden'
         for item in self.main_elements:
             self.canvas.itemconfig(item, state=state)
+        self.visible = (state == 'normal')  # Keep attribute synced
         # Checkbox visibility handled separately
         self._update_checkbox_visibility()
         
@@ -96,21 +97,18 @@ class TextBubble:
     def get_relevant_connections(self):
         first_level_lines = set(self.lines)
         end_bubbles = set()
-        
-        # Get all direct connections
+
+        # Collect first-level connections
         for line in first_level_lines:
             other_bubble = line.end_bubble if line.start_bubble == self else line.start_bubble
             end_bubbles.add(other_bubble)
-        
-        # Get lines from end bubbles
+
+        # Collect all lines from end bubbles (second-level)
         second_level_lines = set()
-        for bubble in end_bubbles:
-            second_level_lines.update(bubble.lines)
-        
-        # Combine all lines to affect
-        all_lines = first_level_lines.union(second_level_lines)
-        
-        return all_lines, end_bubbles
+        for end_bubble in end_bubbles:
+            second_level_lines.update(end_bubble.lines)
+
+        return first_level_lines.union(second_level_lines), end_bubbles
 
     def toggle_check(self, event):
         self.checked = not self.checked
@@ -118,20 +116,43 @@ class TextBubble:
             # Show elements
             self.canvas.itemconfig(self.check_mark, state='normal')
             lines, bubbles = self.get_relevant_connections()
+            
+            # Phase 1: Show all
             for line in lines:
                 line.set_visibility(True)
             for bubble in bubbles:
                 bubble.set_visibility(True)
-                bubble.set_checkbox_visible(bubble.checkbox_visible)
+                
+            # Phase 2: Sanitize
+            self.sanitize_line_visibility(lines)
+            
         else:
             # Hide elements
             self.canvas.itemconfig(self.check_mark, state='hidden')
             lines, bubbles = self.get_relevant_connections()
+            
+            # Phase 1: Hide all
             for line in lines:
                 line.set_visibility(False)
             for bubble in bubbles:
                 bubble.set_visibility(False)
+                
+            # Phase 2: Sanitize (force lines with hidden endpoints)
+            self.sanitize_line_visibility(lines)
+        
         return "break"
+
+    def sanitize_line_visibility(self, lines):
+        for line in lines:
+            # Get actual visibility from canvas (not stored attributes)
+            start_hidden = self._is_bubble_hidden(line.start_bubble)
+            end_hidden = self._is_bubble_hidden(line.end_bubble)
+            
+            if start_hidden or end_hidden:
+                line.set_visibility(False)
+
+    def _is_bubble_hidden(self, bubble):
+        return self.canvas.itemcget(bubble.rect, 'state') == 'hidden'
         
     def set_checkbox_visible(self, visible):
         self.checkbox_visible = visible
@@ -390,6 +411,7 @@ class ConnectionLine:
         self.visible = True
         
     def set_visibility(self, visible):
+        """Sync attribute with actual canvas state"""
         self.visible = visible
         state = 'normal' if visible else 'hidden'
         for item in [self.line, self.arrow1, self.arrow2]:
