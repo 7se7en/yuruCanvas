@@ -21,7 +21,7 @@ class TextBubble:
         self.font_size = 12  # Default font size (small)
         self.app = app  # Reference to the CanvasApp instance
         self.checkbox_visible = False  # Default invisible
-        self.checked = False
+        self.checked = True
         self.visible = True  # Add visibility state
 
         # Draw the rectangle and text
@@ -387,6 +387,10 @@ class TextBubble:
         level0 = {self}
         level1 = set()
         level2 = set()
+        
+        # If checkbox isn't checked, do not run any on_hover functionality
+        if not self.checked:
+            return
 
         # Collect connection levels (existing code)
         for line in self.lines:
@@ -1193,6 +1197,8 @@ class CanvasApp:
             self.canvas.delete(self.selected_bubble.label)
             for handle in self.selected_bubble.resize_handles:
                 self.canvas.delete(handle)
+            self.canvas.delete(self.selected_bubble.checkbox_rect)
+            self.canvas.delete(self.selected_bubble.check_mark)
             # Remove the bubble from the list
             self.text_bubbles.remove(self.selected_bubble)
             # Clear the selection

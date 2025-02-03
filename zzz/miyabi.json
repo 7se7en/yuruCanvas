@@ -1,0 +1,139 @@
+{
+    "canvas_width": 2481,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 275.0,
+            "y": 174.0,
+            "width": 276,
+            "height": 48,
+            "text": "Kazahana (Basic)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 1,
+            "x": 514.0,
+            "y": 281.0,
+            "width": 117,
+            "height": 24,
+            "text": "Basic Attack 5",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 688.0,
+            "y": 282.0,
+            "width": 192,
+            "height": 24,
+            "text": "Can block enemy attacks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 284.0,
+            "y": 330.0,
+            "width": 234,
+            "height": 25,
+            "text": "hold to enter Shimotsuki stance",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 402.0,
+            "y": 488.0,
+            "width": 178,
+            "height": 48,
+            "text": "Shimotsuki",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 347.0,
+            "y": 621.0,
+            "width": 294,
+            "height": 48,
+            "text": "while holding, consume two Fallen Frost charges per stage, up to three stages",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 1085.0,
+            "y": 545.0,
+            "width": 192,
+            "height": 48,
+            "text": "Fallen Frost",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 1074.0,
+            "y": 442.0,
+            "width": 220,
+            "height": 48,
+            "text": "Gain three Fallen Frost charges upon entering",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": false,
+            "visible": true
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 0,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 3,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 6,
+            "visible": true
+        }
+    ]
+}

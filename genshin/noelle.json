@@ -9,7 +9,10 @@
             "width": 505,
             "height": 48,
             "text": "Favonius Bladework (Basic Attack)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 1,
@@ -18,7 +21,10 @@
             "width": 248,
             "height": 48,
             "text": "Breastplate (E)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 2,
@@ -27,7 +33,10 @@
             "width": 116,
             "height": 24,
             "text": "Grants Shield",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 3,
@@ -36,7 +45,10 @@
             "width": 215,
             "height": 48,
             "text": "Heavy Attack",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 4,
@@ -45,7 +57,10 @@
             "width": 50,
             "height": 24,
             "text": "hold",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 5,
@@ -54,7 +69,10 @@
             "width": 53,
             "height": 24,
             "text": "on hit",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 6,
@@ -63,7 +81,10 @@
             "width": 220,
             "height": 24,
             "text": "Chance to restore HP to Party",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 7,
@@ -72,7 +93,10 @@
             "width": 123,
             "height": 24,
             "text": "while shielded",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 8,
@@ -81,7 +105,10 @@
             "width": 257,
             "height": 24,
             "text": "Amount scales off of Noelle's DEF",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 9,
@@ -90,7 +117,10 @@
             "width": 115,
             "height": 25,
             "text": "Deals damage",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 10,
@@ -99,7 +129,10 @@
             "width": 253,
             "height": 63,
             "text": "150% DMG Absorption efficiency against all Elemental and Physical damage",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 11,
@@ -108,7 +141,10 @@
             "width": 282,
             "height": 48,
             "text": "Sweeping Time (R)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 12,
@@ -117,7 +153,10 @@
             "width": 249,
             "height": 48,
             "text": "Plunging Attack",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 13,
@@ -126,7 +165,10 @@
             "width": 118,
             "height": 24,
             "text": "Deals damage",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 14,
@@ -135,7 +177,10 @@
             "width": 250,
             "height": 24,
             "text": "Converts Noelle's damage to Geo",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 15,
@@ -144,7 +189,10 @@
             "width": 135,
             "height": 24,
             "text": "Increases AOE",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 16,
@@ -153,7 +201,10 @@
             "width": 148,
             "height": 24,
             "text": "15 second duration",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 17,
@@ -162,7 +213,10 @@
             "width": 110,
             "height": 24,
             "text": "Gain flat ATK",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 18,
@@ -171,7 +225,10 @@
             "width": 289,
             "height": 48,
             "text": "Devotion (Passive)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 19,
@@ -180,7 +237,10 @@
             "width": 171,
             "height": 24,
             "text": "is not active character",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 20,
@@ -189,7 +249,10 @@
             "width": 287,
             "height": 24,
             "text": "active character's HP falls below 30%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 21,
@@ -198,7 +261,10 @@
             "width": 113,
             "height": 24,
             "text": "Grants Shield",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 22,
@@ -207,7 +273,10 @@
             "width": 149,
             "height": 24,
             "text": "20 second duration",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 23,
@@ -216,7 +285,10 @@
             "width": 158,
             "height": 24,
             "text": "60 second cooldown",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 24,
@@ -225,7 +297,10 @@
             "width": 118,
             "height": 24,
             "text": "every fourth hit",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 25,
@@ -234,7 +309,10 @@
             "width": 156,
             "height": 24,
             "text": "Cooldown -1 second",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 26,
@@ -243,25 +321,34 @@
             "width": 154,
             "height": 24,
             "text": "12 second duration",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 27,
-            "x": 1569.0,
-            "y": 560.0,
+            "x": 1610.0,
+            "y": 553.0,
             "width": 125,
             "height": 24,
             "text": "while both active",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 28,
             "x": 1839.0,
             "y": 610.0,
-            "width": 228,
+            "width": 253,
             "height": 48,
             "text": "Constellation 1",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
         },
         {
             "id": 29,
@@ -270,16 +357,22 @@
             "width": 202,
             "height": 24,
             "text": "Chance increased to 100%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 30,
-            "x": 336.0,
-            "y": 758.0,
+            "x": 378.0,
+            "y": 761.0,
             "width": 157,
             "height": 24,
             "text": "DMG Bonus +15%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 31,
@@ -288,16 +381,22 @@
             "width": 206,
             "height": 24,
             "text": "Stamina Consumption -20%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 32,
             "x": 39.0,
             "y": 754.0,
-            "width": 232,
+            "width": 257,
             "height": 48,
             "text": "Constellation 2",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
         },
         {
             "id": 33,
@@ -306,7 +405,10 @@
             "width": 224,
             "height": 48,
             "text": "Constellation 3",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 34,
@@ -315,43 +417,58 @@
             "width": 73,
             "height": 24,
             "text": "Level +3",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 35,
-            "x": 1585.0,
-            "y": 132.0,
+            "x": 1431.0,
+            "y": 83.0,
             "width": 246,
             "height": 24,
             "text": "on expiration or when destroyed",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 36,
-            "x": 809.0,
-            "y": 97.0,
+            "x": 806.0,
+            "y": 124.0,
             "width": 247,
             "height": 24,
             "text": "Shield explodes to deal damage",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 38,
             "x": 1866.0,
             "y": 41.0,
-            "width": 220,
+            "width": 245,
             "height": 48,
             "text": "Constellation 4",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
         },
         {
             "id": 39,
             "x": 1744.0,
             "y": 947.0,
-            "width": 220,
+            "width": 245,
             "height": 48,
             "text": "Constellation 5",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
         },
         {
             "id": 40,
@@ -360,16 +477,22 @@
             "width": 72,
             "height": 24,
             "text": "Level +3",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 41,
             "x": 1060.0,
             "y": 988.0,
-            "width": 220,
+            "width": 245,
             "height": 48,
             "text": "Constellation 6",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
         },
         {
             "id": 42,
@@ -378,16 +501,22 @@
             "width": 179,
             "height": 24,
             "text": "Gain additional flat ATK",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 43,
-            "x": 1511.0,
-            "y": 824.0,
+            "x": 1517.0,
+            "y": 843.0,
             "width": 98,
             "height": 24,
             "text": "while active",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 44,
@@ -396,7 +525,10 @@
             "width": 152,
             "height": 24,
             "text": "Duration +1 second",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 45,
@@ -405,305 +537,397 @@
             "width": 60,
             "height": 24,
             "text": "on kill",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         }
     ],
     "connections": [
         {
             "start_id": 1,
-            "end_id": 2
+            "end_id": 2,
+            "visible": true
         },
         {
             "start_id": 0,
-            "end_id": 4
+            "end_id": 4,
+            "visible": true
         },
         {
             "start_id": 4,
-            "end_id": 3
+            "end_id": 3,
+            "visible": true
         },
         {
             "start_id": 1,
-            "end_id": 7
+            "end_id": 7,
+            "visible": true
         },
         {
             "start_id": 7,
-            "end_id": 6
+            "end_id": 6,
+            "visible": true
         },
         {
             "start_id": 2,
-            "end_id": 8
+            "end_id": 8,
+            "visible": true
         },
         {
             "start_id": 6,
-            "end_id": 8
+            "end_id": 8,
+            "visible": true
         },
         {
             "start_id": 1,
-            "end_id": 9
+            "end_id": 9,
+            "visible": true
         },
         {
             "start_id": 9,
-            "end_id": 8
+            "end_id": 8,
+            "visible": true
         },
         {
             "start_id": 2,
-            "end_id": 7
+            "end_id": 7,
+            "visible": true
         },
         {
             "start_id": 2,
-            "end_id": 7
+            "end_id": 7,
+            "visible": true
         },
         {
             "start_id": 7,
-            "end_id": 6
+            "end_id": 6,
+            "visible": true
         },
         {
             "start_id": 7,
-            "end_id": 10
+            "end_id": 10,
+            "visible": true
         },
         {
             "start_id": 11,
-            "end_id": 13
+            "end_id": 13,
+            "visible": true
         },
         {
             "start_id": 11,
-            "end_id": 14
+            "end_id": 14,
+            "visible": true
         },
         {
             "start_id": 14,
-            "end_id": 16
+            "end_id": 16,
+            "visible": true
         },
         {
             "start_id": 11,
-            "end_id": 17
+            "end_id": 17,
+            "visible": true
         },
         {
             "start_id": 17,
-            "end_id": 16
+            "end_id": 16,
+            "visible": true
         },
         {
             "start_id": 18,
-            "end_id": 19
+            "end_id": 19,
+            "visible": true
         },
         {
             "start_id": 19,
-            "end_id": 20
+            "end_id": 20,
+            "visible": true
         },
         {
             "start_id": 20,
-            "end_id": 21
+            "end_id": 21,
+            "visible": true
         },
         {
             "start_id": 21,
-            "end_id": 22
+            "end_id": 22,
+            "visible": true
         },
         {
             "start_id": 21,
-            "end_id": 10
+            "end_id": 10,
+            "visible": true
         },
         {
             "start_id": 21,
-            "end_id": 23
+            "end_id": 23,
+            "visible": true
         },
         {
             "start_id": 21,
-            "end_id": 8
+            "end_id": 8,
+            "visible": true
         },
         {
             "start_id": 0,
-            "end_id": 24
+            "end_id": 24,
+            "visible": true
         },
         {
             "start_id": 3,
-            "end_id": 24
+            "end_id": 24,
+            "visible": true
         },
         {
             "start_id": 24,
-            "end_id": 25
+            "end_id": 25,
+            "visible": true
         },
         {
             "start_id": 25,
-            "end_id": 1
+            "end_id": 1,
+            "visible": true
         },
         {
             "start_id": 2,
-            "end_id": 26
+            "end_id": 26,
+            "visible": true
         },
         {
             "start_id": 26,
-            "end_id": 27
+            "end_id": 27,
+            "visible": false
         },
         {
             "start_id": 16,
-            "end_id": 27
+            "end_id": 27,
+            "visible": false
         },
         {
             "start_id": 28,
-            "end_id": 27
+            "end_id": 27,
+            "visible": false
         },
         {
             "start_id": 29,
-            "end_id": 6
+            "end_id": 6,
+            "visible": false
         },
         {
             "start_id": 27,
-            "end_id": 29
+            "end_id": 29,
+            "visible": false
         },
         {
             "start_id": 3,
-            "end_id": 30
+            "end_id": 30,
+            "visible": false
         },
         {
             "start_id": 3,
-            "end_id": 31
+            "end_id": 31,
+            "visible": false
         },
         {
             "start_id": 32,
-            "end_id": 31
+            "end_id": 31,
+            "visible": false
         },
         {
             "start_id": 32,
-            "end_id": 30
+            "end_id": 30,
+            "visible": false
         },
         {
             "start_id": 33,
-            "end_id": 34
+            "end_id": 34,
+            "visible": true
         },
         {
             "start_id": 6,
-            "end_id": 5
+            "end_id": 5,
+            "visible": true
         },
         {
             "start_id": 5,
-            "end_id": 0
+            "end_id": 0,
+            "visible": true
         },
         {
             "start_id": 5,
-            "end_id": 3
+            "end_id": 3,
+            "visible": true
         },
         {
             "start_id": 15,
-            "end_id": 16
+            "end_id": 16,
+            "visible": true
         },
         {
             "start_id": 11,
-            "end_id": 15
+            "end_id": 15,
+            "visible": true
         },
         {
             "start_id": 15,
-            "end_id": 12
+            "end_id": 12,
+            "visible": true
         },
         {
             "start_id": 15,
-            "end_id": 3
+            "end_id": 3,
+            "visible": true
         },
         {
             "start_id": 15,
-            "end_id": 0
+            "end_id": 0,
+            "visible": true
         },
         {
             "start_id": 34,
-            "end_id": 1
+            "end_id": 1,
+            "visible": true
         },
         {
             "start_id": 26,
-            "end_id": 35
+            "end_id": 35,
+            "visible": false
         },
         {
             "start_id": 35,
-            "end_id": 36
+            "end_id": 36,
+            "visible": false
         },
         {
             "start_id": 38,
-            "end_id": 35
+            "end_id": 35,
+            "visible": false
         },
         {
             "start_id": 2,
-            "end_id": 35
+            "end_id": 35,
+            "visible": false
         },
         {
             "start_id": 39,
-            "end_id": 40
+            "end_id": 40,
+            "visible": false
         },
         {
             "start_id": 40,
-            "end_id": 11
+            "end_id": 11,
+            "visible": false
         },
         {
             "start_id": 17,
-            "end_id": 8
+            "end_id": 8,
+            "visible": true
         },
         {
             "start_id": 11,
-            "end_id": 42
+            "end_id": 42,
+            "visible": false
         },
         {
             "start_id": 41,
-            "end_id": 42
+            "end_id": 42,
+            "visible": false
         },
         {
             "start_id": 42,
-            "end_id": 8
+            "end_id": 8,
+            "visible": false
         },
         {
             "start_id": 16,
-            "end_id": 43
+            "end_id": 43,
+            "visible": false
         },
         {
             "start_id": 41,
-            "end_id": 43
+            "end_id": 43,
+            "visible": false
         },
         {
             "start_id": 0,
-            "end_id": 45
+            "end_id": 45,
+            "visible": false
         },
         {
             "start_id": 3,
-            "end_id": 45
+            "end_id": 45,
+            "visible": false
         },
         {
             "start_id": 12,
-            "end_id": 45
+            "end_id": 45,
+            "visible": false
         },
         {
             "start_id": 1,
-            "end_id": 45
+            "end_id": 45,
+            "visible": false
         },
         {
             "start_id": 11,
-            "end_id": 45
+            "end_id": 45,
+            "visible": false
         },
         {
             "start_id": 45,
-            "end_id": 43
+            "end_id": 43,
+            "visible": false
         },
         {
             "start_id": 41,
-            "end_id": 42
+            "end_id": 42,
+            "visible": false
         },
         {
             "start_id": 41,
-            "end_id": 45
+            "end_id": 45,
+            "visible": false
         },
         {
             "start_id": 43,
-            "end_id": 44
+            "end_id": 44,
+            "visible": false
         },
         {
             "start_id": 44,
-            "end_id": 16
+            "end_id": 16,
+            "visible": false
         },
         {
             "start_id": 42,
-            "end_id": 16
+            "end_id": 16,
+            "visible": false
         },
         {
             "start_id": 36,
-            "end_id": 45
+            "end_id": 45,
+            "visible": false
         },
         {
             "start_id": 11,
-            "end_id": 43
+            "end_id": 43,
+            "visible": false
+        },
+        {
+            "start_id": 28,
+            "end_id": 29,
+            "visible": false
+        },
+        {
+            "start_id": 38,
+            "end_id": 36,
+            "visible": false
+        },
+        {
+            "start_id": 41,
+            "end_id": 44,
+            "visible": false
         }
     ]
 }
