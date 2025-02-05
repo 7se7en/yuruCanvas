@@ -1,0 +1,677 @@
+{
+    "canvas_width": 2481,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 122.0,
+            "y": 146.0,
+            "width": 409,
+            "height": 48,
+            "text": "High-Pressure Spike (Basic)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 1,
+            "x": 780.0,
+            "y": 38.0,
+            "width": 396,
+            "height": 48,
+            "text": "Safety Regulation (Dodge)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 399.0,
+            "y": 68.0,
+            "width": 354,
+            "height": 48,
+            "text": "Quick Inspection (Dash)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 949.0,
+            "y": 153.0,
+            "width": 400,
+            "height": 48,
+            "text": "Violation Penalty (Counter)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 1316.0,
+            "y": 77.0,
+            "width": 522,
+            "height": 48,
+            "text": "Incident Management (Quick Assist)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 1711.0,
+            "y": 276.0,
+            "width": 560,
+            "height": 48,
+            "text": "Rapid Risk Response (Evasive Assist)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 1896.0,
+            "y": 393.0,
+            "width": 469,
+            "height": 48,
+            "text": "Counter Volt Needle (Follow-Up)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 1883.0,
+            "y": 511.0,
+            "width": 440,
+            "height": 48,
+            "text": "Obstruction Removal (Special)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 1832.0,
+            "y": 621.0,
+            "width": 409,
+            "height": 48,
+            "text": "Supercharged (EX Special)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 428.0,
+            "y": 881.0,
+            "width": 496,
+            "height": 48,
+            "text": "Collaborative Construction (Chain)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 10,
+            "x": 1000.0,
+            "y": 899.0,
+            "width": 407,
+            "height": 48,
+            "text": "Demolition Blast (Ultimate)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 31.0,
+            "y": 233.0,
+            "width": 305,
+            "height": 24,
+            "text": "combo not broken by using other attacks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 12,
+            "x": 924.0,
+            "y": 510.0,
+            "width": 119,
+            "height": 24,
+            "text": "Physical DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 1150.0,
+            "y": 363.0,
+            "width": 109,
+            "height": 24,
+            "text": "Electric DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 921.0,
+            "y": 1006.0,
+            "width": 245,
+            "height": 43,
+            "text": "Cluster grendae that explodes and creates four more grenades",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 826.0,
+            "y": 648.0,
+            "width": 49,
+            "height": 24,
+            "text": "on hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 526.0,
+            "y": 498.0,
+            "width": 370,
+            "height": 48,
+            "text": "Pre-Driven Needle (Core)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 500.0,
+            "y": 649.0,
+            "width": 174,
+            "height": 24,
+            "text": "Gain one stack of Zap",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 708.0,
+            "y": 720.0,
+            "width": 73,
+            "height": 48,
+            "text": "Zap",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 19,
+            "x": 501.0,
+            "y": 801.0,
+            "width": 167,
+            "height": 24,
+            "text": "Maximum eight stacks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 20,
+            "x": 938.0,
+            "y": 710.0,
+            "width": 215,
+            "height": 68,
+            "text": "Consumes eight stacks of Zap to increase accumulated Electric Anomly Buildup",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 1908.0,
+            "y": 1102.0,
+            "width": 415,
+            "height": 48,
+            "text": "Tech Support Dept. (Core)",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 1982.0,
+            "y": 999.0,
+            "width": 318,
+            "height": 24,
+            "text": "Party member is Electric or shares faction",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 2050.0,
+            "y": 834.0,
+            "width": 239,
+            "height": 81,
+            "text": "On hit, next Shock effect inflicted increases Shock DMG by 18%, up to 36%. \nEnds when Shock effect ends",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 343.0,
+            "y": 294.0,
+            "width": 116,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 50.0,
+            "y": 302.0,
+            "width": 245,
+            "height": 48,
+            "text": "Mindscape 1",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 240.0,
+            "y": 392.0,
+            "width": 184,
+            "height": 24,
+            "text": "Party gains 0.25 Energy",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 27,
+            "x": 1389.0,
+            "y": 300.0,
+            "width": 264,
+            "height": 60,
+            "text": "On hit, enemy Electric RES and Electric Anomly Buildup RES -8.5% for 8 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 1609.0,
+            "y": 198.0,
+            "width": 245,
+            "height": 48,
+            "text": "Mindscape 2",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 2081.0,
+            "y": 42.0,
+            "width": 245,
+            "height": 48,
+            "text": "Mindscape 3/5",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 2153.0,
+            "y": 130.0,
+            "width": 82,
+            "height": 24,
+            "text": "Level +2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 31,
+            "x": 1574.0,
+            "y": 719.0,
+            "width": 132,
+            "height": 50,
+            "text": "On hit, gain one stack of Charge",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 32,
+            "x": 1731.0,
+            "y": 835.0,
+            "width": 245,
+            "height": 48,
+            "text": "Mindscape 4",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 1341.0,
+            "y": 591.0,
+            "width": 123,
+            "height": 48,
+            "text": "Charge",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 34,
+            "x": 848.0,
+            "y": 347.0,
+            "width": 230,
+            "height": 60,
+            "text": "On hit, consume one stack of Charge  to increase the attack's Energy Regen by 20%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 35,
+            "x": 1462.0,
+            "y": 912.0,
+            "width": 245,
+            "height": 48,
+            "text": "Mindscape 6",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 36,
+            "x": 1258.0,
+            "y": 811.0,
+            "width": 220,
+            "height": 48,
+            "text": "Creates an extra grenade. Grenade damage set to 200%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 0,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 3,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 10,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 10,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 12,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 16,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 20,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 22,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 22,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 26,
+            "visible": false
+        },
+        {
+            "start_id": 26,
+            "end_id": 24,
+            "visible": false
+        },
+        {
+            "start_id": 3,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 28,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 29,
+            "end_id": 30,
+            "visible": false
+        },
+        {
+            "start_id": 8,
+            "end_id": 31,
+            "visible": false
+        },
+        {
+            "start_id": 32,
+            "end_id": 31,
+            "visible": false
+        },
+        {
+            "start_id": 0,
+            "end_id": 34,
+            "visible": false
+        },
+        {
+            "start_id": 2,
+            "end_id": 34,
+            "visible": false
+        },
+        {
+            "start_id": 32,
+            "end_id": 34,
+            "visible": false
+        },
+        {
+            "start_id": 34,
+            "end_id": 33,
+            "visible": false
+        },
+        {
+            "start_id": 32,
+            "end_id": 33,
+            "visible": false
+        },
+        {
+            "start_id": 20,
+            "end_id": 36,
+            "visible": false
+        },
+        {
+            "start_id": 35,
+            "end_id": 36,
+            "visible": false
+        }
+    ]
+}

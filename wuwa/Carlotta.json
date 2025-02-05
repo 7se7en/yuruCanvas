@@ -1,6 +1,6 @@
 {
-    "canvas_width": 2481,
-    "canvas_height": 1380,
+    "canvas_width": 1841,
+    "canvas_height": 1020,
     "text_bubbles": [
         {
             "id": 1,
@@ -916,8 +916,8 @@
         },
         {
             "id": 78,
-            "x": 15.0,
-            "y": 964.0,
+            "x": 54.0,
+            "y": 1043.0,
             "width": 353,
             "height": 48,
             "text": "Closing Remark (Outro)",
@@ -928,8 +928,8 @@
         },
         {
             "id": 79,
-            "x": 67.0,
-            "y": 1049.0,
+            "x": 75.0,
+            "y": 1148.0,
             "width": 81,
             "height": 24,
             "text": "Damage",
@@ -940,11 +940,11 @@
         },
         {
             "id": 80,
-            "x": 256.0,
-            "y": 1214.0,
-            "width": 235,
-            "height": 24,
-            "text": "Unlocks Kaleidoscope Sparks",
+            "x": 226.0,
+            "y": 1204.0,
+            "width": 233,
+            "height": 63,
+            "text": "Unlocks Kaleidoscope Sparks, which deals additional damage after Closing Remark",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -952,24 +952,12 @@
         },
         {
             "id": 81,
-            "x": 47.0,
-            "y": 1288.0,
+            "x": 20.0,
+            "y": 1287.0,
             "width": 347,
             "height": 48,
             "text": "Kaleidoscope Sparks",
             "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": false
-        },
-        {
-            "id": 82,
-            "x": 34.0,
-            "y": 1129.0,
-            "width": 193,
-            "height": 24,
-            "text": "Then deal more damage",
-            "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": false
@@ -1558,21 +1546,6 @@
             "visible": false
         },
         {
-            "start_id": 79,
-            "end_id": 82,
-            "visible": false
-        },
-        {
-            "start_id": 82,
-            "end_id": 81,
-            "visible": false
-        },
-        {
-            "start_id": 3,
-            "end_id": 82,
-            "visible": false
-        },
-        {
             "start_id": 3,
             "end_id": 83,
             "visible": false
@@ -1680,6 +1653,11 @@
         {
             "start_id": 3,
             "end_id": 81,
+            "visible": false
+        },
+        {
+            "start_id": 80,
+            "end_id": 78,
             "visible": false
         }
     ]

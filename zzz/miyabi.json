@@ -11,7 +11,7 @@
             "text": "Kazahana (Basic)",
             "font_size": 24,
             "checkbox_visible": false,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
@@ -23,31 +23,31 @@
             "text": "Basic Attack 5",
             "font_size": 12,
             "checkbox_visible": false,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
             "id": 2,
-            "x": 688.0,
-            "y": 282.0,
+            "x": 472.0,
+            "y": 389.0,
             "width": 192,
             "height": 24,
             "text": "Can block enemy attacks",
             "font_size": 12,
             "checkbox_visible": false,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
             "id": 3,
-            "x": 284.0,
-            "y": 330.0,
+            "x": 203.0,
+            "y": 329.0,
             "width": 234,
             "height": 25,
             "text": "hold to enter Shimotsuki stance",
             "font_size": 12,
             "checkbox_visible": false,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
@@ -59,19 +59,19 @@
             "text": "Shimotsuki",
             "font_size": 24,
             "checkbox_visible": false,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
             "id": 5,
-            "x": 347.0,
-            "y": 621.0,
+            "x": 219.0,
+            "y": 624.0,
             "width": 294,
             "height": 48,
             "text": "while holding, consume two Fallen Frost charges per stage, up to three stages",
             "font_size": 12,
             "checkbox_visible": false,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
@@ -83,20 +83,404 @@
             "text": "Fallen Frost",
             "font_size": 24,
             "checkbox_visible": false,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
             "id": 7,
-            "x": 1074.0,
-            "y": 442.0,
-            "width": 220,
-            "height": 48,
-            "text": "Gain three Fallen Frost charges upon entering",
+            "x": 947.0,
+            "y": 677.0,
+            "width": 291,
+            "height": 24,
+            "text": "Gain three Fallen Frost upon entering",
             "font_size": 12,
             "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 230.0,
+            "y": 559.0,
+            "width": 95,
+            "height": 24,
+            "text": "Invulnerable",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 1576.0,
+            "y": 223.0,
+            "width": 170,
+            "height": 48,
+            "text": "Miyuki (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 10,
+            "x": 1812.0,
+            "y": 239.0,
+            "width": 190,
+            "height": 24,
+            "text": "has Anti-Interruption level",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 1280.0,
+            "y": 202.0,
+            "width": 220,
+            "height": 48,
+            "text": "Hisetsu (E) Ex",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 12,
+            "x": 1361.0,
+            "y": 482.0,
+            "width": 166,
+            "height": 24,
+            "text": "Gain two Fallen Frost",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 1127.0,
+            "y": 305.0,
+            "width": 220,
+            "height": 24,
+            "text": "combos into if enough Energy",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 1002.0,
+            "y": 370.0,
+            "width": 370,
+            "height": 48,
+            "text": "Hisetsu (E) Ex Follow-Up",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 1649.0,
+            "y": 611.0,
+            "width": 300,
+            "height": 48,
+            "text": "Lingering Snow (R)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 1386.0,
+            "y": 601.0,
+            "width": 182,
+            "height": 24,
+            "text": "Gain three Fallen Frost",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 1593.0,
+            "y": 717.0,
+            "width": 269,
+            "height": 24,
+            "text": "Gain Ice DMG +30% for 12 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 19,
+            "x": 577.0,
+            "y": 891.0,
+            "width": 318,
+            "height": 48,
+            "text": "Searing Cold (Core)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 20,
+            "x": 580.0,
+            "y": 984.0,
+            "width": 306,
+            "height": 24,
+            "text": "Frost DMG applies Icefire for 30 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 924.0,
+            "y": 1021.0,
+            "width": 101,
+            "height": 48,
+            "text": "Icefire",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 819.0,
+            "y": 1123.0,
+            "width": 318,
+            "height": 52,
+            "text": "Frost Anomaly Buildup vs. affected enemies increased by Miyabi's Crit Rate, up to +80%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 1047.0,
+            "y": 918.0,
+            "width": 268,
+            "height": 64,
+            "text": "Miyabi can independently trigger Freeze, Shatter, and Frostbite to trigger Disorder vs affected enemies",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 1190.0,
+            "y": 1025.0,
+            "width": 229,
+            "height": 24,
+            "text": "when Miyabi triggers Frostbite",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 1350.0,
+            "y": 1100.0,
+            "width": 220,
+            "height": 48,
+            "text": "Deals damage, consumes Icefire, and inflicts Frostburn",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 1655.0,
+            "y": 1044.0,
+            "width": 171,
+            "height": 48,
+            "text": "Frostburn",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 27,
+            "x": 1673.0,
+            "y": 935.0,
+            "width": 347,
+            "height": 44,
+            "text": "Party accumulates 14% more Anomaly Buildup vs. affected enemies",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 1482.0,
+            "y": 1038.0,
+            "width": 122,
+            "height": 24,
+            "text": "shared duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 1889.0,
+            "y": 1016.0,
+            "width": 251,
+            "height": 42,
+            "text": "Miyabi cannot re-apply Icefire vs. affected enemies",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 1884.0,
+            "y": 1109.0,
+            "width": 220,
+            "height": 48,
+            "text": "Can be overwritten by other Attibute Anomaly",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 31,
+            "x": 1303.0,
+            "y": 725.0,
+            "width": 240,
+            "height": 43,
+            "text": "Gain one Fallen Frost. Triggered once per 10 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 32,
+            "x": 795.0,
+            "y": 131.0,
+            "width": 306,
+            "height": 48,
+            "text": "Bask in Frost (Core)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 787.0,
+            "y": 237.0,
+            "width": 308,
+            "height": 24,
+            "text": "Party member is Support or shares faction",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 34,
+            "x": 693.0,
+            "y": 451.0,
+            "width": 148,
+            "height": 24,
+            "text": "DMG Bonus +60%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 35,
+            "x": 927.0,
+            "y": 479.0,
+            "width": 283,
+            "height": 24,
+            "text": "Party member triggers Disorder",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 36,
+            "x": 668.0,
+            "y": 543.0,
+            "width": 159,
+            "height": 24,
+            "text": "Ignores 30% Ice RES",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 37,
+            "x": 305.0,
+            "y": 803.0,
+            "width": 309,
+            "height": 72,
+            "text": "Mindscape 1",
+            "font_size": 36,
+            "checkbox_visible": true,
             "checked": false,
             "visible": true
+        },
+        {
+            "id": 38,
+            "x": 168.0,
+            "y": 718.0,
+            "width": 242,
+            "height": 43,
+            "text": "For each Fallen Frost consumed, ignore 6% DEF, up to 36%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 39,
+            "x": 642.0,
+            "y": 653.0,
+            "width": 225,
+            "height": 44,
+            "text": "on hit with third-stage attack vs Frostburn-affected enemies",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 40,
+            "x": 689.0,
+            "y": 745.0,
+            "width": 217,
+            "height": 64,
+            "text": "Removes Frostburn, and Party gains Anomaly Buildup Rate +20% for 10 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         }
     ],
     "connections": [
@@ -121,19 +505,209 @@
             "visible": true
         },
         {
+            "start_id": 7,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 10,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 12,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 14,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 8,
+            "visible": true
+        },
+        {
+            "start_id": 16,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 6,
+            "visible": true
+        },
+        {
             "start_id": 4,
             "end_id": 5,
             "visible": true
         },
         {
-            "start_id": 5,
+            "start_id": 6,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 16,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 19,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 20,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 22,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 24,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 24,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 29,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 31,
             "end_id": 6,
             "visible": true
         },
         {
-            "start_id": 7,
-            "end_id": 6,
+            "start_id": 32,
+            "end_id": 33,
             "visible": true
+        },
+        {
+            "start_id": 33,
+            "end_id": 34,
+            "visible": true
+        },
+        {
+            "start_id": 34,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 35,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 38,
+            "visible": false
+        },
+        {
+            "start_id": 37,
+            "end_id": 38,
+            "visible": false
+        },
+        {
+            "start_id": 35,
+            "end_id": 36,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 36,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 39,
+            "visible": false
+        },
+        {
+            "start_id": 37,
+            "end_id": 39,
+            "visible": false
+        },
+        {
+            "start_id": 39,
+            "end_id": 26,
+            "visible": false
+        },
+        {
+            "start_id": 39,
+            "end_id": 40,
+            "visible": false
+        },
+        {
+            "start_id": 37,
+            "end_id": 40,
+            "visible": false
         }
     ]
 }

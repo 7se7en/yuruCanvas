@@ -1,0 +1,1267 @@
+{
+    "canvas_width": 1841,
+    "canvas_height": 1020,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 604.0,
+            "y": 636.0,
+            "width": 420,
+            "height": 48,
+            "text": "O Come Divine Light (Basic)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 1,
+            "x": 646.0,
+            "y": 110.0,
+            "width": 338,
+            "height": 48,
+            "text": "Dodge Counter (Basic)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 839.0,
+            "y": 233.0,
+            "width": 256,
+            "height": 44,
+            "text": "Replaced by Chamuel's Star (DC) if performed inside Ring of Mirrors",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 769.0,
+            "y": 320.0,
+            "width": 313,
+            "height": 48,
+            "text": "Chamuel's Star (DC)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 1195.0,
+            "y": 366.0,
+            "width": 220,
+            "height": 48,
+            "text": "Ring of Mirrors",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 1368.0,
+            "y": 109.0,
+            "width": 396,
+            "height": 48,
+            "text": "To Where Light Shines (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 1463.0,
+            "y": 275.0,
+            "width": 209,
+            "height": 24,
+            "text": "Summons a Ring of Mirrors",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 1274.0,
+            "y": 498.0,
+            "width": 63,
+            "height": 24,
+            "text": "Limit 1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 1486.0,
+            "y": 378.0,
+            "width": 147,
+            "height": 24,
+            "text": "30 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 10,
+            "x": 1765.0,
+            "y": 212.0,
+            "width": 172,
+            "height": 44,
+            "text": "Immobilizes enemies hit for 2 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 1170.0,
+            "y": 217.0,
+            "width": 271,
+            "height": 46,
+            "text": "Can be cast again shortly after to teleport to summoned Ring of Mirrors",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 12,
+            "x": 861.0,
+            "y": 511.0,
+            "width": 241,
+            "height": 42,
+            "text": "Replaced by Chamuel's Star if performed inside Ring of Mirrors",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 810.0,
+            "y": 413.0,
+            "width": 230,
+            "height": 48,
+            "text": "Chamuel's Star",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 168.0,
+            "y": 361.0,
+            "width": 252,
+            "height": 59,
+            "text": "When outside of Ring of Mirrors, on hit, deals bonus Spectro damage once per 0.5 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 1848.0,
+            "y": 1031.0,
+            "width": 210,
+            "height": 48,
+            "text": "Prayer (Forte)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 1945.0,
+            "y": 948.0,
+            "width": 185,
+            "height": 42,
+            "text": "Passively gain 5 prayer per second",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 1981.0,
+            "y": 1124.0,
+            "width": 110,
+            "height": 24,
+            "text": "Maximum 120",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 1229.0,
+            "y": 1206.0,
+            "width": 383,
+            "height": 48,
+            "text": "Absolution Litany (Heavy)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 19,
+            "x": 1567.0,
+            "y": 1044.0,
+            "width": 158,
+            "height": 24,
+            "text": "unlocks at full Prayer",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 20,
+            "x": 1164.0,
+            "y": 967.0,
+            "width": 161,
+            "height": 45,
+            "text": "Apply one stack of Spectro Frazzle",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 1228.0,
+            "y": 856.0,
+            "width": 383,
+            "height": 48,
+            "text": "Utter Confession (Hold E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 1366.0,
+            "y": 1044.0,
+            "width": 159,
+            "height": 24,
+            "text": "Consumes all Prayer",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 1023.0,
+            "y": 1217.0,
+            "width": 124,
+            "height": 24,
+            "text": "Gain Absolution",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 1016.0,
+            "y": 871.0,
+            "width": 134,
+            "height": 24,
+            "text": "Gain Confession",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 771.0,
+            "y": 858.0,
+            "width": 179,
+            "height": 48,
+            "text": "Confession",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 772.0,
+            "y": 1205.0,
+            "width": 169,
+            "height": 48,
+            "text": "Absolution",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 27,
+            "x": 1025.0,
+            "y": 1046.0,
+            "width": 117,
+            "height": 24,
+            "text": "Exclusive buffs",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 1161.0,
+            "y": 1080.0,
+            "width": 163,
+            "height": 57,
+            "text": "Gain 60 Divine Voice and lose access to these abilities",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 710.0,
+            "y": 1036.0,
+            "width": 191,
+            "height": 48,
+            "text": "Divine Voice",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 754.0,
+            "y": 716.0,
+            "width": 123,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 31,
+            "x": 481.0,
+            "y": 820.0,
+            "width": 220,
+            "height": 48,
+            "text": "Consume 30 Divine Voice to cast Starflash",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 32,
+            "x": 120.0,
+            "y": 723.0,
+            "width": 264,
+            "height": 48,
+            "text": "Starflash (Heavy)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 445.0,
+            "y": 924.0,
+            "width": 179,
+            "height": 44,
+            "text": "Divine Voice consumed reduced by 15",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 34,
+            "x": 166.0,
+            "y": 923.0,
+            "width": 220,
+            "height": 63,
+            "text": "DMG multiplied by 356% vs. Enemies with Spectro Frazzle if you have Absolution",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 35,
+            "x": 414.0,
+            "y": 645.0,
+            "width": 171,
+            "height": 63,
+            "text": "Apply five stacks of Spectro Frazzle if you have Confession",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 36,
+            "x": 1641.0,
+            "y": 937.0,
+            "width": 168,
+            "height": 24,
+            "text": "Generate 40 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 37,
+            "x": 1640.0,
+            "y": 1146.0,
+            "width": 170,
+            "height": 24,
+            "text": "Generate 10 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 38,
+            "x": 20.0,
+            "y": 1295.0,
+            "width": 398,
+            "height": 48,
+            "text": "Dawn of Enlightenment (R)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 39,
+            "x": 23.0,
+            "y": 1228.0,
+            "width": 171,
+            "height": 24,
+            "text": "Generate 20 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 40,
+            "x": 543.0,
+            "y": 1294.0,
+            "width": 220,
+            "height": 48,
+            "text": "DMG multiplier +255% if you have Absolution",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 41,
+            "x": 475.0,
+            "y": 1109.0,
+            "width": 172,
+            "height": 70,
+            "text": "Apply eight stacks of Spectro Frazzle if you have Confession",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 42,
+            "x": 2055.0,
+            "y": 109.0,
+            "width": 327,
+            "height": 48,
+            "text": "Mid-air Attack (Heavy)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 43,
+            "x": 2148.0,
+            "y": 221.0,
+            "width": 142,
+            "height": 24,
+            "text": "Can be cast twice",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 44,
+            "x": 504.0,
+            "y": 1027.0,
+            "width": 149,
+            "height": 45,
+            "text": "Gain Spectro DMG Bonus +12%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 45,
+            "x": 1842.0,
+            "y": 1203.0,
+            "width": 305,
+            "height": 48,
+            "text": "Golden Grace (Intro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 46,
+            "x": 1173.0,
+            "y": 1469.0,
+            "width": 338,
+            "height": 48,
+            "text": "Attentive Heart (Outro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 47,
+            "x": 1023.0,
+            "y": 1575.0,
+            "width": 192,
+            "height": 59,
+            "text": "Party gains Silent Prayer if cast while you had Confession",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 48,
+            "x": 760.0,
+            "y": 1501.0,
+            "width": 196,
+            "height": 48,
+            "text": "Silent Prayer",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 49,
+            "x": 792.0,
+            "y": 1345.0,
+            "width": 220,
+            "height": 48,
+            "text": "30 second duration, or until Phoebe gains Absolution",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 50,
+            "x": 325.0,
+            "y": 1489.0,
+            "width": 374,
+            "height": 78,
+            "text": "Aura that grants the following:\n    Debuffs nearby enemies with Spectro RES -10%\n    Spectro Frazzle Damage multiplied by 200%\n    Spectro damage-dealing cycle +50% (?)",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 51,
+            "x": 1413.0,
+            "y": 1383.0,
+            "width": 220,
+            "height": 48,
+            "text": "DMG multiplier +255% if you have Absolution",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 52,
+            "x": 511.0,
+            "y": 1227.0,
+            "width": 189,
+            "height": 24,
+            "text": "+480% instead of +255%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 53,
+            "x": 11.0,
+            "y": 1122.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 1",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 54,
+            "x": 163.0,
+            "y": 1011.0,
+            "width": 282,
+            "height": 58,
+            "text": "If you have Confession, DMG multiplier +90%, and applies maximum stacks of Spectro Frazzle instead",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 55,
+            "x": 1062.0,
+            "y": 1383.0,
+            "width": 220,
+            "height": 48,
+            "text": "DMG multiplied by 160% if you have Absolution",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 56,
+            "x": 189.0,
+            "y": 1383.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 2",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 57,
+            "x": 518.0,
+            "y": 1432.0,
+            "width": 170,
+            "height": 24,
+            "text": "320% instead of 200%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 58,
+            "x": 447.0,
+            "y": 743.0,
+            "width": 109,
+            "height": 42,
+            "text": "Seven stacks instaed of five",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 59,
+            "x": 164.0,
+            "y": 564.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 3",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 60,
+            "x": 114.0,
+            "y": 650.0,
+            "width": 192,
+            "height": 24,
+            "text": "DMG multiplied by 223%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 61,
+            "x": 1145.0,
+            "y": 543.0,
+            "width": 247,
+            "height": 43,
+            "text": "On hit, enemy Spectro RES -10% for 30 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 62,
+            "x": 1590.0,
+            "y": 580.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 4",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 63,
+            "x": 1897.0,
+            "y": 1298.0,
+            "width": 196,
+            "height": 38,
+            "text": "Gain Spectro DMG Bonus +12% for 15 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 64,
+            "x": 1775.0,
+            "y": 1385.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 5",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 65,
+            "x": 1393.0,
+            "y": 660.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 6",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 66,
+            "x": 1477.0,
+            "y": 473.0,
+            "width": 220,
+            "height": 61,
+            "text": "When enemies enter Ring of Mirrors, immobilize them for 2 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 67,
+            "x": 1110.0,
+            "y": 764.0,
+            "width": 310,
+            "height": 59,
+            "text": "If you have Absolution or Confession, upon summoning a Ring of Mirrors, trigger a free Starflash at the Ring of Mirrors",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 6,
+            "end_id": 7,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 8,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 9,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 10,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 12,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 12,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 14,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 16,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 19,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 19,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 22,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 22,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 24,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 24,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 28,
+            "end_id": 29,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 29,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 31,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 34,
+            "visible": true
+        },
+        {
+            "start_id": 34,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 35,
+            "visible": true
+        },
+        {
+            "start_id": 35,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 36,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 37,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 39,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 40,
+            "visible": true
+        },
+        {
+            "start_id": 40,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 41,
+            "visible": true
+        },
+        {
+            "start_id": 41,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 42,
+            "end_id": 43,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 44,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 44,
+            "visible": true
+        },
+        {
+            "start_id": 45,
+            "end_id": 37,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 48,
+            "visible": true
+        },
+        {
+            "start_id": 48,
+            "end_id": 49,
+            "visible": true
+        },
+        {
+            "start_id": 49,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 48,
+            "end_id": 50,
+            "visible": true
+        },
+        {
+            "start_id": 46,
+            "end_id": 51,
+            "visible": true
+        },
+        {
+            "start_id": 46,
+            "end_id": 47,
+            "visible": true
+        },
+        {
+            "start_id": 51,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 31,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 52,
+            "end_id": 40,
+            "visible": true
+        },
+        {
+            "start_id": 53,
+            "end_id": 52,
+            "visible": true
+        },
+        {
+            "start_id": 53,
+            "end_id": 54,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 54,
+            "visible": true
+        },
+        {
+            "start_id": 54,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 46,
+            "end_id": 55,
+            "visible": true
+        },
+        {
+            "start_id": 56,
+            "end_id": 55,
+            "visible": true
+        },
+        {
+            "start_id": 55,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 57,
+            "end_id": 50,
+            "visible": true
+        },
+        {
+            "start_id": 56,
+            "end_id": 57,
+            "visible": true
+        },
+        {
+            "start_id": 58,
+            "end_id": 35,
+            "visible": true
+        },
+        {
+            "start_id": 56,
+            "end_id": 58,
+            "visible": true
+        },
+        {
+            "start_id": 59,
+            "end_id": 60,
+            "visible": false
+        },
+        {
+            "start_id": 60,
+            "end_id": 32,
+            "visible": false
+        },
+        {
+            "start_id": 13,
+            "end_id": 61,
+            "visible": false
+        },
+        {
+            "start_id": 0,
+            "end_id": 61,
+            "visible": false
+        },
+        {
+            "start_id": 62,
+            "end_id": 61,
+            "visible": false
+        },
+        {
+            "start_id": 45,
+            "end_id": 63,
+            "visible": false
+        },
+        {
+            "start_id": 64,
+            "end_id": 63,
+            "visible": false
+        },
+        {
+            "start_id": 4,
+            "end_id": 66,
+            "visible": false
+        },
+        {
+            "start_id": 65,
+            "end_id": 66,
+            "visible": false
+        },
+        {
+            "start_id": 7,
+            "end_id": 67,
+            "visible": false
+        },
+        {
+            "start_id": 65,
+            "end_id": 67,
+            "visible": false
+        },
+        {
+            "start_id": 67,
+            "end_id": 25,
+            "visible": false
+        },
+        {
+            "start_id": 67,
+            "end_id": 26,
+            "visible": false
+        },
+        {
+            "start_id": 67,
+            "end_id": 32,
+            "visible": false
+        },
+        {
+            "start_id": 54,
+            "end_id": 41,
+            "visible": true
+        }
+    ]
+}
