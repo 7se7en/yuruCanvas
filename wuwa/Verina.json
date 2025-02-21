@@ -9,7 +9,10 @@
             "width": 284,
             "height": 48,
             "text": "Cultivation (Basic)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 2,
@@ -18,16 +21,22 @@
             "width": 337,
             "height": 48,
             "text": "Botany Experiment (E)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 3,
-            "x": 1339.0,
-            "y": 74.0,
+            "x": 1343.0,
+            "y": 66.0,
             "width": 182,
             "height": 24,
             "text": "Generates 30 Concerto",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 5,
@@ -36,7 +45,10 @@
             "width": 476,
             "height": 48,
             "text": "Photosynthesis Energy (Forte)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 7,
@@ -45,7 +57,10 @@
             "width": 363,
             "height": 48,
             "text": "Verdant Growth (Intro)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 8,
@@ -54,7 +69,10 @@
             "width": 196,
             "height": 24,
             "text": "Generates 10 Concerto",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 11,
@@ -63,7 +81,10 @@
             "width": 167,
             "height": 24,
             "text": "Maximum four stacks",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 12,
@@ -72,7 +93,10 @@
             "width": 445,
             "height": 50,
             "text": "Starflower Blooms (Heavy)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 13,
@@ -81,7 +105,10 @@
             "width": 277,
             "height": 24,
             "text": "Consumes one Photosynthesis Energy",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 15,
@@ -90,7 +117,10 @@
             "width": 411,
             "height": 50,
             "text": "Starflower Blooms (j.LMB)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 17,
@@ -99,7 +129,10 @@
             "width": 392,
             "height": 48,
             "text": "Arboreal Flourish (R)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 18,
@@ -108,16 +141,22 @@
             "width": 194,
             "height": 24,
             "text": "Generates 20 Concerto",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 19,
-            "x": 1120.0,
-            "y": 921.0,
-            "width": 404,
-            "height": 24,
+            "x": 1258.0,
+            "y": 882.0,
+            "width": 224,
+            "height": 51,
             "text": "Applies Photosynthesis Mark on all enemies in range",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 20,
@@ -126,7 +165,10 @@
             "width": 322,
             "height": 48,
             "text": "Photosynthesis Mark",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 21,
@@ -135,7 +177,10 @@
             "width": 286,
             "height": 92,
             "text": "Other resonators hitting marked enemies trigger a coordinated attack from Verina up to once per second that also heals the active character",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 22,
@@ -144,7 +189,10 @@
             "width": 166,
             "height": 24,
             "text": "12 second duration",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 23,
@@ -153,7 +201,10 @@
             "width": 313,
             "height": 48,
             "text": "Blossom (Outro)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 24,
@@ -162,16 +213,22 @@
             "width": 254,
             "height": 66,
             "text": "Restore HP of incoming Resonator for 19% of Verina's ATK every 1 second for 6 seconds",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 26,
-            "x": 756.0,
-            "y": 788.0,
+            "x": 760.0,
+            "y": 830.0,
             "width": 279,
             "height": 24,
             "text": "Party gains ATK +20% for 20 seconds",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 27,
@@ -180,7 +237,10 @@
             "width": 355,
             "height": 48,
             "text": "Grace of Life (Inherent)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 28,
@@ -189,7 +249,10 @@
             "width": 292,
             "height": 76,
             "text": "Prevents fatal damage once per 10 minutes and grants a shield equal to 120% of Verina's ATK for 10 seconds",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 29,
@@ -198,7 +261,10 @@
             "width": 282,
             "height": 73,
             "text": "Restore HP of incoming Resonator for 20% of Verina's ATK every 5 seconds for 30 seconds",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 30,
@@ -207,7 +273,10 @@
             "width": 174,
             "height": 32,
             "text": "Total Healing = 234%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 33,
@@ -216,7 +285,10 @@
             "width": 221,
             "height": 24,
             "text": "Healing +12%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 35,
@@ -225,7 +297,10 @@
             "width": 188,
             "height": 46,
             "text": "Healing +20% to party members below 50% HP",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 38,
@@ -234,7 +309,10 @@
             "width": 291,
             "height": 45,
             "text": "Trigger a coordinated attack as if target is marked by Photosynthesis Mark",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 40,
@@ -243,7 +321,10 @@
             "width": 253,
             "height": 24,
             "text": "On hit, leaves Verina airborne",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 41,
@@ -252,7 +333,10 @@
             "width": 124,
             "height": 24,
             "text": "Basic Attack 5",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 42,
@@ -261,7 +345,10 @@
             "width": 323,
             "height": 24,
             "text": "Generates one Photosynthesis Energy on hit",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 43,
@@ -270,7 +357,10 @@
             "width": 41,
             "height": 24,
             "text": "+10",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 44,
@@ -279,7 +369,10 @@
             "width": 202,
             "height": 48,
             "text": "Resonance 2",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 45,
@@ -288,7 +381,10 @@
             "width": 36,
             "height": 24,
             "text": "+1",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 46,
@@ -297,16 +393,22 @@
             "width": 282,
             "height": 24,
             "text": "Generates one Photosynthesis Energy",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 47,
             "x": 58.0,
             "y": 554.0,
-            "width": 215,
+            "width": 240,
             "height": 48,
             "text": "Resonance 6",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
         },
         {
             "id": 48,
@@ -315,43 +417,58 @@
             "width": 150,
             "height": 24,
             "text": "DMG Bonus +20%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 49,
             "x": 1260.0,
             "y": 663.0,
-            "width": 215,
+            "width": 240,
             "height": 48,
             "text": "Resonance 6",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
         },
         {
             "id": 50,
-            "x": 909.0,
-            "y": 845.0,
-            "width": 394,
-            "height": 24,
+            "x": 1024.0,
+            "y": 769.0,
+            "width": 223,
+            "height": 50,
             "text": "Party gains Spectro DMG Bonus +15% for 24 seconds",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 51,
             "x": 1341.0,
             "y": 760.0,
-            "width": 215,
+            "width": 240,
             "height": 48,
             "text": "Resonance 4",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
         },
         {
             "id": 52,
             "x": 2219.0,
             "y": 483.0,
-            "width": 215,
+            "width": 240,
             "height": 48,
             "text": "Resonance 3",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 53,
@@ -360,7 +477,10 @@
             "width": 166,
             "height": 24,
             "text": "on stack consumption",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 54,
@@ -369,7 +489,10 @@
             "width": 181,
             "height": 24,
             "text": "Generates 12 Concerto",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 55,
@@ -378,16 +501,22 @@
             "width": 168,
             "height": 24,
             "text": "Restore HP to party",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 56,
             "x": 1961.0,
             "y": 404.0,
-            "width": 202,
+            "width": 227,
             "height": 48,
             "text": "Resonance 5",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
         },
         {
             "id": 57,
@@ -396,16 +525,22 @@
             "width": 187,
             "height": 24,
             "text": "Can be cast three times",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 58,
             "x": 2180.0,
             "y": 1040.0,
-            "width": 215,
+            "width": 240,
             "height": 48,
             "text": "Resonance 1",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 59,
@@ -414,261 +549,327 @@
             "width": 227,
             "height": 53,
             "text": "Party gains DMG Amplified by 115% for 30 seconds",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         }
     ],
     "connections": [
         {
             "start_id": 7,
-            "end_id": 8
+            "end_id": 8,
+            "visible": true
         },
         {
             "start_id": 5,
-            "end_id": 11
+            "end_id": 11,
+            "visible": true
         },
         {
             "start_id": 17,
-            "end_id": 18
+            "end_id": 18,
+            "visible": true
         },
         {
             "start_id": 17,
-            "end_id": 19
+            "end_id": 19,
+            "visible": true
         },
         {
             "start_id": 19,
-            "end_id": 20
+            "end_id": 20,
+            "visible": true
         },
         {
             "start_id": 20,
-            "end_id": 21
+            "end_id": 21,
+            "visible": true
         },
         {
             "start_id": 20,
-            "end_id": 22
+            "end_id": 22,
+            "visible": true
         },
         {
             "start_id": 23,
-            "end_id": 24
+            "end_id": 24,
+            "visible": true
         },
         {
             "start_id": 27,
-            "end_id": 28
+            "end_id": 28,
+            "visible": true
         },
         {
             "start_id": 23,
-            "end_id": 29
+            "end_id": 29,
+            "visible": true
         },
         {
             "start_id": 24,
-            "end_id": 30
+            "end_id": 30,
+            "visible": true
         },
         {
             "start_id": 29,
-            "end_id": 30
+            "end_id": 30,
+            "visible": true
         },
         {
             "start_id": 0,
-            "end_id": 41
+            "end_id": 41,
+            "visible": true
         },
         {
             "start_id": 41,
-            "end_id": 42
+            "end_id": 42,
+            "visible": true
         },
         {
             "start_id": 42,
-            "end_id": 5
+            "end_id": 5,
+            "visible": true
         },
         {
             "start_id": 7,
-            "end_id": 42
+            "end_id": 42,
+            "visible": true
         },
         {
             "start_id": 2,
-            "end_id": 3
+            "end_id": 3,
+            "visible": true
         },
         {
             "start_id": 2,
-            "end_id": 46
+            "end_id": 46,
+            "visible": true
         },
         {
             "start_id": 46,
-            "end_id": 5
+            "end_id": 5,
+            "visible": true
         },
         {
             "start_id": 2,
-            "end_id": 43
+            "end_id": 43,
+            "visible": true
         },
         {
             "start_id": 44,
-            "end_id": 43
+            "end_id": 43,
+            "visible": true
         },
         {
             "start_id": 44,
-            "end_id": 45
+            "end_id": 45,
+            "visible": true
         },
         {
             "start_id": 45,
-            "end_id": 46
+            "end_id": 46,
+            "visible": true
         },
         {
             "start_id": 44,
-            "end_id": 43
+            "end_id": 43,
+            "visible": true
         },
         {
             "start_id": 3,
-            "end_id": 43
+            "end_id": 43,
+            "visible": true
         },
         {
             "start_id": 44,
-            "end_id": 43
+            "end_id": 43,
+            "visible": true
         },
         {
             "start_id": 43,
-            "end_id": 3
+            "end_id": 3,
+            "visible": true
         },
         {
             "start_id": 12,
-            "end_id": 13
+            "end_id": 13,
+            "visible": true
         },
         {
             "start_id": 13,
-            "end_id": 5
+            "end_id": 5,
+            "visible": true
         },
         {
             "start_id": 47,
-            "end_id": 48
+            "end_id": 48,
+            "visible": false
         },
         {
             "start_id": 48,
-            "end_id": 12
+            "end_id": 12,
+            "visible": false
         },
         {
             "start_id": 48,
-            "end_id": 15
+            "end_id": 15,
+            "visible": false
         },
         {
             "start_id": 12,
-            "end_id": 40
+            "end_id": 40,
+            "visible": true
         },
         {
             "start_id": 12,
-            "end_id": 38
+            "end_id": 38,
+            "visible": false
         },
         {
             "start_id": 15,
-            "end_id": 38
+            "end_id": 38,
+            "visible": false
         },
         {
             "start_id": 38,
-            "end_id": 21
+            "end_id": 21,
+            "visible": false
         },
         {
             "start_id": 49,
-            "end_id": 38
+            "end_id": 38,
+            "visible": false
         },
         {
             "start_id": 15,
-            "end_id": 26
+            "end_id": 26,
+            "visible": true
         },
         {
             "start_id": 12,
-            "end_id": 26
+            "end_id": 26,
+            "visible": true
         },
         {
             "start_id": 23,
-            "end_id": 26
+            "end_id": 26,
+            "visible": true
         },
         {
             "start_id": 17,
-            "end_id": 26
+            "end_id": 26,
+            "visible": true
         },
         {
             "start_id": 51,
-            "end_id": 50
+            "end_id": 50,
+            "visible": false
         },
         {
             "start_id": 17,
-            "end_id": 50
+            "end_id": 50,
+            "visible": false
         },
         {
             "start_id": 15,
-            "end_id": 50
+            "end_id": 50,
+            "visible": false
         },
         {
             "start_id": 12,
-            "end_id": 50
+            "end_id": 50,
+            "visible": false
         },
         {
             "start_id": 23,
-            "end_id": 50
+            "end_id": 50,
+            "visible": false
         },
         {
             "start_id": 33,
-            "end_id": 21
+            "end_id": 21,
+            "visible": true
         },
         {
             "start_id": 52,
-            "end_id": 33
+            "end_id": 33,
+            "visible": true
         },
         {
             "start_id": 5,
-            "end_id": 53
+            "end_id": 53,
+            "visible": true
         },
         {
             "start_id": 53,
-            "end_id": 54
+            "end_id": 54,
+            "visible": true
         },
         {
             "start_id": 53,
-            "end_id": 55
+            "end_id": 55,
+            "visible": true
         },
         {
             "start_id": 20,
-            "end_id": 55
+            "end_id": 55,
+            "visible": true
         },
         {
             "start_id": 33,
-            "end_id": 20
+            "end_id": 20,
+            "visible": true
         },
         {
             "start_id": 56,
-            "end_id": 35
+            "end_id": 35,
+            "visible": false
         },
         {
             "start_id": 35,
-            "end_id": 55
+            "end_id": 55,
+            "visible": false
         },
         {
             "start_id": 35,
-            "end_id": 20
+            "end_id": 20,
+            "visible": false
         },
         {
             "start_id": 15,
-            "end_id": 57
+            "end_id": 57,
+            "visible": true
         },
         {
             "start_id": 15,
-            "end_id": 13
+            "end_id": 13,
+            "visible": true
         },
         {
             "start_id": 58,
-            "end_id": 29
+            "end_id": 29,
+            "visible": true
         },
         {
             "start_id": 35,
-            "end_id": 29
+            "end_id": 29,
+            "visible": false
         },
         {
             "start_id": 23,
-            "end_id": 59
+            "end_id": 59,
+            "visible": true
         },
         {
             "start_id": 35,
-            "end_id": 24
+            "end_id": 24,
+            "visible": false
         },
         {
             "start_id": 13,
-            "end_id": 53
+            "end_id": 53,
+            "visible": true
         }
     ]
 }

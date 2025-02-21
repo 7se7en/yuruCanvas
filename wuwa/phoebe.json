@@ -148,8 +148,8 @@
         },
         {
             "id": 13,
-            "x": 810.0,
-            "y": 413.0,
+            "x": 1064.0,
+            "y": 703.0,
             "width": 230,
             "height": 48,
             "text": "Chamuel's Star",
@@ -388,8 +388,8 @@
         },
         {
             "id": 33,
-            "x": 445.0,
-            "y": 924.0,
+            "x": 438.0,
+            "y": 916.0,
             "width": 179,
             "height": 44,
             "text": "Divine Voice consumed reduced by 15",
@@ -624,7 +624,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 53,
@@ -635,20 +635,20 @@
             "text": "Resonance 1",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
             "id": 54,
-            "x": 163.0,
-            "y": 1011.0,
+            "x": 193.0,
+            "y": 1035.0,
             "width": 282,
             "height": 58,
             "text": "If you have Confession, DMG multiplier +90%, and applies maximum stacks of Spectro Frazzle instead",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 55,
@@ -660,7 +660,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 56,
@@ -671,7 +671,7 @@
             "text": "Resonance 2",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -684,7 +684,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 58,
@@ -696,7 +696,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 59,
@@ -1131,62 +1131,62 @@
         {
             "start_id": 52,
             "end_id": 40,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 53,
             "end_id": 52,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 53,
             "end_id": 54,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 38,
             "end_id": 54,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 54,
             "end_id": 25,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 46,
             "end_id": 55,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 56,
             "end_id": 55,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 55,
             "end_id": 26,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 57,
             "end_id": 50,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 56,
             "end_id": 57,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 58,
             "end_id": 35,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 56,
             "end_id": 58,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 59,
@@ -1261,6 +1261,11 @@
         {
             "start_id": 54,
             "end_id": 41,
+            "visible": false
+        },
+        {
+            "start_id": 13,
+            "end_id": 30,
             "visible": true
         }
     ]

@@ -9,7 +9,10 @@
             "width": 367,
             "height": 48,
             "text": "Origin Calculus (Basic)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 1,
@@ -18,7 +21,10 @@
             "width": 273,
             "height": 24,
             "text": "Each hit generates 1 Collapsed Core",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 2,
@@ -27,7 +33,10 @@
             "width": 257,
             "height": 48,
             "text": "Collapsed Core",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 3,
@@ -36,7 +45,10 @@
             "width": 363,
             "height": 48,
             "text": "Origin Calculus (Heavy)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 4,
@@ -45,7 +57,10 @@
             "width": 238,
             "height": 48,
             "text": "Unbound Form",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 5,
@@ -54,7 +69,10 @@
             "width": 210,
             "height": 24,
             "text": "Automatically collects plants",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 6,
@@ -63,7 +81,10 @@
             "width": 84,
             "height": 24,
             "text": "triggers",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 7,
@@ -72,7 +93,10 @@
             "width": 231,
             "height": 42,
             "text": "Only useable if Empirical Data stacks aren't at maximum",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 8,
@@ -81,7 +105,10 @@
             "width": 298,
             "height": 24,
             "text": "Generates 1 Deductive Data per second",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 9,
@@ -90,7 +117,10 @@
             "width": 250,
             "height": 48,
             "text": "Deductive Data",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 10,
@@ -99,7 +129,10 @@
             "width": 326,
             "height": 63,
             "text": "Exiting Unbound Form converts all Deductive Data into Empirical Data and generates an equal number of Collapsed Cores",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 11,
@@ -108,7 +141,10 @@
             "width": 351,
             "height": 48,
             "text": "Empirical Data (Forte)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 12,
@@ -117,7 +153,10 @@
             "width": 170,
             "height": 24,
             "text": "Maximum 5 stacks",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 13,
@@ -126,7 +165,10 @@
             "width": 122,
             "height": 24,
             "text": "Basic Attack 1",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 14,
@@ -135,7 +177,10 @@
             "width": 113,
             "height": 24,
             "text": "Basic Attack 2",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 15,
@@ -144,7 +189,10 @@
             "width": 124,
             "height": 24,
             "text": "Basic Attack 3",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 16,
@@ -153,7 +201,10 @@
             "width": 122,
             "height": 24,
             "text": "Basic Attack 4",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 17,
@@ -162,7 +213,10 @@
             "width": 246,
             "height": 48,
             "text": "Plunging Attack",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 18,
@@ -171,7 +225,10 @@
             "width": 89,
             "height": 24,
             "text": "hits once",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 19,
@@ -180,7 +237,10 @@
             "width": 80,
             "height": 24,
             "text": "hits twice",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 20,
@@ -189,7 +249,10 @@
             "width": 137,
             "height": 24,
             "text": "hits three times",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 21,
@@ -198,7 +261,10 @@
             "width": 283,
             "height": 48,
             "text": "Chaos Theory (E)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 22,
@@ -207,7 +273,10 @@
             "width": 195,
             "height": 24,
             "text": "Can be performed mid-air",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 23,
@@ -216,7 +285,10 @@
             "width": 250,
             "height": 24,
             "text": "Summons 5 Dim Star Butterflies",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 24,
@@ -225,7 +297,10 @@
             "width": 271,
             "height": 48,
             "text": "Dim Star Butterfly",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 25,
@@ -234,7 +309,10 @@
             "width": 190,
             "height": 24,
             "text": "Generates 20 Concerto",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 26,
@@ -243,7 +321,10 @@
             "width": 119,
             "height": 24,
             "text": "combos into",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 27,
@@ -252,7 +333,10 @@
             "width": 132,
             "height": 24,
             "text": "Homing projectile",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 28,
@@ -261,7 +345,10 @@
             "width": 225,
             "height": 24,
             "text": "Maximum 5 Collapsed Cores",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 29,
@@ -270,7 +357,10 @@
             "width": 182,
             "height": 24,
             "text": "Duration is 6 seconds",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 30,
@@ -279,7 +369,10 @@
             "width": 148,
             "height": 70,
             "text": "At end of duration, transforms into Flare Star Butterfly",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 31,
@@ -288,7 +381,10 @@
             "width": 293,
             "height": 48,
             "text": "Flare Star Butterfly",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 32,
@@ -297,7 +393,10 @@
             "width": 315,
             "height": 46,
             "text": "When at maximum, Basic Attacks transform one Collapse Core into Flare Star Butterfly",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 33,
@@ -306,7 +405,10 @@
             "width": 226,
             "height": 48,
             "text": "Illation (Heavy)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 34,
@@ -315,7 +417,10 @@
             "width": 232,
             "height": 24,
             "text": "unlocks at maximum stacks",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 35,
@@ -324,7 +429,10 @@
             "width": 146,
             "height": 24,
             "text": "takes priority over",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 36,
@@ -333,7 +441,10 @@
             "width": 228,
             "height": 44,
             "text": "Transforms all Collapsed Cores into Flare Star Butterflies",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 37,
@@ -342,7 +453,10 @@
             "width": 480,
             "height": 48,
             "text": "Transmutation (Plunging Attack)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 38,
@@ -351,7 +465,10 @@
             "width": 154,
             "height": 24,
             "text": "takes priority over",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 39,
@@ -360,7 +477,10 @@
             "width": 267,
             "height": 24,
             "text": "Generates 1 Empirical Data on hit",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 40,
@@ -369,7 +489,10 @@
             "width": 266,
             "height": 24,
             "text": "Generates 2 Empirical Data on hit",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 41,
@@ -378,7 +501,10 @@
             "width": 240,
             "height": 48,
             "text": "Dodge Counter",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 42,
@@ -387,7 +513,10 @@
             "width": 238,
             "height": 48,
             "text": "End Loop (R)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 43,
@@ -396,7 +525,10 @@
             "width": 179,
             "height": 24,
             "text": "Generates 6 Concerto",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 44,
@@ -405,7 +537,10 @@
             "width": 214,
             "height": 24,
             "text": "Heal party every 3 seconds",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 45,
@@ -414,7 +549,10 @@
             "width": 232,
             "height": 24,
             "text": "Generates an Outer Stellarealm",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 46,
@@ -423,7 +561,10 @@
             "width": 288,
             "height": 48,
             "text": "Outer Stellarealm",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 47,
@@ -432,7 +573,10 @@
             "width": 189,
             "height": 24,
             "text": "Duration is 30 seconds",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 48,
@@ -441,7 +585,10 @@
             "width": 134,
             "height": 60,
             "text": "Use an Intro Skill to convert to Inner Stellarealm",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 49,
@@ -450,7 +597,10 @@
             "width": 299,
             "height": 48,
             "text": "Inner Stellarealm",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 50,
@@ -459,7 +609,10 @@
             "width": 239,
             "height": 63,
             "text": "Party gains 0.01% Crit Rate per 0.2% of Shorekeeper's Energy Regen, up to Crit Rate +12.5%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 51,
@@ -468,7 +621,10 @@
             "width": 215,
             "height": 42,
             "text": "Caps at Shorekeeper having 250% Energy Regen",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 52,
@@ -477,7 +633,10 @@
             "width": 172,
             "height": 24,
             "text": "Duration is not reset",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 53,
@@ -486,7 +645,10 @@
             "width": 160,
             "height": 63,
             "text": "Use another Intro Skill to convert to Supernal Stellarealm",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 54,
@@ -495,7 +657,10 @@
             "width": 311,
             "height": 48,
             "text": "Supernal Stellarealm",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 55,
@@ -504,7 +669,10 @@
             "width": 244,
             "height": 64,
             "text": "Party gains 0.01% Crit DMG per 0.1% of Shorekeeper's Energy Regen, up to Crit DMG +25%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 56,
@@ -513,7 +681,10 @@
             "width": 377,
             "height": 48,
             "text": "Proof of Existance (Intro)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 57,
@@ -522,7 +693,10 @@
             "width": 149,
             "height": 24,
             "text": "takes priority over",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 58,
@@ -531,7 +705,10 @@
             "width": 290,
             "height": 53,
             "text": "Discernment (Intro)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 59,
@@ -540,7 +717,10 @@
             "width": 79,
             "height": 24,
             "text": "unlocks",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 60,
@@ -549,7 +729,10 @@
             "width": 179,
             "height": 67,
             "text": "Only useable while Supernal Stellarealm is active, and only once",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 61,
@@ -558,7 +741,10 @@
             "width": 134,
             "height": 24,
             "text": "Guaranteed Crit",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 62,
@@ -567,7 +753,10 @@
             "width": 213,
             "height": 47,
             "text": "Damage is considered Resonance Liberation DMG",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 63,
@@ -576,7 +765,10 @@
             "width": 351,
             "height": 48,
             "text": "Binary Butterfly (Outro)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 64,
@@ -585,7 +777,10 @@
             "width": 325,
             "height": 103,
             "text": "Grants the following buffs to the incoming Resonator for up to 30 seconds:\n    -Can animation cancel being damaged up \n    to 5 times and trigger a Dodge\n    -Party gains DMG Amplified by 115%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 65,
@@ -594,7 +789,10 @@
             "width": 351,
             "height": 48,
             "text": "Life Entwined (Inherent)",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 66,
@@ -603,7 +801,10 @@
             "width": 265,
             "height": 64,
             "text": "Sacrifice 50% of Shorekeeper's HP to prevent another Resonator from being KO'd once per 10 minutes",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 67,
@@ -612,7 +813,10 @@
             "width": 331,
             "height": 24,
             "text": "Shorekeeper and Rover Energy Regen +10%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 68,
@@ -621,7 +825,10 @@
             "width": 221,
             "height": 48,
             "text": "Resonance 1",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 69,
@@ -630,7 +837,10 @@
             "width": 133,
             "height": 53,
             "text": "Range multiplied by 250%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 70,
@@ -639,7 +849,10 @@
             "width": 110,
             "height": 24,
             "text": "+10 seconds",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 71,
@@ -648,7 +861,10 @@
             "width": 218,
             "height": 24,
             "text": "Ends Supernal Stellarealm",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 72,
@@ -657,16 +873,22 @@
             "width": 83,
             "height": 24,
             "text": "negates",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 73,
             "x": 73.0,
             "y": 1011.0,
-            "width": 214,
+            "width": 239,
             "height": 48,
             "text": "Resonance 2",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
         },
         {
             "id": 74,
@@ -675,7 +897,10 @@
             "width": 138,
             "height": 24,
             "text": "Party ATK +40%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 75,
@@ -684,25 +909,34 @@
             "width": 183,
             "height": 64,
             "text": "Generates 20 Concerto\nTrigger once per 25 seconds",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 76,
             "x": 20.0,
             "y": 765.0,
-            "width": 223,
+            "width": 248,
             "height": 48,
             "text": "Resonance 3",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
         },
         {
             "id": 77,
-            "x": 28.0,
-            "y": 501.0,
-            "width": 215,
+            "x": 12.0,
+            "y": 514.0,
+            "width": 240,
             "height": 48,
             "text": "Resonance 4",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
         },
         {
             "id": 78,
@@ -711,7 +945,10 @@
             "width": 180,
             "height": 24,
             "text": "Healing Bonus +70%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 79,
@@ -720,16 +957,22 @@
             "width": 115,
             "height": 24,
             "text": "Vortex effect",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         },
         {
             "id": 80,
             "x": 1304.0,
             "y": 93.0,
-            "width": 201,
+            "width": 226,
             "height": 48,
             "text": "Resonance 5",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
         },
         {
             "id": 81,
@@ -738,7 +981,10 @@
             "width": 169,
             "height": 24,
             "text": "50% increased range",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 82,
@@ -747,7 +993,10 @@
             "width": 171,
             "height": 24,
             "text": "30% increased range",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 83,
@@ -756,7 +1005,10 @@
             "width": 222,
             "height": 24,
             "text": "Damage multiplied by 142%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 84,
@@ -765,562 +1017,704 @@
             "width": 143,
             "height": 24,
             "text": "Crit DMG +500%",
-            "font_size": 12
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         },
         {
             "id": 85,
             "x": 2070.0,
             "y": 749.0,
-            "width": 213,
+            "width": 238,
             "height": 48,
             "text": "Resonance 6",
-            "font_size": 24
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
         }
     ],
     "connections": [
         {
             "start_id": 4,
-            "end_id": 5
+            "end_id": 5,
+            "visible": true
         },
         {
             "start_id": 3,
-            "end_id": 6
+            "end_id": 6,
+            "visible": true
         },
         {
             "start_id": 6,
-            "end_id": 4
+            "end_id": 4,
+            "visible": true
         },
         {
             "start_id": 3,
-            "end_id": 7
+            "end_id": 7,
+            "visible": true
         },
         {
             "start_id": 7,
-            "end_id": 2
+            "end_id": 2,
+            "visible": true
         },
         {
             "start_id": 4,
-            "end_id": 8
+            "end_id": 8,
+            "visible": true
         },
         {
             "start_id": 8,
-            "end_id": 9
+            "end_id": 9,
+            "visible": true
         },
         {
             "start_id": 4,
-            "end_id": 10
+            "end_id": 10,
+            "visible": true
         },
         {
             "start_id": 10,
-            "end_id": 9
+            "end_id": 9,
+            "visible": true
         },
         {
             "start_id": 10,
-            "end_id": 2
+            "end_id": 2,
+            "visible": true
         },
         {
             "start_id": 10,
-            "end_id": 11
+            "end_id": 11,
+            "visible": true
         },
         {
             "start_id": 11,
-            "end_id": 12
+            "end_id": 12,
+            "visible": true
         },
         {
             "start_id": 9,
-            "end_id": 12
+            "end_id": 12,
+            "visible": true
         },
         {
             "start_id": 1,
-            "end_id": 2
+            "end_id": 2,
+            "visible": true
         },
         {
             "start_id": 0,
-            "end_id": 13
+            "end_id": 13,
+            "visible": true
         },
         {
             "start_id": 0,
-            "end_id": 14
+            "end_id": 14,
+            "visible": true
         },
         {
             "start_id": 0,
-            "end_id": 15
+            "end_id": 15,
+            "visible": true
         },
         {
             "start_id": 13,
-            "end_id": 1
+            "end_id": 1,
+            "visible": true
         },
         {
             "start_id": 14,
-            "end_id": 1
+            "end_id": 1,
+            "visible": true
         },
         {
             "start_id": 15,
-            "end_id": 1
+            "end_id": 1,
+            "visible": true
         },
         {
             "start_id": 0,
-            "end_id": 16
+            "end_id": 16,
+            "visible": true
         },
         {
             "start_id": 16,
-            "end_id": 1
+            "end_id": 1,
+            "visible": true
         },
         {
             "start_id": 17,
-            "end_id": 18
+            "end_id": 18,
+            "visible": true
         },
         {
             "start_id": 18,
-            "end_id": 1
+            "end_id": 1,
+            "visible": true
         },
         {
             "start_id": 0,
-            "end_id": 13
+            "end_id": 13,
+            "visible": true
         },
         {
             "start_id": 0,
-            "end_id": 14
+            "end_id": 14,
+            "visible": true
         },
         {
             "start_id": 0,
-            "end_id": 15
+            "end_id": 15,
+            "visible": true
         },
         {
             "start_id": 0,
-            "end_id": 16
+            "end_id": 16,
+            "visible": true
         },
         {
             "start_id": 13,
-            "end_id": 18
+            "end_id": 18,
+            "visible": true
         },
         {
             "start_id": 16,
-            "end_id": 18
+            "end_id": 18,
+            "visible": true
         },
         {
             "start_id": 14,
-            "end_id": 19
+            "end_id": 19,
+            "visible": true
         },
         {
             "start_id": 19,
-            "end_id": 1
+            "end_id": 1,
+            "visible": true
         },
         {
             "start_id": 15,
-            "end_id": 20
+            "end_id": 20,
+            "visible": true
         },
         {
             "start_id": 20,
-            "end_id": 1
+            "end_id": 1,
+            "visible": true
         },
         {
             "start_id": 3,
-            "end_id": 7
+            "end_id": 7,
+            "visible": true
         },
         {
             "start_id": 7,
-            "end_id": 11
+            "end_id": 11,
+            "visible": true
         },
         {
             "start_id": 21,
-            "end_id": 22
+            "end_id": 22,
+            "visible": true
         },
         {
             "start_id": 21,
-            "end_id": 23
+            "end_id": 23,
+            "visible": true
         },
         {
             "start_id": 23,
-            "end_id": 24
+            "end_id": 24,
+            "visible": true
         },
         {
             "start_id": 21,
-            "end_id": 25
+            "end_id": 25,
+            "visible": true
         },
         {
             "start_id": 21,
-            "end_id": 26
+            "end_id": 26,
+            "visible": true
         },
         {
             "start_id": 26,
-            "end_id": 14
+            "end_id": 14,
+            "visible": true
         },
         {
             "start_id": 24,
-            "end_id": 27
+            "end_id": 27,
+            "visible": true
         },
         {
             "start_id": 2,
-            "end_id": 28
+            "end_id": 28,
+            "visible": true
         },
         {
             "start_id": 2,
-            "end_id": 29
+            "end_id": 29,
+            "visible": true
         },
         {
             "start_id": 29,
-            "end_id": 30
+            "end_id": 30,
+            "visible": true
         },
         {
             "start_id": 30,
-            "end_id": 31
+            "end_id": 31,
+            "visible": true
         },
         {
             "start_id": 31,
-            "end_id": 27
+            "end_id": 27,
+            "visible": true
         },
         {
             "start_id": 28,
-            "end_id": 32
+            "end_id": 32,
+            "visible": true
         },
         {
             "start_id": 32,
-            "end_id": 0
+            "end_id": 0,
+            "visible": true
         },
         {
             "start_id": 32,
-            "end_id": 31
+            "end_id": 31,
+            "visible": true
         },
         {
             "start_id": 11,
-            "end_id": 34
+            "end_id": 34,
+            "visible": true
         },
         {
             "start_id": 34,
-            "end_id": 33
+            "end_id": 33,
+            "visible": true
         },
         {
             "start_id": 33,
-            "end_id": 35
+            "end_id": 35,
+            "visible": true
         },
         {
             "start_id": 35,
-            "end_id": 3
+            "end_id": 3,
+            "visible": true
         },
         {
             "start_id": 33,
-            "end_id": 36
+            "end_id": 36,
+            "visible": true
         },
         {
             "start_id": 36,
-            "end_id": 2
+            "end_id": 2,
+            "visible": true
         },
         {
             "start_id": 36,
-            "end_id": 31
+            "end_id": 31,
+            "visible": true
         },
         {
             "start_id": 37,
-            "end_id": 38
+            "end_id": 38,
+            "visible": true
         },
         {
             "start_id": 38,
-            "end_id": 17
+            "end_id": 17,
+            "visible": true
         },
         {
             "start_id": 34,
-            "end_id": 37
+            "end_id": 37,
+            "visible": true
         },
         {
             "start_id": 37,
-            "end_id": 36
+            "end_id": 36,
+            "visible": true
         },
         {
             "start_id": 37,
-            "end_id": 26
+            "end_id": 26,
+            "visible": true
         },
         {
             "start_id": 13,
-            "end_id": 39
+            "end_id": 39,
+            "visible": true
         },
         {
             "start_id": 14,
-            "end_id": 39
+            "end_id": 39,
+            "visible": true
         },
         {
             "start_id": 16,
-            "end_id": 39
+            "end_id": 39,
+            "visible": true
         },
         {
             "start_id": 15,
-            "end_id": 40
+            "end_id": 40,
+            "visible": true
         },
         {
             "start_id": 39,
-            "end_id": 11
+            "end_id": 11,
+            "visible": true
         },
         {
             "start_id": 40,
-            "end_id": 11
+            "end_id": 11,
+            "visible": true
         },
         {
             "start_id": 17,
-            "end_id": 39
+            "end_id": 39,
+            "visible": true
         },
         {
             "start_id": 41,
-            "end_id": 39
+            "end_id": 39,
+            "visible": true
         },
         {
             "start_id": 37,
-            "end_id": 43
+            "end_id": 43,
+            "visible": true
         },
         {
             "start_id": 33,
-            "end_id": 43
+            "end_id": 43,
+            "visible": true
         },
         {
             "start_id": 42,
-            "end_id": 25
+            "end_id": 25,
+            "visible": true
         },
         {
             "start_id": 42,
-            "end_id": 45
+            "end_id": 45,
+            "visible": true
         },
         {
             "start_id": 45,
-            "end_id": 46
+            "end_id": 46,
+            "visible": true
         },
         {
             "start_id": 46,
-            "end_id": 44
+            "end_id": 44,
+            "visible": true
         },
         {
             "start_id": 46,
-            "end_id": 47
+            "end_id": 47,
+            "visible": true
         },
         {
             "start_id": 46,
-            "end_id": 48
+            "end_id": 48,
+            "visible": true
         },
         {
             "start_id": 48,
-            "end_id": 49
+            "end_id": 49,
+            "visible": true
         },
         {
             "start_id": 49,
-            "end_id": 50
+            "end_id": 50,
+            "visible": true
         },
         {
             "start_id": 50,
-            "end_id": 51
+            "end_id": 51,
+            "visible": true
         },
         {
             "start_id": 49,
-            "end_id": 44
+            "end_id": 44,
+            "visible": true
         },
         {
             "start_id": 48,
-            "end_id": 52
+            "end_id": 52,
+            "visible": true
         },
         {
             "start_id": 49,
-            "end_id": 53
+            "end_id": 53,
+            "visible": true
         },
         {
             "start_id": 53,
-            "end_id": 54
+            "end_id": 54,
+            "visible": true
         },
         {
             "start_id": 54,
-            "end_id": 52
+            "end_id": 52,
+            "visible": true
         },
         {
             "start_id": 54,
-            "end_id": 50
+            "end_id": 50,
+            "visible": true
         },
         {
             "start_id": 54,
-            "end_id": 44
+            "end_id": 44,
+            "visible": true
         },
         {
             "start_id": 54,
-            "end_id": 55
+            "end_id": 55,
+            "visible": true
         },
         {
             "start_id": 55,
-            "end_id": 51
+            "end_id": 51,
+            "visible": true
         },
         {
             "start_id": 56,
-            "end_id": 23
+            "end_id": 23,
+            "visible": true
         },
         {
             "start_id": 58,
-            "end_id": 57
+            "end_id": 57,
+            "visible": true
         },
         {
             "start_id": 57,
-            "end_id": 56
+            "end_id": 56,
+            "visible": true
         },
         {
             "start_id": 54,
-            "end_id": 59
+            "end_id": 59,
+            "visible": true
         },
         {
             "start_id": 59,
-            "end_id": 58
+            "end_id": 58,
+            "visible": true
         },
         {
             "start_id": 58,
-            "end_id": 60
+            "end_id": 60,
+            "visible": true
         },
         {
             "start_id": 60,
-            "end_id": 54
+            "end_id": 54,
+            "visible": true
         },
         {
             "start_id": 58,
-            "end_id": 61
+            "end_id": 61,
+            "visible": true
         },
         {
             "start_id": 58,
-            "end_id": 62
+            "end_id": 62,
+            "visible": true
         },
         {
             "start_id": 63,
-            "end_id": 64
+            "end_id": 64,
+            "visible": true
         },
         {
             "start_id": 65,
-            "end_id": 66
+            "end_id": 66,
+            "visible": true
         },
         {
             "start_id": 46,
-            "end_id": 67
+            "end_id": 67,
+            "visible": true
         },
         {
             "start_id": 49,
-            "end_id": 67
+            "end_id": 67,
+            "visible": true
         },
         {
             "start_id": 54,
-            "end_id": 67
+            "end_id": 67,
+            "visible": true
         },
         {
             "start_id": 48,
-            "end_id": 52
+            "end_id": 52,
+            "visible": true
         },
         {
             "start_id": 53,
-            "end_id": 52
+            "end_id": 52,
+            "visible": true
         },
         {
             "start_id": 68,
-            "end_id": 69
+            "end_id": 69,
+            "visible": true
         },
         {
             "start_id": 69,
-            "end_id": 54
+            "end_id": 54,
+            "visible": true
         },
         {
             "start_id": 69,
-            "end_id": 49
+            "end_id": 49,
+            "visible": true
         },
         {
             "start_id": 69,
-            "end_id": 46
+            "end_id": 46,
+            "visible": true
         },
         {
             "start_id": 68,
-            "end_id": 70
+            "end_id": 70,
+            "visible": true
         },
         {
             "start_id": 70,
-            "end_id": 47
+            "end_id": 47,
+            "visible": true
         },
         {
             "start_id": 58,
-            "end_id": 71
+            "end_id": 71,
+            "visible": true
         },
         {
             "start_id": 68,
-            "end_id": 72
+            "end_id": 72,
+            "visible": true
         },
         {
             "start_id": 72,
-            "end_id": 71
+            "end_id": 71,
+            "visible": true
         },
         {
             "start_id": 46,
-            "end_id": 74
+            "end_id": 74,
+            "visible": false
         },
         {
             "start_id": 49,
-            "end_id": 74
+            "end_id": 74,
+            "visible": false
         },
         {
             "start_id": 54,
-            "end_id": 74
+            "end_id": 74,
+            "visible": false
         },
         {
             "start_id": 73,
-            "end_id": 74
+            "end_id": 74,
+            "visible": false
         },
         {
             "start_id": 76,
-            "end_id": 75
+            "end_id": 75,
+            "visible": false
         },
         {
             "start_id": 42,
-            "end_id": 75
+            "end_id": 75,
+            "visible": false
         },
         {
             "start_id": 21,
-            "end_id": 78
+            "end_id": 78,
+            "visible": false
         },
         {
             "start_id": 77,
-            "end_id": 78
+            "end_id": 78,
+            "visible": false
         },
         {
             "start_id": 15,
-            "end_id": 79
+            "end_id": 79,
+            "visible": true
         },
         {
             "start_id": 33,
-            "end_id": 79
+            "end_id": 79,
+            "visible": true
         },
         {
             "start_id": 81,
-            "end_id": 79
+            "end_id": 79,
+            "visible": false
         },
         {
             "start_id": 81,
-            "end_id": 15
+            "end_id": 15,
+            "visible": false
         },
         {
             "start_id": 82,
-            "end_id": 79
+            "end_id": 79,
+            "visible": false
         },
         {
             "start_id": 82,
-            "end_id": 33
+            "end_id": 33,
+            "visible": false
         },
         {
             "start_id": 80,
-            "end_id": 81
+            "end_id": 81,
+            "visible": false
         },
         {
             "start_id": 80,
-            "end_id": 82
+            "end_id": 82,
+            "visible": false
         },
         {
             "start_id": 83,
-            "end_id": 58
+            "end_id": 58,
+            "visible": false
         },
         {
             "start_id": 58,
-            "end_id": 84
+            "end_id": 84,
+            "visible": false
         },
         {
             "start_id": 85,
-            "end_id": 83
+            "end_id": 83,
+            "visible": false
         },
         {
             "start_id": 85,
-            "end_id": 84
+            "end_id": 84,
+            "visible": false
         }
     ]
 }

@@ -1,0 +1,957 @@
+{
+    "canvas_width": 2481,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 315.0,
+            "y": 139.0,
+            "width": 401,
+            "height": 48,
+            "text": "Blazing Enlightment (Basic)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 1,
+            "x": 541.0,
+            "y": 413.0,
+            "width": 123,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 809.0,
+            "y": 354.0,
+            "width": 172,
+            "height": 24,
+            "text": "Mid-air Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 572.0,
+            "y": 225.0,
+            "width": 107,
+            "height": 24,
+            "text": "Heavy Attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 606.0,
+            "y": 288.0,
+            "width": 174,
+            "height": 24,
+            "text": "Mid-air Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 817.0,
+            "y": 442.0,
+            "width": 235,
+            "height": 24,
+            "text": "Gain True Sight for 12 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 361.0,
+            "y": 341.0,
+            "width": 119,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 201.0,
+            "y": 264.0,
+            "width": 154,
+            "height": 24,
+            "text": "Mid-air Heavy Attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 295.0,
+            "y": 592.0,
+            "width": 281,
+            "height": 48,
+            "text": "True Sight: Charge",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 1383.0,
+            "y": 250.0,
+            "width": 312,
+            "height": 48,
+            "text": "Tripartite Flames (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 10,
+            "x": 1736.0,
+            "y": 263.0,
+            "width": 178,
+            "height": 24,
+            "text": "aka True Sight: Capture",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 1651.0,
+            "y": 188.0,
+            "width": 170,
+            "height": 24,
+            "text": "Generate 14 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 12,
+            "x": 1432.0,
+            "y": 106.0,
+            "width": 220,
+            "height": 48,
+            "text": "Holds up to two charges, regens one per 12 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 836.0,
+            "y": 514.0,
+            "width": 220,
+            "height": 48,
+            "text": "True Sight",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 527.0,
+            "y": 529.0,
+            "width": 213,
+            "height": 24,
+            "text": "Jump or Mid-air Basic Attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 1296.0,
+            "y": 529.0,
+            "width": 104,
+            "height": 24,
+            "text": "Basic Attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 1463.0,
+            "y": 592.0,
+            "width": 312,
+            "height": 48,
+            "text": "True Sight: Conquest",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 1458.0,
+            "y": 673.0,
+            "width": 169,
+            "height": 24,
+            "text": "Generate 7 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 49.0,
+            "y": 604.0,
+            "width": 163,
+            "height": 24,
+            "text": "Generate 6 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 19,
+            "x": 103.0,
+            "y": 173.0,
+            "width": 121,
+            "height": 45,
+            "text": "Is actually just a plunging attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 20,
+            "x": 948.0,
+            "y": 662.0,
+            "width": 164,
+            "height": 42,
+            "text": "On hit, gain one stack of Enflamement",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 968.0,
+            "y": 798.0,
+            "width": 220,
+            "height": 48,
+            "text": "Enflamement",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 978.0,
+            "y": 894.0,
+            "width": 200,
+            "height": 44,
+            "text": "Unlocks Flaming Sacrifice at four stacks (maximum)",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 889.0,
+            "y": 992.0,
+            "width": 376,
+            "height": 48,
+            "text": "Flaming Sacrifice (Heavy)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 672.0,
+            "y": 1007.0,
+            "width": 178,
+            "height": 24,
+            "text": "Generate 10 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 905.0,
+            "y": 1091.0,
+            "width": 143,
+            "height": 48,
+            "text": "DMG Taken -40% while casting",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 1092.0,
+            "y": 1099.0,
+            "width": 163,
+            "height": 24,
+            "text": "Resonance Skill DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 27,
+            "x": 1692.0,
+            "y": 701.0,
+            "width": 331,
+            "height": 48,
+            "text": "Radiance of Fealty (R)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 2074.0,
+            "y": 716.0,
+            "width": 177,
+            "height": 24,
+            "text": "Generate 20 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 1302.0,
+            "y": 723.0,
+            "width": 241,
+            "height": 24,
+            "text": "Gain four stacks of Enflamement",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 1782.0,
+            "y": 800.0,
+            "width": 148,
+            "height": 46,
+            "text": "Gain Fiery Feather for 10 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 31,
+            "x": 1627.0,
+            "y": 894.0,
+            "width": 220,
+            "height": 48,
+            "text": "Fiery Feather",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 32,
+            "x": 1377.0,
+            "y": 991.0,
+            "width": 188,
+            "height": 59,
+            "text": "ATK +25% while casting if you have Fiery Feather, then lose it",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 1377.0,
+            "y": 428.0,
+            "width": 383,
+            "height": 48,
+            "text": "Obedience of Rules (Intro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 34,
+            "x": 1872.0,
+            "y": 404.0,
+            "width": 169,
+            "height": 24,
+            "text": "Generate 10 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 35,
+            "x": 1514.0,
+            "y": 518.0,
+            "width": 113,
+            "height": 24,
+            "text": "Enter Mid-air",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 36,
+            "x": 2033.0,
+            "y": 46.0,
+            "width": 384,
+            "height": 48,
+            "text": "Strategy of Duality (Outro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 37,
+            "x": 2017.0,
+            "y": 140.0,
+            "width": 421,
+            "height": 60,
+            "text": "Incoming Resonator gains Fusion DMG amplified by 120% and Resonance Liberation DMG amplified by 125% for 10 seconds or until switched out",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 38,
+            "x": 1081.0,
+            "y": 597.0,
+            "width": 150,
+            "height": 57,
+            "text": "Fusion DMG +5% per Enflamement stack while casting",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 39,
+            "x": 1350.0,
+            "y": 870.0,
+            "width": 220,
+            "height": 42,
+            "text": "Fusion DMG +20% and Ignore 15% DEF while casting",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 40,
+            "x": 202.0,
+            "y": 741.0,
+            "width": 338,
+            "height": 72,
+            "text": "Resonance 1",
+            "font_size": 36,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 41,
+            "x": 650.0,
+            "y": 760.0,
+            "width": 196,
+            "height": 37,
+            "text": "DMG Bonus +10% and has interruption resistance",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 42,
+            "x": 179.0,
+            "y": 903.0,
+            "width": 342,
+            "height": 72,
+            "text": "Resonance 2",
+            "font_size": 36,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 43,
+            "x": 592.0,
+            "y": 863.0,
+            "width": 229,
+            "height": 43,
+            "text": "Crit Rate +25% for 8 seconds after gaining any stacks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 44,
+            "x": 2097.0,
+            "y": 921.0,
+            "width": 339,
+            "height": 72,
+            "text": "Resonance 3",
+            "font_size": 36,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 45,
+            "x": 2009.0,
+            "y": 836.0,
+            "width": 147,
+            "height": 24,
+            "text": "DMG Bonus +80%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 46,
+            "x": 2110.0,
+            "y": 289.0,
+            "width": 341,
+            "height": 72,
+            "text": "Resonance 4",
+            "font_size": 36,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 47,
+            "x": 1693.0,
+            "y": 349.0,
+            "width": 295,
+            "height": 24,
+            "text": "Party gains ATK +20% for 30 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 48,
+            "x": 1475.0,
+            "y": 1105.0,
+            "width": 220,
+            "height": 48,
+            "text": "DMG amplified by 150%, and DMG Bonus +50%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 49,
+            "x": 1951.0,
+            "y": 1084.0,
+            "width": 331,
+            "height": 72,
+            "text": "Resonance 5",
+            "font_size": 36,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 50,
+            "x": 2110.0,
+            "y": 499.0,
+            "width": 350,
+            "height": 72,
+            "text": "Resonance 6",
+            "font_size": 36,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 51,
+            "x": 1845.0,
+            "y": 520.0,
+            "width": 224,
+            "height": 24,
+            "text": "Ignore 40% DEF while casting",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 0,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 3,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 7,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 10,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 7,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 14,
+            "end_id": 8,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 16,
+            "visible": true
+        },
+        {
+            "start_id": 16,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 16,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 20,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 22,
+            "visible": true
+        },
+        {
+            "start_id": 22,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 29,
+            "visible": true
+        },
+        {
+            "start_id": 29,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 31,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 34,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 33,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 33,
+            "end_id": 35,
+            "visible": true
+        },
+        {
+            "start_id": 36,
+            "end_id": 37,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 38,
+            "visible": true
+        },
+        {
+            "start_id": 16,
+            "end_id": 38,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 39,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 39,
+            "visible": true
+        },
+        {
+            "start_id": 40,
+            "end_id": 41,
+            "visible": false
+        },
+        {
+            "start_id": 41,
+            "end_id": 23,
+            "visible": false
+        },
+        {
+            "start_id": 41,
+            "end_id": 8,
+            "visible": false
+        },
+        {
+            "start_id": 41,
+            "end_id": 16,
+            "visible": false
+        },
+        {
+            "start_id": 41,
+            "end_id": 9,
+            "visible": false
+        },
+        {
+            "start_id": 21,
+            "end_id": 43,
+            "visible": false
+        },
+        {
+            "start_id": 42,
+            "end_id": 43,
+            "visible": false
+        },
+        {
+            "start_id": 44,
+            "end_id": 45,
+            "visible": false
+        },
+        {
+            "start_id": 45,
+            "end_id": 27,
+            "visible": false
+        },
+        {
+            "start_id": 33,
+            "end_id": 47,
+            "visible": false
+        },
+        {
+            "start_id": 46,
+            "end_id": 47,
+            "visible": false
+        },
+        {
+            "start_id": 49,
+            "end_id": 48,
+            "visible": false
+        },
+        {
+            "start_id": 48,
+            "end_id": 23,
+            "visible": false
+        },
+        {
+            "start_id": 50,
+            "end_id": 51,
+            "visible": false
+        },
+        {
+            "start_id": 51,
+            "end_id": 27,
+            "visible": false
+        },
+        {
+            "start_id": 51,
+            "end_id": 9,
+            "visible": false
+        },
+        {
+            "start_id": 51,
+            "end_id": 16,
+            "visible": false
+        },
+        {
+            "start_id": 51,
+            "end_id": 23,
+            "visible": false
+        },
+        {
+            "start_id": 51,
+            "end_id": 8,
+            "visible": false
+        }
+    ]
+}
