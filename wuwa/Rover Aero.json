@@ -1,0 +1,878 @@
+{
+    "canvas_width": 2481,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 449.0,
+            "y": 128.0,
+            "width": 296,
+            "height": 48,
+            "text": "Wind Cutter (Basic)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 1,
+            "x": 987.0,
+            "y": 172.0,
+            "width": 126,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 1429.0,
+            "y": 244.0,
+            "width": 312,
+            "height": 48,
+            "text": "Razor Wind (Heavy)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 111.0,
+            "y": 255.0,
+            "width": 246,
+            "height": 48,
+            "text": "Plunging Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 307.0,
+            "y": 382.0,
+            "width": 97,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 548.0,
+            "y": 370.0,
+            "width": 121,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 366.0,
+            "y": 499.0,
+            "width": 155,
+            "height": 24,
+            "text": "if at max Windstrings",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 324.0,
+            "y": 700.0,
+            "width": 268,
+            "height": 48,
+            "text": "Unbound Flow (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 1724.0,
+            "y": 605.0,
+            "width": 299,
+            "height": 48,
+            "text": "Awakening Gale (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 1604.0,
+            "y": 325.0,
+            "width": 440,
+            "height": 48,
+            "text": "Skyfall Severance (Mid-air E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 10,
+            "x": 1819.0,
+            "y": 412.0,
+            "width": 235,
+            "height": 63,
+            "text": "Converts any and all elemental debuff stacks to Aero Erosion stacks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 1919.0,
+            "y": 708.0,
+            "width": 178,
+            "height": 24,
+            "text": "Generates 10 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 12,
+            "x": 2090.0,
+            "y": 336.0,
+            "width": 166,
+            "height": 24,
+            "text": "Generates 5 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 968.0,
+            "y": 478.0,
+            "width": 480,
+            "height": 48,
+            "text": "Cloudburst Dance (Mid-air Basic)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 1296.0,
+            "y": 631.0,
+            "width": 258,
+            "height": 24,
+            "text": "Considered Resonance Skill DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 920.0,
+            "y": 428.0,
+            "width": 97,
+            "height": 24,
+            "text": "2-hit combo",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 1530.0,
+            "y": 588.0,
+            "width": 102,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 1487.0,
+            "y": 708.0,
+            "width": 352,
+            "height": 48,
+            "text": "Relentless Squall (Intro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 19,
+            "x": 494.0,
+            "y": 585.0,
+            "width": 283,
+            "height": 48,
+            "text": "Windstrings (Forte)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 20,
+            "x": 436.0,
+            "y": 793.0,
+            "width": 80,
+            "height": 24,
+            "text": "Attack 1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 895.0,
+            "y": 859.0,
+            "width": 316,
+            "height": 48,
+            "text": "Storm's Echo (Outro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 970.0,
+            "y": 1011.0,
+            "width": 271,
+            "height": 24,
+            "text": "Grant Aeolian Realm for 30 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 1032.0,
+            "y": 1088.0,
+            "width": 220,
+            "height": 48,
+            "text": "Aeolian Realm",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 1016.0,
+            "y": 1198.0,
+            "width": 363,
+            "height": 67,
+            "text": "Hitting enemies increases maximum Aero Erosion stacks* by 3 for 10 seconds (from 3 to 6)\n*doesn't actually apply Aero Erosion stacks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 526.0,
+            "y": 1046.0,
+            "width": 72,
+            "height": 24,
+            "text": "Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 464.0,
+            "y": 930.0,
+            "width": 97,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 832.0,
+            "y": 793.0,
+            "width": 119,
+            "height": 24,
+            "text": "can combo into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 716.0,
+            "y": 958.0,
+            "width": 318,
+            "height": 24,
+            "text": "casts this automatically if was comboed into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 550.0,
+            "y": 664.0,
+            "width": 119,
+            "height": 24,
+            "text": "Maximum 120",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 31,
+            "x": 775.0,
+            "y": 547.0,
+            "width": 232,
+            "height": 24,
+            "text": "Generates 25 Windstrings on hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 32,
+            "x": 841.0,
+            "y": 722.0,
+            "width": 239,
+            "height": 24,
+            "text": "Generates 20 Windstrings on hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 648.0,
+            "y": 485.0,
+            "width": 239,
+            "height": 24,
+            "text": "Generates 10 Windstrings on hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 34,
+            "x": 675.0,
+            "y": 256.0,
+            "width": 229,
+            "height": 48,
+            "text": "Dodge Counter",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 35,
+            "x": 1645.0,
+            "y": 873.0,
+            "width": 283,
+            "height": 48,
+            "text": "Omega Storm (R)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 36,
+            "x": 1975.0,
+            "y": 886.0,
+            "width": 176,
+            "height": 24,
+            "text": "Generates 20 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 37,
+            "x": 1545.0,
+            "y": 793.0,
+            "width": 238,
+            "height": 24,
+            "text": "Gain ATK +20% for 10 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 38,
+            "x": 1293.0,
+            "y": 418.0,
+            "width": 191,
+            "height": 24,
+            "text": "Gain Armor for 3 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 39,
+            "x": 1267.0,
+            "y": 321.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 1",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 40,
+            "x": 144.0,
+            "y": 909.0,
+            "width": 223,
+            "height": 116,
+            "text": "Restore active Resonator HP by 20% of Rover's ATK every three seconds for 30 seconds.\nTRIGGER: Per 10 seconds, Resonator below 35% HP, restore 10% of missing HP",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 41,
+            "x": 44.0,
+            "y": 785.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 2",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 42,
+            "x": 1350.0,
+            "y": 971.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 3",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 43,
+            "x": 1381.0,
+            "y": 1063.0,
+            "width": 182,
+            "height": 24,
+            "text": "Aero DMG Bonus +15%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 44,
+            "x": 979.0,
+            "y": 659.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 4",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 45,
+            "x": 1030.0,
+            "y": 576.0,
+            "width": 220,
+            "height": 48,
+            "text": "Gain Resonance Skill DMG Bonus +15% for 5 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 46,
+            "x": 1767.0,
+            "y": 1069.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 5",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 47,
+            "x": 1741.0,
+            "y": 976.0,
+            "width": 186,
+            "height": 24,
+            "text": "DMG Multiplied by 120%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 48,
+            "x": 1004.0,
+            "y": 323.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 6",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 49,
+            "x": 1060.0,
+            "y": 420.0,
+            "width": 188,
+            "height": 24,
+            "text": "DMG Multiplied by 130%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 50,
+            "x": 1210.0,
+            "y": 190.0,
+            "width": 165,
+            "height": 40,
+            "text": "can combo into and enable further combo",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 51,
+            "x": 555.0,
+            "y": 860.0,
+            "width": 320,
+            "height": 48,
+            "text": "Switching (No Outro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 3,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 7,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 10,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 22,
+            "visible": true
+        },
+        {
+            "start_id": 22,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 20,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 20,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 28,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 29,
+            "visible": true
+        },
+        {
+            "start_id": 29,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 19,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 31,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 33,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 34,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 35,
+            "end_id": 36,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 37,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 38,
+            "visible": true
+        },
+        {
+            "start_id": 39,
+            "end_id": 38,
+            "visible": true
+        },
+        {
+            "start_id": 20,
+            "end_id": 40,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 40,
+            "visible": true
+        },
+        {
+            "start_id": 41,
+            "end_id": 40,
+            "visible": true
+        },
+        {
+            "start_id": 42,
+            "end_id": 43,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 45,
+            "visible": true
+        },
+        {
+            "start_id": 44,
+            "end_id": 45,
+            "visible": true
+        },
+        {
+            "start_id": 46,
+            "end_id": 47,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 35,
+            "visible": true
+        },
+        {
+            "start_id": 48,
+            "end_id": 49,
+            "visible": true
+        },
+        {
+            "start_id": 49,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 50,
+            "visible": true
+        },
+        {
+            "start_id": 50,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 28,
+            "end_id": 51,
+            "visible": true
+        },
+        {
+            "start_id": 51,
+            "end_id": 29,
+            "visible": true
+        }
+    ]
+}
