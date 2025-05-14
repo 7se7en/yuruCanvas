@@ -444,7 +444,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 39,
@@ -455,7 +455,7 @@
             "text": "Resonance 1",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -468,7 +468,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 41,
@@ -479,7 +479,7 @@
             "text": "Resonance 2",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -491,7 +491,7 @@
             "text": "Resonance 3",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -504,7 +504,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 44,
@@ -515,7 +515,7 @@
             "text": "Resonance 4",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -528,7 +528,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 46,
@@ -539,7 +539,7 @@
             "text": "Resonance 5",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -552,7 +552,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 48,
@@ -563,7 +563,7 @@
             "text": "Resonance 6",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -576,7 +576,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 50,
@@ -787,62 +787,62 @@
         {
             "start_id": 13,
             "end_id": 38,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 39,
             "end_id": 38,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 20,
             "end_id": 40,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 25,
             "end_id": 40,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 41,
             "end_id": 40,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 42,
             "end_id": 43,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 13,
             "end_id": 45,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 44,
             "end_id": 45,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 46,
             "end_id": 47,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 47,
             "end_id": 35,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 48,
             "end_id": 49,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 49,
             "end_id": 13,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 0,

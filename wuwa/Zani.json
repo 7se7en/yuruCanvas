@@ -1,0 +1,723 @@
+{
+    "canvas_width": 2481,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 659.0,
+            "y": 27.0,
+            "width": 395,
+            "height": 48,
+            "text": "Routine Negotiation (Basic)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 1,
+            "x": 801.0,
+            "y": 113.0,
+            "width": 114,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 603.0,
+            "y": 282.0,
+            "width": 311,
+            "height": 48,
+            "text": "Breakthrough (Basic)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 679.0,
+            "y": 194.0,
+            "width": 158,
+            "height": 24,
+            "text": "Zani sits on her chair",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 980.0,
+            "y": 292.0,
+            "width": 116,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 1019.0,
+            "y": 101.0,
+            "width": 201,
+            "height": 48,
+            "text": "Heavy Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 505.0,
+            "y": 102.0,
+            "width": 241,
+            "height": 48,
+            "text": "Plunging Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 366.0,
+            "y": 180.0,
+            "width": 233,
+            "height": 48,
+            "text": "Dodge Counter",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 1322.0,
+            "y": 168.0,
+            "width": 290,
+            "height": 48,
+            "text": "Restless Watch (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 1355.0,
+            "y": 259.0,
+            "width": 220,
+            "height": 48,
+            "text": "Enter Block Stance",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 10,
+            "x": 1178.0,
+            "y": 269.0,
+            "width": 139,
+            "height": 24,
+            "text": "on Normal Attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 1032.0,
+            "y": 363.0,
+            "width": 227,
+            "height": 24,
+            "text": "Recover 10 Redundant Energy",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 12,
+            "x": 1227.0,
+            "y": 410.0,
+            "width": 177,
+            "height": 24,
+            "text": "Apply Stagnating on hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 1570.0,
+            "y": 399.0,
+            "width": 47,
+            "height": 24,
+            "text": "if hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 1692.0,
+            "y": 387.0,
+            "width": 260,
+            "height": 48,
+            "text": "Pinpoint (Trigger)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 1641.0,
+            "y": 274.0,
+            "width": 160,
+            "height": 24,
+            "text": "Generate 5 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 1590.0,
+            "y": 581.0,
+            "width": 149,
+            "height": 45,
+            "text": "DMG Taken -100% for that instance",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 1763.0,
+            "y": 581.0,
+            "width": 143,
+            "height": 46,
+            "text": "DMG Taken -30% for 2 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 1298.0,
+            "y": 477.0,
+            "width": 264,
+            "height": 24,
+            "text": "Apply Stagnating to nearby targets",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 20,
+            "x": 725.0,
+            "y": 894.0,
+            "width": 439,
+            "height": 48,
+            "text": "Crisis Response Protocol (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 749.0,
+            "y": 553.0,
+            "width": 387,
+            "height": 48,
+            "text": "Redundant Energy (Forte)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 882.0,
+            "y": 655.0,
+            "width": 120,
+            "height": 24,
+            "text": "Maximum 100",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 837.0,
+            "y": 741.0,
+            "width": 212,
+            "height": 24,
+            "text": "unlocks if not in Inferno Mode",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 1224.0,
+            "y": 905.0,
+            "width": 46,
+            "height": 24,
+            "text": "hold",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 1350.0,
+            "y": 894.0,
+            "width": 222,
+            "height": 48,
+            "text": "Ready Stance",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 1552.0,
+            "y": 790.0,
+            "width": 45,
+            "height": 24,
+            "text": "if hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 27,
+            "x": 1688.0,
+            "y": 775.0,
+            "width": 361,
+            "height": 48,
+            "text": "Forcible Ripose (Trigger)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 2091.0,
+            "y": 787.0,
+            "width": 146,
+            "height": 24,
+            "text": "Apply Stagnating",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 1513.0,
+            "y": 1005.0,
+            "width": 91,
+            "height": 24,
+            "text": "on release",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 1670.0,
+            "y": 990.0,
+            "width": 253,
+            "height": 48,
+            "text": "Targeted Action",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 31,
+            "x": 1604.0,
+            "y": 905.0,
+            "width": 169,
+            "height": 24,
+            "text": "Generate 10 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 32,
+            "x": 2029.0,
+            "y": 889.0,
+            "width": 66,
+            "height": 24,
+            "text": "on cast",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 2146.0,
+            "y": 948.0,
+            "width": 233,
+            "height": 48,
+            "text": "Sunburst Mode",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 34,
+            "x": 2179.0,
+            "y": 1043.0,
+            "width": 255,
+            "height": 47,
+            "text": "Zani's Spectro Frazzle DMG multiplied by 120% for 14 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 35,
+            "x": 1783.0,
+            "y": 887.0,
+            "width": 106,
+            "height": 60,
+            "text": "Considered Spectro Frazzle DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 36,
+            "x": 2005.0,
+            "y": 952.0,
+            "width": 53,
+            "height": 24,
+            "text": "on hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 37,
+            "x": 1967.0,
+            "y": 1184.0,
+            "width": 262,
+            "height": 24,
+            "text": "Apply 1 stack of Helical Ember",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 38,
+            "x": 1725.0,
+            "y": 1274.0,
+            "width": 220,
+            "height": 48,
+            "text": "Helical Ember",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 39,
+            "x": 1835.0,
+            "y": 1102.0,
+            "width": 124,
+            "height": 24,
+            "text": "Recovers Blaze",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 40,
+            "x": 1536.0,
+            "y": 1144.0,
+            "width": 220,
+            "height": 48,
+            "text": "Blaze (Forte)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 0,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 3,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 9,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 10,
+            "visible": true
+        },
+        {
+            "start_id": 10,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 10,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 14,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 16,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 10,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 22,
+            "visible": true
+        },
+        {
+            "start_id": 22,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 20,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 24,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 16,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 29,
+            "visible": true
+        },
+        {
+            "start_id": 29,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 33,
+            "end_id": 34,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 35,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 35,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 36,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 36,
+            "visible": true
+        },
+        {
+            "start_id": 36,
+            "end_id": 37,
+            "visible": true
+        },
+        {
+            "start_id": 37,
+            "end_id": 38,
+            "visible": true
+        },
+        {
+            "start_id": 36,
+            "end_id": 39,
+            "visible": true
+        },
+        {
+            "start_id": 39,
+            "end_id": 40,
+            "visible": true
+        }
+    ]
+}

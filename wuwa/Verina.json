@@ -88,8 +88,8 @@
         },
         {
             "id": 12,
-            "x": 326.0,
-            "y": 464.0,
+            "x": 369.0,
+            "y": 461.0,
             "width": 445,
             "height": 50,
             "text": "Starflower Blooms (Heavy)",
@@ -100,8 +100,8 @@
         },
         {
             "id": 13,
-            "x": 892.0,
-            "y": 482.0,
+            "x": 910.0,
+            "y": 499.0,
             "width": 277,
             "height": 24,
             "text": "Consumes one Photosynthesis Energy",
@@ -124,8 +124,8 @@
         },
         {
             "id": 17,
-            "x": 447.0,
-            "y": 959.0,
+            "x": 623.0,
+            "y": 970.0,
             "width": 392,
             "height": 48,
             "text": "Arboreal Flourish (R)",
@@ -136,8 +136,8 @@
         },
         {
             "id": 18,
-            "x": 649.0,
-            "y": 1095.0,
+            "x": 723.0,
+            "y": 1060.0,
             "width": 194,
             "height": 24,
             "text": "Generates 20 Concerto",
@@ -148,8 +148,8 @@
         },
         {
             "id": 19,
-            "x": 1258.0,
-            "y": 882.0,
+            "x": 1376.0,
+            "y": 870.0,
             "width": 224,
             "height": 51,
             "text": "Applies Photosynthesis Mark on all enemies in range",
@@ -220,8 +220,8 @@
         },
         {
             "id": 26,
-            "x": 760.0,
-            "y": 830.0,
+            "x": 751.0,
+            "y": 827.0,
             "width": 279,
             "height": 24,
             "text": "Party gains ATK +20% for 20 seconds",
@@ -292,15 +292,15 @@
         },
         {
             "id": 35,
-            "x": 1899.0,
-            "y": 524.0,
+            "x": 1904.0,
+            "y": 533.0,
             "width": 188,
             "height": 46,
             "text": "Healing +20% to party members below 50% HP",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
         },
         {
             "id": 38,
@@ -312,7 +312,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
         },
         {
             "id": 40,
@@ -328,8 +328,8 @@
         },
         {
             "id": 41,
-            "x": 740.0,
-            "y": 211.0,
+            "x": 725.0,
+            "y": 167.0,
             "width": 124,
             "height": 24,
             "text": "Basic Attack 5",
@@ -340,8 +340,8 @@
         },
         {
             "id": 42,
-            "x": 1122.0,
-            "y": 227.0,
+            "x": 1279.0,
+            "y": 238.0,
             "width": 323,
             "height": 24,
             "text": "Generates one Photosynthesis Energy on hit",
@@ -366,18 +366,18 @@
             "id": 44,
             "x": 1705.0,
             "y": 61.0,
-            "width": 202,
+            "width": 227,
             "height": 48,
             "text": "Resonance 2",
             "font_size": 24,
-            "checkbox_visible": false,
+            "checkbox_visible": true,
             "checked": true,
             "visible": true
         },
         {
             "id": 45,
-            "x": 1537.0,
-            "y": 133.0,
+            "x": 1516.0,
+            "y": 170.0,
             "width": 36,
             "height": 24,
             "text": "+1",
@@ -388,8 +388,8 @@
         },
         {
             "id": 46,
-            "x": 1100.0,
-            "y": 195.0,
+            "x": 979.0,
+            "y": 238.0,
             "width": 282,
             "height": 24,
             "text": "Generates one Photosynthesis Energy",
@@ -407,7 +407,7 @@
             "text": "Resonance 6",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
@@ -420,7 +420,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
         },
         {
             "id": 49,
@@ -431,7 +431,7 @@
             "text": "Resonance 6",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
@@ -444,7 +444,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
         },
         {
             "id": 51,
@@ -455,7 +455,7 @@
             "text": "Resonance 4",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
@@ -515,7 +515,7 @@
             "text": "Resonance 5",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
@@ -544,8 +544,8 @@
         },
         {
             "id": 59,
-            "x": 1255.0,
-            "y": 1141.0,
+            "x": 1247.0,
+            "y": 1179.0,
             "width": 227,
             "height": 53,
             "text": "Party gains DMG Amplified by 115% for 30 seconds",
@@ -652,16 +652,6 @@
             "visible": true
         },
         {
-            "start_id": 2,
-            "end_id": 43,
-            "visible": true
-        },
-        {
-            "start_id": 44,
-            "end_id": 43,
-            "visible": true
-        },
-        {
             "start_id": 44,
             "end_id": 45,
             "visible": true
@@ -669,26 +659,6 @@
         {
             "start_id": 45,
             "end_id": 46,
-            "visible": true
-        },
-        {
-            "start_id": 44,
-            "end_id": 43,
-            "visible": true
-        },
-        {
-            "start_id": 3,
-            "end_id": 43,
-            "visible": true
-        },
-        {
-            "start_id": 44,
-            "end_id": 43,
-            "visible": true
-        },
-        {
-            "start_id": 43,
-            "end_id": 3,
             "visible": true
         },
         {
@@ -704,17 +674,17 @@
         {
             "start_id": 47,
             "end_id": 48,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 48,
             "end_id": 12,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 48,
             "end_id": 15,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 12,
@@ -724,22 +694,22 @@
         {
             "start_id": 12,
             "end_id": 38,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 15,
             "end_id": 38,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 38,
             "end_id": 21,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 49,
             "end_id": 38,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 15,
@@ -764,27 +734,27 @@
         {
             "start_id": 51,
             "end_id": 50,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 17,
             "end_id": 50,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 15,
             "end_id": 50,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 12,
             "end_id": 50,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 23,
             "end_id": 50,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 33,
@@ -824,17 +794,17 @@
         {
             "start_id": 56,
             "end_id": 35,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 35,
             "end_id": 55,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 35,
             "end_id": 20,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 15,
@@ -854,7 +824,7 @@
         {
             "start_id": 35,
             "end_id": 29,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 23,
@@ -864,11 +834,21 @@
         {
             "start_id": 35,
             "end_id": 24,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 13,
             "end_id": 53,
+            "visible": true
+        },
+        {
+            "start_id": 44,
+            "end_id": 43,
+            "visible": true
+        },
+        {
+            "start_id": 43,
+            "end_id": 3,
             "visible": true
         }
     ]

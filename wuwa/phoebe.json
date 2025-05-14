@@ -1,6 +1,6 @@
 {
-    "canvas_width": 1841,
-    "canvas_height": 1020,
+    "canvas_width": 2481,
+    "canvas_height": 1380,
     "text_bubbles": [
         {
             "id": 0,
@@ -28,8 +28,8 @@
         },
         {
             "id": 2,
-            "x": 839.0,
-            "y": 233.0,
+            "x": 873.0,
+            "y": 236.0,
             "width": 256,
             "height": 44,
             "text": "Replaced by Chamuel's Star (DC) if performed inside Ring of Mirrors",
@@ -40,8 +40,8 @@
         },
         {
             "id": 3,
-            "x": 769.0,
-            "y": 320.0,
+            "x": 695.0,
+            "y": 328.0,
             "width": 313,
             "height": 48,
             "text": "Chamuel's Star (DC)",
@@ -136,8 +136,8 @@
         },
         {
             "id": 12,
-            "x": 861.0,
-            "y": 511.0,
+            "x": 889.0,
+            "y": 534.0,
             "width": 241,
             "height": 42,
             "text": "Replaced by Chamuel's Star if performed inside Ring of Mirrors",
@@ -352,8 +352,8 @@
         },
         {
             "id": 30,
-            "x": 754.0,
-            "y": 716.0,
+            "x": 734.0,
+            "y": 727.0,
             "width": 123,
             "height": 24,
             "text": "Basic Attack 3",
@@ -624,7 +624,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
         },
         {
             "id": 53,
@@ -635,7 +635,7 @@
             "text": "Resonance 1",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
@@ -648,7 +648,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
         },
         {
             "id": 55,
@@ -687,21 +687,9 @@
             "visible": false
         },
         {
-            "id": 58,
-            "x": 447.0,
-            "y": 743.0,
-            "width": 109,
-            "height": 42,
-            "text": "Seven stacks instaed of five",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": false
-        },
-        {
             "id": 59,
-            "x": 164.0,
-            "y": 564.0,
+            "x": 44.0,
+            "y": 517.0,
             "width": 245,
             "height": 48,
             "text": "Resonance 3",
@@ -712,11 +700,11 @@
         },
         {
             "id": 60,
-            "x": 114.0,
-            "y": 650.0,
-            "width": 192,
-            "height": 24,
-            "text": "DMG multiplied by 223%",
+            "x": 34.0,
+            "y": 620.0,
+            "width": 334,
+            "height": 44,
+            "text": "DMG Multiplier +91% if you have Absolution\nDMG Multiplier +249% if you have Confession",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -798,9 +786,9 @@
             "id": 67,
             "x": 1110.0,
             "y": 764.0,
-            "width": 310,
-            "height": 59,
-            "text": "If you have Absolution or Confession, upon summoning a Ring of Mirrors, trigger a free Starflash at the Ring of Mirrors",
+            "width": 309,
+            "height": 79,
+            "text": "If you have Absolution or Confession, upon summoning a Ring of Mirrors, ATK +10% for 20s, then trigger a free Starflash at the Ring of Mirrors",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -1131,27 +1119,27 @@
         {
             "start_id": 52,
             "end_id": 40,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 53,
             "end_id": 52,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 53,
             "end_id": 54,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 38,
             "end_id": 54,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 54,
             "end_id": 25,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 46,
@@ -1176,26 +1164,6 @@
         {
             "start_id": 56,
             "end_id": 57,
-            "visible": false
-        },
-        {
-            "start_id": 58,
-            "end_id": 35,
-            "visible": false
-        },
-        {
-            "start_id": 56,
-            "end_id": 58,
-            "visible": false
-        },
-        {
-            "start_id": 59,
-            "end_id": 60,
-            "visible": false
-        },
-        {
-            "start_id": 60,
-            "end_id": 32,
             "visible": false
         },
         {
@@ -1261,12 +1229,32 @@
         {
             "start_id": 54,
             "end_id": 41,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 13,
             "end_id": 30,
             "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 60,
+            "visible": false
+        },
+        {
+            "start_id": 59,
+            "end_id": 60,
+            "visible": false
+        },
+        {
+            "start_id": 3,
+            "end_id": 61,
+            "visible": false
+        },
+        {
+            "start_id": 1,
+            "end_id": 61,
+            "visible": false
         }
     ]
 }

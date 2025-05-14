@@ -1,0 +1,767 @@
+{
+    "canvas_width": 2481,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 1126.0,
+            "y": 202.0,
+            "width": 340,
+            "height": 48,
+            "text": "Zapstring's Dance (NA)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 1,
+            "x": 1872.0,
+            "y": 240.0,
+            "width": 283,
+            "height": 48,
+            "text": "Magnetic Roar (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 1536.0,
+            "y": 355.0,
+            "width": 213,
+            "height": 24,
+            "text": "Puts Yinlin in Execution Mode",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 1036.0,
+            "y": 549.0,
+            "width": 252,
+            "height": 48,
+            "text": "Execution Mode",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 1244.0,
+            "y": 424.0,
+            "width": 199,
+            "height": 24,
+            "text": "on hit if in Execution Mode",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 1172.0,
+            "y": 713.0,
+            "width": 341,
+            "height": 48,
+            "text": "Electromagnetic Blast",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 1085.0,
+            "y": 634.0,
+            "width": 155,
+            "height": 24,
+            "text": "10 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 2232.0,
+            "y": 344.0,
+            "width": 168,
+            "height": 24,
+            "text": "Generate 10 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 1979.0,
+            "y": 345.0,
+            "width": 66,
+            "height": 24,
+            "text": "unlocks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 1837.0,
+            "y": 416.0,
+            "width": 346,
+            "height": 48,
+            "text": "Lightning Execution (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 10,
+            "x": 2229.0,
+            "y": 429.0,
+            "width": 175,
+            "height": 24,
+            "text": "Generates 15 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 1349.0,
+            "y": 798.0,
+            "width": 165,
+            "height": 24,
+            "text": "Generates 5 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 12,
+            "x": 889.0,
+            "y": 723.0,
+            "width": 244,
+            "height": 24,
+            "text": "Can be triggered up to four times",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 1032.0,
+            "y": 822.0,
+            "width": 214,
+            "height": 47,
+            "text": "Attacks all enemies marked with Sinner's Mark",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 810.0,
+            "y": 966.0,
+            "width": 220,
+            "height": 48,
+            "text": "Sinner's Mark",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 683.0,
+            "y": 826.0,
+            "width": 177,
+            "height": 45,
+            "text": "on hit, applies Sinner's Mark to enemies",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 275.0,
+            "y": 879.0,
+            "width": 326,
+            "height": 48,
+            "text": "Thundering Wrath (R)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 697.0,
+            "y": 203.0,
+            "width": 307,
+            "height": 48,
+            "text": "Raging Storm (Intro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 483.0,
+            "y": 215.0,
+            "width": 175,
+            "height": 24,
+            "text": "Generates 10 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 19,
+            "x": 35.0,
+            "y": 890.0,
+            "width": 177,
+            "height": 24,
+            "text": "Generates 20 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 1550.0,
+            "y": 459.0,
+            "width": 52,
+            "height": 24,
+            "text": "on hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 1662.0,
+            "y": 459.0,
+            "width": 63,
+            "height": 24,
+            "text": "on cast",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 1588.0,
+            "y": 575.0,
+            "width": 195,
+            "height": 24,
+            "text": "generate Judgment Points",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 1511.0,
+            "y": 648.0,
+            "width": 352,
+            "height": 48,
+            "text": "Judgment Points (Forte)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 1631.0,
+            "y": 739.0,
+            "width": 112,
+            "height": 24,
+            "text": "Maximum 100",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 1654.0,
+            "y": 792.0,
+            "width": 67,
+            "height": 24,
+            "text": "unlocks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 27,
+            "x": 1506.0,
+            "y": 849.0,
+            "width": 359,
+            "height": 48,
+            "text": "Chameleon Cipher (HA)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 1145.0,
+            "y": 957.0,
+            "width": 230,
+            "height": 65,
+            "text": "Consumes all Judgment Points and converts all Sinner's Marks into Punishment Marks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 1123.0,
+            "y": 1066.0,
+            "width": 275,
+            "height": 48,
+            "text": "Punishment Mark",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 1448.0,
+            "y": 1077.0,
+            "width": 150,
+            "height": 24,
+            "text": "18 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 31,
+            "x": 1149.0,
+            "y": 1148.0,
+            "width": 222,
+            "height": 61,
+            "text": "Afflicted enemies trigger Judgment Strike on hit from anyone up to once per second",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 32,
+            "x": 1131.0,
+            "y": 1239.0,
+            "width": 259,
+            "height": 48,
+            "text": "Judgment Strike",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 2232.0,
+            "y": 243.0,
+            "width": 207,
+            "height": 43,
+            "text": "Yinlin gains Crit Rate +15% for 5 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 34,
+            "x": 2225.0,
+            "y": 503.0,
+            "width": 174,
+            "height": 44,
+            "text": "Yinlin gains ATK +10% for 4 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 35,
+            "x": 1170.0,
+            "y": 1330.0,
+            "width": 180,
+            "height": 24,
+            "text": "is a Coordinated Attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 36,
+            "x": 1696.0,
+            "y": 1241.0,
+            "width": 229,
+            "height": 48,
+            "text": "Resonance 4",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 37,
+            "x": 1452.0,
+            "y": 1238.0,
+            "width": 173,
+            "height": 50,
+            "text": "Party gains ATK +20% for 12 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 38,
+            "x": 328.0,
+            "y": 996.0,
+            "width": 220,
+            "height": 48,
+            "text": "Deals 100% extra DMG vs marked enemies",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 39,
+            "x": 33.0,
+            "y": 996.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 5",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 40,
+            "x": 405.0,
+            "y": 458.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 6",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 43,
+            "x": 409.0,
+            "y": 591.0,
+            "width": 242,
+            "height": 86,
+            "text": "on hit for 30 seconds after casting Thundering Wrath, up to once per second, trigger Furious Thunder, only up to four times",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 44,
+            "x": 100.0,
+            "y": 610.0,
+            "width": 254,
+            "height": 48,
+            "text": "Furious Thunder",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 1,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 3,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 7,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 8,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 9,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 10,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 16,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 16,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 22,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 22,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 22,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 22,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 24,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 28,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 28,
+            "end_id": 29,
+            "visible": true
+        },
+        {
+            "start_id": 29,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 29,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 31,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 34,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 35,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 37,
+            "visible": false
+        },
+        {
+            "start_id": 36,
+            "end_id": 37,
+            "visible": false
+        },
+        {
+            "start_id": 38,
+            "end_id": 16,
+            "visible": false
+        },
+        {
+            "start_id": 38,
+            "end_id": 14,
+            "visible": false
+        },
+        {
+            "start_id": 38,
+            "end_id": 29,
+            "visible": false
+        },
+        {
+            "start_id": 39,
+            "end_id": 38,
+            "visible": false
+        },
+        {
+            "start_id": 0,
+            "end_id": 43,
+            "visible": false
+        },
+        {
+            "start_id": 40,
+            "end_id": 43,
+            "visible": false
+        },
+        {
+            "start_id": 43,
+            "end_id": 16,
+            "visible": false
+        },
+        {
+            "start_id": 43,
+            "end_id": 44,
+            "visible": false
+        },
+        {
+            "start_id": 40,
+            "end_id": 44,
+            "visible": false
+        }
+    ]
+}
