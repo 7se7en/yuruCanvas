@@ -1,0 +1,1141 @@
+{
+    "canvas_width": 2481,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 158.0,
+            "y": 45.0,
+            "width": 170,
+            "height": 24,
+            "text": "Sprint for 2.5 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 1,
+            "x": 80.0,
+            "y": 132.0,
+            "width": 325,
+            "height": 48,
+            "text": "Basic Attack - Starfall",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 205.0,
+            "y": 291.0,
+            "width": 72,
+            "height": 24,
+            "text": "replaces",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 136.0,
+            "y": 467.0,
+            "width": 215,
+            "height": 48,
+            "text": "Basic Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 387.0,
+            "y": 343.0,
+            "width": 114,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 561.0,
+            "y": 343.0,
+            "width": 141,
+            "height": 24,
+            "text": "with proper timing",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 755.0,
+            "y": 331.0,
+            "width": 220,
+            "height": 48,
+            "text": "Mid-air Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 552.0,
+            "y": 277.0,
+            "width": 157,
+            "height": 24,
+            "text": "without proper timing",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 807.0,
+            "y": 277.0,
+            "width": 121,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 312.0,
+            "y": 400.0,
+            "width": 116,
+            "height": 24,
+            "text": "Basic Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 10,
+            "x": 1205.0,
+            "y": 661.0,
+            "width": 465,
+            "height": 48,
+            "text": "Heavy Attack - Wolf's Gnawing",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 497.0,
+            "y": 388.0,
+            "width": 235,
+            "height": 48,
+            "text": "Dodge Counter",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 12,
+            "x": 1272.0,
+            "y": 194.0,
+            "width": 287,
+            "height": 48,
+            "text": "Shewolf's Hunt (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 1674.0,
+            "y": 440.0,
+            "width": 220,
+            "height": 48,
+            "text": "Feral Fang (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 1006.0,
+            "y": 471.0,
+            "width": 256,
+            "height": 48,
+            "text": "Wolflame (Forte)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 1076.0,
+            "y": 560.0,
+            "width": 117,
+            "height": 24,
+            "text": "unlocks at 50",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 676.0,
+            "y": 753.0,
+            "width": 95,
+            "height": 24,
+            "text": "unlocks at 1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 654.0,
+            "y": 841.0,
+            "width": 136,
+            "height": 48,
+            "text": "Wolfaith",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 1044.0,
+            "y": 952.0,
+            "width": 179,
+            "height": 40,
+            "text": "Consumes 50 Wolflame\nGenerates 1 Wolfaith",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 19,
+            "x": 935.0,
+            "y": 741.0,
+            "width": 395,
+            "height": 48,
+            "text": "Heavy Attack - Wolf's Claw",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 20,
+            "x": 797.0,
+            "y": 457.0,
+            "width": 136,
+            "height": 24,
+            "text": "Mid-air Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 680.0,
+            "y": 661.0,
+            "width": 365,
+            "height": 48,
+            "text": "Mid-air Attack - Firestrike",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 628.0,
+            "y": 20.0,
+            "width": 99,
+            "height": 24,
+            "text": "While in air",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 608.0,
+            "y": 77.0,
+            "width": 140,
+            "height": 24,
+            "text": "hold basic attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 555.0,
+            "y": 132.0,
+            "width": 246,
+            "height": 48,
+            "text": "Plunging Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 590.0,
+            "y": 457.0,
+            "width": 126,
+            "height": 24,
+            "text": "Mid-air Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 1018.0,
+            "y": 408.0,
+            "width": 232,
+            "height": 24,
+            "text": "All damage generates Wolflame",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 27,
+            "x": 1325.0,
+            "y": 362.0,
+            "width": 276,
+            "height": 24,
+            "text": "Generates an additional 15 Wolflame",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 1629.0,
+            "y": 320.0,
+            "width": 165,
+            "height": 24,
+            "text": "unlocks for 8 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 1030.0,
+            "y": 275.0,
+            "width": 232,
+            "height": 24,
+            "text": "Held E, then with proper timing",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 1737.0,
+            "y": 264.0,
+            "width": 201,
+            "height": 24,
+            "text": "Marks target for 8 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 31,
+            "x": 1945.0,
+            "y": 440.0,
+            "width": 166,
+            "height": 49,
+            "text": "DMG Multiplier +50% vs. Marked enemies",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 32,
+            "x": 673.0,
+            "y": 959.0,
+            "width": 100,
+            "height": 24,
+            "text": "unlocks at 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 243.0,
+            "y": 1043.0,
+            "width": 382,
+            "height": 48,
+            "text": "Dance With the Wolf (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 34,
+            "x": 823.0,
+            "y": 1045.0,
+            "width": 469,
+            "height": 48,
+            "text": "Dance With the Wolf: Climax (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 35,
+            "x": 685.0,
+            "y": 1056.0,
+            "width": 74,
+            "height": 24,
+            "text": "replaces",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 36,
+            "x": 643.0,
+            "y": 1138.0,
+            "width": 162,
+            "height": 24,
+            "text": "Consumes 2 Wolfaith",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 37,
+            "x": 645.0,
+            "y": 1202.0,
+            "width": 160,
+            "height": 24,
+            "text": "unlocks for 8 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 38,
+            "x": 566.0,
+            "y": 1279.0,
+            "width": 320,
+            "height": 48,
+            "text": "Set the Arena Ablaze",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 39,
+            "x": 245.0,
+            "y": 1279.0,
+            "width": 237,
+            "height": 48,
+            "text": "An ally performs a Resonance Liberation while Lupa is off field",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 40,
+            "x": 417.0,
+            "y": 836.0,
+            "width": 191,
+            "height": 59,
+            "text": "10 second duration\nRefreshes when Wolfaith is generated",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 41,
+            "x": 147.0,
+            "y": 840.0,
+            "width": 220,
+            "height": 48,
+            "text": "Expired Wolfaith is converted back to 50 Wolflame",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 42,
+            "x": 2000.0,
+            "y": 538.0,
+            "width": 316,
+            "height": 48,
+            "text": "Fire-Kissed Glory (R)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 43,
+            "x": 1876.0,
+            "y": 632.0,
+            "width": 187,
+            "height": 40,
+            "text": "Consumes all Wolfaith\nGenerates 100 Wolflame",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 44,
+            "x": 2257.0,
+            "y": 635.0,
+            "width": 65,
+            "height": 24,
+            "text": "unlocks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 45,
+            "x": 2127.0,
+            "y": 698.0,
+            "width": 325,
+            "height": 48,
+            "text": "Foebreaker (LMB/E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 46,
+            "x": 2133.0,
+            "y": 848.0,
+            "width": 276,
+            "height": 24,
+            "text": "unlocks for 35 seconds to entire team",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 47,
+            "x": 2099.0,
+            "y": 958.0,
+            "width": 309,
+            "height": 48,
+            "text": "Pack Hunt (Passive)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 48,
+            "x": 2257.0,
+            "y": 1048.0,
+            "width": 195,
+            "height": 80,
+            "text": "Up to 3 times, when hit or launched, can recover immediately and act as if they'd dodged the attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 49,
+            "x": 1737.0,
+            "y": 1104.0,
+            "width": 302,
+            "height": 48,
+            "text": "ATK +6% and Fusion DMG Bonus +10% vs. Overlord/Calamity Class enemies",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 50,
+            "x": 1748.0,
+            "y": 1194.0,
+            "width": 285,
+            "height": 65,
+            "text": "Additional Fusion DMG Bonus +10% vs. Overlord/Calamity Class enemies if team has three Fusion Resonators",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 51,
+            "x": 1672.0,
+            "y": 1039.0,
+            "width": 220,
+            "height": 48,
+            "text": "ATK +6% (up to +18%) each time an Intro Skill is performed",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 52,
+            "x": 1614.0,
+            "y": 946.0,
+            "width": 205,
+            "height": 64,
+            "text": "unlocks for Lupa after two Intro Skills are triggered within Pack Hunt's duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 53,
+            "x": 1302.0,
+            "y": 1141.0,
+            "width": 351,
+            "height": 48,
+            "text": "Nowhere to Run! (Intro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 54,
+            "x": 1882.0,
+            "y": 781.0,
+            "width": 207,
+            "height": 47,
+            "text": "unlocks Burning Matchpoint for 12 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 55,
+            "x": 1469.0,
+            "y": 857.0,
+            "width": 424,
+            "height": 48,
+            "text": "Burning Matchpoint (Passive)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 56,
+            "x": 1338.0,
+            "y": 960.0,
+            "width": 69,
+            "height": 24,
+            "text": "unlocks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 57,
+            "x": 1743.0,
+            "y": 662.0,
+            "width": 76,
+            "height": 24,
+            "text": "disables",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 58,
+            "x": 1427.0,
+            "y": 766.0,
+            "width": 220,
+            "height": 48,
+            "text": "Normal Attacks generate 500% more Wolflame on hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 59,
+            "x": 2057.0,
+            "y": 1159.0,
+            "width": 312,
+            "height": 139,
+            "text": "Attacks ignore X of target's Fusion RES based on number of Fusion Resonators on team, including Lupa:\n1: 3%\n2: 6%\n3: 15%\n4: 18% (Max)",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 60,
+            "x": 1399.0,
+            "y": 1222.0,
+            "width": 161,
+            "height": 24,
+            "text": "Removes Pack Hunt",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 61,
+            "x": 272.0,
+            "y": 574.0,
+            "width": 382,
+            "height": 48,
+            "text": "Try Focusing, Eh? (Intro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 62,
+            "x": 1863.0,
+            "y": 41.0,
+            "width": 393,
+            "height": 48,
+            "text": "Stand by Me, Aibo (Outro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 63,
+            "x": 1859.0,
+            "y": 122.0,
+            "width": 409,
+            "height": 67,
+            "text": "Incoming resonator gains for 14 seconds or switched out:\nFusion DMG amp. 1.2x\nBasic Attack DMG amp. 1.25x",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 0,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 7,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 8,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 3,
+            "end_id": 9,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 9,
+            "visible": true
+        },
+        {
+            "start_id": 14,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 10,
+            "visible": true
+        },
+        {
+            "start_id": 10,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 16,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 16,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 19,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 20,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 24,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 22,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 20,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 12,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 12,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 28,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 12,
+            "end_id": 29,
+            "visible": true
+        },
+        {
+            "start_id": 29,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 12,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 34,
+            "visible": true
+        },
+        {
+            "start_id": 34,
+            "end_id": 35,
+            "visible": true
+        },
+        {
+            "start_id": 35,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 33,
+            "end_id": 36,
+            "visible": true
+        },
+        {
+            "start_id": 34,
+            "end_id": 36,
+            "visible": true
+        },
+        {
+            "start_id": 33,
+            "end_id": 37,
+            "visible": true
+        },
+        {
+            "start_id": 34,
+            "end_id": 37,
+            "visible": true
+        },
+        {
+            "start_id": 37,
+            "end_id": 38,
+            "visible": true
+        },
+        {
+            "start_id": 39,
+            "end_id": 38,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 40,
+            "visible": true
+        },
+        {
+            "start_id": 40,
+            "end_id": 41,
+            "visible": true
+        },
+        {
+            "start_id": 42,
+            "end_id": 43,
+            "visible": true
+        },
+        {
+            "start_id": 42,
+            "end_id": 44,
+            "visible": true
+        },
+        {
+            "start_id": 44,
+            "end_id": 45,
+            "visible": true
+        },
+        {
+            "start_id": 45,
+            "end_id": 46,
+            "visible": true
+        },
+        {
+            "start_id": 46,
+            "end_id": 47,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 48,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 49,
+            "visible": true
+        },
+        {
+            "start_id": 49,
+            "end_id": 50,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 51,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 52,
+            "visible": true
+        },
+        {
+            "start_id": 52,
+            "end_id": 53,
+            "visible": true
+        },
+        {
+            "start_id": 45,
+            "end_id": 54,
+            "visible": true
+        },
+        {
+            "start_id": 54,
+            "end_id": 55,
+            "visible": true
+        },
+        {
+            "start_id": 55,
+            "end_id": 56,
+            "visible": true
+        },
+        {
+            "start_id": 56,
+            "end_id": 34,
+            "visible": true
+        },
+        {
+            "start_id": 55,
+            "end_id": 57,
+            "visible": true
+        },
+        {
+            "start_id": 57,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 57,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 55,
+            "end_id": 58,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 59,
+            "visible": true
+        },
+        {
+            "start_id": 53,
+            "end_id": 60,
+            "visible": true
+        },
+        {
+            "start_id": 61,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 62,
+            "end_id": 63,
+            "visible": true
+        }
+    ]
+}
