@@ -1,48 +1,12 @@
 {
-    "canvas_width": 2485,
-    "canvas_height": 1384,
+    "canvas_width": 2481,
+    "canvas_height": 1380,
     "text_bubbles": [
         {
             "id": 0,
-            "x": 158.0,
-            "y": 45.0,
-            "width": 170,
-            "height": 24,
-            "text": "Sprint for 2.5 seconds",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 1,
-            "x": 80.0,
-            "y": 132.0,
-            "width": 325,
-            "height": 48,
-            "text": "Basic Attack - Starfall",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 2,
-            "x": 205.0,
-            "y": 291.0,
-            "width": 72,
-            "height": 24,
-            "text": "replaces",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 3,
-            "x": 136.0,
-            "y": 467.0,
-            "width": 215,
+            "x": 41.0,
+            "y": 58.0,
+            "width": 220,
             "height": 48,
             "text": "Basic Attack",
             "font_size": 24,
@@ -51,70 +15,10 @@
             "visible": true
         },
         {
-            "id": 4,
-            "x": 387.0,
-            "y": 343.0,
-            "width": 114,
-            "height": 24,
-            "text": "Basic Attack 3",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 5,
-            "x": 561.0,
-            "y": 343.0,
-            "width": 141,
-            "height": 24,
-            "text": "with proper timing",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 6,
-            "x": 755.0,
-            "y": 331.0,
-            "width": 220,
-            "height": 48,
-            "text": "Mid-air Attack",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 7,
-            "x": 552.0,
-            "y": 277.0,
-            "width": 157,
-            "height": 24,
-            "text": "without proper timing",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 8,
-            "x": 807.0,
-            "y": 277.0,
-            "width": 121,
-            "height": 24,
-            "text": "Basic Attack 4",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 9,
-            "x": 312.0,
-            "y": 400.0,
-            "width": 116,
+            "id": 1,
+            "x": 137.0,
+            "y": 176.0,
+            "width": 119,
             "height": 24,
             "text": "Basic Attack 2",
             "font_size": 12,
@@ -123,177 +27,117 @@
             "visible": true
         },
         {
-            "id": 10,
-            "x": 1233.0,
-            "y": 548.0,
-            "width": 465,
+            "id": 2,
+            "x": 421.0,
+            "y": 136.0,
+            "width": 123,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 628.0,
+            "y": 137.0,
+            "width": 116,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 567.0,
+            "y": 74.0,
+            "width": 236,
+            "height": 24,
+            "text": "Inflicts one stack of Aero Erosion",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 974.0,
+            "y": 199.0,
+            "width": 267,
+            "height": 24,
+            "text": "Summons Sword of Divinity Shadow",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 433.0,
+            "y": 187.0,
+            "width": 220,
             "height": 48,
-            "text": "Heavy Attack - Wolf's Gnawing",
+            "text": "Heavy Attack",
             "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 697.0,
+            "y": 260.0,
+            "width": 275,
+            "height": 24,
+            "text": "Summons Sword of Discord Shadow",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 357.0,
+            "y": 315.0,
+            "width": 307,
+            "height": 48,
+            "text": "Mid-air Heavy Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 371.0,
+            "y": 392.0,
+            "width": 139,
+            "height": 24,
+            "text": "on mouse release",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 10,
+            "x": 105.0,
+            "y": 512.0,
+            "width": 153,
+            "height": 24,
+            "text": "Jump as Cartethyia",
+            "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
             "id": 11,
-            "x": 497.0,
-            "y": 388.0,
-            "width": 235,
-            "height": 48,
-            "text": "Dodge Counter",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 12,
-            "x": 1272.0,
-            "y": 194.0,
-            "width": 287,
-            "height": 48,
-            "text": "Shewolf's Hunt (E)",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 13,
-            "x": 1674.0,
-            "y": 440.0,
-            "width": 220,
-            "height": 48,
-            "text": "Feral Fang (E)",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 14,
-            "x": 1008.0,
-            "y": 471.0,
-            "width": 256,
-            "height": 48,
-            "text": "Wolflame (Forte)",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 15,
-            "x": 1077.0,
-            "y": 563.0,
-            "width": 117,
-            "height": 24,
-            "text": "unlocks at 50",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 16,
-            "x": 819.0,
-            "y": 777.0,
-            "width": 95,
-            "height": 24,
-            "text": "unlocks at 1",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 17,
-            "x": 655.0,
-            "y": 814.0,
-            "width": 136,
-            "height": 48,
-            "text": "Wolfaith",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 18,
-            "x": 1044.0,
-            "y": 952.0,
-            "width": 179,
-            "height": 40,
-            "text": "Consumes 50 Wolflame\nGenerates 1 Wolfaith",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 19,
-            "x": 937.0,
-            "y": 815.0,
-            "width": 395,
-            "height": 48,
-            "text": "Heavy Attack - Wolf's Claw",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 20,
-            "x": 797.0,
-            "y": 457.0,
-            "width": 136,
-            "height": 24,
-            "text": "Mid-air Attack 2",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 21,
-            "x": 681.0,
-            "y": 548.0,
-            "width": 365,
-            "height": 48,
-            "text": "Mid-air Attack - Firestrike",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 22,
-            "x": 628.0,
-            "y": 20.0,
-            "width": 99,
-            "height": 24,
-            "text": "While in air",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 23,
-            "x": 608.0,
-            "y": 77.0,
-            "width": 140,
-            "height": 24,
-            "text": "hold basic attack",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 24,
-            "x": 555.0,
-            "y": 132.0,
+            "x": 316.0,
+            "y": 501.0,
             "width": 246,
             "height": 48,
             "text": "Plunging Attack",
@@ -303,9 +147,297 @@
             "visible": true
         },
         {
+            "id": 12,
+            "x": 1076.0,
+            "y": 318.0,
+            "width": 265,
+            "height": 49,
+            "text": "Sword Shadows",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 646.0,
+            "y": 439.0,
+            "width": 233,
+            "height": 24,
+            "text": "Consumes all Sword Shadows",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 146.0,
+            "y": 316.0,
+            "width": 100,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 1554.0,
+            "y": 101.0,
+            "width": 473,
+            "height": 48,
+            "text": "Sword to Bear Their Names (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 1341.0,
+            "y": 218.0,
+            "width": 265,
+            "height": 24,
+            "text": "Summons Sword of Virtue's Shadow",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 1667.0,
+            "y": 41.0,
+            "width": 250,
+            "height": 24,
+            "text": "Inflicts two stacks of Aero Erosion",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 1115.0,
+            "y": 465.0,
+            "width": 404,
+            "height": 24,
+            "text": "gain the following based on consumed Sword Shadows",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 19,
+            "x": 1744.0,
+            "y": 516.0,
+            "width": 120,
+            "height": 24,
+            "text": "Heart of Virtue",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 20,
+            "x": 1216.0,
+            "y": 601.0,
+            "width": 134,
+            "height": 24,
+            "text": "Power of Discord",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 1484.0,
+            "y": 551.0,
+            "width": 146,
+            "height": 24,
+            "text": "Mandate of Divinity",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 933.0,
+            "y": 20.0,
+            "width": 458,
+            "height": 48,
+            "text": "Sword...Trace (Cartethyia Intro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 483.0,
+            "y": 22.0,
+            "width": 99,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 1378.0,
+            "y": 331.0,
+            "width": 149,
+            "height": 24,
+            "text": "20 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
             "id": 25,
-            "x": 590.0,
-            "y": 457.0,
+            "x": 47.0,
+            "y": 626.0,
+            "width": 707,
+            "height": 72,
+            "text": "A Knight's Heartfelt Prayers (R)",
+            "font_size": 36,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 184.0,
+            "y": 737.0,
+            "width": 234,
+            "height": 43,
+            "text": "Become Fleurdelys, replacing Cartethyia's attacks and skills",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 27,
+            "x": 797.0,
+            "y": 616.0,
+            "width": 257,
+            "height": 24,
+            "text": "Enter Manifest state for 12 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 883.0,
+            "y": 668.0,
+            "width": 156,
+            "height": 48,
+            "text": "Manifest",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 7.0,
+            "y": 918.0,
+            "width": 220,
+            "height": 48,
+            "text": "Basic Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 90.0,
+            "y": 1007.0,
+            "width": 120,
+            "height": 24,
+            "text": "Basic Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 31,
+            "x": 122.0,
+            "y": 1069.0,
+            "width": 114,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 32,
+            "x": 121.0,
+            "y": 1134.0,
+            "width": 116,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 120.0,
+            "y": 1195.0,
+            "width": 117,
+            "height": 24,
+            "text": "Basic Attack 5",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 34,
+            "x": 331.0,
+            "y": 923.0,
+            "width": 220,
+            "height": 48,
+            "text": "Mid-air Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 35,
+            "x": 380.0,
+            "y": 1008.0,
+            "width": 125,
+            "height": 24,
+            "text": "Mid-air Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 36,
+            "x": 378.0,
+            "y": 1069.0,
             "width": 126,
             "height": 24,
             "text": "Mid-air Attack 3",
@@ -315,144 +447,12 @@
             "visible": true
         },
         {
-            "id": 26,
-            "x": 1020.0,
-            "y": 409.0,
-            "width": 232,
-            "height": 24,
-            "text": "All damage generates Wolflame",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 27,
-            "x": 1325.0,
-            "y": 362.0,
-            "width": 276,
-            "height": 24,
-            "text": "Generates an additional 15 Wolflame",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 28,
-            "x": 1533.0,
-            "y": 318.0,
-            "width": 165,
-            "height": 24,
-            "text": "unlocks for 8 seconds",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 29,
-            "x": 1008.0,
-            "y": 278.0,
-            "width": 232,
-            "height": 24,
-            "text": "Held E, then with proper timing",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 30,
-            "x": 1756.0,
-            "y": 264.0,
-            "width": 201,
-            "height": 24,
-            "text": "Marks target for 8 seconds",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 31,
-            "x": 1945.0,
-            "y": 440.0,
-            "width": 166,
-            "height": 49,
-            "text": "DMG Multiplier +50% vs. Marked enemies",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 32,
-            "x": 673.0,
-            "y": 959.0,
-            "width": 100,
-            "height": 24,
-            "text": "unlocks at 2",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 33,
-            "x": 243.0,
-            "y": 1043.0,
-            "width": 382,
-            "height": 48,
-            "text": "Dance With the Wolf (E)",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 34,
-            "x": 823.0,
-            "y": 1045.0,
-            "width": 469,
-            "height": 48,
-            "text": "Dance With the Wolf: Climax (E)",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 35,
-            "x": 685.0,
-            "y": 1056.0,
-            "width": 74,
-            "height": 24,
-            "text": "replaces",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 36,
-            "x": 643.0,
-            "y": 1138.0,
-            "width": 162,
-            "height": 24,
-            "text": "Consumes 2 Wolfaith",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
             "id": 37,
-            "x": 645.0,
-            "y": 1202.0,
-            "width": 160,
-            "height": 24,
-            "text": "unlocks for 8 seconds",
+            "x": 239.0,
+            "y": 1001.0,
+            "width": 113,
+            "height": 43,
+            "text": "Hold attack while airborne",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -460,47 +460,47 @@
         },
         {
             "id": 38,
-            "x": 566.0,
-            "y": 1279.0,
-            "width": 320,
-            "height": 48,
-            "text": "Set the Arena Ablaze",
-            "font_size": 24,
+            "x": 476.0,
+            "y": 847.0,
+            "width": 229,
+            "height": 24,
+            "text": "Jumping as Fleurdelys triggers",
+            "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
             "id": 39,
-            "x": 249.0,
-            "y": 1273.0,
-            "width": 237,
-            "height": 64,
-            "text": "Triggers once an ally performs a Resonance Liberation while Lupa isn't the active resonator",
-            "font_size": 12,
+            "x": 656.0,
+            "y": 922.0,
+            "width": 206,
+            "height": 48,
+            "text": "Upward Cut",
+            "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
             "id": 40,
-            "x": 417.0,
-            "y": 809.0,
-            "width": 191,
-            "height": 59,
-            "text": "10 second duration\nRefreshes when Wolfaith is generated",
-            "font_size": 12,
+            "x": 936.0,
+            "y": 909.0,
+            "width": 220,
+            "height": 48,
+            "text": "Heavy Attack",
+            "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
             "id": 41,
-            "x": 150.0,
-            "y": 815.0,
-            "width": 220,
-            "height": 48,
-            "text": "Expired Wolfaith is converted back to 50 Wolflame",
+            "x": 967.0,
+            "y": 993.0,
+            "width": 123,
+            "height": 24,
+            "text": "can combo into",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -508,11 +508,11 @@
         },
         {
             "id": 42,
-            "x": 2000.0,
-            "y": 538.0,
-            "width": 316,
+            "x": 822.0,
+            "y": 1070.0,
+            "width": 355,
             "height": 48,
-            "text": "Fire-Kissed Glory (R)",
+            "text": "Enhanced Heavy Attack",
             "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
@@ -520,23 +520,23 @@
         },
         {
             "id": 43,
-            "x": 1876.0,
-            "y": 632.0,
-            "width": 187,
-            "height": 40,
-            "text": "Consumes all Wolfaith\nGenerates 100 Wolflame",
-            "font_size": 12,
+            "x": 43.0,
+            "y": 1311.0,
+            "width": 361,
+            "height": 48,
+            "text": "Sword...Waves' Call (E)",
+            "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
             "id": 44,
-            "x": 2257.0,
-            "y": 635.0,
-            "width": 65,
+            "x": 371.0,
+            "y": 1266.0,
+            "width": 162,
             "height": 24,
-            "text": "unlocks",
+            "text": "unlocks for ? seconds",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -544,11 +544,11 @@
         },
         {
             "id": 45,
-            "x": 2127.0,
-            "y": 698.0,
-            "width": 325,
+            "x": 606.0,
+            "y": 1250.0,
+            "width": 242,
             "height": 48,
-            "text": "Foebreaker (LMB/E)",
+            "text": "May...Tides (E)",
             "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
@@ -556,11 +556,11 @@
         },
         {
             "id": 46,
-            "x": 2133.0,
-            "y": 848.0,
-            "width": 276,
+            "x": 313.0,
+            "y": 1125.0,
+            "width": 124,
             "height": 24,
-            "text": "unlocks for 35 seconds to entire team",
+            "text": "can combo into",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -568,23 +568,23 @@
         },
         {
             "id": 47,
-            "x": 2099.0,
-            "y": 958.0,
-            "width": 309,
-            "height": 48,
-            "text": "Pack Hunt (Passive)",
-            "font_size": 24,
+            "x": 499.0,
+            "y": 1338.0,
+            "width": 260,
+            "height": 24,
+            "text": "Resets Mid-air Attack combo cycle",
+            "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
             "id": 48,
-            "x": 2257.0,
-            "y": 1048.0,
-            "width": 195,
-            "height": 80,
-            "text": "Up to 3 times, when hit or launched, can recover immediately and act as if they'd dodged the attack",
+            "x": 564.0,
+            "y": 1008.0,
+            "width": 91,
+            "height": 24,
+            "text": "Gain Float",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -592,11 +592,11 @@
         },
         {
             "id": 49,
-            "x": 1737.0,
-            "y": 1104.0,
-            "width": 302,
-            "height": 48,
-            "text": "ATK +6% and Fusion DMG Bonus +10% vs. Overlord/Calamity Class enemies",
+            "x": 181.0,
+            "y": 1248.0,
+            "width": 88,
+            "height": 24,
+            "text": "Gain Float",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -604,23 +604,23 @@
         },
         {
             "id": 50,
-            "x": 1748.0,
-            "y": 1194.0,
-            "width": 285,
-            "height": 65,
-            "text": "Additional Fusion DMG Bonus +10% vs. Overlord/Calamity Class enemies if team has three Fusion Resonators",
-            "font_size": 12,
+            "x": 2283.0,
+            "y": 54.0,
+            "width": 98,
+            "height": 48,
+            "text": "Float",
+            "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
             "id": 51,
-            "x": 1672.0,
-            "y": 1039.0,
-            "width": 220,
-            "height": 48,
-            "text": "ATK +6% (up to +18%) each time an Intro Skill is performed",
+            "x": 2235.0,
+            "y": 151.0,
+            "width": 195,
+            "height": 63,
+            "text": "Float mid-air for as long as stamina allows or until you perform any action",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -628,11 +628,11 @@
         },
         {
             "id": 52,
-            "x": 1614.0,
-            "y": 946.0,
-            "width": 205,
-            "height": 64,
-            "text": "unlocks for Lupa after two Intro Skills are triggered within Pack Hunt's duration",
+            "x": 596.0,
+            "y": 1137.0,
+            "width": 220,
+            "height": 48,
+            "text": "Triggers one stack of Aero Erosion and removes it",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -640,23 +640,23 @@
         },
         {
             "id": 53,
-            "x": 1344.0,
-            "y": 1095.0,
-            "width": 268,
-            "height": 89,
-            "text": "Nowhere to Run! (Enhanced Intro)",
-            "font_size": 24,
+            "x": 901.0,
+            "y": 742.0,
+            "width": 289,
+            "height": 63,
+            "text": "Allows you to swap back and forth between Cartethyia and Fleurdelys form freely, triggering their Basic Attack 2",
+            "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
             "id": 54,
-            "x": 1882.0,
-            "y": 781.0,
-            "width": 207,
-            "height": 47,
-            "text": "unlocks Burning Matchpoint for 12 seconds",
+            "x": 543.0,
+            "y": 735.0,
+            "width": 212,
+            "height": 41,
+            "text": "All damage as Fleurdelys generates Conviction",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -664,11 +664,11 @@
         },
         {
             "id": 55,
-            "x": 1469.0,
-            "y": 857.0,
-            "width": 424,
+            "x": 843.0,
+            "y": 829.0,
+            "width": 293,
             "height": 48,
-            "text": "Burning Matchpoint (Passive)",
+            "text": "Conviction (Forte)",
             "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
@@ -676,11 +676,11 @@
         },
         {
             "id": 56,
-            "x": 1338.0,
-            "y": 960.0,
-            "width": 69,
-            "height": 24,
-            "text": "unlocks",
+            "x": 1270.0,
+            "y": 893.0,
+            "width": 220,
+            "height": 48,
+            "text": "unlocks at max Conviction",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -688,9 +688,9 @@
         },
         {
             "id": 57,
-            "x": 1743.0,
-            "y": 662.0,
-            "width": 76,
+            "x": 1285.0,
+            "y": 839.0,
+            "width": 71,
             "height": 24,
             "text": "disables",
             "font_size": 12,
@@ -700,11 +700,11 @@
         },
         {
             "id": 58,
-            "x": 1427.0,
-            "y": 766.0,
-            "width": 220,
-            "height": 48,
-            "text": "Normal Attacks generate 500% more Wolflame on hit",
+            "x": 1857.0,
+            "y": 937.0,
+            "width": 152,
+            "height": 24,
+            "text": "Stagnation Field",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -712,11 +712,11 @@
         },
         {
             "id": 59,
-            "x": 2057.0,
-            "y": 1159.0,
-            "width": 312,
-            "height": 139,
-            "text": "Attacks ignore X of target's Fusion RES based on number of Fusion Resonators on team, including Lupa:\n1: 3%\n2: 6%\n3: 15%\n4: 18% (Max)",
+            "x": 1404.0,
+            "y": 603.0,
+            "width": 264,
+            "height": 67,
+            "text": "Within range of Fleurdelys:\nAero Erosion DMG amp. by 1.5x\nAero Erosion damage interval -50%",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -724,11 +724,11 @@
         },
         {
             "id": 60,
-            "x": 1399.0,
-            "y": 1222.0,
-            "width": 161,
-            "height": 24,
-            "text": "Removes Pack Hunt",
+            "x": 1069.0,
+            "y": 1236.0,
+            "width": 286,
+            "height": 47,
+            "text": "Matches enemies Aero Erosion stacks to highest of enemies being damaged",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -736,23 +736,23 @@
         },
         {
             "id": 61,
-            "x": 92.0,
-            "y": 579.0,
-            "width": 382,
-            "height": 48,
-            "text": "Try Focusing, Eh? (Intro)",
-            "font_size": 24,
+            "x": 1507.0,
+            "y": 815.0,
+            "width": 304,
+            "height": 24,
+            "text": "Effect only active while you have Manifest",
+            "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
             "id": 62,
-            "x": 1373.0,
-            "y": 23.0,
-            "width": 393,
+            "x": 1469.0,
+            "y": 1139.0,
+            "width": 421,
             "height": 48,
-            "text": "Stand by Me, Aibo (Outro)",
+            "text": "Blade of Howling Squall (R)",
             "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
@@ -760,11 +760,11 @@
         },
         {
             "id": 63,
-            "x": 1879.0,
-            "y": 16.0,
-            "width": 409,
-            "height": 67,
-            "text": "Incoming resonator gains for 14 seconds or switched out:\nFusion DMG amp. 1.2x\nBasic Attack DMG amp. 1.25x",
+            "x": 1990.0,
+            "y": 1151.0,
+            "width": 179,
+            "height": 24,
+            "text": "Removes all Conviction",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -772,11 +772,23 @@
         },
         {
             "id": 64,
-            "x": 1075.0,
-            "y": 681.0,
-            "width": 121,
+            "x": 1967.0,
+            "y": 1231.0,
+            "width": 123,
             "height": 24,
-            "text": "can combo into",
+            "text": "Ends Manifest",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 65,
+            "x": 1695.0,
+            "y": 1256.0,
+            "width": 190,
+            "height": 24,
+            "text": "Restores 50% of Max HP",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -784,11 +796,11 @@
         },
         {
             "id": 66,
-            "x": 1617.0,
-            "y": 132.0,
-            "width": 121,
+            "x": 1423.0,
+            "y": 1230.0,
+            "width": 247,
             "height": 24,
-            "text": "can combo into",
+            "text": "Removes all Aero Erosion stacks",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -796,11 +808,11 @@
         },
         {
             "id": 67,
-            "x": 1044.0,
-            "y": 156.0,
-            "width": 37,
-            "height": 24,
-            "text": "\u27f8",
+            "x": 1447.0,
+            "y": 1290.0,
+            "width": 201,
+            "height": 61,
+            "text": "DMG amp. by 20% (1.2x), up to 100% (2.0x), for each stack removed",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -808,11 +820,23 @@
         },
         {
             "id": 68,
-            "x": 356.0,
-            "y": 259.0,
-            "width": 25,
+            "x": 70.0,
+            "y": 805.0,
+            "width": 349,
+            "height": 48,
+            "text": "Sword...Freedom (Intro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 69,
+            "x": 309.0,
+            "y": 883.0,
+            "width": 115,
             "height": 24,
-            "text": "\u21d3",
+            "text": "combos into",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -831,77 +855,117 @@
             "visible": true
         },
         {
-            "start_id": 4,
-            "end_id": 5,
-            "visible": true
-        },
-        {
-            "start_id": 5,
-            "end_id": 6,
-            "visible": true
-        },
-        {
-            "start_id": 4,
-            "end_id": 7,
-            "visible": true
-        },
-        {
-            "start_id": 7,
-            "end_id": 8,
-            "visible": true
-        },
-        {
             "start_id": 2,
             "end_id": 3,
             "visible": true
         },
         {
             "start_id": 3,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 3,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 7,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 7,
+            "visible": true
+        },
+        {
+            "start_id": 8,
             "end_id": 9,
             "visible": true
         },
         {
             "start_id": 9,
-            "end_id": 4,
-            "visible": true
-        },
-        {
-            "start_id": 11,
-            "end_id": 9,
+            "end_id": 11,
             "visible": true
         },
         {
             "start_id": 10,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 16,
+            "visible": true
+        },
+        {
+            "start_id": 16,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 12,
             "end_id": 18,
             "visible": true
         },
         {
             "start_id": 18,
-            "end_id": 17,
+            "end_id": 19,
             "visible": true
         },
         {
-            "start_id": 19,
-            "end_id": 18,
-            "visible": true
-        },
-        {
-            "start_id": 6,
+            "start_id": 18,
             "end_id": 20,
             "visible": true
         },
         {
-            "start_id": 20,
+            "start_id": 18,
             "end_id": 21,
             "visible": true
         },
         {
-            "start_id": 21,
-            "end_id": 18,
+            "start_id": 22,
+            "end_id": 7,
             "visible": true
         },
         {
-            "start_id": 24,
+            "start_id": 22,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 14,
             "end_id": 1,
             "visible": true
         },
@@ -912,62 +976,32 @@
         },
         {
             "start_id": 23,
-            "end_id": 24,
-            "visible": true
-        },
-        {
-            "start_id": 20,
-            "end_id": 25,
-            "visible": true
-        },
-        {
-            "start_id": 26,
-            "end_id": 14,
+            "end_id": 1,
             "visible": true
         },
         {
             "start_id": 12,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 25,
             "end_id": 27,
             "visible": true
         },
         {
             "start_id": 27,
-            "end_id": 14,
-            "visible": true
-        },
-        {
-            "start_id": 12,
             "end_id": 28,
             "visible": true
         },
         {
-            "start_id": 28,
-            "end_id": 13,
-            "visible": true
-        },
-        {
-            "start_id": 13,
-            "end_id": 27,
-            "visible": true
-        },
-        {
-            "start_id": 12,
-            "end_id": 29,
-            "visible": true
-        },
-        {
             "start_id": 29,
-            "end_id": 6,
-            "visible": true
-        },
-        {
-            "start_id": 12,
             "end_id": 30,
-            "visible": true
-        },
-        {
-            "start_id": 13,
-            "end_id": 31,
             "visible": true
         },
         {
@@ -976,7 +1010,7 @@
             "visible": true
         },
         {
-            "start_id": 17,
+            "start_id": 31,
             "end_id": 32,
             "visible": true
         },
@@ -986,53 +1020,28 @@
             "visible": true
         },
         {
-            "start_id": 32,
-            "end_id": 34,
-            "visible": true
-        },
-        {
             "start_id": 34,
             "end_id": 35,
             "visible": true
         },
         {
             "start_id": 35,
-            "end_id": 33,
-            "visible": true
-        },
-        {
-            "start_id": 33,
             "end_id": 36,
-            "visible": true
-        },
-        {
-            "start_id": 34,
-            "end_id": 36,
-            "visible": true
-        },
-        {
-            "start_id": 33,
-            "end_id": 37,
-            "visible": true
-        },
-        {
-            "start_id": 34,
-            "end_id": 37,
             "visible": true
         },
         {
             "start_id": 37,
-            "end_id": 38,
+            "end_id": 36,
             "visible": true
         },
         {
-            "start_id": 39,
-            "end_id": 38,
+            "start_id": 36,
+            "end_id": 31,
             "visible": true
         },
         {
-            "start_id": 17,
-            "end_id": 40,
+            "start_id": 38,
+            "end_id": 39,
             "visible": true
         },
         {
@@ -1041,13 +1050,13 @@
             "visible": true
         },
         {
-            "start_id": 42,
-            "end_id": 43,
+            "start_id": 41,
+            "end_id": 42,
             "visible": true
         },
         {
             "start_id": 42,
-            "end_id": 44,
+            "end_id": 39,
             "visible": true
         },
         {
@@ -1062,47 +1071,67 @@
         },
         {
             "start_id": 46,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 43,
+            "end_id": 44,
+            "visible": true
+        },
+        {
+            "start_id": 43,
             "end_id": 47,
             "visible": true
         },
         {
-            "start_id": 47,
+            "start_id": 45,
+            "end_id": 47,
+            "visible": true
+        },
+        {
+            "start_id": 35,
             "end_id": 48,
             "visible": true
         },
         {
-            "start_id": 47,
+            "start_id": 43,
             "end_id": 49,
             "visible": true
         },
         {
-            "start_id": 49,
-            "end_id": 50,
-            "visible": true
-        },
-        {
-            "start_id": 47,
+            "start_id": 50,
             "end_id": 51,
             "visible": true
         },
         {
-            "start_id": 47,
+            "start_id": 33,
             "end_id": 52,
             "visible": true
         },
         {
-            "start_id": 52,
-            "end_id": 53,
+            "start_id": 45,
+            "end_id": 52,
             "visible": true
         },
         {
-            "start_id": 45,
-            "end_id": 54,
+            "start_id": 35,
+            "end_id": 52,
+            "visible": true
+        },
+        {
+            "start_id": 28,
+            "end_id": 53,
             "visible": true
         },
         {
             "start_id": 54,
             "end_id": 55,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 54,
             "visible": true
         },
         {
@@ -1112,42 +1141,77 @@
         },
         {
             "start_id": 56,
-            "end_id": 34,
-            "visible": true
-        },
-        {
-            "start_id": 55,
             "end_id": 57,
             "visible": true
         },
         {
             "start_id": 57,
-            "end_id": 13,
+            "end_id": 53,
             "visible": true
         },
         {
-            "start_id": 57,
-            "end_id": 12,
-            "visible": true
-        },
-        {
-            "start_id": 55,
+            "start_id": 32,
             "end_id": 58,
             "visible": true
         },
         {
-            "start_id": 47,
+            "start_id": 19,
+            "end_id": 58,
+            "visible": true
+        },
+        {
+            "start_id": 21,
             "end_id": 59,
             "visible": true
         },
         {
-            "start_id": 53,
+            "start_id": 20,
             "end_id": 60,
             "visible": true
         },
         {
+            "start_id": 33,
+            "end_id": 60,
+            "visible": true
+        },
+        {
+            "start_id": 35,
+            "end_id": 60,
+            "visible": true
+        },
+        {
+            "start_id": 42,
+            "end_id": 60,
+            "visible": true
+        },
+        {
+            "start_id": 45,
+            "end_id": 60,
+            "visible": true
+        },
+        {
+            "start_id": 58,
+            "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 59,
+            "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 60,
+            "end_id": 61,
+            "visible": true
+        },
+        {
             "start_id": 61,
-            "end_id": 25,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 56,
+            "end_id": 62,
             "visible": true
         },
         {
@@ -1156,57 +1220,17 @@
             "visible": true
         },
         {
-            "start_id": 21,
+            "start_id": 62,
             "end_id": 64,
             "visible": true
         },
         {
-            "start_id": 10,
-            "end_id": 64,
+            "start_id": 62,
+            "end_id": 65,
             "visible": true
         },
         {
-            "start_id": 64,
-            "end_id": 19,
-            "visible": true
-        },
-        {
-            "start_id": 14,
-            "end_id": 15,
-            "visible": true
-        },
-        {
-            "start_id": 15,
-            "end_id": 21,
-            "visible": true
-        },
-        {
-            "start_id": 15,
-            "end_id": 10,
-            "visible": true
-        },
-        {
-            "start_id": 15,
-            "end_id": 64,
-            "visible": true
-        },
-        {
-            "start_id": 17,
-            "end_id": 16,
-            "visible": true
-        },
-        {
-            "start_id": 16,
-            "end_id": 64,
-            "visible": true
-        },
-        {
-            "start_id": 13,
-            "end_id": 66,
-            "visible": true
-        },
-        {
-            "start_id": 12,
+            "start_id": 62,
             "end_id": 66,
             "visible": true
         },
@@ -1216,13 +1240,13 @@
             "visible": true
         },
         {
-            "start_id": 67,
-            "end_id": 68,
+            "start_id": 68,
+            "end_id": 69,
             "visible": true
         },
         {
-            "start_id": 68,
-            "end_id": 9,
+            "start_id": 69,
+            "end_id": 30,
             "visible": true
         }
     ]

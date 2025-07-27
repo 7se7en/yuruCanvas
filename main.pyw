@@ -385,47 +385,59 @@ class TextBubble:
 
     def on_hover(self, event):
         level0 = {self}
-        level1 = set()
+        outgoing_bubbles = set()  # Bubbles connected via outgoing (red) lines
+        incoming_bubbles = set()  # Bubbles connected via incoming (orange) lines
         level2 = set()
         
         # If checkbox isn't checked, do not run any on_hover functionality
         if not self.checked:
             return
 
-        # Collect connection levels (existing code)
+        # Collect connection levels
         for line in self.lines:
-            other_bubble = line.end_bubble if line.start_bubble == self else line.start_bubble
-            level1.add(other_bubble)
-        for bubble in level1:
+            if line.start_bubble == self:  # Outgoing connection
+                other_bubble = line.end_bubble
+                outgoing_bubbles.add(other_bubble)
+            else:  # Incoming connection
+                other_bubble = line.start_bubble
+                incoming_bubbles.add(other_bubble)
+        
+        # Collect second-level connections
+        for bubble in outgoing_bubbles.union(incoming_bubbles):
             for line in bubble.lines:
                 other = line.end_bubble if line.start_bubble == bubble else line.start_bubble
-                if other not in level0 and other not in level1:
+                if other not in level0 and other not in outgoing_bubbles and other not in incoming_bubbles:
                     level2.add(other)
 
-        # Update styling with color fading instead of text stipple
+        # Update styling with color fading
         for bubble in self.app.text_bubbles:
-            if bubble in level0:
+            if bubble in level0:  # The hovered bubble itself
                 self.canvas.itemconfig(bubble.rect, outline="blue", width=4, stipple="")
                 self.canvas.itemconfig(bubble.label, fill="black")
-            elif bubble in level1:
+            elif bubble in outgoing_bubbles:  # Connected via outgoing (red) lines
                 self.canvas.itemconfig(bubble.rect, outline="red", width=3, stipple="")
                 self.canvas.itemconfig(bubble.label, fill="black")
-            elif bubble in level2:
+            elif bubble in incoming_bubbles:  # Connected via incoming (orange) lines
+                self.canvas.itemconfig(bubble.rect, outline="orange", width=3, stipple="")
+                self.canvas.itemconfig(bubble.label, fill="black")
+            elif bubble in level2:  # Second-level connections
                 self.canvas.itemconfig(bubble.rect, outline="black", width=2, stipple="")
                 self.canvas.itemconfig(bubble.label, fill="black")
-            else:
-                self.canvas.itemconfig(bubble.rect, fill="white", outline="gray", stipple="gray50")  # Gray background
-                self.canvas.itemconfig(bubble.label, fill="gray")  # Gray text instead of stipple
+            else:  # All other bubbles
+                self.canvas.itemconfig(bubble.rect, fill="white", outline="gray", stipple="gray50")
+                self.canvas.itemconfig(bubble.label, fill="gray")
                 self.canvas.itemconfig(bubble.checkbox_rect, outline="gray", stipple="gray50")
                 self.canvas.itemconfig(bubble.check_mark, fill="gray")
 
-        # Style lines
+        # Style lines based on connection direction
         for line in self.app.lines:
-            start = line.start_bubble
-            end = line.end_bubble
-            if start in level0 or end in level0:
-                line.set_highlight("red", 3, "")
-            elif (start in level1 or end in level1) and (start not in level0 and end not in level0):
+            if line.start_bubble == self:  # Outgoing connection
+                line.set_highlight("red", 3, "")  # Red for outgoing
+            elif line.end_bubble == self:  # Incoming connection
+                line.set_highlight("orange", 3, "")  # Orange for incoming
+            elif line.start_bubble in outgoing_bubbles or line.end_bubble in outgoing_bubbles:
+                line.set_highlight("black", 2, "")
+            elif line.start_bubble in incoming_bubbles or line.end_bubble in incoming_bubbles:
                 line.set_highlight("black", 2, "")
             else:
                 line.set_highlight("gray", 1, "gray50")
@@ -437,9 +449,9 @@ class TextBubble:
                                 fill="white", 
                                 outline="black", 
                                 width=1, 
-                                stipple="")  # Remove stipple
+                                stipple="")
             self.canvas.itemconfig(bubble.label, 
-                                fill="black")  # Reset text color
+                                fill="black")
             self.canvas.itemconfig(bubble.check_mark,
                                 fill="black")
             self.canvas.itemconfig(bubble.checkbox_rect,

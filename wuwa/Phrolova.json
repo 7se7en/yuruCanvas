@@ -1,0 +1,1481 @@
+{
+    "canvas_width": 2481,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 43.0,
+            "y": 94.0,
+            "width": 220,
+            "height": 48,
+            "text": "Basic Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 1,
+            "x": 212.0,
+            "y": 187.0,
+            "width": 115,
+            "height": 24,
+            "text": "Basic Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 266.0,
+            "y": 287.0,
+            "width": 116,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 309.0,
+            "y": 402.0,
+            "width": 194,
+            "height": 24,
+            "text": "unlocks Reincarnate state",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 358.0,
+            "y": 543.0,
+            "width": 189,
+            "height": 48,
+            "text": "Reincarnate",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 363.0,
+            "y": 103.0,
+            "width": 220,
+            "height": 48,
+            "text": "Heavy Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 1210.0,
+            "y": 387.0,
+            "width": 414,
+            "height": 48,
+            "text": "Scarlet Coda - Heavy Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 705.0,
+            "y": 210.0,
+            "width": 75,
+            "height": 24,
+            "text": "replaces",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 371.0,
+            "y": 193.0,
+            "width": 230,
+            "height": 48,
+            "text": "Dodge Counter",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 338.0,
+            "y": 12.0,
+            "width": 239,
+            "height": 48,
+            "text": "Plunging Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 10,
+            "x": 478.0,
+            "y": 628.0,
+            "width": 72,
+            "height": 24,
+            "text": "unlocks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 220.0,
+            "y": 697.0,
+            "width": 296,
+            "height": 48,
+            "text": "Movement...Finality",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 12,
+            "x": 159.0,
+            "y": 276.0,
+            "width": 75,
+            "height": 24,
+            "text": "replaces",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 542.0,
+            "y": 698.0,
+            "width": 328,
+            "height": 48,
+            "text": "Murmurs...Dream (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 474.0,
+            "y": 295.0,
+            "width": 319,
+            "height": 48,
+            "text": "Whispers...Dream (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 644.0,
+            "y": 531.0,
+            "width": 79,
+            "height": 24,
+            "text": "replaces",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 443.0,
+            "y": 798.0,
+            "width": 182,
+            "height": 24,
+            "text": "ends Reincarnate state",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 447.0,
+            "y": 832.0,
+            "width": 174,
+            "height": 24,
+            "text": "Resonance Skill DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 21.0,
+            "y": 515.0,
+            "width": 164,
+            "height": 48,
+            "text": "Generates one Volatile Note - Strings",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 19,
+            "x": 899.0,
+            "y": 497.0,
+            "width": 162,
+            "height": 43,
+            "text": "Generates one Volatile Note - Winds ",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 20,
+            "x": 386.0,
+            "y": 1013.0,
+            "width": 303,
+            "height": 48,
+            "text": "Volatile Note (Forte)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 737.0,
+            "y": 832.0,
+            "width": 171,
+            "height": 24,
+            "text": "unlocks at max forte (6)",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 82.0,
+            "y": 1297.0,
+            "width": 220,
+            "height": 48,
+            "text": "Echo Skill (Q)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 392.0,
+            "y": 1304.0,
+            "width": 332,
+            "height": 48,
+            "text": "Suite of Quietus (Intro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 955.0,
+            "y": 1209.0,
+            "width": 411,
+            "height": 48,
+            "text": "H:Suite of Immortality (Intro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 17.0,
+            "y": 1051.0,
+            "width": 99,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 408.0,
+            "y": 1196.0,
+            "width": 462,
+            "height": 42,
+            "text": "Gain armor and DMG Taken -30% for 15 seconds\nNext Volatile Note generated becomes Volatile Note - Cadenza",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 27,
+            "x": 886.0,
+            "y": 146.0,
+            "width": 183,
+            "height": 24,
+            "text": "requires Compose state",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 1120.0,
+            "y": 42.0,
+            "width": 156,
+            "height": 48,
+            "text": "Compose",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 1331.0,
+            "y": 24.0,
+            "width": 193,
+            "height": 24,
+            "text": "unlocks every 25 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 971.0,
+            "y": 231.0,
+            "width": 258,
+            "height": 24,
+            "text": "cannot be in Resolving Chord state",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 31,
+            "x": 1011.0,
+            "y": 397.0,
+            "width": 165,
+            "height": 24,
+            "text": "Resonance Skill DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 32,
+            "x": 1195.0,
+            "y": 301.0,
+            "width": 159,
+            "height": 24,
+            "text": "ends Compose state",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 1621.0,
+            "y": 322.0,
+            "width": 194,
+            "height": 46,
+            "text": "DMG Multiplied increased by Aftersound stacks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 34,
+            "x": 1510.0,
+            "y": 464.0,
+            "width": 183,
+            "height": 48,
+            "text": "Aftersound",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 35,
+            "x": 1486.0,
+            "y": 556.0,
+            "width": 122,
+            "height": 24,
+            "text": "Up to 24 stacks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 36,
+            "x": 1998.0,
+            "y": 32.0,
+            "width": 439,
+            "height": 48,
+            "text": "Waltz of Forsaken Depths (R)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 37,
+            "x": 2074.0,
+            "y": 113.0,
+            "width": 284,
+            "height": 24,
+            "text": "unlocks Maestro state for 24 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 38,
+            "x": 2137.0,
+            "y": 175.0,
+            "width": 160,
+            "height": 48,
+            "text": "Maestro",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 39,
+            "x": 2141.0,
+            "y": 258.0,
+            "width": 154,
+            "height": 24,
+            "text": "unlocks and installs",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 40,
+            "x": 1959.0,
+            "y": 159.0,
+            "width": 135,
+            "height": 24,
+            "text": "Gain ATK +120%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 41,
+            "x": 1946.0,
+            "y": 212.0,
+            "width": 138,
+            "height": 24,
+            "text": "summons Hecate",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 42,
+            "x": 1767.0,
+            "y": 148.0,
+            "width": 133,
+            "height": 48,
+            "text": "Hecate",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 43,
+            "x": 1720.0,
+            "y": 66.0,
+            "width": 160,
+            "height": 46,
+            "text": "Damage does not remove Hazy Dream",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 44,
+            "x": 1726.0,
+            "y": 450.0,
+            "width": 202,
+            "height": 47,
+            "text": "Gradually drains your notes every four seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 45,
+            "x": 2236.0,
+            "y": 326.0,
+            "width": 220,
+            "height": 48,
+            "text": "H:Basic Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 46,
+            "x": 2248.0,
+            "y": 624.0,
+            "width": 174,
+            "height": 24,
+            "text": "another Basic Attack 1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 47,
+            "x": 2041.0,
+            "y": 848.0,
+            "width": 378,
+            "height": 48,
+            "text": "H:Enhanced Basic Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 48,
+            "x": 2331.0,
+            "y": 246.0,
+            "width": 132,
+            "height": 48,
+            "text": "H:Jump",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 49,
+            "x": 2328.0,
+            "y": 172.0,
+            "width": 133,
+            "height": 43,
+            "text": "Teleports Hecate back to Phrolova",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 50,
+            "x": 2088.0,
+            "y": 455.0,
+            "width": 242,
+            "height": 48,
+            "text": "Curtain Call (R)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 51,
+            "x": 2015.0,
+            "y": 595.0,
+            "width": 149,
+            "height": 24,
+            "text": "ends Maestro state",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 52,
+            "x": 1770.0,
+            "y": 256.0,
+            "width": 188,
+            "height": 24,
+            "text": "when Phrolova is off field",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 53,
+            "x": 1821.0,
+            "y": 677.0,
+            "width": 151,
+            "height": 24,
+            "text": "automatically casts",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 54,
+            "x": 1504.0,
+            "y": 665.0,
+            "width": 258,
+            "height": 24,
+            "text": "if another resonator uses Echo Skill",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 55,
+            "x": 1709.0,
+            "y": 768.0,
+            "width": 147,
+            "height": 40,
+            "text": "triggers up to 10 times per Maestro",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 56,
+            "x": 1889.0,
+            "y": 350.0,
+            "width": 245,
+            "height": 24,
+            "text": "switching to Phrolova without Intro",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 57,
+            "x": 2091.0,
+            "y": 941.0,
+            "width": 279,
+            "height": 24,
+            "text": "variants based on active Volatile Note",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 58,
+            "x": 1846.0,
+            "y": 1035.0,
+            "width": 114,
+            "height": 48,
+            "text": "Strings",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 59,
+            "x": 2001.0,
+            "y": 1070.0,
+            "width": 106,
+            "height": 48,
+            "text": "Winds",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 60,
+            "x": 2143.0,
+            "y": 1112.0,
+            "width": 149,
+            "height": 48,
+            "text": "Cadenza",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 61,
+            "x": 1926.0,
+            "y": 1207.0,
+            "width": 132,
+            "height": 24,
+            "text": "Echo Skill DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 62,
+            "x": 1910.0,
+            "y": 101.0,
+            "width": 129,
+            "height": 43,
+            "text": "triggers at end if active resonator",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 63,
+            "x": 1364.0,
+            "y": 263.0,
+            "width": 223,
+            "height": 24,
+            "text": "unlocks Resolving Chord state",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 64,
+            "x": 1427.0,
+            "y": 153.0,
+            "width": 258,
+            "height": 48,
+            "text": "Resolving Chord",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 65,
+            "x": 1641.0,
+            "y": 31.0,
+            "width": 67,
+            "height": 24,
+            "text": "unlocks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 67,
+            "x": 1574.0,
+            "y": 228.0,
+            "width": 212,
+            "height": 24,
+            "text": "allows triggering if R is held",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 68,
+            "x": 1072.0,
+            "y": 1300.0,
+            "width": 181,
+            "height": 24,
+            "text": "Resonance Skill DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 69,
+            "x": 1325.0,
+            "y": 1291.0,
+            "width": 93,
+            "height": 24,
+            "text": "Stagnation",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 70,
+            "x": 1477.0,
+            "y": 1209.0,
+            "width": 372,
+            "height": 48,
+            "text": "Unfinished Piece (Outro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 71,
+            "x": 1491.0,
+            "y": 1306.0,
+            "width": 424,
+            "height": 47,
+            "text": "Incoming resonator Havoc DMG amp. 1.2x & Heavy Attack DMG amp. 1.25x for 14 seconds or until switched",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 72,
+            "x": 1538.0,
+            "y": 1113.0,
+            "width": 273,
+            "height": 24,
+            "text": "triggers two H:Enhanced Basic Attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 73,
+            "x": 1724.0,
+            "y": 881.0,
+            "width": 255,
+            "height": 24,
+            "text": "Generates one stack of Aftersound",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 74,
+            "x": 1273.0,
+            "y": 483.0,
+            "width": 180,
+            "height": 46,
+            "text": "Lose all stacks after 30 seconds out of combat",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 75,
+            "x": 1214.0,
+            "y": 603.0,
+            "width": 253,
+            "height": 24,
+            "text": "Generates 10 stacks of Aftersound",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 76,
+            "x": 1155.0,
+            "y": 693.0,
+            "width": 123,
+            "height": 24,
+            "text": "Entering battle",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 77,
+            "x": 1632.0,
+            "y": 553.0,
+            "width": 190,
+            "height": 24,
+            "text": "Up to 100 overcap stacks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 78,
+            "x": 1338.0,
+            "y": 717.0,
+            "width": 200,
+            "height": 24,
+            "text": "Crit DMG +2.5% per stack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 79,
+            "x": 1695.0,
+            "y": 613.0,
+            "width": 184,
+            "height": 24,
+            "text": "Crit DMG +1% per stack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 0,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 3,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 0,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 10,
+            "visible": true
+        },
+        {
+            "start_id": 10,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 12,
+            "end_id": 0,
+            "visible": true
+        },
+        {
+            "start_id": 10,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 14,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 16,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 16,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 14,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 19,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 20,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 24,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 22,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 24,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 28,
+            "end_id": 29,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 7,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 33,
+            "end_id": 34,
+            "visible": true
+        },
+        {
+            "start_id": 34,
+            "end_id": 35,
+            "visible": true
+        },
+        {
+            "start_id": 36,
+            "end_id": 37,
+            "visible": true
+        },
+        {
+            "start_id": 37,
+            "end_id": 38,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 39,
+            "visible": true
+        },
+        {
+            "start_id": 39,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 40,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 41,
+            "visible": true
+        },
+        {
+            "start_id": 41,
+            "end_id": 42,
+            "visible": true
+        },
+        {
+            "start_id": 42,
+            "end_id": 43,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 44,
+            "visible": true
+        },
+        {
+            "start_id": 44,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 39,
+            "end_id": 45,
+            "visible": true
+        },
+        {
+            "start_id": 45,
+            "end_id": 46,
+            "visible": true
+        },
+        {
+            "start_id": 46,
+            "end_id": 47,
+            "visible": true
+        },
+        {
+            "start_id": 39,
+            "end_id": 48,
+            "visible": true
+        },
+        {
+            "start_id": 48,
+            "end_id": 49,
+            "visible": true
+        },
+        {
+            "start_id": 39,
+            "end_id": 50,
+            "visible": true
+        },
+        {
+            "start_id": 50,
+            "end_id": 51,
+            "visible": true
+        },
+        {
+            "start_id": 42,
+            "end_id": 52,
+            "visible": true
+        },
+        {
+            "start_id": 52,
+            "end_id": 53,
+            "visible": true
+        },
+        {
+            "start_id": 53,
+            "end_id": 45,
+            "visible": true
+        },
+        {
+            "start_id": 52,
+            "end_id": 54,
+            "visible": true
+        },
+        {
+            "start_id": 54,
+            "end_id": 55,
+            "visible": true
+        },
+        {
+            "start_id": 55,
+            "end_id": 47,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 57,
+            "visible": true
+        },
+        {
+            "start_id": 57,
+            "end_id": 58,
+            "visible": true
+        },
+        {
+            "start_id": 57,
+            "end_id": 59,
+            "visible": true
+        },
+        {
+            "start_id": 57,
+            "end_id": 60,
+            "visible": true
+        },
+        {
+            "start_id": 58,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 59,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 60,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 58,
+            "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 59,
+            "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 60,
+            "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 37,
+            "end_id": 62,
+            "visible": true
+        },
+        {
+            "start_id": 62,
+            "end_id": 50,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 63,
+            "visible": true
+        },
+        {
+            "start_id": 63,
+            "end_id": 64,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 64,
+            "visible": true
+        },
+        {
+            "start_id": 64,
+            "end_id": 65,
+            "visible": true
+        },
+        {
+            "start_id": 65,
+            "end_id": 36,
+            "visible": true
+        },
+        {
+            "start_id": 64,
+            "end_id": 67,
+            "visible": true
+        },
+        {
+            "start_id": 67,
+            "end_id": 50,
+            "visible": true
+        },
+        {
+            "start_id": 24,
+            "end_id": 68,
+            "visible": true
+        },
+        {
+            "start_id": 24,
+            "end_id": 69,
+            "visible": true
+        },
+        {
+            "start_id": 52,
+            "end_id": 56,
+            "visible": true
+        },
+        {
+            "start_id": 56,
+            "end_id": 50,
+            "visible": true
+        },
+        {
+            "start_id": 70,
+            "end_id": 71,
+            "visible": true
+        },
+        {
+            "start_id": 70,
+            "end_id": 72,
+            "visible": true
+        },
+        {
+            "start_id": 39,
+            "end_id": 72,
+            "visible": true
+        },
+        {
+            "start_id": 72,
+            "end_id": 47,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 73,
+            "visible": true
+        },
+        {
+            "start_id": 73,
+            "end_id": 34,
+            "visible": true
+        },
+        {
+            "start_id": 34,
+            "end_id": 74,
+            "visible": true
+        },
+        {
+            "start_id": 76,
+            "end_id": 75,
+            "visible": true
+        },
+        {
+            "start_id": 75,
+            "end_id": 34,
+            "visible": true
+        },
+        {
+            "start_id": 34,
+            "end_id": 77,
+            "visible": true
+        },
+        {
+            "start_id": 35,
+            "end_id": 78,
+            "visible": true
+        },
+        {
+            "start_id": 77,
+            "end_id": 79,
+            "visible": true
+        }
+    ]
+}
