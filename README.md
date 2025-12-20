@@ -2,6 +2,10 @@ Program made with DeepSeek-R1 (AI)
 
 Just posting online to maybe share with others. Though as complexity increases, so does the inefficiency. As is the nature with a fully-AI-created program.
 
+# What is it?
+
+Blank canvas where you can create text bubbles and then link them together with directional arrows
+
 # How to run
 
 Requires Python and tkinterdnd2 to have access to drag and drop load functionality

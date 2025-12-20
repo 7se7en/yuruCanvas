@@ -11,7 +11,7 @@
             "text": "Resonance 1",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -23,7 +23,7 @@
             "text": "Resonance 2",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -35,7 +35,7 @@
             "text": "Resonance 3",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -47,7 +47,7 @@
             "text": "Resonance 4",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -71,7 +71,7 @@
             "text": "Resonance 6",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -888,7 +888,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 76,
@@ -900,7 +900,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 77,
@@ -912,7 +912,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 78,
@@ -948,7 +948,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 81,
@@ -960,7 +960,7 @@
             "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 83,
@@ -972,7 +972,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 84,
@@ -984,7 +984,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 85,
@@ -1008,7 +1008,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 87,
@@ -1032,7 +1032,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 90,
@@ -1513,22 +1513,22 @@
         {
             "start_id": 21,
             "end_id": 76,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 76,
             "end_id": 32,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 1,
             "end_id": 76,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 76,
             "end_id": 18,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 78,
@@ -1538,47 +1538,47 @@
         {
             "start_id": 3,
             "end_id": 80,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 80,
             "end_id": 81,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 3,
             "end_id": 83,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 83,
             "end_id": 16,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 83,
             "end_id": 21,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 4,
             "end_id": 84,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 41,
             "end_id": 84,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 11,
             "end_id": 84,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 25,
             "end_id": 84,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 5,
@@ -1593,27 +1593,27 @@
         {
             "start_id": 6,
             "end_id": 86,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 86,
             "end_id": 59,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 89,
             "end_id": 87,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 6,
             "end_id": 89,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 59,
             "end_id": 89,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 87,
@@ -1633,32 +1633,32 @@
         {
             "start_id": 2,
             "end_id": 77,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 77,
             "end_id": 65,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 49,
             "end_id": 75,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 1,
             "end_id": 75,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 3,
             "end_id": 81,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 80,
             "end_id": 78,
-            "visible": true
+            "visible": false
         }
     ]
 }

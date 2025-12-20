@@ -76,8 +76,8 @@
         },
         {
             "id": 6,
-            "x": 1210.0,
-            "y": 387.0,
+            "x": 1206.0,
+            "y": 399.0,
             "width": 414,
             "height": 48,
             "text": "Scarlet Coda - Heavy Attack",
@@ -88,11 +88,11 @@
         },
         {
             "id": 7,
-            "x": 705.0,
+            "x": 662.0,
             "y": 210.0,
-            "width": 75,
+            "width": 238,
             "height": 24,
-            "text": "replaces",
+            "text": "replaces while in Compose state",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -232,8 +232,8 @@
         },
         {
             "id": 19,
-            "x": 899.0,
-            "y": 497.0,
+            "x": 790.0,
+            "y": 602.0,
             "width": 162,
             "height": 43,
             "text": "Generates one Volatile Note - Winds ",
@@ -256,7 +256,7 @@
         },
         {
             "id": 21,
-            "x": 737.0,
+            "x": 765.0,
             "y": 832.0,
             "width": 171,
             "height": 24,
@@ -316,8 +316,8 @@
         },
         {
             "id": 26,
-            "x": 408.0,
-            "y": 1196.0,
+            "x": 372.0,
+            "y": 1175.0,
             "width": 462,
             "height": 42,
             "text": "Gain armor and DMG Taken -30% for 15 seconds\nNext Volatile Note generated becomes Volatile Note - Cadenza",
@@ -327,21 +327,9 @@
             "visible": true
         },
         {
-            "id": 27,
-            "x": 886.0,
-            "y": 146.0,
-            "width": 183,
-            "height": 24,
-            "text": "requires Compose state",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
             "id": 28,
-            "x": 1120.0,
-            "y": 42.0,
+            "x": 1066.0,
+            "y": 133.0,
             "width": 156,
             "height": 48,
             "text": "Compose",
@@ -352,11 +340,11 @@
         },
         {
             "id": 29,
-            "x": 1331.0,
-            "y": 24.0,
-            "width": 193,
+            "x": 784.0,
+            "y": 83.0,
+            "width": 308,
             "height": 24,
-            "text": "unlocks every 25 seconds",
+            "text": "passively enter this state every 25 seconds",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -376,8 +364,8 @@
         },
         {
             "id": 31,
-            "x": 1011.0,
-            "y": 397.0,
+            "x": 994.0,
+            "y": 345.0,
             "width": 165,
             "height": 24,
             "text": "Resonance Skill DMG",
@@ -400,11 +388,11 @@
         },
         {
             "id": 33,
-            "x": 1621.0,
-            "y": 322.0,
+            "x": 1288.0,
+            "y": 474.0,
             "width": 194,
             "height": 46,
-            "text": "DMG Multiplied increased by Aftersound stacks",
+            "text": "DMG Multiplied by 1.125x per stack, up to 4x",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -412,8 +400,8 @@
         },
         {
             "id": 34,
-            "x": 1510.0,
-            "y": 464.0,
+            "x": 1540.0,
+            "y": 469.0,
             "width": 183,
             "height": 48,
             "text": "Aftersound",
@@ -424,8 +412,8 @@
         },
         {
             "id": 35,
-            "x": 1486.0,
-            "y": 556.0,
+            "x": 1491.0,
+            "y": 572.0,
             "width": 122,
             "height": 24,
             "text": "Up to 24 stacks",
@@ -484,8 +472,8 @@
         },
         {
             "id": 40,
-            "x": 1959.0,
-            "y": 159.0,
+            "x": 2329.0,
+            "y": 151.0,
             "width": 135,
             "height": 24,
             "text": "Gain ATK +120%",
@@ -496,8 +484,8 @@
         },
         {
             "id": 41,
-            "x": 1946.0,
-            "y": 212.0,
+            "x": 1934.0,
+            "y": 190.0,
             "width": 138,
             "height": 24,
             "text": "summons Hecate",
@@ -508,8 +496,8 @@
         },
         {
             "id": 42,
-            "x": 1767.0,
-            "y": 148.0,
+            "x": 1756.0,
+            "y": 175.0,
             "width": 133,
             "height": 48,
             "text": "Hecate",
@@ -520,8 +508,8 @@
         },
         {
             "id": 43,
-            "x": 1720.0,
-            "y": 66.0,
+            "x": 1649.0,
+            "y": 95.0,
             "width": 160,
             "height": 46,
             "text": "Damage does not remove Hazy Dream",
@@ -532,8 +520,8 @@
         },
         {
             "id": 44,
-            "x": 1726.0,
-            "y": 450.0,
+            "x": 1737.0,
+            "y": 486.0,
             "width": 202,
             "height": 47,
             "text": "Gradually drains your notes every four seconds",
@@ -556,8 +544,8 @@
         },
         {
             "id": 46,
-            "x": 2248.0,
-            "y": 624.0,
+            "x": 2257.0,
+            "y": 544.0,
             "width": 174,
             "height": 24,
             "text": "another Basic Attack 1",
@@ -580,8 +568,8 @@
         },
         {
             "id": 48,
-            "x": 2331.0,
-            "y": 246.0,
+            "x": 2330.0,
+            "y": 259.0,
             "width": 132,
             "height": 48,
             "text": "H:Jump",
@@ -593,7 +581,7 @@
         {
             "id": 49,
             "x": 2328.0,
-            "y": 172.0,
+            "y": 187.0,
             "width": 133,
             "height": 43,
             "text": "Teleports Hecate back to Phrolova",
@@ -604,7 +592,7 @@
         },
         {
             "id": 50,
-            "x": 2088.0,
+            "x": 2078.0,
             "y": 455.0,
             "width": 242,
             "height": 48,
@@ -628,8 +616,8 @@
         },
         {
             "id": 52,
-            "x": 1770.0,
-            "y": 256.0,
+            "x": 1752.0,
+            "y": 264.0,
             "width": 188,
             "height": 24,
             "text": "when Phrolova is off field",
@@ -640,8 +628,8 @@
         },
         {
             "id": 53,
-            "x": 1821.0,
-            "y": 677.0,
+            "x": 1822.0,
+            "y": 652.0,
             "width": 151,
             "height": 24,
             "text": "automatically casts",
@@ -700,8 +688,8 @@
         },
         {
             "id": 58,
-            "x": 1846.0,
-            "y": 1035.0,
+            "x": 1864.0,
+            "y": 1022.0,
             "width": 114,
             "height": 48,
             "text": "Strings",
@@ -712,7 +700,7 @@
         },
         {
             "id": 59,
-            "x": 2001.0,
+            "x": 2010.0,
             "y": 1070.0,
             "width": 106,
             "height": 48,
@@ -736,8 +724,8 @@
         },
         {
             "id": 61,
-            "x": 1926.0,
-            "y": 1207.0,
+            "x": 1880.0,
+            "y": 1215.0,
             "width": 132,
             "height": 24,
             "text": "Echo Skill DMG",
@@ -748,8 +736,8 @@
         },
         {
             "id": 62,
-            "x": 1910.0,
-            "y": 101.0,
+            "x": 1917.0,
+            "y": 94.0,
             "width": 129,
             "height": 43,
             "text": "triggers at end if active resonator",
@@ -772,8 +760,8 @@
         },
         {
             "id": 64,
-            "x": 1427.0,
-            "y": 153.0,
+            "x": 1356.0,
+            "y": 166.0,
             "width": 258,
             "height": 48,
             "text": "Resolving Chord",
@@ -796,8 +784,8 @@
         },
         {
             "id": 67,
-            "x": 1574.0,
-            "y": 228.0,
+            "x": 1541.0,
+            "y": 231.0,
             "width": 212,
             "height": 24,
             "text": "allows triggering if R is held",
@@ -856,8 +844,8 @@
         },
         {
             "id": 72,
-            "x": 1538.0,
-            "y": 1113.0,
+            "x": 1517.0,
+            "y": 1122.0,
             "width": 273,
             "height": 24,
             "text": "triggers two H:Enhanced Basic Attack",
@@ -868,8 +856,8 @@
         },
         {
             "id": 73,
-            "x": 1724.0,
-            "y": 881.0,
+            "x": 1735.0,
+            "y": 876.0,
             "width": 255,
             "height": 24,
             "text": "Generates one stack of Aftersound",
@@ -880,8 +868,8 @@
         },
         {
             "id": 74,
-            "x": 1273.0,
-            "y": 483.0,
+            "x": 1703.0,
+            "y": 391.0,
             "width": 180,
             "height": 46,
             "text": "Lose all stacks after 30 seconds out of combat",
@@ -892,8 +880,8 @@
         },
         {
             "id": 75,
-            "x": 1214.0,
-            "y": 603.0,
+            "x": 1229.0,
+            "y": 636.0,
             "width": 253,
             "height": 24,
             "text": "Generates 10 stacks of Aftersound",
@@ -949,6 +937,330 @@
             "checkbox_visible": false,
             "checked": true,
             "visible": true
+        },
+        {
+            "id": 80,
+            "x": 737.0,
+            "y": 1062.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 1",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 81,
+            "x": 449.0,
+            "y": 866.0,
+            "width": 172,
+            "height": 24,
+            "text": "DMG Multiplied by 1.8x",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 82,
+            "x": 1030.0,
+            "y": 1044.0,
+            "width": 225,
+            "height": 85,
+            "text": "When Volatile Note is below 2, if out of combat for 4 seconds, generate two Volatile Note - Cadenza",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 83,
+            "x": 804.0,
+            "y": 413.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 2",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 84,
+            "x": 1088.0,
+            "y": 490.0,
+            "width": 180,
+            "height": 24,
+            "text": "DMG Multiplied by 1.75x",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 85,
+            "x": 1100.0,
+            "y": 568.0,
+            "width": 201,
+            "height": 46,
+            "text": "Add +0.75 to this multiplier if you have Aftersound",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 86,
+            "x": 1505.0,
+            "y": 318.0,
+            "width": 258,
+            "height": 24,
+            "text": "Generates 14 stacks of Aftersound",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 87,
+            "x": 1441.0,
+            "y": 885.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 3",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 88,
+            "x": 1459.0,
+            "y": 999.0,
+            "width": 186,
+            "height": 24,
+            "text": "DMG Multiplied by 1.8x",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 89,
+            "x": 1447.0,
+            "y": 777.0,
+            "width": 197,
+            "height": 47,
+            "text": "Converts all Volatile Notes to Cadenza in turn",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 90,
+            "x": 2080.0,
+            "y": 1223.0,
+            "width": 187,
+            "height": 42,
+            "text": "On hit, enemy ATK -20% for 15 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 91,
+            "x": 2338.0,
+            "y": 1034.0,
+            "width": 107,
+            "height": 24,
+            "text": "Stagnation",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 92,
+            "x": 2364.0,
+            "y": 1080.0,
+            "width": 67,
+            "height": 24,
+            "text": "Vortex",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 93,
+            "x": 187.0,
+            "y": 797.0,
+            "width": 92,
+            "height": 24,
+            "text": "Stagnation",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 94,
+            "x": 737.0,
+            "y": 793.0,
+            "width": 78,
+            "height": 24,
+            "text": "Vortex",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 95,
+            "x": 111.0,
+            "y": 985.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 4",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 96,
+            "x": 49.0,
+            "y": 1206.0,
+            "width": 255,
+            "height": 45,
+            "text": "Team Attribute DMG Bonus +20% for 30 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 97,
+            "x": 1175.0,
+            "y": 10.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 5",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 98,
+            "x": 1296.0,
+            "y": 87.0,
+            "width": 220,
+            "height": 55,
+            "text": "Stagnation field for 4 seconds or until Maestro ends or Phrolova is switched out",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 99,
+            "x": 1478.0,
+            "y": 30.0,
+            "width": 145,
+            "height": 44,
+            "text": "DMG Taken -30% during Maestro",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 100,
+            "x": 2005.0,
+            "y": 653.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 6",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 101,
+            "x": 1933.0,
+            "y": 741.0,
+            "width": 203,
+            "height": 24,
+            "text": "DMG Multiplied by 1.24x",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 102,
+            "x": 506.0,
+            "y": 899.0,
+            "width": 67,
+            "height": 24,
+            "text": "triggers",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 103,
+            "x": 984.0,
+            "y": 908.0,
+            "width": 335,
+            "height": 48,
+            "text": "H:Apparition of Beyond",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 104,
+            "x": 1038.0,
+            "y": 848.0,
+            "width": 293,
+            "height": 24,
+            "text": "Generates 8 stacks of Aftersound on hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 105,
+            "x": 1907.0,
+            "y": 394.0,
+            "width": 220,
+            "height": 48,
+            "text": "DMG taken from Phrolova & Hecate amplified by 1.4x",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 106,
+            "x": 1955.0,
+            "y": 250.0,
+            "width": 150,
+            "height": 45,
+            "text": "Havoc DMG Bonus +60% while on field",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         }
     ],
     "connections": [
@@ -1123,16 +1435,6 @@
             "visible": true
         },
         {
-            "start_id": 7,
-            "end_id": 27,
-            "visible": true
-        },
-        {
-            "start_id": 27,
-            "end_id": 28,
-            "visible": true
-        },
-        {
             "start_id": 28,
             "end_id": 29,
             "visible": true
@@ -1170,16 +1472,6 @@
         {
             "start_id": 6,
             "end_id": 26,
-            "visible": true
-        },
-        {
-            "start_id": 6,
-            "end_id": 33,
-            "visible": true
-        },
-        {
-            "start_id": 33,
-            "end_id": 34,
             "visible": true
         },
         {
@@ -1308,51 +1600,6 @@
             "visible": true
         },
         {
-            "start_id": 57,
-            "end_id": 58,
-            "visible": true
-        },
-        {
-            "start_id": 57,
-            "end_id": 59,
-            "visible": true
-        },
-        {
-            "start_id": 57,
-            "end_id": 60,
-            "visible": true
-        },
-        {
-            "start_id": 58,
-            "end_id": 18,
-            "visible": true
-        },
-        {
-            "start_id": 59,
-            "end_id": 19,
-            "visible": true
-        },
-        {
-            "start_id": 60,
-            "end_id": 26,
-            "visible": true
-        },
-        {
-            "start_id": 58,
-            "end_id": 61,
-            "visible": true
-        },
-        {
-            "start_id": 59,
-            "end_id": 61,
-            "visible": true
-        },
-        {
-            "start_id": 60,
-            "end_id": 61,
-            "visible": true
-        },
-        {
             "start_id": 37,
             "end_id": 62,
             "visible": true
@@ -1476,6 +1723,316 @@
             "start_id": 77,
             "end_id": 79,
             "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 58,
+            "visible": true
+        },
+        {
+            "start_id": 57,
+            "end_id": 58,
+            "visible": true
+        },
+        {
+            "start_id": 58,
+            "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 19,
+            "end_id": 59,
+            "visible": true
+        },
+        {
+            "start_id": 57,
+            "end_id": 59,
+            "visible": true
+        },
+        {
+            "start_id": 59,
+            "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 80,
+            "end_id": 81,
+            "visible": false
+        },
+        {
+            "start_id": 81,
+            "end_id": 11,
+            "visible": false
+        },
+        {
+            "start_id": 81,
+            "end_id": 13,
+            "visible": false
+        },
+        {
+            "start_id": 26,
+            "end_id": 60,
+            "visible": true
+        },
+        {
+            "start_id": 57,
+            "end_id": 60,
+            "visible": true
+        },
+        {
+            "start_id": 60,
+            "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 80,
+            "end_id": 82,
+            "visible": false
+        },
+        {
+            "start_id": 82,
+            "end_id": 60,
+            "visible": false
+        },
+        {
+            "start_id": 83,
+            "end_id": 84,
+            "visible": false
+        },
+        {
+            "start_id": 84,
+            "end_id": 6,
+            "visible": false
+        },
+        {
+            "start_id": 34,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 33,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 83,
+            "end_id": 85,
+            "visible": false
+        },
+        {
+            "start_id": 85,
+            "end_id": 84,
+            "visible": false
+        },
+        {
+            "start_id": 34,
+            "end_id": 85,
+            "visible": false
+        },
+        {
+            "start_id": 6,
+            "end_id": 86,
+            "visible": false
+        },
+        {
+            "start_id": 86,
+            "end_id": 34,
+            "visible": false
+        },
+        {
+            "start_id": 83,
+            "end_id": 86,
+            "visible": false
+        },
+        {
+            "start_id": 87,
+            "end_id": 88,
+            "visible": false
+        },
+        {
+            "start_id": 88,
+            "end_id": 61,
+            "visible": false
+        },
+        {
+            "start_id": 88,
+            "end_id": 22,
+            "visible": false
+        },
+        {
+            "start_id": 45,
+            "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 87,
+            "end_id": 89,
+            "visible": false
+        },
+        {
+            "start_id": 89,
+            "end_id": 60,
+            "visible": false
+        },
+        {
+            "start_id": 6,
+            "end_id": 89,
+            "visible": false
+        },
+        {
+            "start_id": 89,
+            "end_id": 20,
+            "visible": false
+        },
+        {
+            "start_id": 60,
+            "end_id": 90,
+            "visible": false
+        },
+        {
+            "start_id": 87,
+            "end_id": 90,
+            "visible": false
+        },
+        {
+            "start_id": 58,
+            "end_id": 91,
+            "visible": true
+        },
+        {
+            "start_id": 59,
+            "end_id": 92,
+            "visible": true
+        },
+        {
+            "start_id": 60,
+            "end_id": 91,
+            "visible": true
+        },
+        {
+            "start_id": 60,
+            "end_id": 92,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 93,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 94,
+            "visible": true
+        },
+        {
+            "start_id": 22,
+            "end_id": 96,
+            "visible": false
+        },
+        {
+            "start_id": 95,
+            "end_id": 96,
+            "visible": false
+        },
+        {
+            "start_id": 97,
+            "end_id": 98,
+            "visible": false
+        },
+        {
+            "start_id": 38,
+            "end_id": 98,
+            "visible": false
+        },
+        {
+            "start_id": 97,
+            "end_id": 99,
+            "visible": false
+        },
+        {
+            "start_id": 38,
+            "end_id": 99,
+            "visible": false
+        },
+        {
+            "start_id": 100,
+            "end_id": 101,
+            "visible": false
+        },
+        {
+            "start_id": 101,
+            "end_id": 47,
+            "visible": false
+        },
+        {
+            "start_id": 11,
+            "end_id": 102,
+            "visible": false
+        },
+        {
+            "start_id": 13,
+            "end_id": 102,
+            "visible": false
+        },
+        {
+            "start_id": 100,
+            "end_id": 102,
+            "visible": false
+        },
+        {
+            "start_id": 102,
+            "end_id": 103,
+            "visible": false
+        },
+        {
+            "start_id": 100,
+            "end_id": 103,
+            "visible": false
+        },
+        {
+            "start_id": 103,
+            "end_id": 61,
+            "visible": false
+        },
+        {
+            "start_id": 103,
+            "end_id": 104,
+            "visible": false
+        },
+        {
+            "start_id": 104,
+            "end_id": 34,
+            "visible": false
+        },
+        {
+            "start_id": 100,
+            "end_id": 104,
+            "visible": false
+        },
+        {
+            "start_id": 52,
+            "end_id": 105,
+            "visible": false
+        },
+        {
+            "start_id": 100,
+            "end_id": 105,
+            "visible": false
+        },
+        {
+            "start_id": 38,
+            "end_id": 106,
+            "visible": false
+        },
+        {
+            "start_id": 100,
+            "end_id": 106,
+            "visible": false
         }
     ]
 }
