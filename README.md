@@ -17,7 +17,7 @@ Requires Python and tkinterdnd2 to have access to drag and drop load functionali
 * Double Click : Add new bubble
 * Left Click and Drag : Move bubble around
 * Right Click and Drag to another Bubble: Connect to bubbles together with a line
-* Double Click on Bubble -> Edit -> Toggleable : Makes a bubble function as a switch that shows/hide its connection lines, bubbles connected to it, and connection lines coming from those bubbles. Ex: [[[ (TOGGLE, A)->(B)-> ]]](C)->D
+* Double Click on Bubble -> Edit -> Toggleable : Makes a bubble function as a switch that shows/hide its connection lines, bubbles connected to it, and connection lines coming from those bubbles. Ex: If A (toggle) is connected to B, and B is connected to C, and C is connected to D, unchecking A would his A, its connection to B, B, and B's connection to C, then stop
 * Mouse Wheel : Scroll up and down (if canvas is bigger than window)
 * Ctrl + Mouse Wheel : Scroll left to right (if canvas is bigger than window)
 
