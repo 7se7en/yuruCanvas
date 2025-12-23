@@ -4,11 +4,11 @@
     "text_bubbles": [
         {
             "id": 0,
-            "x": 43.0,
-            "y": 94.0,
-            "width": 220,
+            "x": 127.0,
+            "y": 91.0,
+            "width": 349,
             "height": 48,
-            "text": "Basic Attack",
+            "text": "Slayer's Trigger (Basic)",
             "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
@@ -16,9 +16,21 @@
         },
         {
             "id": 1,
-            "x": 212.0,
-            "y": 187.0,
-            "width": 115,
+            "x": 301.0,
+            "y": 172.0,
+            "width": 112,
+            "height": 24,
+            "text": "Basic Attack 1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 300.0,
+            "y": 233.0,
+            "width": 121,
             "height": 24,
             "text": "Basic Attack 2",
             "font_size": 12,
@@ -27,10 +39,10 @@
             "visible": true
         },
         {
-            "id": 2,
-            "x": 266.0,
-            "y": 287.0,
-            "width": 116,
+            "id": 3,
+            "x": 307.0,
+            "y": 296.0,
+            "width": 111,
             "height": 24,
             "text": "Basic Attack 3",
             "font_size": 12,
@@ -39,94 +51,442 @@
             "visible": true
         },
         {
-            "id": 3,
-            "x": 309.0,
-            "y": 402.0,
-            "width": 194,
-            "height": 24,
-            "text": "unlocks Reincarnate state",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
             "id": 4,
-            "x": 358.0,
-            "y": 543.0,
-            "width": 189,
-            "height": 48,
-            "text": "Reincarnate",
-            "font_size": 24,
+            "x": 298.0,
+            "y": 359.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
             "id": 5,
-            "x": 363.0,
-            "y": 103.0,
-            "width": 220,
-            "height": 48,
-            "text": "Heavy Attack",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 6,
-            "x": 1206.0,
-            "y": 399.0,
-            "width": 414,
-            "height": 48,
-            "text": "Scarlet Coda - Heavy Attack",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 7,
-            "x": 662.0,
-            "y": 210.0,
-            "width": 238,
+            "x": 17.0,
+            "y": 225.0,
+            "width": 226,
             "height": 24,
-            "text": "replaces while in Compose state",
+            "text": "considered Heavy Attack DMG",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 8,
-            "x": 371.0,
-            "y": 193.0,
-            "width": 230,
+            "id": 6,
+            "x": 470.0,
+            "y": 384.0,
+            "width": 210,
+            "height": 24,
+            "text": "considered Echo Skill DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 491.0,
+            "y": 87.0,
+            "width": 348,
             "height": 48,
-            "text": "Dodge Counter",
+            "text": "Volley of Death (Heavy)",
             "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 582.0,
+            "y": 155.0,
+            "width": 134,
+            "height": 24,
+            "text": "Heavy Attack 1",
+            "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
             "id": 9,
-            "x": 338.0,
-            "y": 12.0,
-            "width": 239,
-            "height": 48,
-            "text": "Plunging Attack",
-            "font_size": 24,
+            "x": 569.0,
+            "y": 207.0,
+            "width": 124,
+            "height": 24,
+            "text": "Heavy Attack 2",
+            "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
             "id": 10,
-            "x": 478.0,
-            "y": 628.0,
-            "width": 72,
+            "x": 543.0,
+            "y": 273.0,
+            "width": 131,
+            "height": 24,
+            "text": "Heavy Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 887.0,
+            "y": 66.0,
+            "width": 433,
+            "height": 48,
+            "text": "Ashfall Barrage (Midair Basic)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 822.0,
+            "y": 200.0,
+            "width": 191,
+            "height": 24,
+            "text": "Midair Sustained Attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 908.0,
+            "y": 150.0,
+            "width": 85,
+            "height": 24,
+            "text": "hold LMB",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 853.0,
+            "y": 246.0,
+            "width": 88,
+            "height": 24,
+            "text": "release",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 782.0,
+            "y": 325.0,
+            "width": 123,
+            "height": 24,
+            "text": "Plunging Attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 977.0,
+            "y": 264.0,
+            "width": 231,
+            "height": 24,
+            "text": "considered Heavy Attack DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 19,
+            "x": 15.0,
+            "y": 495.0,
+            "width": 482,
+            "height": 48,
+            "text": "Blood for Blood (Dodge Counter)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 20,
+            "x": 249.0,
+            "y": 433.0,
+            "width": 108,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 1436.0,
+            "y": 68.0,
+            "width": 220,
+            "height": 48,
+            "text": "Encroach (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 1700.0,
+            "y": 114.0,
+            "width": 227,
+            "height": 24,
+            "text": "considered Heavy Attack DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 1654.0,
+            "y": 162.0,
+            "width": 357,
+            "height": 48,
+            "text": "Ascent of Malice (E\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 1577.0,
+            "y": 255.0,
+            "width": 202,
+            "height": 24,
+            "text": "enters Demon Hypostasis",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 1824.0,
+            "y": 287.0,
+            "width": 292,
+            "height": 24,
+            "text": "converts all Sinflame into Purging Flame",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 1312.0,
+            "y": 360.0,
+            "width": 283,
+            "height": 48,
+            "text": "Demon Hypostasis",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 27,
+            "x": 1715.0,
+            "y": 563.0,
+            "width": 143,
+            "height": 48,
+            "text": "Sinflame",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 2200.0,
+            "y": 937.0,
+            "width": 220,
+            "height": 48,
+            "text": "Purging Flame",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 1726.0,
+            "y": 425.0,
+            "width": 161,
+            "height": 24,
+            "text": "unlocks at 100 stacks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 1049.0,
+            "y": 1169.0,
+            "width": 125,
+            "height": 24,
+            "text": "Basic Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 31,
+            "x": 1680.0,
+            "y": 309.0,
+            "width": 100,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 32,
+            "x": 2170.0,
+            "y": 452.0,
+            "width": 178,
+            "height": 48,
+            "text": "Afterflame",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 655.0,
+            "y": 476.0,
+            "width": 196,
+            "height": 24,
+            "text": "generates Sinflame on hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 34,
+            "x": 123.0,
+            "y": 837.0,
+            "width": 364,
+            "height": 48,
+            "text": "Hellflare Overload (Intro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 37,
+            "x": 537.0,
+            "y": 879.0,
+            "width": 174,
+            "height": 24,
+            "text": "if in Demon Hypostasis",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 38,
+            "x": 495.0,
+            "y": 778.0,
+            "width": 204,
+            "height": 24,
+            "text": "if not in Demon Hypostasis",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 39,
+            "x": 663.0,
+            "y": 701.0,
+            "width": 82,
+            "height": 24,
+            "text": "hold LMB",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 40,
+            "x": 569.0,
+            "y": 698.0,
+            "width": 61,
+            "height": 24,
+            "text": "LMB",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 41,
+            "x": 604.0,
+            "y": 974.0,
+            "width": 52,
+            "height": 24,
+            "text": "LMB",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 42,
+            "x": 733.0,
+            "y": 935.0,
+            "width": 85,
+            "height": 24,
+            "text": "hold LMB",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 43,
+            "x": 1426.0,
+            "y": 1137.0,
+            "width": 119,
+            "height": 24,
+            "text": "Heavy Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 44,
+            "x": 1392.0,
+            "y": 445.0,
+            "width": 84,
             "height": 24,
             "text": "unlocks",
             "font_size": 12,
@@ -135,141 +495,417 @@
             "visible": true
         },
         {
-            "id": 11,
-            "x": 220.0,
-            "y": 697.0,
-            "width": 296,
+            "id": 45,
+            "x": 928.0,
+            "y": 1023.0,
+            "width": 430,
             "height": 48,
-            "text": "Movement...Finality",
+            "text": "Seraphic Execution (Basic\u2605)",
             "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 12,
-            "x": 159.0,
-            "y": 276.0,
-            "width": 75,
-            "height": 24,
-            "text": "replaces",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 13,
-            "x": 542.0,
-            "y": 698.0,
-            "width": 328,
+            "id": 46,
+            "x": 1294.0,
+            "y": 961.0,
+            "width": 435,
             "height": 48,
-            "text": "Murmurs...Dream (E)",
+            "text": "Flamewing Verdict (Heavy\u2605)",
             "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 14,
-            "x": 474.0,
-            "y": 295.0,
-            "width": 319,
+            "id": 47,
+            "x": 1504.0,
+            "y": 886.0,
+            "width": 556,
             "height": 48,
-            "text": "Whispers...Dream (E)",
+            "text": "Purgatory Scourge (Dodge Counter\u2605)",
             "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 15,
-            "x": 644.0,
-            "y": 531.0,
-            "width": 79,
-            "height": 24,
-            "text": "replaces",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 16,
-            "x": 443.0,
-            "y": 798.0,
-            "width": 182,
-            "height": 24,
-            "text": "ends Reincarnate state",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 17,
-            "x": 447.0,
-            "y": 832.0,
-            "width": 174,
-            "height": 24,
-            "text": "Resonance Skill DMG",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 18,
-            "x": 21.0,
-            "y": 515.0,
-            "width": 164,
+            "id": 48,
+            "x": 1971.0,
+            "y": 808.0,
+            "width": 267,
             "height": 48,
-            "text": "Generates one Volatile Note - Strings",
+            "text": "Ravage (E\u2605\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 49,
+            "x": 1825.0,
+            "y": 1036.0,
+            "width": 231,
+            "height": 24,
+            "text": "consumes Purging Flame on hit",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 19,
-            "x": 790.0,
-            "y": 602.0,
-            "width": 162,
+            "id": 50,
+            "x": 2180.0,
+            "y": 1035.0,
+            "width": 298,
+            "height": 24,
+            "text": "ends Demon Hypostasis once deplated",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 51,
+            "x": 1108.0,
+            "y": 373.0,
+            "width": 149,
+            "height": 24,
+            "text": "50 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 52,
+            "x": 1066.0,
+            "y": 1113.0,
+            "width": 115,
+            "height": 24,
+            "text": "Basic Attack 1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 53,
+            "x": 1044.0,
+            "y": 1227.0,
+            "width": 118,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 54,
+            "x": 1038.0,
+            "y": 1282.0,
+            "width": 117,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 55,
+            "x": 1029.0,
+            "y": 1342.0,
+            "width": 113,
+            "height": 24,
+            "text": "Basic Attack 5",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 56,
+            "x": 1223.0,
+            "y": 1231.0,
+            "width": 98,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 57,
+            "x": 771.0,
+            "y": 1204.0,
+            "width": 227,
+            "height": 24,
+            "text": "considered Heavy Attack DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 58,
+            "x": 1231.0,
+            "y": 1317.0,
+            "width": 224,
+            "height": 24,
+            "text": "considered Echo Skill DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 59,
+            "x": 1440.0,
+            "y": 1078.0,
+            "width": 122,
+            "height": 24,
+            "text": "Heavy Attack 1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 60,
+            "x": 1392.0,
+            "y": 1200.0,
+            "width": 129,
+            "height": 24,
+            "text": "Heavy Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 61,
+            "x": 1610.0,
+            "y": 1116.0,
+            "width": 485,
+            "height": 48,
+            "text": "Hellsent Barrage (Midair Basic\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 62,
+            "x": 1834.0,
+            "y": 1185.0,
+            "width": 89,
+            "height": 24,
+            "text": "hold LMB",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 63,
+            "x": 1757.0,
+            "y": 1232.0,
+            "width": 185,
+            "height": 24,
+            "text": "Midair Sustained Attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 64,
+            "x": 1750.0,
+            "y": 1273.0,
+            "width": 73,
+            "height": 24,
+            "text": "release",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 65,
+            "x": 1621.0,
+            "y": 1334.0,
+            "width": 124,
+            "height": 24,
+            "text": "Plunging Attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 66,
+            "x": 1879.0,
+            "y": 1309.0,
+            "width": 224,
+            "height": 24,
+            "text": "considred Heavy Attack DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 67,
+            "x": 1347.0,
+            "y": 913.0,
+            "width": 107,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 68,
+            "x": 2244.0,
+            "y": 729.0,
+            "width": 239,
+            "height": 24,
+            "text": "considered Heavy Attack DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 69,
+            "x": 1893.0,
+            "y": 616.0,
+            "width": 137,
+            "height": 24,
+            "text": "shares cooldown",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 70,
+            "x": 57.0,
+            "y": 1020.0,
+            "width": 282,
+            "height": 48,
+            "text": "Hellstride (Dodge)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 71,
+            "x": 51.0,
+            "y": 1109.0,
+            "width": 302,
+            "height": 84,
+            "text": "can be used after casting any skill\ndeals fixed damage\ncan trigger a dodge while sliding\ndoes not reset attack cycles for short time",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 72,
+            "x": 1192.0,
+            "y": 659.0,
+            "width": 220,
+            "height": 48,
+            "text": "Burning Drive",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 73,
+            "x": 863.0,
+            "y": 793.0,
+            "width": 175,
+            "height": 24,
+            "text": "activates Burning Drive",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 74,
+            "x": 1452.0,
+            "y": 672.0,
+            "width": 144,
+            "height": 24,
+            "text": "4 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 75,
+            "x": 1116.0,
+            "y": 767.0,
+            "width": 204,
+            "height": 24,
+            "text": "gain Interruption Resistance",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 76,
+            "x": 1349.0,
+            "y": 772.0,
+            "width": 98,
+            "height": 24,
+            "text": "ATK +20%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 77,
+            "x": 1530.0,
+            "y": 444.0,
+            "width": 198,
             "height": 43,
-            "text": "Generates one Volatile Note - Winds ",
+            "text": "prevents the generation of Sinflame and Afterflame",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 20,
-            "x": 386.0,
-            "y": 1013.0,
-            "width": 303,
-            "height": 48,
-            "text": "Volatile Note (Forte)",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 21,
-            "x": 765.0,
-            "y": 832.0,
-            "width": 171,
-            "height": 24,
-            "text": "unlocks at max forte (6)",
+            "id": 79,
+            "x": 2175.0,
+            "y": 537.0,
+            "width": 201,
+            "height": 43,
+            "text": "DMG multiplied by 1.015x per stack, up to 1.6x",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 22,
-            "x": 82.0,
-            "y": 1297.0,
+            "id": 80,
+            "x": 2131.0,
+            "y": 259.0,
             "width": 220,
             "height": 48,
             "text": "Echo Skill (Q)",
@@ -279,34 +915,58 @@
             "visible": true
         },
         {
-            "id": 23,
-            "x": 392.0,
-            "y": 1304.0,
-            "width": 332,
+            "id": 81,
+            "x": 2317.0,
+            "y": 198.0,
+            "width": 169,
             "height": 48,
-            "text": "Suite of Quietus (Intro)",
+            "text": "Party Member casting an Echo Skill",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 82,
+            "x": 2235.0,
+            "y": 347.0,
+            "width": 184,
+            "height": 66,
+            "text": "generates 8 Afterflame on cast, once per name (requires five to max)",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 83,
+            "x": 775.0,
+            "y": 536.0,
+            "width": 320,
+            "height": 48,
+            "text": "Hellfire Absolution (R)",
             "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 24,
-            "x": 955.0,
-            "y": 1209.0,
-            "width": 411,
-            "height": 48,
-            "text": "H:Suite of Immortality (Intro)",
-            "font_size": 24,
+            "id": 84,
+            "x": 1137.0,
+            "y": 537.0,
+            "width": 227,
+            "height": 46,
+            "text": "empowers specific attacks with ATK +85% for 14 seconds",
+            "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 25,
-            "x": 17.0,
-            "y": 1051.0,
-            "width": 99,
+            "id": 85,
+            "x": 885.0,
+            "y": 626.0,
+            "width": 109,
             "height": 24,
             "text": "combos into",
             "font_size": 12,
@@ -315,633 +975,129 @@
             "visible": true
         },
         {
-            "id": 26,
-            "x": 372.0,
-            "y": 1175.0,
-            "width": 462,
-            "height": 42,
-            "text": "Gain armor and DMG Taken -30% for 15 seconds\nNext Volatile Note generated becomes Volatile Note - Cadenza",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 28,
-            "x": 1066.0,
-            "y": 133.0,
-            "width": 156,
-            "height": 48,
-            "text": "Compose",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 29,
-            "x": 784.0,
-            "y": 83.0,
-            "width": 308,
+            "id": 86,
+            "x": 875.0,
+            "y": 696.0,
+            "width": 185,
             "height": 24,
-            "text": "passively enter this state every 25 seconds",
+            "text": "if in Demon Hypostasis",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 30,
-            "x": 971.0,
-            "y": 231.0,
-            "width": 258,
-            "height": 24,
-            "text": "cannot be in Resolving Chord state",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 31,
-            "x": 994.0,
-            "y": 345.0,
-            "width": 165,
-            "height": 24,
-            "text": "Resonance Skill DMG",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 32,
-            "x": 1195.0,
-            "y": 301.0,
-            "width": 159,
-            "height": 24,
-            "text": "ends Compose state",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 33,
-            "x": 1288.0,
-            "y": 474.0,
-            "width": 194,
-            "height": 46,
-            "text": "DMG Multiplied by 1.125x per stack, up to 4x",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 34,
-            "x": 1540.0,
-            "y": 469.0,
-            "width": 183,
-            "height": 48,
-            "text": "Aftersound",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 35,
-            "x": 1491.0,
-            "y": 572.0,
-            "width": 122,
-            "height": 24,
-            "text": "Up to 24 stacks",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 36,
-            "x": 1998.0,
-            "y": 32.0,
-            "width": 439,
-            "height": 48,
-            "text": "Waltz of Forsaken Depths (R)",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 37,
-            "x": 2074.0,
-            "y": 113.0,
-            "width": 284,
-            "height": 24,
-            "text": "unlocks Maestro state for 24 seconds",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 38,
-            "x": 2137.0,
-            "y": 175.0,
-            "width": 160,
-            "height": 48,
-            "text": "Maestro",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 39,
-            "x": 2141.0,
-            "y": 258.0,
-            "width": 154,
-            "height": 24,
-            "text": "unlocks and installs",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 40,
-            "x": 2329.0,
-            "y": 151.0,
-            "width": 135,
-            "height": 24,
-            "text": "Gain ATK +120%",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 41,
-            "x": 1934.0,
-            "y": 190.0,
-            "width": 138,
-            "height": 24,
-            "text": "summons Hecate",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 42,
-            "x": 1756.0,
-            "y": 175.0,
-            "width": 133,
-            "height": 48,
-            "text": "Hecate",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 43,
-            "x": 1649.0,
-            "y": 95.0,
-            "width": 160,
-            "height": 46,
-            "text": "Damage does not remove Hazy Dream",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 44,
-            "x": 1737.0,
-            "y": 486.0,
-            "width": 202,
-            "height": 47,
-            "text": "Gradually drains your notes every four seconds",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 45,
-            "x": 2236.0,
-            "y": 326.0,
-            "width": 220,
-            "height": 48,
-            "text": "H:Basic Attack",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 46,
-            "x": 2257.0,
-            "y": 544.0,
-            "width": 174,
-            "height": 24,
-            "text": "another Basic Attack 1",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 47,
-            "x": 2041.0,
-            "y": 848.0,
-            "width": 378,
-            "height": 48,
-            "text": "H:Enhanced Basic Attack",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 48,
-            "x": 2330.0,
-            "y": 259.0,
-            "width": 132,
-            "height": 48,
-            "text": "H:Jump",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 49,
-            "x": 2328.0,
-            "y": 187.0,
-            "width": 133,
-            "height": 43,
-            "text": "Teleports Hecate back to Phrolova",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 50,
-            "x": 2078.0,
-            "y": 455.0,
-            "width": 242,
-            "height": 48,
-            "text": "Curtain Call (R)",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 51,
-            "x": 2015.0,
-            "y": 595.0,
-            "width": 149,
-            "height": 24,
-            "text": "ends Maestro state",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 52,
-            "x": 1752.0,
-            "y": 264.0,
-            "width": 188,
-            "height": 24,
-            "text": "when Phrolova is off field",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 53,
-            "x": 1822.0,
-            "y": 652.0,
-            "width": 151,
-            "height": 24,
-            "text": "automatically casts",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 54,
-            "x": 1504.0,
-            "y": 665.0,
-            "width": 258,
-            "height": 24,
-            "text": "if another resonator uses Echo Skill",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 55,
-            "x": 1709.0,
-            "y": 768.0,
-            "width": 147,
-            "height": 40,
-            "text": "triggers up to 10 times per Maestro",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 56,
-            "x": 1889.0,
-            "y": 350.0,
-            "width": 245,
-            "height": 24,
-            "text": "switching to Phrolova without Intro",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 57,
-            "x": 2091.0,
-            "y": 941.0,
-            "width": 279,
-            "height": 24,
-            "text": "variants based on active Volatile Note",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 58,
-            "x": 1864.0,
-            "y": 1022.0,
-            "width": 114,
-            "height": 48,
-            "text": "Strings",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 59,
-            "x": 2010.0,
-            "y": 1070.0,
-            "width": 106,
-            "height": 48,
-            "text": "Winds",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 60,
-            "x": 2143.0,
-            "y": 1112.0,
-            "width": 149,
-            "height": 48,
-            "text": "Cadenza",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 61,
-            "x": 1880.0,
-            "y": 1215.0,
-            "width": 132,
-            "height": 24,
-            "text": "Echo Skill DMG",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 62,
-            "x": 1917.0,
-            "y": 94.0,
-            "width": 129,
-            "height": 43,
-            "text": "triggers at end if active resonator",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 63,
-            "x": 1364.0,
-            "y": 263.0,
-            "width": 223,
-            "height": 24,
-            "text": "unlocks Resolving Chord state",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 64,
-            "x": 1356.0,
-            "y": 166.0,
-            "width": 258,
-            "height": 48,
-            "text": "Resolving Chord",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 65,
-            "x": 1641.0,
-            "y": 31.0,
-            "width": 67,
-            "height": 24,
-            "text": "unlocks",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 67,
-            "x": 1541.0,
-            "y": 231.0,
-            "width": 212,
-            "height": 24,
-            "text": "allows triggering if R is held",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 68,
-            "x": 1072.0,
-            "y": 1300.0,
-            "width": 181,
-            "height": 24,
-            "text": "Resonance Skill DMG",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 69,
-            "x": 1325.0,
-            "y": 1291.0,
-            "width": 93,
-            "height": 24,
-            "text": "Stagnation",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 70,
-            "x": 1477.0,
-            "y": 1209.0,
-            "width": 372,
-            "height": 48,
-            "text": "Unfinished Piece (Outro)",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 71,
-            "x": 1491.0,
-            "y": 1306.0,
-            "width": 424,
-            "height": 47,
-            "text": "Incoming resonator Havoc DMG amp. 1.2x & Heavy Attack DMG amp. 1.25x for 14 seconds or until switched",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 72,
-            "x": 1517.0,
-            "y": 1122.0,
-            "width": 273,
-            "height": 24,
-            "text": "triggers two H:Enhanced Basic Attack",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 73,
-            "x": 1735.0,
-            "y": 876.0,
-            "width": 255,
-            "height": 24,
-            "text": "Generates one stack of Aftersound",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 74,
-            "x": 1703.0,
-            "y": 391.0,
-            "width": 180,
-            "height": 46,
-            "text": "Lose all stacks after 30 seconds out of combat",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 75,
-            "x": 1229.0,
-            "y": 636.0,
-            "width": 253,
-            "height": 24,
-            "text": "Generates 10 stacks of Aftersound",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 76,
-            "x": 1155.0,
-            "y": 693.0,
-            "width": 123,
-            "height": 24,
-            "text": "Entering battle",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 77,
-            "x": 1632.0,
-            "y": 553.0,
-            "width": 190,
-            "height": 24,
-            "text": "Up to 100 overcap stacks",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 78,
-            "x": 1338.0,
-            "y": 717.0,
+            "id": 87,
+            "x": 626.0,
+            "y": 619.0,
             "width": 200,
             "height": 24,
-            "text": "Crit DMG +2.5% per stack",
+            "text": "if not in Demon Hypostasis",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 79,
-            "x": 1695.0,
-            "y": 613.0,
-            "width": 184,
+            "id": 88,
+            "x": 960.0,
+            "y": 869.0,
+            "width": 248,
             "height": 24,
-            "text": "Crit DMG +1% per stack",
+            "text": "inflicts 1 stack of Fated End on hit",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 80,
-            "x": 737.0,
-            "y": 1062.0,
+            "id": 89,
+            "x": 570.0,
+            "y": 1048.0,
+            "width": 189,
+            "height": 48,
+            "text": "Fated End",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 90,
+            "x": 434.0,
+            "y": 1135.0,
+            "width": 173,
+            "height": 66,
+            "text": "each attack name can only generate 1 stack per 5 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 91,
+            "x": 646.0,
+            "y": 1131.0,
+            "width": 216,
+            "height": 64,
+            "text": "Multiplies DMG taken from Galbrena by 1.05x per stack, up to 1.2x",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 92,
+            "x": 413.0,
+            "y": 1244.0,
+            "width": 221,
+            "height": 24,
+            "text": "(E) and (E\u2605\u2605) are the same",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 93,
+            "x": 953.0,
+            "y": 419.0,
+            "width": 139,
+            "height": 24,
+            "text": "recovers 10 STA",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 94,
+            "x": 2108.0,
+            "y": 29.0,
+            "width": 341,
+            "height": 48,
+            "text": "Ashen Pursuit (Outro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 95,
+            "x": 2239.0,
+            "y": 111.0,
+            "width": 80,
+            "height": 24,
+            "text": "Damage",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 96,
+            "x": 1394.0,
+            "y": 291.0,
             "width": 245,
             "height": 48,
             "text": "Resonance 1",
@@ -951,33 +1107,33 @@
             "visible": true
         },
         {
-            "id": 81,
-            "x": 449.0,
-            "y": 866.0,
-            "width": 172,
+            "id": 97,
+            "x": 1899.0,
+            "y": 381.0,
+            "width": 215,
+            "height": 43,
+            "text": "Crit DMG +2% per stack for specific attacks, up to +80%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 98,
+            "x": 1586.0,
+            "y": 641.0,
+            "width": 212,
             "height": 24,
-            "text": "DMG Multiplied by 1.8x",
+            "text": "gains Interruption Immunity",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 82,
-            "x": 1030.0,
-            "y": 1044.0,
-            "width": 225,
-            "height": 85,
-            "text": "When Volatile Note is below 2, if out of combat for 4 seconds, generate two Volatile Note - Cadenza",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 83,
-            "x": 804.0,
-            "y": 413.0,
+            "id": 99,
+            "x": 1594.0,
+            "y": 731.0,
             "width": 245,
             "height": 48,
             "text": "Resonance 2",
@@ -987,45 +1143,21 @@
             "visible": true
         },
         {
-            "id": 84,
-            "x": 1088.0,
-            "y": 490.0,
-            "width": 180,
+            "id": 100,
+            "x": 1445.0,
+            "y": 738.0,
+            "width": 105,
             "height": 24,
-            "text": "DMG Multiplied by 1.75x",
+            "text": "ATK +70%",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 85,
-            "x": 1100.0,
-            "y": 568.0,
-            "width": 201,
-            "height": 46,
-            "text": "Add +0.75 to this multiplier if you have Aftersound",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 86,
-            "x": 1505.0,
-            "y": 318.0,
-            "width": 258,
-            "height": 24,
-            "text": "Generates 14 stacks of Aftersound",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 87,
-            "x": 1441.0,
-            "y": 885.0,
+            "id": 101,
+            "x": 75.0,
+            "y": 605.0,
             "width": 245,
             "height": 48,
             "text": "Resonance 3",
@@ -1035,93 +1167,21 @@
             "visible": true
         },
         {
-            "id": 88,
-            "x": 1459.0,
-            "y": 999.0,
-            "width": 186,
+            "id": 102,
+            "x": 392.0,
+            "y": 616.0,
+            "width": 180,
             "height": 24,
-            "text": "DMG Multiplied by 1.8x",
+            "text": "DMG multiplied by 2.3x",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 89,
-            "x": 1447.0,
-            "y": 777.0,
-            "width": 197,
-            "height": 47,
-            "text": "Converts all Volatile Notes to Cadenza in turn",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 90,
-            "x": 2080.0,
-            "y": 1223.0,
-            "width": 187,
-            "height": 42,
-            "text": "On hit, enemy ATK -20% for 15 seconds",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 91,
-            "x": 2338.0,
-            "y": 1034.0,
-            "width": 107,
-            "height": 24,
-            "text": "Stagnation",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 92,
-            "x": 2364.0,
-            "y": 1080.0,
-            "width": 67,
-            "height": 24,
-            "text": "Vortex",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 93,
-            "x": 187.0,
-            "y": 797.0,
-            "width": 92,
-            "height": 24,
-            "text": "Stagnation",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 94,
-            "x": 737.0,
-            "y": 793.0,
-            "width": 78,
-            "height": 24,
-            "text": "Vortex",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 95,
-            "x": 111.0,
-            "y": 985.0,
+            "id": 103,
+            "x": 1761.0,
+            "y": 19.0,
             "width": 245,
             "height": 48,
             "text": "Resonance 4",
@@ -1131,21 +1191,21 @@
             "visible": true
         },
         {
-            "id": 96,
-            "x": 49.0,
-            "y": 1206.0,
-            "width": 255,
-            "height": 45,
-            "text": "Team Attribute DMG Bonus +20% for 30 seconds",
+            "id": 104,
+            "x": 2027.0,
+            "y": 144.0,
+            "width": 220,
+            "height": 48,
+            "text": "Party gains All-Attribute DMG Bonus +20% for 20 seconds",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 97,
-            "x": 1175.0,
-            "y": 10.0,
+            "id": 105,
+            "x": 1190.0,
+            "y": 143.0,
             "width": 245,
             "height": 48,
             "text": "Resonance 5",
@@ -1155,33 +1215,21 @@
             "visible": true
         },
         {
-            "id": 98,
-            "x": 1296.0,
-            "y": 87.0,
-            "width": 220,
-            "height": 55,
-            "text": "Stagnation field for 4 seconds or until Maestro ends or Phrolova is switched out",
+            "id": 106,
+            "x": 1305.0,
+            "y": 228.0,
+            "width": 184,
+            "height": 24,
+            "text": "DMG multiplied by 2.5x",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 99,
-            "x": 1478.0,
-            "y": 30.0,
-            "width": 145,
-            "height": 44,
-            "text": "DMG Taken -30% during Maestro",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 100,
-            "x": 2005.0,
-            "y": 653.0,
+            "id": 107,
+            "x": 1415.0,
+            "y": 508.0,
             "width": 245,
             "height": 48,
             "text": "Resonance 6",
@@ -1191,72 +1239,24 @@
             "visible": true
         },
         {
-            "id": 101,
-            "x": 1933.0,
-            "y": 741.0,
-            "width": 203,
+            "id": 108,
+            "x": 1442.0,
+            "y": 588.0,
+            "width": 189,
             "height": 24,
-            "text": "DMG Multiplied by 1.24x",
+            "text": "DMG multiplied by 1.6x",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
             "visible": true
         },
         {
-            "id": 102,
-            "x": 506.0,
-            "y": 899.0,
-            "width": 67,
-            "height": 24,
-            "text": "triggers",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 103,
-            "x": 984.0,
-            "y": 908.0,
-            "width": 335,
-            "height": 48,
-            "text": "H:Apparition of Beyond",
-            "font_size": 24,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 104,
-            "x": 1038.0,
-            "y": 848.0,
-            "width": 293,
-            "height": 24,
-            "text": "Generates 8 stacks of Aftersound on hit",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 105,
-            "x": 1907.0,
-            "y": 394.0,
-            "width": 220,
-            "height": 48,
-            "text": "DMG taken from Phrolova & Hecate amplified by 1.4x",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 106,
-            "x": 1955.0,
-            "y": 250.0,
-            "width": 150,
+            "id": 109,
+            "x": 1890.0,
+            "y": 524.0,
+            "width": 252,
             "height": 45,
-            "text": "Havoc DMG Bonus +60% while on field",
+            "text": "Fusion DMG multiplied by 1.0875x per stack, up to 1.35x",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -1285,13 +1285,43 @@
             "visible": true
         },
         {
-            "start_id": 5,
-            "end_id": 1,
+            "start_id": 1,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 3,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 6,
             "visible": true
         },
         {
             "start_id": 7,
-            "end_id": 5,
+            "end_id": 8,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 9,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 10,
+            "visible": true
+        },
+        {
+            "start_id": 10,
+            "end_id": 6,
             "visible": true
         },
         {
@@ -1301,36 +1331,11 @@
         },
         {
             "start_id": 9,
-            "end_id": 0,
-            "visible": true
-        },
-        {
-            "start_id": 4,
-            "end_id": 10,
+            "end_id": 3,
             "visible": true
         },
         {
             "start_id": 10,
-            "end_id": 11,
-            "visible": true
-        },
-        {
-            "start_id": 11,
-            "end_id": 12,
-            "visible": true
-        },
-        {
-            "start_id": 12,
-            "end_id": 0,
-            "visible": true
-        },
-        {
-            "start_id": 10,
-            "end_id": 13,
-            "visible": true
-        },
-        {
-            "start_id": 14,
             "end_id": 3,
             "visible": true
         },
@@ -1345,48 +1350,28 @@
             "visible": true
         },
         {
-            "start_id": 11,
+            "start_id": 14,
             "end_id": 16,
             "visible": true
         },
         {
-            "start_id": 13,
-            "end_id": 16,
-            "visible": true
-        },
-        {
-            "start_id": 11,
+            "start_id": 16,
             "end_id": 17,
             "visible": true
         },
         {
-            "start_id": 13,
-            "end_id": 17,
-            "visible": true
-        },
-        {
-            "start_id": 2,
-            "end_id": 18,
-            "visible": true
-        },
-        {
-            "start_id": 11,
-            "end_id": 18,
+            "start_id": 17,
+            "end_id": 3,
             "visible": true
         },
         {
             "start_id": 14,
-            "end_id": 19,
+            "end_id": 18,
             "visible": true
         },
         {
-            "start_id": 13,
-            "end_id": 19,
-            "visible": true
-        },
-        {
-            "start_id": 18,
-            "end_id": 20,
+            "start_id": 17,
+            "end_id": 18,
             "visible": true
         },
         {
@@ -1396,97 +1381,127 @@
         },
         {
             "start_id": 20,
-            "end_id": 21,
+            "end_id": 4,
             "visible": true
         },
         {
-            "start_id": 23,
-            "end_id": 25,
-            "visible": true
-        },
-        {
-            "start_id": 24,
-            "end_id": 25,
-            "visible": true
-        },
-        {
-            "start_id": 25,
-            "end_id": 2,
-            "visible": true
-        },
-        {
-            "start_id": 22,
-            "end_id": 26,
-            "visible": true
-        },
-        {
-            "start_id": 23,
-            "end_id": 26,
-            "visible": true
-        },
-        {
-            "start_id": 24,
-            "end_id": 26,
-            "visible": true
-        },
-        {
-            "start_id": 26,
-            "end_id": 20,
-            "visible": true
-        },
-        {
-            "start_id": 28,
-            "end_id": 29,
-            "visible": true
-        },
-        {
-            "start_id": 7,
-            "end_id": 30,
+            "start_id": 19,
+            "end_id": 5,
             "visible": true
         },
         {
             "start_id": 21,
-            "end_id": 6,
+            "end_id": 22,
             "visible": true
         },
         {
-            "start_id": 6,
-            "end_id": 7,
+            "start_id": 23,
+            "end_id": 22,
             "visible": true
         },
         {
-            "start_id": 6,
-            "end_id": 31,
+            "start_id": 23,
+            "end_id": 24,
             "visible": true
         },
         {
-            "start_id": 6,
-            "end_id": 32,
+            "start_id": 23,
+            "end_id": 25,
             "visible": true
         },
         {
-            "start_id": 32,
-            "end_id": 28,
-            "visible": true
-        },
-        {
-            "start_id": 6,
+            "start_id": 24,
             "end_id": 26,
             "visible": true
         },
         {
-            "start_id": 34,
-            "end_id": 35,
+            "start_id": 25,
+            "end_id": 28,
             "visible": true
         },
         {
-            "start_id": 36,
+            "start_id": 25,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 29,
+            "visible": true
+        },
+        {
+            "start_id": 29,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 31,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 33,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 34,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 34,
             "end_id": 37,
             "visible": true
         },
         {
-            "start_id": 37,
+            "start_id": 34,
             "end_id": 38,
+            "visible": true
+        },
+        {
+            "start_id": 37,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 40,
+            "visible": true
+        },
+        {
+            "start_id": 40,
+            "end_id": 2,
             "visible": true
         },
         {
@@ -1496,22 +1511,22 @@
         },
         {
             "start_id": 39,
-            "end_id": 24,
+            "end_id": 9,
             "visible": true
         },
         {
-            "start_id": 38,
-            "end_id": 40,
-            "visible": true
-        },
-        {
-            "start_id": 38,
+            "start_id": 37,
             "end_id": 41,
             "visible": true
         },
         {
-            "start_id": 41,
+            "start_id": 37,
             "end_id": 42,
+            "visible": true
+        },
+        {
+            "start_id": 41,
+            "end_id": 30,
             "visible": true
         },
         {
@@ -1520,33 +1535,43 @@
             "visible": true
         },
         {
-            "start_id": 38,
+            "start_id": 26,
             "end_id": 44,
             "visible": true
         },
         {
             "start_id": 44,
-            "end_id": 20,
-            "visible": true
-        },
-        {
-            "start_id": 39,
             "end_id": 45,
             "visible": true
         },
         {
-            "start_id": 45,
+            "start_id": 44,
             "end_id": 46,
             "visible": true
         },
         {
-            "start_id": 46,
+            "start_id": 44,
             "end_id": 47,
             "visible": true
         },
         {
-            "start_id": 39,
+            "start_id": 44,
             "end_id": 48,
+            "visible": true
+        },
+        {
+            "start_id": 45,
+            "end_id": 49,
+            "visible": true
+        },
+        {
+            "start_id": 46,
+            "end_id": 49,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 49,
             "visible": true
         },
         {
@@ -1555,33 +1580,28 @@
             "visible": true
         },
         {
-            "start_id": 39,
+            "start_id": 49,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 28,
             "end_id": 50,
             "visible": true
         },
         {
-            "start_id": 50,
+            "start_id": 26,
             "end_id": 51,
             "visible": true
         },
         {
-            "start_id": 42,
+            "start_id": 45,
             "end_id": 52,
             "visible": true
         },
         {
             "start_id": 52,
-            "end_id": 53,
-            "visible": true
-        },
-        {
-            "start_id": 53,
-            "end_id": 45,
-            "visible": true
-        },
-        {
-            "start_id": 52,
-            "end_id": 54,
+            "end_id": 30,
             "visible": true
         },
         {
@@ -1591,26 +1611,111 @@
         },
         {
             "start_id": 55,
-            "end_id": 47,
+            "end_id": 56,
             "visible": true
         },
         {
-            "start_id": 47,
+            "start_id": 52,
             "end_id": 57,
             "visible": true
         },
         {
-            "start_id": 37,
+            "start_id": 30,
+            "end_id": 57,
+            "visible": true
+        },
+        {
+            "start_id": 55,
+            "end_id": 58,
+            "visible": true
+        },
+        {
+            "start_id": 54,
+            "end_id": 58,
+            "visible": true
+        },
+        {
+            "start_id": 46,
+            "end_id": 59,
+            "visible": true
+        },
+        {
+            "start_id": 59,
+            "end_id": 43,
+            "visible": true
+        },
+        {
+            "start_id": 43,
+            "end_id": 60,
+            "visible": true
+        },
+        {
+            "start_id": 60,
+            "end_id": 58,
+            "visible": true
+        },
+        {
+            "start_id": 59,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 44,
+            "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 61,
+            "end_id": 49,
+            "visible": true
+        },
+        {
+            "start_id": 61,
             "end_id": 62,
             "visible": true
         },
         {
-            "start_id": 62,
-            "end_id": 50,
+            "start_id": 65,
+            "end_id": 56,
             "visible": true
         },
         {
-            "start_id": 6,
+            "start_id": 64,
+            "end_id": 65,
+            "visible": true
+        },
+        {
+            "start_id": 60,
+            "end_id": 56,
+            "visible": true
+        },
+        {
+            "start_id": 43,
+            "end_id": 56,
+            "visible": true
+        },
+        {
+            "start_id": 53,
+            "end_id": 57,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 53,
+            "visible": true
+        },
+        {
+            "start_id": 53,
+            "end_id": 54,
+            "visible": true
+        },
+        {
+            "start_id": 56,
+            "end_id": 53,
+            "visible": true
+        },
+        {
+            "start_id": 62,
             "end_id": 63,
             "visible": true
         },
@@ -1620,48 +1725,38 @@
             "visible": true
         },
         {
-            "start_id": 30,
-            "end_id": 64,
-            "visible": true
-        },
-        {
-            "start_id": 64,
-            "end_id": 65,
-            "visible": true
-        },
-        {
             "start_id": 65,
-            "end_id": 36,
+            "end_id": 66,
             "visible": true
         },
         {
-            "start_id": 64,
+            "start_id": 63,
+            "end_id": 66,
+            "visible": true
+        },
+        {
+            "start_id": 47,
             "end_id": 67,
             "visible": true
         },
         {
             "start_id": 67,
-            "end_id": 50,
+            "end_id": 54,
             "visible": true
         },
         {
-            "start_id": 24,
+            "start_id": 48,
             "end_id": 68,
             "visible": true
         },
         {
-            "start_id": 24,
+            "start_id": 48,
             "end_id": 69,
             "visible": true
         },
         {
-            "start_id": 52,
-            "end_id": 56,
-            "visible": true
-        },
-        {
-            "start_id": 56,
-            "end_id": 50,
+            "start_id": 21,
+            "end_id": 69,
             "visible": true
         },
         {
@@ -1670,123 +1765,98 @@
             "visible": true
         },
         {
-            "start_id": 70,
+            "start_id": 73,
             "end_id": 72,
             "visible": true
         },
         {
-            "start_id": 39,
-            "end_id": 72,
-            "visible": true
-        },
-        {
-            "start_id": 72,
-            "end_id": 47,
-            "visible": true
-        },
-        {
-            "start_id": 47,
+            "start_id": 34,
             "end_id": 73,
             "visible": true
         },
         {
-            "start_id": 73,
-            "end_id": 34,
+            "start_id": 70,
+            "end_id": 73,
             "visible": true
         },
         {
-            "start_id": 34,
+            "start_id": 54,
+            "end_id": 73,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 73,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 73,
+            "visible": true
+        },
+        {
+            "start_id": 48,
+            "end_id": 73,
+            "visible": true
+        },
+        {
+            "start_id": 72,
             "end_id": 74,
             "visible": true
         },
         {
-            "start_id": 76,
+            "start_id": 72,
             "end_id": 75,
             "visible": true
         },
         {
-            "start_id": 75,
-            "end_id": 34,
-            "visible": true
-        },
-        {
-            "start_id": 34,
-            "end_id": 77,
-            "visible": true
-        },
-        {
-            "start_id": 35,
-            "end_id": 78,
-            "visible": true
-        },
-        {
-            "start_id": 77,
-            "end_id": 79,
-            "visible": true
-        },
-        {
-            "start_id": 18,
-            "end_id": 58,
-            "visible": true
-        },
-        {
-            "start_id": 57,
-            "end_id": 58,
-            "visible": true
-        },
-        {
-            "start_id": 58,
-            "end_id": 61,
-            "visible": true
-        },
-        {
-            "start_id": 19,
-            "end_id": 59,
-            "visible": true
-        },
-        {
-            "start_id": 57,
-            "end_id": 59,
-            "visible": true
-        },
-        {
-            "start_id": 59,
-            "end_id": 61,
-            "visible": true
-        },
-        {
-            "start_id": 7,
-            "end_id": 28,
-            "visible": true
-        },
-        {
-            "start_id": 80,
-            "end_id": 81,
-            "visible": true
-        },
-        {
-            "start_id": 81,
-            "end_id": 11,
-            "visible": true
-        },
-        {
-            "start_id": 81,
-            "end_id": 13,
+            "start_id": 72,
+            "end_id": 76,
             "visible": true
         },
         {
             "start_id": 26,
-            "end_id": 60,
+            "end_id": 77,
             "visible": true
         },
         {
-            "start_id": 57,
-            "end_id": 60,
+            "start_id": 77,
+            "end_id": 27,
             "visible": true
         },
         {
-            "start_id": 60,
+            "start_id": 77,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 79,
+            "visible": true
+        },
+        {
+            "start_id": 79,
+            "end_id": 45,
+            "visible": true
+        },
+        {
+            "start_id": 79,
+            "end_id": 46,
+            "visible": true
+        },
+        {
+            "start_id": 79,
             "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 79,
+            "end_id": 48,
+            "visible": true
+        },
+        {
+            "start_id": 79,
+            "end_id": 47,
             "visible": true
         },
         {
@@ -1795,8 +1865,13 @@
             "visible": true
         },
         {
+            "start_id": 81,
+            "end_id": 82,
+            "visible": true
+        },
+        {
             "start_id": 82,
-            "end_id": 60,
+            "end_id": 32,
             "visible": true
         },
         {
@@ -1806,17 +1881,22 @@
         },
         {
             "start_id": 84,
-            "end_id": 6,
+            "end_id": 45,
             "visible": true
         },
         {
-            "start_id": 34,
-            "end_id": 33,
+            "start_id": 84,
+            "end_id": 46,
             "visible": true
         },
         {
-            "start_id": 33,
-            "end_id": 6,
+            "start_id": 84,
+            "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 84,
+            "end_id": 47,
             "visible": true
         },
         {
@@ -1826,212 +1906,307 @@
         },
         {
             "start_id": 85,
-            "end_id": 84,
+            "end_id": 87,
             "visible": true
         },
         {
-            "start_id": 34,
-            "end_id": 85,
-            "visible": true
-        },
-        {
-            "start_id": 6,
+            "start_id": 85,
             "end_id": 86,
             "visible": true
         },
         {
             "start_id": 86,
-            "end_id": 34,
-            "visible": true
-        },
-        {
-            "start_id": 83,
-            "end_id": 86,
+            "end_id": 30,
             "visible": true
         },
         {
             "start_id": 87,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 87,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 86,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 34,
+            "end_id": 88,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 88,
+            "visible": true
+        },
+        {
+            "start_id": 45,
+            "end_id": 88,
+            "visible": true
+        },
+        {
+            "start_id": 19,
+            "end_id": 88,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 88,
+            "visible": true
+        },
+        {
+            "start_id": 46,
+            "end_id": 88,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 88,
+            "visible": true
+        },
+        {
+            "start_id": 70,
+            "end_id": 88,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 88,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 88,
+            "visible": true
+        },
+        {
+            "start_id": 48,
+            "end_id": 88,
+            "visible": true
+        },
+        {
+            "start_id": 83,
             "end_id": 88,
             "visible": true
         },
         {
             "start_id": 88,
-            "end_id": 61,
-            "visible": true
-        },
-        {
-            "start_id": 88,
-            "end_id": 22,
-            "visible": true
-        },
-        {
-            "start_id": 45,
-            "end_id": 61,
-            "visible": true
-        },
-        {
-            "start_id": 87,
             "end_id": 89,
             "visible": true
         },
         {
             "start_id": 89,
-            "end_id": 60,
-            "visible": true
-        },
-        {
-            "start_id": 6,
-            "end_id": 89,
+            "end_id": 90,
             "visible": true
         },
         {
             "start_id": 89,
-            "end_id": 20,
-            "visible": true
-        },
-        {
-            "start_id": 60,
-            "end_id": 90,
-            "visible": true
-        },
-        {
-            "start_id": 87,
-            "end_id": 90,
-            "visible": true
-        },
-        {
-            "start_id": 58,
             "end_id": 91,
             "visible": true
         },
         {
-            "start_id": 59,
+            "start_id": 90,
             "end_id": 92,
             "visible": true
         },
         {
-            "start_id": 60,
-            "end_id": 91,
-            "visible": true
-        },
-        {
-            "start_id": 60,
-            "end_id": 92,
-            "visible": true
-        },
-        {
-            "start_id": 11,
+            "start_id": 4,
             "end_id": 93,
             "visible": true
         },
         {
-            "start_id": 13,
-            "end_id": 94,
+            "start_id": 55,
+            "end_id": 93,
             "visible": true
         },
         {
-            "start_id": 22,
-            "end_id": 96,
+            "start_id": 10,
+            "end_id": 93,
             "visible": true
         },
         {
-            "start_id": 95,
-            "end_id": 96,
+            "start_id": 60,
+            "end_id": 93,
             "visible": true
         },
         {
-            "start_id": 97,
+            "start_id": 94,
+            "end_id": 95,
+            "visible": true
+        },
+        {
+            "start_id": 96,
             "end_id": 98,
             "visible": true
         },
         {
-            "start_id": 38,
-            "end_id": 98,
+            "start_id": 98,
+            "end_id": 55,
+            "visible": true
+        },
+        {
+            "start_id": 98,
+            "end_id": 60,
+            "visible": true
+        },
+        {
+            "start_id": 98,
+            "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 96,
+            "end_id": 97,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 97,
             "visible": true
         },
         {
             "start_id": 97,
-            "end_id": 99,
+            "end_id": 45,
             "visible": true
         },
         {
-            "start_id": 38,
-            "end_id": 99,
+            "start_id": 97,
+            "end_id": 46,
             "visible": true
         },
         {
-            "start_id": 100,
-            "end_id": 101,
+            "start_id": 97,
+            "end_id": 61,
             "visible": true
         },
         {
-            "start_id": 101,
+            "start_id": 97,
+            "end_id": 48,
+            "visible": true
+        },
+        {
+            "start_id": 97,
             "end_id": 47,
             "visible": true
         },
         {
-            "start_id": 11,
-            "end_id": 102,
+            "start_id": 72,
+            "end_id": 100,
             "visible": true
         },
         {
-            "start_id": 13,
-            "end_id": 102,
+            "start_id": 99,
+            "end_id": 100,
             "visible": true
         },
         {
-            "start_id": 100,
+            "start_id": 101,
             "end_id": 102,
             "visible": true
         },
         {
             "start_id": 102,
-            "end_id": 103,
-            "visible": true
-        },
-        {
-            "start_id": 100,
-            "end_id": 103,
+            "end_id": 83,
             "visible": true
         },
         {
             "start_id": 103,
+            "end_id": 104,
+            "visible": true
+        },
+        {
+            "start_id": 81,
+            "end_id": 104,
+            "visible": true
+        },
+        {
+            "start_id": 80,
+            "end_id": 104,
+            "visible": true
+        },
+        {
+            "start_id": 105,
+            "end_id": 106,
+            "visible": true
+        },
+        {
+            "start_id": 106,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 106,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 106,
+            "end_id": 48,
+            "visible": true
+        },
+        {
+            "start_id": 107,
+            "end_id": 108,
+            "visible": true
+        },
+        {
+            "start_id": 108,
+            "end_id": 45,
+            "visible": true
+        },
+        {
+            "start_id": 108,
+            "end_id": 46,
+            "visible": true
+        },
+        {
+            "start_id": 108,
             "end_id": 61,
             "visible": true
         },
         {
-            "start_id": 103,
-            "end_id": 104,
+            "start_id": 108,
+            "end_id": 47,
             "visible": true
         },
         {
-            "start_id": 104,
-            "end_id": 34,
+            "start_id": 107,
+            "end_id": 109,
             "visible": true
         },
         {
-            "start_id": 100,
-            "end_id": 104,
+            "start_id": 32,
+            "end_id": 109,
             "visible": true
         },
         {
-            "start_id": 52,
-            "end_id": 105,
+            "start_id": 109,
+            "end_id": 45,
             "visible": true
         },
         {
-            "start_id": 100,
-            "end_id": 105,
+            "start_id": 109,
+            "end_id": 46,
             "visible": true
         },
         {
-            "start_id": 38,
-            "end_id": 106,
+            "start_id": 109,
+            "end_id": 61,
             "visible": true
         },
         {
-            "start_id": 100,
-            "end_id": 106,
+            "start_id": 109,
+            "end_id": 48,
+            "visible": true
+        },
+        {
+            "start_id": 109,
+            "end_id": 47,
             "visible": true
         }
     ]

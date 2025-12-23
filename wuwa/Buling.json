@@ -1,0 +1,1113 @@
+{
+    "canvas_width": 2495,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 77.0,
+            "y": 31.0,
+            "width": 366,
+            "height": 48,
+            "text": "Hexagram...Falls (Basic)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 1,
+            "x": 234.0,
+            "y": 113.0,
+            "width": 128,
+            "height": 24,
+            "text": "Basic Attack 1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 268.0,
+            "y": 173.0,
+            "width": 124,
+            "height": 24,
+            "text": "Basic Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 270.0,
+            "y": 239.0,
+            "width": 123,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 273.0,
+            "y": 294.0,
+            "width": 117,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 602.0,
+            "y": 24.0,
+            "width": 497,
+            "height": 48,
+            "text": "Mountains and Thunders (Heavy)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 806.0,
+            "y": 107.0,
+            "width": 309,
+            "height": 48,
+            "text": "spends the right two highlighted Trigrams, with effect determined by left to right",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 939.0,
+            "y": 292.0,
+            "width": 234,
+            "height": 24,
+            "text": "Mountain/Thunder (Yellow/Blue)",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 1058.0,
+            "y": 251.0,
+            "width": 228,
+            "height": 24,
+            "text": "Thunder/Mountain (Blue/Yellow)",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 1157.0,
+            "y": 214.0,
+            "width": 209,
+            "height": 24,
+            "text": "Thunder/Thunder (Blue/Blue)",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 10,
+            "x": 1215.0,
+            "y": 177.0,
+            "width": 249,
+            "height": 24,
+            "text": "Mountain/Mountain (Yellow/Yellow)",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 1304.0,
+            "y": 136.0,
+            "width": 106,
+            "height": 24,
+            "text": "Not enough",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 12,
+            "x": 1487.0,
+            "y": 136.0,
+            "width": 291,
+            "height": 24,
+            "text": "lose all Trigrams and 20% of current HP",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 1032.0,
+            "y": 363.0,
+            "width": 102,
+            "height": 24,
+            "text": "Strong DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 1278.0,
+            "y": 317.0,
+            "width": 86,
+            "height": 24,
+            "text": "Half DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 1507.0,
+            "y": 199.0,
+            "width": 185,
+            "height": 24,
+            "text": "Big heal, slightly weaker",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 1378.0,
+            "y": 295.0,
+            "width": 161,
+            "height": 24,
+            "text": "Heal over 8 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 454.0,
+            "y": 177.0,
+            "width": 282,
+            "height": 24,
+            "text": "generates a Mountain (Yellow) Trigram",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 501.0,
+            "y": 310.0,
+            "width": 263,
+            "height": 24,
+            "text": "generates a Thunder (Blue) Trigram",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 19,
+            "x": 19.0,
+            "y": 394.0,
+            "width": 249,
+            "height": 48,
+            "text": "Dodge Counter",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 20,
+            "x": 94.0,
+            "y": 323.0,
+            "width": 100,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 477.0,
+            "y": 525.0,
+            "width": 434,
+            "height": 48,
+            "text": "In Shadows Thunder Stirs (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 464.0,
+            "y": 405.0,
+            "width": 106,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 574.0,
+            "y": 231.0,
+            "width": 171,
+            "height": 48,
+            "text": "Trigram",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 789.0,
+            "y": 244.0,
+            "width": 106,
+            "height": 24,
+            "text": "maximum 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 981.0,
+            "y": 636.0,
+            "width": 396,
+            "height": 48,
+            "text": "Flashing Thunder Spell (R)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 1223.0,
+            "y": 383.0,
+            "width": 137,
+            "height": 24,
+            "text": "grants Minor Yang",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 27,
+            "x": 1502.0,
+            "y": 252.0,
+            "width": 129,
+            "height": 24,
+            "text": "grants Minor Yin",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 1451.0,
+            "y": 377.0,
+            "width": 378,
+            "height": 48,
+            "text": "Yin-Yang Balance (Forte)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 1675.0,
+            "y": 482.0,
+            "width": 296,
+            "height": 24,
+            "text": "unlocks if you have both Yin and Yang",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 1850.0,
+            "y": 564.0,
+            "width": 258,
+            "height": 48,
+            "text": "Harmony (R\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 31,
+            "x": 1775.0,
+            "y": 648.0,
+            "width": 413,
+            "height": 25,
+            "text": "deals damage and generates a Five Thunders Spell Array",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 32,
+            "x": 1784.0,
+            "y": 719.0,
+            "width": 397,
+            "height": 48,
+            "text": "Five Thunders Spell Array",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 2219.0,
+            "y": 731.0,
+            "width": 155,
+            "height": 24,
+            "text": "24 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 34,
+            "x": 1388.0,
+            "y": 729.0,
+            "width": 346,
+            "height": 24,
+            "text": "inflict 2 stacks of Electro Flare every 2 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 35,
+            "x": 1789.0,
+            "y": 804.0,
+            "width": 390,
+            "height": 24,
+            "text": "Party gains Thunder Spell - Primordial Qi while active",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 36,
+            "x": 1772.0,
+            "y": 866.0,
+            "width": 428,
+            "height": 48,
+            "text": "Thunder Spell - Primordial Qi",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 37,
+            "x": 1619.0,
+            "y": 878.0,
+            "width": 103,
+            "height": 24,
+            "text": "does nothing",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 38,
+            "x": 1842.0,
+            "y": 953.0,
+            "width": 289,
+            "height": 51,
+            "text": "any Party member casting an Intro Skill upgrades Thunder Spell to Yin and Yang",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 39,
+            "x": 1762.0,
+            "y": 1043.0,
+            "width": 448,
+            "height": 48,
+            "text": "Thunder Spell - Yin and Yang",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 40,
+            "x": 1342.0,
+            "y": 1055.0,
+            "width": 374,
+            "height": 24,
+            "text": "grants Resonance Skill DMG Bonus +10% to Party",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 41,
+            "x": 1817.0,
+            "y": 1127.0,
+            "width": 344,
+            "height": 54,
+            "text": "any Party member casting an Intro Skill upgrades Thunder Spell to Heaven, Earth, Mind",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 42,
+            "x": 1725.0,
+            "y": 1218.0,
+            "width": 534,
+            "height": 48,
+            "text": "Thunder Spell - Heaven, Earth, Mind",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 43,
+            "x": 1304.0,
+            "y": 1233.0,
+            "width": 372,
+            "height": 24,
+            "text": "grants Resonance Skill DMG Bonus +25% to Party",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 45,
+            "x": 1979.0,
+            "y": 30.0,
+            "width": 388,
+            "height": 48,
+            "text": "Summon and Smite (Intro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 47,
+            "x": 1466.0,
+            "y": 1142.0,
+            "width": 94,
+            "height": 24,
+            "text": "upgrades to",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 48,
+            "x": 2106.0,
+            "y": 194.0,
+            "width": 337,
+            "height": 48,
+            "text": "Exorcism Spell (Outro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 49,
+            "x": 2059.0,
+            "y": 281.0,
+            "width": 203,
+            "height": 24,
+            "text": "heals incoming Resonator",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 50,
+            "x": 2241.0,
+            "y": 324.0,
+            "width": 193,
+            "height": 47,
+            "text": "Party DMG multiplied by 1.15x for 30 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 52,
+            "x": 243.0,
+            "y": 839.0,
+            "width": 272,
+            "height": 48,
+            "text": "Healing Bonus +25% when healing Resonator below 50% HP",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 53,
+            "x": 2145.0,
+            "y": 119.0,
+            "width": 268,
+            "height": 45,
+            "text": "Once per 10 seconds, inflict 4 stacks of Electro Flare on hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 54,
+            "x": 1998.0,
+            "y": 135.0,
+            "width": 100,
+            "height": 24,
+            "text": "heals Party",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 56,
+            "x": 2187.0,
+            "y": 473.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 1",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 57,
+            "x": 2156.0,
+            "y": 572.0,
+            "width": 154,
+            "height": 24,
+            "text": "has Crit Rate +20%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 58,
+            "x": 1028.0,
+            "y": 470.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 2",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 59,
+            "x": 1343.0,
+            "y": 466.0,
+            "width": 263,
+            "height": 59,
+            "text": "Once per 24 seconds, restores 25 Resonance Energy upon entering Yin-Yang Balance stat",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 60,
+            "x": 184.0,
+            "y": 745.0,
+            "width": 392,
+            "height": 48,
+            "text": "Time...Declines (Inherent)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 61,
+            "x": 1107.0,
+            "y": 801.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 3",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 62,
+            "x": 1426.0,
+            "y": 799.0,
+            "width": 297,
+            "height": 45,
+            "text": "Once per 24 seconds, heals a Resonator when they drop below 50% HP",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 63,
+            "x": 649.0,
+            "y": 744.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 4",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 64,
+            "x": 691.0,
+            "y": 847.0,
+            "width": 163,
+            "height": 24,
+            "text": "Healing Bonus +20%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 65,
+            "x": 1413.0,
+            "y": 561.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 5",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 66,
+            "x": 1511.0,
+            "y": 649.0,
+            "width": 233,
+            "height": 50,
+            "text": "inflicts 6 stacks of Electro Flare upon generation",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 67,
+            "x": 1012.0,
+            "y": 1301.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 6",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 68,
+            "x": 1330.0,
+            "y": 1317.0,
+            "width": 374,
+            "height": 24,
+            "text": "grants Resonance Skill DMG Bonus +25% to Party",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 0,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 3,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 10,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 16,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 19,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 20,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 22,
+            "visible": true
+        },
+        {
+            "start_id": 22,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 7,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 8,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 9,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 10,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 10,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 28,
+            "end_id": 29,
+            "visible": true
+        },
+        {
+            "start_id": 29,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 31,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 34,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 35,
+            "visible": true
+        },
+        {
+            "start_id": 35,
+            "end_id": 36,
+            "visible": true
+        },
+        {
+            "start_id": 36,
+            "end_id": 37,
+            "visible": true
+        },
+        {
+            "start_id": 36,
+            "end_id": 38,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 39,
+            "visible": true
+        },
+        {
+            "start_id": 39,
+            "end_id": 40,
+            "visible": true
+        },
+        {
+            "start_id": 39,
+            "end_id": 41,
+            "visible": true
+        },
+        {
+            "start_id": 41,
+            "end_id": 42,
+            "visible": true
+        },
+        {
+            "start_id": 42,
+            "end_id": 43,
+            "visible": true
+        },
+        {
+            "start_id": 40,
+            "end_id": 47,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 43,
+            "visible": true
+        },
+        {
+            "start_id": 48,
+            "end_id": 49,
+            "visible": true
+        },
+        {
+            "start_id": 48,
+            "end_id": 50,
+            "visible": true
+        },
+        {
+            "start_id": 45,
+            "end_id": 54,
+            "visible": true
+        },
+        {
+            "start_id": 45,
+            "end_id": 53,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 57,
+            "visible": false
+        },
+        {
+            "start_id": 56,
+            "end_id": 57,
+            "visible": false
+        },
+        {
+            "start_id": 58,
+            "end_id": 59,
+            "visible": false
+        },
+        {
+            "start_id": 59,
+            "end_id": 28,
+            "visible": false
+        },
+        {
+            "start_id": 60,
+            "end_id": 52,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 62,
+            "visible": false
+        },
+        {
+            "start_id": 61,
+            "end_id": 62,
+            "visible": false
+        },
+        {
+            "start_id": 63,
+            "end_id": 64,
+            "visible": false
+        },
+        {
+            "start_id": 32,
+            "end_id": 66,
+            "visible": false
+        },
+        {
+            "start_id": 65,
+            "end_id": 66,
+            "visible": false
+        },
+        {
+            "start_id": 42,
+            "end_id": 68,
+            "visible": false
+        },
+        {
+            "start_id": 67,
+            "end_id": 68,
+            "visible": false
+        }
+    ]
+}
