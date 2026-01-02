@@ -1,5 +1,5 @@
 {
-    "canvas_width": 1841,
+    "canvas_width": 1855,
     "canvas_height": 1020,
     "text_bubbles": [
         {
@@ -889,6 +889,18 @@
             "checkbox_visible": false,
             "checked": true,
             "visible": false
+        },
+        {
+            "id": 74,
+            "x": 2038.0,
+            "y": 261.0,
+            "width": 220,
+            "height": 48,
+            "text": "Echo Skill (Q)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         }
     ],
     "connections": [
@@ -1361,6 +1373,11 @@
             "start_id": 70,
             "end_id": 73,
             "visible": false
+        },
+        {
+            "start_id": 74,
+            "end_id": 50,
+            "visible": true
         }
     ]
 }

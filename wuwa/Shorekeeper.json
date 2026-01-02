@@ -1,5 +1,5 @@
 {
-    "canvas_width": 2481,
+    "canvas_width": 2495,
     "canvas_height": 1380,
     "text_bubbles": [
         {
@@ -160,8 +160,8 @@
         },
         {
             "id": 13,
-            "x": 167.0,
-            "y": 230.0,
+            "x": 151.0,
+            "y": 202.0,
             "width": 122,
             "height": 24,
             "text": "Basic Attack 1",
@@ -172,8 +172,8 @@
         },
         {
             "id": 14,
-            "x": 304.0,
-            "y": 252.0,
+            "x": 296.0,
+            "y": 228.0,
             "width": 113,
             "height": 24,
             "text": "Basic Attack 2",
@@ -184,8 +184,8 @@
         },
         {
             "id": 15,
-            "x": 446.0,
-            "y": 245.0,
+            "x": 434.0,
+            "y": 229.0,
             "width": 124,
             "height": 24,
             "text": "Basic Attack 3",
@@ -724,11 +724,11 @@
         },
         {
             "id": 60,
-            "x": 1765.0,
-            "y": 1006.0,
-            "width": 179,
-            "height": 67,
-            "text": "Only useable while Supernal Stellarealm is active, and only once",
+            "x": 1759.0,
+            "y": 1033.0,
+            "width": 189,
+            "height": 44,
+            "text": "unlocks, but useable only once per Stellarealm",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -822,11 +822,11 @@
             "id": 68,
             "x": 1459.0,
             "y": 1312.0,
-            "width": 221,
+            "width": 246,
             "height": 48,
             "text": "Resonance 1",
             "font_size": 24,
-            "checkbox_visible": false,
+            "checkbox_visible": true,
             "checked": true,
             "visible": true
         },
@@ -1107,21 +1107,6 @@
             "visible": true
         },
         {
-            "start_id": 0,
-            "end_id": 13,
-            "visible": true
-        },
-        {
-            "start_id": 0,
-            "end_id": 14,
-            "visible": true
-        },
-        {
-            "start_id": 0,
-            "end_id": 15,
-            "visible": true
-        },
-        {
             "start_id": 13,
             "end_id": 1,
             "visible": true
@@ -1137,11 +1122,6 @@
             "visible": true
         },
         {
-            "start_id": 0,
-            "end_id": 16,
-            "visible": true
-        },
-        {
             "start_id": 16,
             "end_id": 1,
             "visible": true
@@ -1154,26 +1134,6 @@
         {
             "start_id": 18,
             "end_id": 1,
-            "visible": true
-        },
-        {
-            "start_id": 0,
-            "end_id": 13,
-            "visible": true
-        },
-        {
-            "start_id": 0,
-            "end_id": 14,
-            "visible": true
-        },
-        {
-            "start_id": 0,
-            "end_id": 15,
-            "visible": true
-        },
-        {
-            "start_id": 0,
-            "end_id": 16,
             "visible": true
         },
         {
@@ -1279,11 +1239,6 @@
         {
             "start_id": 28,
             "end_id": 32,
-            "visible": true
-        },
-        {
-            "start_id": 32,
-            "end_id": 0,
             "visible": true
         },
         {
@@ -1518,16 +1473,6 @@
         },
         {
             "start_id": 58,
-            "end_id": 60,
-            "visible": true
-        },
-        {
-            "start_id": 60,
-            "end_id": 54,
-            "visible": true
-        },
-        {
-            "start_id": 58,
             "end_id": 61,
             "visible": true
         },
@@ -1715,6 +1660,41 @@
             "start_id": 85,
             "end_id": 84,
             "visible": false
+        },
+        {
+            "start_id": 54,
+            "end_id": 60,
+            "visible": true
+        },
+        {
+            "start_id": 60,
+            "end_id": 58,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 0,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 14,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 16,
+            "visible": true
         }
     ]
 }

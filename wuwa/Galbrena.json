@@ -1,6 +1,6 @@
 {
-    "canvas_width": 2495,
-    "canvas_height": 1380,
+    "canvas_width": 1855,
+    "canvas_height": 1020,
     "text_bubbles": [
         {
             "id": 0,
@@ -1103,7 +1103,7 @@
             "text": "Resonance 1",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -1116,7 +1116,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 98,
@@ -1128,7 +1128,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 99,
@@ -1139,7 +1139,7 @@
             "text": "Resonance 2",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -1152,7 +1152,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 101,
@@ -1163,7 +1163,7 @@
             "text": "Resonance 3",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -1176,7 +1176,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 103,
@@ -1187,7 +1187,7 @@
             "text": "Resonance 4",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -1200,7 +1200,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 105,
@@ -1211,7 +1211,7 @@
             "text": "Resonance 5",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -1224,7 +1224,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 107,
@@ -1235,7 +1235,7 @@
             "text": "Resonance 6",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -1248,7 +1248,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 109,
@@ -1260,7 +1260,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         }
     ],
     "connections": [
@@ -2042,172 +2042,172 @@
         {
             "start_id": 96,
             "end_id": 98,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 98,
             "end_id": 55,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 98,
             "end_id": 60,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 98,
             "end_id": 61,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 96,
             "end_id": 97,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 32,
             "end_id": 97,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 97,
             "end_id": 45,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 97,
             "end_id": 46,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 97,
             "end_id": 61,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 97,
             "end_id": 48,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 97,
             "end_id": 47,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 72,
             "end_id": 100,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 99,
             "end_id": 100,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 101,
             "end_id": 102,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 102,
             "end_id": 83,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 103,
             "end_id": 104,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 81,
             "end_id": 104,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 80,
             "end_id": 104,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 105,
             "end_id": 106,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 106,
             "end_id": 21,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 106,
             "end_id": 23,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 106,
             "end_id": 48,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 107,
             "end_id": 108,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 108,
             "end_id": 45,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 108,
             "end_id": 46,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 108,
             "end_id": 61,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 108,
             "end_id": 47,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 107,
             "end_id": 109,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 32,
             "end_id": 109,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 109,
             "end_id": 45,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 109,
             "end_id": 46,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 109,
             "end_id": 61,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 109,
             "end_id": 48,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 109,
             "end_id": 47,
-            "visible": true
+            "visible": false
         }
     ]
 }

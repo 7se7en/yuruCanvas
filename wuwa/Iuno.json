@@ -4,11 +4,11 @@
     "text_bubbles": [
         {
             "id": 0,
-            "x": 478.0,
-            "y": 94.0,
-            "width": 292,
+            "x": 445.0,
+            "y": 88.0,
+            "width": 255,
             "height": 48,
-            "text": "Moon Steps (Basic)",
+            "text": "Moonring (Basic)",
             "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
@@ -16,8 +16,8 @@
         },
         {
             "id": 1,
-            "x": 73.0,
-            "y": 266.0,
+            "x": 138.0,
+            "y": 98.0,
             "width": 234,
             "height": 48,
             "text": "Dodge Counter",
@@ -28,8 +28,8 @@
         },
         {
             "id": 2,
-            "x": 395.0,
-            "y": 244.0,
+            "x": 447.0,
+            "y": 177.0,
             "width": 98,
             "height": 24,
             "text": "combos into",
@@ -40,23 +40,11 @@
         },
         {
             "id": 3,
-            "x": 613.0,
-            "y": 216.0,
+            "x": 579.0,
+            "y": 226.0,
             "width": 118,
             "height": 24,
             "text": "Basic Attack 3",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
-            "id": 4,
-            "x": 447.0,
-            "y": 377.0,
-            "width": 220,
-            "height": 48,
-            "text": "empowers and converts to Resonance Liberation DMG",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -76,8 +64,8 @@
         },
         {
             "id": 6,
-            "x": 1363.0,
-            "y": 65.0,
+            "x": 1251.0,
+            "y": 111.0,
             "width": 318,
             "height": 48,
             "text": "Pulse of Origins (E)",
@@ -88,7 +76,7 @@
         },
         {
             "id": 7,
-            "x": 816.0,
+            "x": 711.0,
             "y": 28.0,
             "width": 467,
             "height": 48,
@@ -100,8 +88,8 @@
         },
         {
             "id": 8,
-            "x": 1181.0,
-            "y": 167.0,
+            "x": 1153.0,
+            "y": 191.0,
             "width": 306,
             "height": 24,
             "text": "unlocks for 5 seconds if not in Lunar Cycle",
@@ -112,8 +100,8 @@
         },
         {
             "id": 9,
-            "x": 1286.0,
-            "y": 235.0,
+            "x": 1188.0,
+            "y": 241.0,
             "width": 289,
             "height": 48,
             "text": "Closing Refrain (E)",
@@ -124,8 +112,8 @@
         },
         {
             "id": 11,
-            "x": 1289.0,
-            "y": 431.0,
+            "x": 1169.0,
+            "y": 408.0,
             "width": 190,
             "height": 60,
             "text": "activates Lunar Cycle for 15 seconds, and starting in Half Moon",
@@ -172,8 +160,8 @@
         },
         {
             "id": 15,
-            "x": 1689.0,
-            "y": 337.0,
+            "x": 1650.0,
+            "y": 358.0,
             "width": 158,
             "height": 24,
             "text": "shares cooldown with",
@@ -184,8 +172,8 @@
         },
         {
             "id": 16,
-            "x": 744.0,
-            "y": 912.0,
+            "x": 831.0,
+            "y": 853.0,
             "width": 85,
             "height": 24,
             "text": "unlocks",
@@ -208,8 +196,8 @@
         },
         {
             "id": 18,
-            "x": 305.0,
-            "y": 1007.0,
+            "x": 631.0,
+            "y": 1019.0,
             "width": 131,
             "height": 24,
             "text": "has two charges",
@@ -244,11 +232,11 @@
         },
         {
             "id": 22,
-            "x": 1169.0,
+            "x": 1163.0,
             "y": 751.0,
-            "width": 218,
+            "width": 242,
             "height": 24,
-            "text": "replaces Jump (Space) with",
+            "text": "replaces Jump (Space) with Flux",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -280,11 +268,11 @@
         },
         {
             "id": 27,
-            "x": 1055.0,
-            "y": 518.0,
-            "width": 205,
-            "height": 24,
-            "text": "unlocks while in Lunar Cycle",
+            "x": 706.0,
+            "y": 528.0,
+            "width": 75,
+            "height": 25,
+            "text": "unlocks",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -292,8 +280,8 @@
         },
         {
             "id": 28,
-            "x": 218.0,
-            "y": 513.0,
+            "x": 432.0,
+            "y": 486.0,
             "width": 220,
             "height": 48,
             "text": "Meandering",
@@ -304,11 +292,11 @@
         },
         {
             "id": 29,
-            "x": 118.0,
-            "y": 601.0,
-            "width": 145,
+            "x": 423.0,
+            "y": 582.0,
+            "width": 220,
             "height": 24,
-            "text": "you can fly around",
+            "text": "you can fly around horizontally",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -316,8 +304,8 @@
         },
         {
             "id": 30,
-            "x": 1526.0,
-            "y": 461.0,
+            "x": 901.0,
+            "y": 596.0,
             "width": 207,
             "height": 57,
             "text": "can be ended with Environmental Interactions, Utilities, or holding Jump",
@@ -340,11 +328,11 @@
         },
         {
             "id": 32,
-            "x": 1044.0,
-            "y": 673.0,
-            "width": 248,
+            "x": 651.0,
+            "y": 177.0,
+            "width": 199,
             "height": 24,
-            "text": "attacks generate Sentience on hit",
+            "text": "generates Sentience on hit",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -352,8 +340,8 @@
         },
         {
             "id": 33,
-            "x": 597.0,
-            "y": 704.0,
+            "x": 705.0,
+            "y": 722.0,
             "width": 260,
             "height": 48,
             "text": "Sentience (Forte)",
@@ -364,8 +352,8 @@
         },
         {
             "id": 34,
-            "x": 393.0,
-            "y": 754.0,
+            "x": 537.0,
+            "y": 795.0,
             "width": 134,
             "height": 24,
             "text": "maximum 100",
@@ -376,8 +364,8 @@
         },
         {
             "id": 35,
-            "x": 699.0,
-            "y": 176.0,
+            "x": 781.0,
+            "y": 106.0,
             "width": 188,
             "height": 25,
             "text": "generates 40 Sentience",
@@ -388,8 +376,8 @@
         },
         {
             "id": 36,
-            "x": 1187.0,
-            "y": 360.0,
+            "x": 1378.0,
+            "y": 391.0,
             "width": 182,
             "height": 24,
             "text": "generates 25 Sentience",
@@ -423,21 +411,9 @@
             "visible": true
         },
         {
-            "id": 39,
-            "x": 535.0,
-            "y": 567.0,
-            "width": 184,
-            "height": 60,
-            "text": "is consumed to further empower, grant bonus concerto, and heal team",
-            "font_size": 12,
-            "checkbox_visible": false,
-            "checked": true,
-            "visible": true
-        },
-        {
             "id": 40,
-            "x": 1919.0,
-            "y": 29.0,
+            "x": 1829.0,
+            "y": 30.0,
             "width": 391,
             "height": 48,
             "text": "Absolute Fullness (Heavy)",
@@ -448,8 +424,8 @@
         },
         {
             "id": 41,
-            "x": 2210.0,
-            "y": 103.0,
+            "x": 2180.0,
+            "y": 98.0,
             "width": 272,
             "height": 24,
             "text": "can only be used when Concerto is full",
@@ -460,8 +436,8 @@
         },
         {
             "id": 42,
-            "x": 1776.0,
-            "y": 112.0,
+            "x": 1844.0,
+            "y": 129.0,
             "width": 181,
             "height": 24,
             "text": "also ends Lunar Cycle",
@@ -472,8 +448,8 @@
         },
         {
             "id": 43,
-            "x": 1852.0,
-            "y": 152.0,
+            "x": 2126.0,
+            "y": 137.0,
             "width": 213,
             "height": 24,
             "text": "Resonance Liberation DMG",
@@ -484,8 +460,8 @@
         },
         {
             "id": 44,
-            "x": 2095.0,
-            "y": 144.0,
+            "x": 2256.0,
+            "y": 41.0,
             "width": 217,
             "height": 24,
             "text": "conjures a Full Moon domain",
@@ -496,8 +472,8 @@
         },
         {
             "id": 45,
-            "x": 2122.0,
-            "y": 214.0,
+            "x": 2186.0,
+            "y": 210.0,
             "width": 280,
             "height": 48,
             "text": "Full Moon Domain",
@@ -508,8 +484,8 @@
         },
         {
             "id": 46,
-            "x": 1916.0,
-            "y": 227.0,
+            "x": 2340.0,
+            "y": 298.0,
             "width": 143,
             "height": 24,
             "text": "25 second duration",
@@ -520,8 +496,8 @@
         },
         {
             "id": 47,
-            "x": 1893.0,
-            "y": 297.0,
+            "x": 2021.0,
+            "y": 308.0,
             "width": 250,
             "height": 24,
             "text": "periodically restores HP and STA",
@@ -532,8 +508,8 @@
         },
         {
             "id": 48,
-            "x": 2179.0,
-            "y": 314.0,
+            "x": 2168.0,
+            "y": 347.0,
             "width": 276,
             "height": 60,
             "text": "gaining a shield within domain generates 1 stack of Blessing of the Wan Light once per 0.5 seconds",
@@ -556,11 +532,11 @@
         },
         {
             "id": 50,
-            "x": 2138.0,
-            "y": 627.0,
-            "width": 338,
-            "height": 24,
-            "text": "DMG amplified by 1.04x per stack, up to 1.4x",
+            "x": 2153.0,
+            "y": 631.0,
+            "width": 310,
+            "height": 48,
+            "text": "Grants DMG multiplied by 1.04x per stack, up to 1.4x",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -592,8 +568,8 @@
         },
         {
             "id": 53,
-            "x": 1946.0,
-            "y": 910.0,
+            "x": 498.0,
+            "y": 1218.0,
             "width": 389,
             "height": 48,
             "text": "Waxing Ascent (Inherent)",
@@ -604,8 +580,8 @@
         },
         {
             "id": 54,
-            "x": 2006.0,
-            "y": 1003.0,
+            "x": 559.0,
+            "y": 1297.0,
             "width": 271,
             "height": 65,
             "text": "All of Iuno's damaging attacks grants Iuno (and only Iuno) a shield equal to 32% of her ATK for 15 seconds",
@@ -628,8 +604,8 @@
         },
         {
             "id": 56,
-            "x": 1056.0,
-            "y": 1044.0,
+            "x": 3.0,
+            "y": 1226.0,
             "width": 446,
             "height": 48,
             "text": "From Gloom to Gleam (Outro)",
@@ -640,8 +616,8 @@
         },
         {
             "id": 57,
-            "x": 1210.0,
-            "y": 1140.0,
+            "x": 81.0,
+            "y": 1306.0,
             "width": 289,
             "height": 47,
             "text": "For 14 seconds, incoming Resonator's Heavy Attack DMG multipied by 1.5x",
@@ -649,37 +625,324 @@
             "checkbox_visible": false,
             "checked": true,
             "visible": true
+        },
+        {
+            "id": 58,
+            "x": 1156.0,
+            "y": 572.0,
+            "width": 184,
+            "height": 48,
+            "text": "Lunar Cycle",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 59,
+            "x": 1500.0,
+            "y": 231.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 1",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 60,
+            "x": 1418.0,
+            "y": 543.0,
+            "width": 150,
+            "height": 24,
+            "text": "Grants ATK +40%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 61,
+            "x": 1938.0,
+            "y": 233.0,
+            "width": 216,
+            "height": 59,
+            "text": "Iuno generates 1 Resonance Energy per second while inside domain",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 62,
+            "x": 532.0,
+            "y": 871.0,
+            "width": 154,
+            "height": 24,
+            "text": "interruption immune",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 63,
+            "x": 1705.0,
+            "y": 91.0,
+            "width": 153,
+            "height": 24,
+            "text": "interruption immune",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 64,
+            "x": 2102.0,
+            "y": 793.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 2",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 65,
+            "x": 2167.0,
+            "y": 717.0,
+            "width": 283,
+            "height": 24,
+            "text": "at max stacks, adds +0.4x to multiplier",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 66,
+            "x": 55.0,
+            "y": 382.0,
+            "width": 295,
+            "height": 48,
+            "text": "Moonbow (Basic\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 67,
+            "x": 63.0,
+            "y": 322.0,
+            "width": 288,
+            "height": 24,
+            "text": "considered Resonance Liberation DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 68,
+            "x": 586.0,
+            "y": 329.0,
+            "width": 122,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 69,
+            "x": 102.0,
+            "y": 225.0,
+            "width": 437,
+            "height": 48,
+            "text": "Moonbow (Dodge Counter\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 70,
+            "x": 523.0,
+            "y": 296.0,
+            "width": 99,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 72,
+            "x": 284.0,
+            "y": 697.0,
+            "width": 351,
+            "height": 46,
+            "text": "attacks consume Sentience to enhance damage and Concerto generation, and heal party",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 73,
+            "x": 20.0,
+            "y": 844.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 3",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 74,
+            "x": 85.0,
+            "y": 744.0,
+            "width": 187,
+            "height": 24,
+            "text": "DMG multiplied by 1.65x",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 75,
+            "x": 140.0,
+            "y": 1012.0,
+            "width": 286,
+            "height": 24,
+            "text": "does not interrupt basic attack cycle",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 76,
+            "x": 1919.0,
+            "y": 171.0,
+            "width": 261,
+            "height": 48,
+            "text": "grants Shield equal to 160% of Iuno's ATK to team for 30 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 77,
+            "x": 1706.0,
+            "y": 297.0,
+            "width": 246,
+            "height": 48,
+            "text": "Resonance 4",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 78,
+            "x": 931.0,
+            "y": 1212.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 5",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 79,
+            "x": 901.0,
+            "y": 1298.0,
+            "width": 305,
+            "height": 24,
+            "text": "Resonance Liberation DMG Bonus +20%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 80,
+            "x": 1207.0,
+            "y": 24.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 6",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 81,
+            "x": 1569.0,
+            "y": 22.0,
+            "width": 192,
+            "height": 24,
+            "text": "DMG multiplied by 11.06x",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 82,
+            "x": 1524.0,
+            "y": 61.0,
+            "width": 79,
+            "height": 24,
+            "text": "cancels",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 83,
+            "x": 1702.0,
+            "y": 165.0,
+            "width": 190,
+            "height": 24,
+            "text": "generates 100 Sentience",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 84,
+            "x": 1626.0,
+            "y": 127.0,
+            "width": 160,
+            "height": 24,
+            "text": "restores two charges",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
         }
     ],
     "connections": [
         {
-            "start_id": 1,
-            "end_id": 2,
-            "visible": true
-        },
-        {
             "start_id": 0,
             "end_id": 3,
-            "visible": true
-        },
-        {
-            "start_id": 2,
-            "end_id": 3,
-            "visible": true
-        },
-        {
-            "start_id": 4,
-            "end_id": 1,
-            "visible": true
-        },
-        {
-            "start_id": 4,
-            "end_id": 0,
-            "visible": true
-        },
-        {
-            "start_id": 5,
-            "end_id": 4,
             "visible": true
         },
         {
@@ -700,11 +963,6 @@
         {
             "start_id": 7,
             "end_id": 8,
-            "visible": true
-        },
-        {
-            "start_id": 12,
-            "end_id": 13,
             "visible": true
         },
         {
@@ -748,11 +1006,6 @@
             "visible": true
         },
         {
-            "start_id": 12,
-            "end_id": 22,
-            "visible": true
-        },
-        {
             "start_id": 5,
             "end_id": 22,
             "visible": true
@@ -773,28 +1026,8 @@
             "visible": true
         },
         {
-            "start_id": 23,
-            "end_id": 12,
-            "visible": true
-        },
-        {
             "start_id": 9,
             "end_id": 11,
-            "visible": true
-        },
-        {
-            "start_id": 11,
-            "end_id": 12,
-            "visible": true
-        },
-        {
-            "start_id": 11,
-            "end_id": 27,
-            "visible": true
-        },
-        {
-            "start_id": 27,
-            "end_id": 28,
             "visible": true
         },
         {
@@ -805,16 +1038,6 @@
         {
             "start_id": 23,
             "end_id": 31,
-            "visible": true
-        },
-        {
-            "start_id": 12,
-            "end_id": 32,
-            "visible": true
-        },
-        {
-            "start_id": 32,
-            "end_id": 33,
             "visible": true
         },
         {
@@ -863,33 +1086,8 @@
             "visible": true
         },
         {
-            "start_id": 33,
-            "end_id": 39,
-            "visible": true
-        },
-        {
-            "start_id": 39,
-            "end_id": 4,
-            "visible": true
-        },
-        {
             "start_id": 40,
             "end_id": 41,
-            "visible": true
-        },
-        {
-            "start_id": 11,
-            "end_id": 30,
-            "visible": true
-        },
-        {
-            "start_id": 40,
-            "end_id": 42,
-            "visible": true
-        },
-        {
-            "start_id": 42,
-            "end_id": 11,
             "visible": true
         },
         {
@@ -966,6 +1164,281 @@
             "start_id": 56,
             "end_id": 57,
             "visible": true
+        },
+        {
+            "start_id": 12,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 12,
+            "end_id": 22,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 58,
+            "visible": true
+        },
+        {
+            "start_id": 58,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 58,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 40,
+            "end_id": 42,
+            "visible": true
+        },
+        {
+            "start_id": 42,
+            "end_id": 58,
+            "visible": true
+        },
+        {
+            "start_id": 58,
+            "end_id": 60,
+            "visible": false
+        },
+        {
+            "start_id": 59,
+            "end_id": 60,
+            "visible": false
+        },
+        {
+            "start_id": 45,
+            "end_id": 61,
+            "visible": false
+        },
+        {
+            "start_id": 59,
+            "end_id": 61,
+            "visible": false
+        },
+        {
+            "start_id": 17,
+            "end_id": 62,
+            "visible": false
+        },
+        {
+            "start_id": 59,
+            "end_id": 62,
+            "visible": false
+        },
+        {
+            "start_id": 40,
+            "end_id": 63,
+            "visible": false
+        },
+        {
+            "start_id": 59,
+            "end_id": 63,
+            "visible": false
+        },
+        {
+            "start_id": 50,
+            "end_id": 65,
+            "visible": false
+        },
+        {
+            "start_id": 64,
+            "end_id": 65,
+            "visible": false
+        },
+        {
+            "start_id": 66,
+            "end_id": 67,
+            "visible": true
+        },
+        {
+            "start_id": 66,
+            "end_id": 68,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 69,
+            "end_id": 67,
+            "visible": true
+        },
+        {
+            "start_id": 69,
+            "end_id": 70,
+            "visible": true
+        },
+        {
+            "start_id": 70,
+            "end_id": 68,
+            "visible": true
+        },
+        {
+            "start_id": 16,
+            "end_id": 66,
+            "visible": true
+        },
+        {
+            "start_id": 16,
+            "end_id": 69,
+            "visible": true
+        },
+        {
+            "start_id": 33,
+            "end_id": 72,
+            "visible": true
+        },
+        {
+            "start_id": 72,
+            "end_id": 69,
+            "visible": true
+        },
+        {
+            "start_id": 72,
+            "end_id": 66,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 72,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 73,
+            "end_id": 74,
+            "visible": false
+        },
+        {
+            "start_id": 74,
+            "end_id": 66,
+            "visible": false
+        },
+        {
+            "start_id": 74,
+            "end_id": 17,
+            "visible": false
+        },
+        {
+            "start_id": 74,
+            "end_id": 69,
+            "visible": false
+        },
+        {
+            "start_id": 17,
+            "end_id": 75,
+            "visible": false
+        },
+        {
+            "start_id": 73,
+            "end_id": 75,
+            "visible": false
+        },
+        {
+            "start_id": 77,
+            "end_id": 76,
+            "visible": false
+        },
+        {
+            "start_id": 40,
+            "end_id": 76,
+            "visible": false
+        },
+        {
+            "start_id": 78,
+            "end_id": 79,
+            "visible": false
+        },
+        {
+            "start_id": 80,
+            "end_id": 81,
+            "visible": false
+        },
+        {
+            "start_id": 81,
+            "end_id": 40,
+            "visible": false
+        },
+        {
+            "start_id": 80,
+            "end_id": 82,
+            "visible": false
+        },
+        {
+            "start_id": 82,
+            "end_id": 42,
+            "visible": false
+        },
+        {
+            "start_id": 40,
+            "end_id": 83,
+            "visible": false
+        },
+        {
+            "start_id": 83,
+            "end_id": 33,
+            "visible": false
+        },
+        {
+            "start_id": 80,
+            "end_id": 83,
+            "visible": false
+        },
+        {
+            "start_id": 40,
+            "end_id": 84,
+            "visible": false
+        },
+        {
+            "start_id": 84,
+            "end_id": 17,
+            "visible": false
+        },
+        {
+            "start_id": 80,
+            "end_id": 84,
+            "visible": false
         }
     ]
 }

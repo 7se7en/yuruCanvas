@@ -1,0 +1,922 @@
+{
+    "canvas_width": 2495,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 608.0,
+            "y": 77.0,
+            "width": 307,
+            "height": 48,
+            "text": "Tuneslayer (Basic)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 1,
+            "x": 625.0,
+            "y": 184.0,
+            "width": 115,
+            "height": 24,
+            "text": "Basic Attack 1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 555.0,
+            "y": 275.0,
+            "width": 116,
+            "height": 24,
+            "text": "Basic Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 514.0,
+            "y": 354.0,
+            "width": 114,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 496.0,
+            "y": 456.0,
+            "width": 115,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 495.0,
+            "y": 570.0,
+            "width": 115,
+            "height": 24,
+            "text": "Basic Attack 5",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 772.0,
+            "y": 278.0,
+            "width": 313,
+            "height": 48,
+            "text": "Heavy Attack (Heavy)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 688.0,
+            "y": 375.0,
+            "width": 98,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 872.0,
+            "y": 571.0,
+            "width": 220,
+            "height": 48,
+            "text": "Wingblade (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 1111.0,
+            "y": 175.0,
+            "width": 179,
+            "height": 24,
+            "text": "generates Umbra on hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 1263.0,
+            "y": 384.0,
+            "width": 201,
+            "height": 24,
+            "text": "generates Umbra on cast",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 12,
+            "x": 1507.0,
+            "y": 247.0,
+            "width": 124,
+            "height": 48,
+            "text": "Umbra",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 1646.0,
+            "y": 341.0,
+            "width": 124,
+            "height": 24,
+            "text": "maximum 100",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 1796.0,
+            "y": 441.0,
+            "width": 75,
+            "height": 24,
+            "text": "unlocks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 1740.0,
+            "y": 537.0,
+            "width": 297,
+            "height": 48,
+            "text": "Devastation (Heavy)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 1708.0,
+            "y": 665.0,
+            "width": 191,
+            "height": 24,
+            "text": "enables Dark Surge state",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 1477.0,
+            "y": 788.0,
+            "width": 187,
+            "height": 48,
+            "text": "Dark Surge",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 1555.0,
+            "y": 885.0,
+            "width": 220,
+            "height": 48,
+            "text": "drains Umbra until none left, then ends Dark Surge state",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 19,
+            "x": 1326.0,
+            "y": 863.0,
+            "width": 77,
+            "height": 24,
+            "text": "unlocks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 20,
+            "x": 1272.0,
+            "y": 666.0,
+            "width": 220,
+            "height": 48,
+            "text": "Lifetaker (E\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 712.0,
+            "y": 867.0,
+            "width": 457,
+            "height": 48,
+            "text": "Enhanced Tuneslayer (Basic\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 690.0,
+            "y": 458.0,
+            "width": 416,
+            "height": 48,
+            "text": "Instant of Annihilation (Intro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 880.0,
+            "y": 959.0,
+            "width": 117,
+            "height": 24,
+            "text": "Basic Attack 1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 868.0,
+            "y": 1051.0,
+            "width": 119,
+            "height": 24,
+            "text": "Basic Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 855.0,
+            "y": 1150.0,
+            "width": 122,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 827.0,
+            "y": 1235.0,
+            "width": 121,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 27,
+            "x": 740.0,
+            "y": 1322.0,
+            "width": 119,
+            "height": 24,
+            "text": "Basic Attack 5",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 1137.0,
+            "y": 968.0,
+            "width": 510,
+            "height": 48,
+            "text": "Enhanced Heavy Attack (Heavy\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 1350.0,
+            "y": 1059.0,
+            "width": 95,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 1236.0,
+            "y": 1127.0,
+            "width": 309,
+            "height": 48,
+            "text": "Thwackblade (Basic)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 31,
+            "x": 1620.0,
+            "y": 1137.0,
+            "width": 234,
+            "height": 24,
+            "text": "considered Heavy Attack DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 32,
+            "x": 1075.0,
+            "y": 1142.0,
+            "width": 99,
+            "height": 24,
+            "text": "combos into",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 1095.0,
+            "y": 1059.0,
+            "width": 153,
+            "height": 24,
+            "text": "slightly stronger than",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 34,
+            "x": 2073.0,
+            "y": 285.0,
+            "width": 314,
+            "height": 48,
+            "text": "Deadening Abyss (R)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 35,
+            "x": 1733.0,
+            "y": 142.0,
+            "width": 313,
+            "height": 48,
+            "text": "Soundwaver (Outro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 36,
+            "x": 1730.0,
+            "y": 838.0,
+            "width": 191,
+            "height": 24,
+            "text": "Havoc DMG Bonus +20%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 37,
+            "x": 438.0,
+            "y": 870.0,
+            "width": 192,
+            "height": 44,
+            "text": "recovers 1 extra Resonance Energy on hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 38,
+            "x": 148.0,
+            "y": 191.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 1",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 39,
+            "x": 150.0,
+            "y": 287.0,
+            "width": 267,
+            "height": 24,
+            "text": "Resonance Skill DMG Bonus +30%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 40,
+            "x": 1444.0,
+            "y": 486.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 2",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 41,
+            "x": 1514.0,
+            "y": 593.0,
+            "width": 132,
+            "height": 24,
+            "text": "resets cooldown",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 42,
+            "x": 276.0,
+            "y": 1225.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 3",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 43,
+            "x": 481.0,
+            "y": 1313.0,
+            "width": 193,
+            "height": 46,
+            "text": "restores HP equal to 10% of missing HP on hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 44,
+            "x": 2042.0,
+            "y": 425.0,
+            "width": 220,
+            "height": 48,
+            "text": "reduces Enemy Havoc RES by 10% for 20 seconds on hit",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 45,
+            "x": 2201.0,
+            "y": 582.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 4",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 46,
+            "x": 1076.0,
+            "y": 1310.0,
+            "width": 252,
+            "height": 48,
+            "text": "Aeon Symphony",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 47,
+            "x": 1114.0,
+            "y": 1224.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 5",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 48,
+            "x": 930.0,
+            "y": 1322.0,
+            "width": 71,
+            "height": 24,
+            "text": "triggers",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 49,
+            "x": 1370.0,
+            "y": 1320.0,
+            "width": 359,
+            "height": 24,
+            "text": "deal damage equal to 50% of the triggering attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 50,
+            "x": 1992.0,
+            "y": 758.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 6",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 51,
+            "x": 1760.0,
+            "y": 773.0,
+            "width": 119,
+            "height": 24,
+            "text": "Crit Rate +25%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 52,
+            "x": 1070.0,
+            "y": 655.0,
+            "width": 129,
+            "height": 24,
+            "text": "shares cooldown",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 0,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 3,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 7,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 9,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 12,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 14,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 16,
+            "visible": true
+        },
+        {
+            "start_id": 16,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 20,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 19,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 19,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 22,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 24,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 28,
+            "end_id": 29,
+            "visible": true
+        },
+        {
+            "start_id": 29,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 19,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 33,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 33,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 9,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 36,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 37,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 39,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 43,
+            "visible": true
+        },
+        {
+            "start_id": 42,
+            "end_id": 43,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 44,
+            "visible": true
+        },
+        {
+            "start_id": 34,
+            "end_id": 44,
+            "visible": true
+        },
+        {
+            "start_id": 45,
+            "end_id": 44,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 48,
+            "visible": true
+        },
+        {
+            "start_id": 48,
+            "end_id": 46,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 48,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 46,
+            "visible": true
+        },
+        {
+            "start_id": 46,
+            "end_id": 49,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 49,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 51,
+            "visible": true
+        },
+        {
+            "start_id": 50,
+            "end_id": 51,
+            "visible": true
+        },
+        {
+            "start_id": 52,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 52,
+            "end_id": 8,
+            "visible": true
+        },
+        {
+            "start_id": 40,
+            "end_id": 41,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 41,
+            "visible": true
+        },
+        {
+            "start_id": 41,
+            "end_id": 20,
+            "visible": true
+        }
+    ]
+}
