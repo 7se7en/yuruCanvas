@@ -4,6 +4,8 @@ import json
 import sys
 import math
 
+# Version 1.2
+
 # Import tkinterdnd2 for drag-and-drop support
 try:
     from tkinterdnd2 import TkinterDnD, DND_FILES
@@ -384,6 +386,9 @@ class TextBubble:
         self.lines.clear()
 
     def on_hover(self, event):
+        if self.app.search_active:
+            return
+        
         level0 = {self}
         outgoing_bubbles = set()  # Bubbles connected via outgoing (red) lines
         incoming_bubbles = set()  # Bubbles connected via incoming (orange) lines
@@ -443,21 +448,10 @@ class TextBubble:
                 line.set_highlight("gray", 1, "gray50")
 
     def on_leave(self, event):
+        if self.app.search_active:
+            return
         # Revert all elements
-        for bubble in self.app.text_bubbles:
-            self.canvas.itemconfig(bubble.rect, 
-                                fill="white", 
-                                outline="black", 
-                                width=1, 
-                                stipple="")
-            self.canvas.itemconfig(bubble.label, 
-                                fill="black")
-            self.canvas.itemconfig(bubble.check_mark,
-                                fill="black")
-            self.canvas.itemconfig(bubble.checkbox_rect,
-                                outline="black")
-        for line in self.app.lines:
-            line.set_highlight("black", 2, "")
+        self.app.reset_styles()
 
 class ConnectionLine:
     def __init__(self, canvas, start_bubble, end_bubble):
@@ -765,9 +759,125 @@ class CanvasApp:
         self.root.bind("<Control-Shift-S>", lambda event: self.save_as_canvas())     
         self.root.bind("<Control-r>", lambda event: self.change_canvas_size())
 
+        # Bind key press and release for search highlight
+        self.root.bind("<KeyPress>", self.on_key_press)
+        self.root.bind("<KeyRelease>", self.on_key_release)
+        self.search_active = False
+
         # Load a file if provided as an argument
         if file_path:
             self.load_canvas_from_file(file_path)
+
+    def on_key_press(self, event):
+        key = event.keysym.lower()
+        
+        # Define your search rules here: key → (required_words (AND), optional_words (OR))
+        # required_words: all must be present (AND)
+        # optional_words: at least one must be present (OR)
+        search_rules = {
+            'c': (["generate"], ["concerto"]),  # generate AND concerto
+            'r': (["generate"], ["resonance"]),
+            '1': (["1"], ["resonance", "eidolon", "constellation", "mindscape"]),   # 1 AND resonance OR eidolon OR constellation OR mindscape
+            '2': (["2"], ["resonance", "eidolon", "constellation", "mindscape"]),
+            '3': (["3"], ["resonance", "eidolon", "constellation", "mindscape"]),
+            '4': (["4"], ["resonance", "eidolon", "constellation", "mindscape"]),
+            '5': (["5"], ["resonance", "eidolon", "constellation", "mindscape"]),
+            '6': (["6"], ["resonance", "eidolon", "constellation", "mindscape"]),
+        }
+        # After adding search rules, you need to add the key to the below on_key_release function
+        # otherwise the highlights won't be undone when you release the key
+        
+        if key in search_rules:
+            required, optional = search_rules[key]
+            matching = [
+                b for b in self.text_bubbles
+                if (all(word.lower() in b.text.lower() for word in required) and
+                    (not optional or any(word.lower() in b.text.lower() for word in optional)))
+            ]
+            
+            if matching:
+                self.search_active = True
+                self.apply_search_highlight(matching)
+
+    def on_key_release(self, event):
+        key = event.keysym.lower()
+        # Only revert if the released key was one of our search keys
+        search_keys = {'c', 'r', '1', '2', '3', '4', '5', '6'}  # add new keys here when you define them
+        if key in search_keys:
+            self.revert_highlight()
+
+    def apply_search_highlight(self, level0_bubbles):
+        outgoing_bubbles = set()
+        incoming_bubbles = set()
+        level2 = set()
+
+        for bub in level0_bubbles:
+            for line in bub.lines:
+                if line.start_bubble == bub:
+                    other = line.end_bubble
+                    outgoing_bubbles.add(other)
+                else:
+                    other = line.start_bubble
+                    incoming_bubbles.add(other)
+
+        for bub in outgoing_bubbles.union(incoming_bubbles):
+            for line in bub.lines:
+                other = line.end_bubble if line.start_bubble == bub else line.start_bubble
+                if other not in level0_bubbles and other not in outgoing_bubbles and other not in incoming_bubbles:
+                    level2.add(other)
+
+        # Update bubble styling
+        for bubble in self.text_bubbles:
+            if bubble in level0_bubbles:
+                self.canvas.itemconfig(bubble.rect, outline="blue", width=4, stipple="")
+                self.canvas.itemconfig(bubble.label, fill="black")
+            elif bubble in outgoing_bubbles:
+                self.canvas.itemconfig(bubble.rect, outline="red", width=3, stipple="")
+                self.canvas.itemconfig(bubble.label, fill="black")
+            elif bubble in incoming_bubbles:
+                self.canvas.itemconfig(bubble.rect, outline="orange", width=3, stipple="")
+                self.canvas.itemconfig(bubble.label, fill="black")
+            elif bubble in level2:
+                self.canvas.itemconfig(bubble.rect, outline="black", width=2, stipple="")
+                self.canvas.itemconfig(bubble.label, fill="black")
+            else:
+                self.canvas.itemconfig(bubble.rect, fill="white", outline="gray", stipple="gray50")
+                self.canvas.itemconfig(bubble.label, fill="gray")
+                self.canvas.itemconfig(bubble.checkbox_rect, outline="gray", stipple="gray50")
+                self.canvas.itemconfig(bubble.check_mark, fill="gray")
+
+        # Update line styling
+        for line in self.lines:
+            if line.start_bubble in level0_bubbles:
+                line.set_highlight("red", 3, "")
+            elif line.end_bubble in level0_bubbles:
+                line.set_highlight("orange", 3, "")
+            elif line.start_bubble in outgoing_bubbles or line.end_bubble in outgoing_bubbles:
+                line.set_highlight("black", 2, "")
+            elif line.start_bubble in incoming_bubbles or line.end_bubble in incoming_bubbles:
+                line.set_highlight("black", 2, "")
+            else:
+                line.set_highlight("gray", 1, "gray50")
+
+    def revert_highlight(self):
+        self.reset_styles()
+        self.search_active = False
+
+    def reset_styles(self):
+        for bubble in self.text_bubbles:
+            self.canvas.itemconfig(bubble.rect, 
+                                fill="white", 
+                                outline="black", 
+                                width=1, 
+                                stipple="")
+            self.canvas.itemconfig(bubble.label, 
+                                fill="black")
+            self.canvas.itemconfig(bubble.check_mark,
+                                fill="black")
+            self.canvas.itemconfig(bubble.checkbox_rect,
+                                outline="black")
+        for line in self.lines:
+            line.set_highlight("black", 2, "")
 
     def on_mouse_wheel(self, event):
         # Check if the mouse is hovering over a bubble before scrolling

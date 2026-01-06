@@ -184,11 +184,11 @@
         },
         {
             "id": 15,
-            "x": 1507.0,
-            "y": 199.0,
-            "width": 185,
+            "x": 1506.0,
+            "y": 210.0,
+            "width": 213,
             "height": 24,
-            "text": "Big heal, slightly weaker",
+            "text": "Bulk heal, but slightly weaker",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -197,7 +197,7 @@
         {
             "id": 16,
             "x": 1378.0,
-            "y": 295.0,
+            "y": 281.0,
             "width": 161,
             "height": 24,
             "text": "Heal over 8 seconds",
@@ -209,7 +209,7 @@
         {
             "id": 17,
             "x": 454.0,
-            "y": 177.0,
+            "y": 174.0,
             "width": 282,
             "height": 24,
             "text": "generates a Mountain (Yellow) Trigram",
@@ -220,8 +220,8 @@
         },
         {
             "id": 18,
-            "x": 501.0,
-            "y": 310.0,
+            "x": 463.0,
+            "y": 293.0,
             "width": 263,
             "height": 24,
             "text": "generates a Thunder (Blue) Trigram",
@@ -233,7 +233,7 @@
         {
             "id": 19,
             "x": 19.0,
-            "y": 394.0,
+            "y": 419.0,
             "width": 249,
             "height": 48,
             "text": "Dodge Counter",
@@ -244,8 +244,8 @@
         },
         {
             "id": 20,
-            "x": 94.0,
-            "y": 323.0,
+            "x": 93.0,
+            "y": 350.0,
             "width": 100,
             "height": 24,
             "text": "combos into",
@@ -256,8 +256,8 @@
         },
         {
             "id": 21,
-            "x": 477.0,
-            "y": 525.0,
+            "x": 376.0,
+            "y": 420.0,
             "width": 434,
             "height": 48,
             "text": "In Shadows Thunder Stirs (E)",
@@ -268,8 +268,8 @@
         },
         {
             "id": 22,
-            "x": 464.0,
-            "y": 405.0,
+            "x": 390.0,
+            "y": 352.0,
             "width": 106,
             "height": 24,
             "text": "combos into",
@@ -280,8 +280,8 @@
         },
         {
             "id": 23,
-            "x": 574.0,
-            "y": 231.0,
+            "x": 567.0,
+            "y": 222.0,
             "width": 171,
             "height": 48,
             "text": "Trigram",
@@ -292,8 +292,8 @@
         },
         {
             "id": 24,
-            "x": 789.0,
-            "y": 244.0,
+            "x": 781.0,
+            "y": 234.0,
             "width": 106,
             "height": 24,
             "text": "maximum 4",
@@ -316,8 +316,8 @@
         },
         {
             "id": 26,
-            "x": 1223.0,
-            "y": 383.0,
+            "x": 1225.0,
+            "y": 386.0,
             "width": 137,
             "height": 24,
             "text": "grants Minor Yang",
@@ -328,8 +328,8 @@
         },
         {
             "id": 27,
-            "x": 1502.0,
-            "y": 252.0,
+            "x": 1576.0,
+            "y": 277.0,
             "width": 129,
             "height": 24,
             "text": "grants Minor Yin",
@@ -608,7 +608,7 @@
             "y": 119.0,
             "width": 268,
             "height": 45,
-            "text": "Once per 10 seconds, inflict 4 stacks of Electro Flare on hit",
+            "text": "inflict 4 stacks of Electro Flare on hit, but triggerable once per 10 seconds",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -635,7 +635,7 @@
             "text": "Resonance 1",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
@@ -648,7 +648,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
         },
         {
             "id": 58,
@@ -659,7 +659,7 @@
             "text": "Resonance 2",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
@@ -668,11 +668,11 @@
             "y": 466.0,
             "width": 263,
             "height": 59,
-            "text": "Once per 24 seconds, restores 25 Resonance Energy upon entering Yin-Yang Balance stat",
+            "text": "Once per 24 seconds, restores 25 Resonance Energy upon entering Yin-Yang Balance state",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
         },
         {
             "id": 60,
@@ -695,7 +695,7 @@
             "text": "Resonance 3",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
@@ -708,7 +708,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
         },
         {
             "id": 63,
@@ -719,7 +719,7 @@
             "text": "Resonance 4",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
@@ -732,7 +732,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
         },
         {
             "id": 65,
@@ -743,7 +743,7 @@
             "text": "Resonance 5",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
@@ -756,31 +756,43 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
         },
         {
             "id": 67,
-            "x": 1012.0,
-            "y": 1301.0,
+            "x": 958.0,
+            "y": 1298.0,
             "width": 245,
             "height": 48,
             "text": "Resonance 6",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
             "id": 68,
-            "x": 1330.0,
-            "y": 1317.0,
+            "x": 1276.0,
+            "y": 1335.0,
             "width": 374,
             "height": 24,
             "text": "grants Resonance Skill DMG Bonus +25% to Party",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
+        },
+        {
+            "id": 69,
+            "x": 1445.0,
+            "y": 1286.0,
+            "width": 65,
+            "height": 24,
+            "text": "additive",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         }
     ],
     "connections": [
@@ -1052,22 +1064,22 @@
         {
             "start_id": 30,
             "end_id": 57,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 56,
             "end_id": 57,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 58,
             "end_id": 59,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 59,
             "end_id": 28,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 60,
@@ -1077,37 +1089,52 @@
         {
             "start_id": 32,
             "end_id": 62,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 61,
             "end_id": 62,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 63,
             "end_id": 64,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 32,
             "end_id": 66,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 65,
             "end_id": 66,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 42,
             "end_id": 68,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 67,
             "end_id": 68,
-            "visible": false
+            "visible": true
+        },
+        {
+            "start_id": 69,
+            "end_id": 43,
+            "visible": true
+        },
+        {
+            "start_id": 69,
+            "end_id": 68,
+            "visible": true
+        },
+        {
+            "start_id": 67,
+            "end_id": 69,
+            "visible": true
         }
     ]
 }

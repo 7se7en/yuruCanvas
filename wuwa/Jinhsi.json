@@ -1,0 +1,1336 @@
+{
+    "canvas_width": 2495,
+    "canvas_height": 1380,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 94.0,
+            "y": 106.0,
+            "width": 320,
+            "height": 48,
+            "text": "Slash...Dawn (Basic)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 1,
+            "x": 462.0,
+            "y": 113.0,
+            "width": 113,
+            "height": 24,
+            "text": "Basic Attack 1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 518.0,
+            "y": 166.0,
+            "width": 116,
+            "height": 24,
+            "text": "Basic Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 563.0,
+            "y": 235.0,
+            "width": 115,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 596.0,
+            "y": 299.0,
+            "width": 119,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 621.0,
+            "y": 363.0,
+            "width": 161,
+            "height": 24,
+            "text": "unlocks for 5 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 587.0,
+            "y": 417.0,
+            "width": 405,
+            "height": 48,
+            "text": "Overflowing Radiance (E\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 466.0,
+            "y": 641.0,
+            "width": 298,
+            "height": 48,
+            "text": "Loong's Halo (Intro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 632.0,
+            "y": 561.0,
+            "width": 176,
+            "height": 42,
+            "text": "unlocks for 5 seconds if not in Incarnation state",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 950.0,
+            "y": 706.0,
+            "width": 185,
+            "height": 48,
+            "text": "Incarnation",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 10,
+            "x": 785.0,
+            "y": 525.0,
+            "width": 166,
+            "height": 24,
+            "text": "enter Incarnation state",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 1222.0,
+            "y": 772.0,
+            "width": 65,
+            "height": 24,
+            "text": "unlocks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 12,
+            "x": 750.0,
+            "y": 730.0,
+            "width": 144,
+            "height": 24,
+            "text": "10 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 863.0,
+            "y": 162.0,
+            "width": 266,
+            "height": 48,
+            "text": "Trailing...Eons (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 1383.0,
+            "y": 755.0,
+            "width": 308,
+            "height": 48,
+            "text": "Incarnation (Basic\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 1493.0,
+            "y": 839.0,
+            "width": 114,
+            "height": 24,
+            "text": "Basic Attack 1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 1522.0,
+            "y": 917.0,
+            "width": 116,
+            "height": 24,
+            "text": "Basic Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 1556.0,
+            "y": 990.0,
+            "width": 120,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 1593.0,
+            "y": 1067.0,
+            "width": 124,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 19,
+            "x": 788.0,
+            "y": 687.0,
+            "width": 87,
+            "height": 24,
+            "text": "gain Float",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 20,
+            "x": 1695.0,
+            "y": 841.0,
+            "width": 251,
+            "height": 24,
+            "text": "considered Resonance Skill DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 783.0,
+            "y": 776.0,
+            "width": 363,
+            "height": 48,
+            "text": "Crescent Divinity (E\u2605\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 1090.0,
+            "y": 632.0,
+            "width": 326,
+            "height": 48,
+            "text": "Incarnation (Dodge\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 1172.0,
+            "y": 575.0,
+            "width": 242,
+            "height": 24,
+            "text": "can be cast multiple times mid-air",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 1722.0,
+            "y": 1133.0,
+            "width": 130,
+            "height": 24,
+            "text": "ends Incarnation",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 1392.0,
+            "y": 1057.0,
+            "width": 157,
+            "height": 24,
+            "text": "gain Ordination Glow",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 1090.0,
+            "y": 1066.0,
+            "width": 249,
+            "height": 48,
+            "text": "Ordination Glow",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 27,
+            "x": 1390.0,
+            "y": 1179.0,
+            "width": 140,
+            "height": 24,
+            "text": "5 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 1169.0,
+            "y": 918.0,
+            "width": 324,
+            "height": 48,
+            "text": "Incarnation (Heavy\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 626.0,
+            "y": 1038.0,
+            "width": 82,
+            "height": 24,
+            "text": "disables",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 1192.0,
+            "y": 1006.0,
+            "width": 273,
+            "height": 24,
+            "text": "unlocks to become your Basic Attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 31,
+            "x": 406.0,
+            "y": 921.0,
+            "width": 62,
+            "height": 24,
+            "text": "unlocks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 32,
+            "x": 54.0,
+            "y": 839.0,
+            "width": 448,
+            "height": 48,
+            "text": "Illuminous Epiphany (E\u2605\u2605\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 144.0,
+            "y": 924.0,
+            "width": 67,
+            "height": 24,
+            "text": "triggers",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 34,
+            "x": 73.0,
+            "y": 990.0,
+            "width": 167,
+            "height": 48,
+            "text": "Solar Flare",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 35,
+            "x": 124.0,
+            "y": 1071.0,
+            "width": 69,
+            "height": 24,
+            "text": "triggers",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 36,
+            "x": 103.0,
+            "y": 1162.0,
+            "width": 220,
+            "height": 48,
+            "text": "Stella Glamor",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 37,
+            "x": 226.0,
+            "y": 775.0,
+            "width": 105,
+            "height": 24,
+            "text": "gain Unison",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 38,
+            "x": 203.0,
+            "y": 680.0,
+            "width": 127,
+            "height": 48,
+            "text": "Unison",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 39,
+            "x": 22.0,
+            "y": 690.0,
+            "width": 141,
+            "height": 24,
+            "text": "5 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 40,
+            "x": 18.0,
+            "y": 780.0,
+            "width": 157,
+            "height": 24,
+            "text": "25 second cooldown",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 41,
+            "x": 27.0,
+            "y": 1290.0,
+            "width": 206,
+            "height": 24,
+            "text": "consumes all Incandesence",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 42,
+            "x": 36.0,
+            "y": 618.0,
+            "width": 174,
+            "height": 24,
+            "text": "free Outro/Intro trigger",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 43,
+            "x": 417.0,
+            "y": 1071.0,
+            "width": 368,
+            "height": 48,
+            "text": "Temporal Bender (Outro)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 44,
+            "x": 1102.0,
+            "y": 1293.0,
+            "width": 227,
+            "height": 48,
+            "text": "Incandescence",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 45,
+            "x": 852.0,
+            "y": 1088.0,
+            "width": 220,
+            "height": 48,
+            "text": "Eras in Unity",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 46,
+            "x": 710.0,
+            "y": 1158.0,
+            "width": 260,
+            "height": 43,
+            "text": "generates 1 Incandescence when Party member deals Attribute DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 47,
+            "x": 608.0,
+            "y": 1234.0,
+            "width": 238,
+            "height": 24,
+            "text": "3 second cooldown per Attribute",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 48,
+            "x": 1035.0,
+            "y": 1184.0,
+            "width": 295,
+            "height": 42,
+            "text": "generates 2 Incandescence when Party member deals Coordinated Attack DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 49,
+            "x": 199.0,
+            "y": 1236.0,
+            "width": 194,
+            "height": 40,
+            "text": "multiplies DMG by 1.128x per stack, up to 7.4x",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 50,
+            "x": 451.0,
+            "y": 1154.0,
+            "width": 238,
+            "height": 43,
+            "text": "reduces cooldown by 2 seconds for 20 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 51,
+            "x": 1210.0,
+            "y": 341.0,
+            "width": 265,
+            "height": 48,
+            "text": "Purge of Light (R)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 52,
+            "x": 2087.0,
+            "y": 23.0,
+            "width": 360,
+            "height": 48,
+            "text": "Radiant Surge (Inherent)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 53,
+            "x": 2164.0,
+            "y": 109.0,
+            "width": 213,
+            "height": 24,
+            "text": "Spectro DMG Bonus +20%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 55,
+            "x": 522.0,
+            "y": 778.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 1",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 56,
+            "x": 1100.0,
+            "y": 846.0,
+            "width": 152,
+            "height": 44,
+            "text": "generates 1 stack of Herald of Revival",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 57,
+            "x": 811.0,
+            "y": 866.0,
+            "width": 254,
+            "height": 48,
+            "text": "Herald of Revival",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 58,
+            "x": 960.0,
+            "y": 937.0,
+            "width": 96,
+            "height": 24,
+            "text": "maximum 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 59,
+            "x": 605.0,
+            "y": 864.0,
+            "width": 175,
+            "height": 46,
+            "text": "DMG multiplied by 1.2x per stack, up to 1.8x",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 60,
+            "x": 394.0,
+            "y": 997.0,
+            "width": 224,
+            "height": 24,
+            "text": "consumes all Herald of Revival",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 61,
+            "x": 801.0,
+            "y": 946.0,
+            "width": 141,
+            "height": 24,
+            "text": "6 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 62,
+            "x": 1393.0,
+            "y": 1293.0,
+            "width": 246,
+            "height": 46,
+            "text": "generates 50 Incandesence when out of combat for 4 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 63,
+            "x": 1729.0,
+            "y": 1292.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 2",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 64,
+            "x": 308.0,
+            "y": 288.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 3",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 65,
+            "x": 458.0,
+            "y": 503.0,
+            "width": 189,
+            "height": 44,
+            "text": "generates 1 stack of Immortal's Descendancy",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 66,
+            "x": 18.0,
+            "y": 401.0,
+            "width": 357,
+            "height": 48,
+            "text": "Immortal's Descendancy",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 67,
+            "x": 42.0,
+            "y": 484.0,
+            "width": 170,
+            "height": 45,
+            "text": "ATK +25% per stack, up to +50%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 68,
+            "x": 233.0,
+            "y": 496.0,
+            "width": 147,
+            "height": 24,
+            "text": "20 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 69,
+            "x": 1233.0,
+            "y": 436.0,
+            "width": 220,
+            "height": 48,
+            "text": "Party gains Attribute DMG Bonus +20% for 20 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 70,
+            "x": 1509.0,
+            "y": 510.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 4",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 71,
+            "x": 1677.0,
+            "y": 187.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 5",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 72,
+            "x": 1483.0,
+            "y": 280.0,
+            "width": 170,
+            "height": 24,
+            "text": "DMG multiplied by 2.2x",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 73,
+            "x": 474.0,
+            "y": 1319.0,
+            "width": 245,
+            "height": 48,
+            "text": "Resonance 6",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 74,
+            "x": 404.0,
+            "y": 1224.0,
+            "width": 184,
+            "height": 24,
+            "text": "DMG multiplied by 1.45x",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 0,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 2,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 3,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 8,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 9,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 10,
+            "visible": true
+        },
+        {
+            "start_id": 10,
+            "end_id": 9,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 14,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 16,
+            "visible": true
+        },
+        {
+            "start_id": 16,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 9,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 14,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 22,
+            "visible": true
+        },
+        {
+            "start_id": 22,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 29,
+            "visible": true
+        },
+        {
+            "start_id": 29,
+            "end_id": 0,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 31,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 33,
+            "end_id": 34,
+            "visible": true
+        },
+        {
+            "start_id": 34,
+            "end_id": 35,
+            "visible": true
+        },
+        {
+            "start_id": 35,
+            "end_id": 36,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 37,
+            "visible": true
+        },
+        {
+            "start_id": 37,
+            "end_id": 38,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 39,
+            "visible": true
+        },
+        {
+            "start_id": 37,
+            "end_id": 40,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 42,
+            "visible": true
+        },
+        {
+            "start_id": 45,
+            "end_id": 46,
+            "visible": true
+        },
+        {
+            "start_id": 46,
+            "end_id": 47,
+            "visible": true
+        },
+        {
+            "start_id": 45,
+            "end_id": 48,
+            "visible": true
+        },
+        {
+            "start_id": 46,
+            "end_id": 44,
+            "visible": true
+        },
+        {
+            "start_id": 48,
+            "end_id": 44,
+            "visible": true
+        },
+        {
+            "start_id": 48,
+            "end_id": 47,
+            "visible": true
+        },
+        {
+            "start_id": 44,
+            "end_id": 49,
+            "visible": true
+        },
+        {
+            "start_id": 49,
+            "end_id": 36,
+            "visible": true
+        },
+        {
+            "start_id": 36,
+            "end_id": 41,
+            "visible": true
+        },
+        {
+            "start_id": 41,
+            "end_id": 44,
+            "visible": true
+        },
+        {
+            "start_id": 43,
+            "end_id": 50,
+            "visible": true
+        },
+        {
+            "start_id": 50,
+            "end_id": 47,
+            "visible": true
+        },
+        {
+            "start_id": 52,
+            "end_id": 53,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 56,
+            "visible": true
+        },
+        {
+            "start_id": 14,
+            "end_id": 56,
+            "visible": true
+        },
+        {
+            "start_id": 55,
+            "end_id": 56,
+            "visible": true
+        },
+        {
+            "start_id": 56,
+            "end_id": 57,
+            "visible": true
+        },
+        {
+            "start_id": 55,
+            "end_id": 57,
+            "visible": true
+        },
+        {
+            "start_id": 57,
+            "end_id": 58,
+            "visible": true
+        },
+        {
+            "start_id": 55,
+            "end_id": 58,
+            "visible": true
+        },
+        {
+            "start_id": 57,
+            "end_id": 59,
+            "visible": true
+        },
+        {
+            "start_id": 59,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 55,
+            "end_id": 59,
+            "visible": true
+        },
+        {
+            "start_id": 36,
+            "end_id": 60,
+            "visible": true
+        },
+        {
+            "start_id": 60,
+            "end_id": 57,
+            "visible": true
+        },
+        {
+            "start_id": 55,
+            "end_id": 60,
+            "visible": true
+        },
+        {
+            "start_id": 57,
+            "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 55,
+            "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 62,
+            "end_id": 44,
+            "visible": true
+        },
+        {
+            "start_id": 63,
+            "end_id": 62,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 65,
+            "visible": true
+        },
+        {
+            "start_id": 64,
+            "end_id": 65,
+            "visible": true
+        },
+        {
+            "start_id": 65,
+            "end_id": 66,
+            "visible": true
+        },
+        {
+            "start_id": 64,
+            "end_id": 66,
+            "visible": true
+        },
+        {
+            "start_id": 66,
+            "end_id": 67,
+            "visible": true
+        },
+        {
+            "start_id": 66,
+            "end_id": 68,
+            "visible": true
+        },
+        {
+            "start_id": 64,
+            "end_id": 67,
+            "visible": true
+        },
+        {
+            "start_id": 64,
+            "end_id": 68,
+            "visible": true
+        },
+        {
+            "start_id": 51,
+            "end_id": 69,
+            "visible": true
+        },
+        {
+            "start_id": 70,
+            "end_id": 69,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 69,
+            "visible": true
+        },
+        {
+            "start_id": 71,
+            "end_id": 72,
+            "visible": true
+        },
+        {
+            "start_id": 72,
+            "end_id": 51,
+            "visible": true
+        },
+        {
+            "start_id": 73,
+            "end_id": 74,
+            "visible": true
+        },
+        {
+            "start_id": 74,
+            "end_id": 32,
+            "visible": true
+        }
+    ]
+}

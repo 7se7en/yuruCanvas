@@ -21,6 +21,12 @@ Requires Python and tkinterdnd2 to have access to drag and drop load functionali
 * Mouse Wheel : Scroll up and down (if canvas is bigger than window)
 * Ctrl + Mouse Wheel : Scroll left to right (if canvas is bigger than window)
 
+# Other Hotkeys (press and hold functionality to highlight matches in text, but only defined in .pyw for now)
+* C : Highlights bubbles containing "generate" and "concerto"
+* R : Highlights bubbles containing "generate" and "resonance"
+* 1~6 : Highlights bubbles for Wuwa, HSR, Genshin, and ZZZ containing "resonance, eidolon, constellation, mindscape" and "1, 2, 3, 4, 5, 6"
+* can define your own in-file
+
 # Quick Way to Load files
 
 Drag .JSON files onto the .pyw file in the folder itself or into the canvas while the program is open to quickly load files.

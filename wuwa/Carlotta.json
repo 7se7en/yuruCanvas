@@ -335,7 +335,7 @@
             "text": "Resonance 1",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -412,8 +412,8 @@
         },
         {
             "id": 36,
-            "x": 1062.0,
-            "y": 886.0,
+            "x": 1015.0,
+            "y": 907.0,
             "width": 178,
             "height": 24,
             "text": "enables Final Bow state",
@@ -424,8 +424,8 @@
         },
         {
             "id": 37,
-            "x": 1443.0,
-            "y": 835.0,
+            "x": 1420.0,
+            "y": 815.0,
             "width": 164,
             "height": 48,
             "text": "Final Bow",
@@ -664,8 +664,8 @@
         },
         {
             "id": 57,
-            "x": 2167.0,
-            "y": 823.0,
+            "x": 2122.0,
+            "y": 829.0,
             "width": 68,
             "height": 24,
             "text": "unlocks",
@@ -676,8 +676,8 @@
         },
         {
             "id": 58,
-            "x": 1979.0,
-            "y": 819.0,
+            "x": 1889.0,
+            "y": 809.0,
             "width": 143,
             "height": 24,
             "text": "10 second duration",
@@ -772,8 +772,8 @@
         },
         {
             "id": 67,
-            "x": 1653.0,
-            "y": 1217.0,
+            "x": 1644.0,
+            "y": 1202.0,
             "width": 180,
             "height": 24,
             "text": "consumes all Substance",
@@ -840,7 +840,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 73,
@@ -852,7 +852,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 74,
@@ -863,7 +863,7 @@
             "text": "Resonance 2",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -876,7 +876,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 76,
@@ -887,7 +887,7 @@
             "text": "Resonance 3",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -900,7 +900,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 78,
@@ -912,7 +912,7 @@
             "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 79,
@@ -924,7 +924,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 80,
@@ -935,7 +935,7 @@
             "text": "Resonance 4",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -948,7 +948,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 82,
@@ -959,7 +959,7 @@
             "text": "Resonance 5",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
@@ -972,7 +972,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 84,
@@ -983,32 +983,32 @@
             "text": "Resonance 6",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": true,
+            "checked": false,
             "visible": true
         },
         {
             "id": 85,
-            "x": 1594.0,
-            "y": 897.0,
+            "x": 1605.0,
+            "y": 871.0,
             "width": 193,
             "height": 24,
             "text": "DMG multiplied by 2.866x",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 86,
-            "x": 1692.0,
-            "y": 942.0,
+            "x": 1688.0,
+            "y": 934.0,
             "width": 132,
             "height": 24,
             "text": "inflicts Scattering",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 87,
@@ -1020,27 +1020,39 @@
             "font_size": 24,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 88,
-            "x": 1597.0,
-            "y": 1071.0,
+            "x": 1672.0,
+            "y": 1144.0,
             "width": 158,
             "height": 24,
-            "text": "immobilized enemies",
+            "text": "immobilizes enemies",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 89,
-            "x": 1729.0,
-            "y": 1114.0,
+            "x": 1770.0,
+            "y": 1082.0,
             "width": 159,
             "height": 48,
             "text": "1.5 second duration, or until damaged",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 90,
+            "x": 1916.0,
+            "y": 958.0,
+            "width": 80,
+            "height": 24,
+            "text": "disables",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -1466,141 +1478,171 @@
         {
             "start_id": 27,
             "end_id": 72,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 21,
             "end_id": 72,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 42,
             "end_id": 73,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 27,
             "end_id": 73,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 73,
             "end_id": 24,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 73,
             "end_id": 11,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 74,
             "end_id": 75,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 75,
             "end_id": 63,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 71,
             "end_id": 77,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 77,
             "end_id": 78,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 76,
             "end_id": 77,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 76,
             "end_id": 78,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 76,
             "end_id": 79,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 79,
             "end_id": 42,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 79,
             "end_id": 22,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 80,
             "end_id": 81,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 14,
             "end_id": 81,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 38,
             "end_id": 81,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 35,
             "end_id": 81,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 82,
             "end_id": 83,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 83,
             "end_id": 35,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 84,
             "end_id": 85,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 85,
             "end_id": 56,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 56,
             "end_id": 86,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 84,
             "end_id": 86,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 86,
             "end_id": 87,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 87,
             "end_id": 88,
-            "visible": true
+            "visible": false
         },
         {
             "start_id": 87,
             "end_id": 89,
+            "visible": false
+        },
+        {
+            "start_id": 84,
+            "end_id": 87,
+            "visible": false
+        },
+        {
+            "start_id": 84,
+            "end_id": 88,
+            "visible": false
+        },
+        {
+            "start_id": 84,
+            "end_id": 89,
+            "visible": false
+        },
+        {
+            "start_id": 63,
+            "end_id": 90,
+            "visible": true
+        },
+        {
+            "start_id": 90,
+            "end_id": 55,
+            "visible": true
+        },
+        {
+            "start_id": 90,
+            "end_id": 37,
             "visible": true
         }
     ]
