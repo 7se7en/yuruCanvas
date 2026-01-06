@@ -4,8 +4,8 @@
     "text_bubbles": [
         {
             "id": 0,
-            "x": 373.0,
-            "y": 259.0,
+            "x": 336.0,
+            "y": 123.0,
             "width": 408,
             "height": 48,
             "text": "Moondew Cascade (Basic)",
@@ -16,10 +16,10 @@
         },
         {
             "id": 1,
-            "x": 885.0,
-            "y": 389.0,
-            "width": 220,
-            "height": 48,
+            "x": 492.0,
+            "y": 228.0,
+            "width": 116,
+            "height": 24,
             "text": "Basic Attack 1",
             "font_size": 12,
             "checkbox_visible": false,
@@ -28,10 +28,10 @@
         },
         {
             "id": 2,
-            "x": 1019.0,
-            "y": 544.0,
-            "width": 220,
-            "height": 48,
+            "x": 496.0,
+            "y": 308.0,
+            "width": 123,
+            "height": 24,
             "text": "Basic Attack 2",
             "font_size": 12,
             "checkbox_visible": false,
@@ -40,11 +40,827 @@
         },
         {
             "id": 3,
-            "x": 1056.0,
-            "y": 652.0,
+            "x": 514.0,
+            "y": 406.0,
+            "width": 116,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 678.0,
+            "y": 233.0,
+            "width": 106,
+            "height": 24,
+            "text": "Heavy Attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 1211.0,
+            "y": 829.0,
+            "width": 213,
+            "height": 48,
+            "text": "Verdant Dew",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 1366.0,
+            "y": 777.0,
+            "width": 93,
+            "height": 24,
+            "text": "maximum 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 1300.0,
+            "y": 694.0,
+            "width": 69,
+            "height": 24,
+            "text": "unlocks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 990.0,
+            "y": 543.0,
+            "width": 425,
+            "height": 48,
+            "text": "Moondew Cleanse (Heavy\u2605)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 1035.0,
+            "y": 438.0,
+            "width": 217,
+            "height": 24,
+            "text": "consumes one Verdant Dew",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 10,
+            "x": 1338.0,
+            "y": 457.0,
+            "width": 127,
+            "height": 24,
+            "text": "HP-based DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 1462.0,
+            "y": 707.0,
+            "width": 225,
+            "height": 24,
+            "text": "considered Lunar-Bloom DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 12,
+            "x": 305.0,
+            "y": 227.0,
+            "width": 128,
+            "height": 24,
+            "text": "Plunging Attack",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 1939.0,
+            "y": 108.0,
+            "width": 264,
+            "height": 49,
+            "text": "Eternal Tides (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 1922.0,
+            "y": 232.0,
+            "width": 325,
+            "height": 24,
+            "text": "deal damage, then creates a Gravity Ripple",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 1970.0,
+            "y": 337.0,
             "width": 220,
             "height": 48,
-            "text": "Basic Attack 3",
+            "text": "Gravity Ripple",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 2281.0,
+            "y": 351.0,
+            "width": 145,
+            "height": 24,
+            "text": "25 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 2098.0,
+            "y": 430.0,
+            "width": 206,
+            "height": 24,
+            "text": "continuously deals damage",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 1783.0,
+            "y": 415.0,
+            "width": 294,
+            "height": 63,
+            "text": "grants New Moon's Omen when Party triggers Lunar Reactions or deals Lunar Reaction DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 1789.0,
+            "y": 527.0,
+            "width": 280,
+            "height": 48,
+            "text": "New Moon's Omen",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 2120.0,
+            "y": 537.0,
+            "width": 143,
+            "height": 24,
+            "text": "2 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 1794.0,
+            "y": 617.0,
+            "width": 270,
+            "height": 24,
+            "text": "generates 20 Gravity over 2 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 1871.0,
+            "y": 677.0,
+            "width": 116,
+            "height": 48,
+            "text": "Gravity",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 27,
+            "x": 1878.0,
+            "y": 778.0,
+            "width": 104,
+            "height": 24,
+            "text": "maximum 60",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 1898.0,
+            "y": 852.0,
+            "width": 64,
+            "height": 24,
+            "text": "triggers",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 1780.0,
+            "y": 922.0,
+            "width": 299,
+            "height": 48,
+            "text": "Gravity Interference",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 1823.0,
+            "y": 1002.0,
+            "width": 217,
+            "height": 66,
+            "text": "chosen DMG is based on which reaction generated the most Gravity",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 31,
+            "x": 1868.0,
+            "y": 1106.0,
+            "width": 124,
+            "height": 24,
+            "text": "Lunar-Charged",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 32,
+            "x": 1606.0,
+            "y": 1138.0,
+            "width": 99,
+            "height": 24,
+            "text": "Lunar-Bloom",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 2137.0,
+            "y": 1140.0,
+            "width": 136,
+            "height": 24,
+            "text": "Lunar-Crystallize",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 34,
+            "x": 2028.0,
+            "y": 691.0,
+            "width": 150,
+            "height": 24,
+            "text": "25 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 35,
+            "x": 2295.0,
+            "y": 575.0,
+            "width": 115,
+            "height": 24,
+            "text": "linked duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 36,
+            "x": 2260.0,
+            "y": 123.0,
+            "width": 127,
+            "height": 24,
+            "text": "HP-based DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 37,
+            "x": 1830.0,
+            "y": 288.0,
+            "width": 122,
+            "height": 24,
+            "text": "HP-based DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 38,
+            "x": 1867.0,
+            "y": 1163.0,
+            "width": 126,
+            "height": 24,
+            "text": "HP-based DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 39,
+            "x": 466.0,
+            "y": 687.0,
+            "width": 342,
+            "height": 48,
+            "text": "Moonlit Melancholy (Q)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 40,
+            "x": 284.0,
+            "y": 703.0,
+            "width": 128,
+            "height": 24,
+            "text": "HP-based DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 41,
+            "x": 2135.0,
+            "y": 283.0,
+            "width": 112,
+            "height": 24,
+            "text": "follows player",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 42,
+            "x": 552.0,
+            "y": 772.0,
+            "width": 173,
+            "height": 24,
+            "text": "creates Lunar Domain",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 43,
+            "x": 528.0,
+            "y": 833.0,
+            "width": 220,
+            "height": 48,
+            "text": "Lunar Domain",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 44,
+            "x": 197.0,
+            "y": 939.0,
+            "width": 255,
+            "height": 24,
+            "text": "Lunar Reaction DMG Bonus +40%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 45,
+            "x": 330.0,
+            "y": 864.0,
+            "width": 151,
+            "height": 24,
+            "text": "20 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 46,
+            "x": 1125.0,
+            "y": 1073.0,
+            "width": 201,
+            "height": 43,
+            "text": "Party triggers Lunar-Bloom Reaction",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 47,
+            "x": 972.0,
+            "y": 1170.0,
+            "width": 245,
+            "height": 48,
+            "text": "Outside Source",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 48,
+            "x": 1414.0,
+            "y": 1001.0,
+            "width": 313,
+            "height": 24,
+            "text": "generates 1 Verdant Dew after 2.5 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 49,
+            "x": 1459.0,
+            "y": 553.0,
+            "width": 106,
+            "height": 24,
+            "text": "Dendro DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 50,
+            "x": 810.0,
+            "y": 134.0,
+            "width": 98,
+            "height": 24,
+            "text": "Hydro DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 51,
+            "x": 1788.0,
+            "y": 120.0,
+            "width": 97,
+            "height": 24,
+            "text": "Hydro DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 52,
+            "x": 1818.0,
+            "y": 350.0,
+            "width": 95,
+            "height": 24,
+            "text": "Hydro DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 53,
+            "x": 2122.0,
+            "y": 934.0,
+            "width": 204,
+            "height": 24,
+            "text": "generates 1 stack of Lunacy",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 54,
+            "x": 2239.0,
+            "y": 991.0,
+            "width": 143,
+            "height": 48,
+            "text": "Lunacy",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 55,
+            "x": 2220.0,
+            "y": 1074.0,
+            "width": 186,
+            "height": 47,
+            "text": "Crit Rate +5% per stack, up to +15%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 56,
+            "x": 2065.0,
+            "y": 1004.0,
+            "width": 145,
+            "height": 24,
+            "text": "10 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 57,
+            "x": 224.0,
+            "y": 1059.0,
+            "width": 452,
+            "height": 48,
+            "text": "Moonsign...Unto You (Passive)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 58,
+            "x": 320.0,
+            "y": 1151.0,
+            "width": 265,
+            "height": 80,
+            "text": "Converts Party's: \nElectro-Charged to Lunar-Charged\nBloom to Lunar-Bloom\nHydro-Crystallize to Lunar-Crystallize",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 59,
+            "x": 332.0,
+            "y": 1286.0,
+            "width": 242,
+            "height": 24,
+            "text": "considered Lunar Reaction DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 60,
+            "x": 614.0,
+            "y": 1161.0,
+            "width": 310,
+            "height": 46,
+            "text": "multiplies Lunar Reaction DMG by 1.002% per Columbina's 1,000 HP, up to 1.07x",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 61,
+            "x": 700.0,
+            "y": 1236.0,
+            "width": 140,
+            "height": 24,
+            "text": "caps at 35,000 HP",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 62,
+            "x": 89.0,
+            "y": 1159.0,
+            "width": 163,
+            "height": 24,
+            "text": "Party Moonsign Lvl +1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 63,
+            "x": 645.0,
+            "y": 906.0,
+            "width": 196,
+            "height": 24,
+            "text": "enhances Lunar Reactions",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 64,
+            "x": 534.0,
+            "y": 952.0,
+            "width": 129,
+            "height": 24,
+            "text": "Lunar-Charged",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 65,
+            "x": 354.0,
+            "y": 1008.0,
+            "width": 199,
+            "height": 24,
+            "text": "33% chance to strike twice",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 66,
+            "x": 796.0,
+            "y": 832.0,
+            "width": 108,
+            "height": 24,
+            "text": "Lunar-Bloom",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 67,
+            "x": 828.0,
+            "y": 774.0,
+            "width": 209,
+            "height": 24,
+            "text": "generates 1 Moonridge Dew",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 68,
+            "x": 885.0,
+            "y": 675.0,
+            "width": 246,
+            "height": 48,
+            "text": "Moonridge Dew",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 69,
+            "x": 697.0,
+            "y": 962.0,
+            "width": 128,
+            "height": 24,
+            "text": "Lunar-Crystallize",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 70,
+            "x": 598.0,
+            "y": 1011.0,
+            "width": 364,
+            "height": 24,
+            "text": "33% chance for Moondrift Harmony to attack twice",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 71,
+            "x": 1080.0,
+            "y": 753.0,
+            "width": 192,
+            "height": 47,
+            "text": "considered Verdant Dew, is prioritized over",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 72,
+            "x": 741.0,
+            "y": 1075.0,
+            "width": 285,
+            "height": 48,
+            "text": "Moondrift Harmony",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 73,
+            "x": 1313.0,
+            "y": 43.0,
+            "width": 308,
+            "height": 48,
+            "text": "Lunar Vigil (Passive)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 74,
+            "x": 1159.0,
+            "y": 124.0,
+            "width": 249,
+            "height": 37,
+            "text": "revives Party Member once every 100 seconds while in Nod-Krai",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 75,
+            "x": 1441.0,
+            "y": 133.0,
+            "width": 315,
+            "height": 38,
+            "text": "appears to have a special affinity for certain animals who are influenced by kuuvahki",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -65,6 +881,351 @@
         {
             "start_id": 2,
             "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 7,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 8,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 9,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 14,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 16,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 23,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 27,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 26,
+            "end_id": 34,
+            "visible": true
+        },
+        {
+            "start_id": 35,
+            "end_id": 34,
+            "visible": true
+        },
+        {
+            "start_id": 35,
+            "end_id": 16,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 10,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 36,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 37,
+            "visible": true
+        },
+        {
+            "start_id": 31,
+            "end_id": 38,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 38,
+            "visible": true
+        },
+        {
+            "start_id": 33,
+            "end_id": 38,
+            "visible": true
+        },
+        {
+            "start_id": 39,
+            "end_id": 40,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 41,
+            "visible": true
+        },
+        {
+            "start_id": 39,
+            "end_id": 42,
+            "visible": true
+        },
+        {
+            "start_id": 42,
+            "end_id": 43,
+            "visible": true
+        },
+        {
+            "start_id": 43,
+            "end_id": 44,
+            "visible": true
+        },
+        {
+            "start_id": 43,
+            "end_id": 45,
+            "visible": true
+        },
+        {
+            "start_id": 47,
+            "end_id": 46,
+            "visible": true
+        },
+        {
+            "start_id": 46,
+            "end_id": 48,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 48,
+            "visible": true
+        },
+        {
+            "start_id": 48,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 48,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 49,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 50,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 51,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 52,
+            "visible": true
+        },
+        {
+            "start_id": 28,
+            "end_id": 29,
+            "visible": true
+        },
+        {
+            "start_id": 29,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 32,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 33,
+            "visible": true
+        },
+        {
+            "start_id": 29,
+            "end_id": 53,
+            "visible": true
+        },
+        {
+            "start_id": 53,
+            "end_id": 54,
+            "visible": true
+        },
+        {
+            "start_id": 54,
+            "end_id": 55,
+            "visible": true
+        },
+        {
+            "start_id": 54,
+            "end_id": 56,
+            "visible": true
+        },
+        {
+            "start_id": 57,
+            "end_id": 58,
+            "visible": true
+        },
+        {
+            "start_id": 58,
+            "end_id": 59,
+            "visible": true
+        },
+        {
+            "start_id": 57,
+            "end_id": 60,
+            "visible": true
+        },
+        {
+            "start_id": 60,
+            "end_id": 61,
+            "visible": true
+        },
+        {
+            "start_id": 57,
+            "end_id": 62,
+            "visible": true
+        },
+        {
+            "start_id": 43,
+            "end_id": 63,
+            "visible": true
+        },
+        {
+            "start_id": 63,
+            "end_id": 64,
+            "visible": true
+        },
+        {
+            "start_id": 64,
+            "end_id": 65,
+            "visible": true
+        },
+        {
+            "start_id": 63,
+            "end_id": 66,
+            "visible": true
+        },
+        {
+            "start_id": 66,
+            "end_id": 67,
+            "visible": true
+        },
+        {
+            "start_id": 67,
+            "end_id": 68,
+            "visible": true
+        },
+        {
+            "start_id": 63,
+            "end_id": 69,
+            "visible": true
+        },
+        {
+            "start_id": 69,
+            "end_id": 70,
+            "visible": true
+        },
+        {
+            "start_id": 68,
+            "end_id": 71,
+            "visible": true
+        },
+        {
+            "start_id": 71,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 70,
+            "end_id": 72,
+            "visible": true
+        },
+        {
+            "start_id": 73,
+            "end_id": 74,
+            "visible": true
+        },
+        {
+            "start_id": 73,
+            "end_id": 75,
             "visible": true
         }
     ]

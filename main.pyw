@@ -4,7 +4,7 @@ import json
 import sys
 import math
 
-# Version 1.2.1
+#★ Version 1.2.2 ★
 
 # Import tkinterdnd2 for drag-and-drop support
 try:
@@ -772,27 +772,34 @@ class CanvasApp:
         key = event.keysym.lower()
         
         # Define your search rules here: key → (required_words (AND), optional_words (OR))
-        # required_words: all must be present (AND)
-        # optional_words: at least one must be present (OR)
+        # (required_words (AND), optional_words (OR), checkbox_state_filter)
+        # checkbox_state_filter: True = checked, False = unchecked, None = ignore
         search_rules = {
-            'c': (["generate"], ["concerto"]),  # generate AND concerto
-            'r': (["generate"], ["resonance"]),
-            '1': (["1"], ["resonance", "eidolon", "constellation", "mindscape"]),   # 1 AND resonance OR eidolon OR constellation OR mindscape
-            '2': (["2"], ["resonance", "eidolon", "constellation", "mindscape"]),
-            '3': (["3"], ["resonance", "eidolon", "constellation", "mindscape"]),
-            '4': (["4"], ["resonance", "eidolon", "constellation", "mindscape"]),
-            '5': (["5"], ["resonance", "eidolon", "constellation", "mindscape"]),
-            '6': (["6"], ["resonance", "eidolon", "constellation", "mindscape"]),
+            'c': (["generate"], ["concerto"], None),  # generate AND concerto WITHOUT checkboxes
+            'r': (["generate"], ["resonance"], None),
+            '1': (["1"], ["resonance", "eidolon", "constellation", "mindscape"], True),   # 1 AND resonance OR eidolon OR constellation OR mindscape WITH checkboxes
+            '2': (["2"], ["resonance", "eidolon", "constellation", "mindscape"], True),
+            '3': (["3"], ["resonance", "eidolon", "constellation", "mindscape"], True),
+            '4': (["4"], ["resonance", "eidolon", "constellation", "mindscape"], True),
+            '5': (["5"], ["resonance", "eidolon", "constellation", "mindscape"], True),
+            '6': (["6"], ["resonance", "eidolon", "constellation", "mindscape"], True),
         }
         # After adding search rules, you need to add the key to the below on_key_release function
         # otherwise the highlights won't be undone when you release the key
         
         if key in search_rules:
-            required, optional = search_rules[key]
+            required, optional, checkbox_filter = search_rules[key]
+            
             matching = [
                 b for b in self.text_bubbles
-                if (all(word.lower() in b.text.lower() for word in required) and
-                    (not optional or any(word.lower() in b.text.lower() for word in optional)))
+                if (
+                    # Text matching
+                    all(word.lower() in b.text.lower() for word in required) and
+                    (not optional or any(word.lower() in b.text.lower() for word in optional)) and
+                    # Checkbox visibility filter (if specified)
+                    (checkbox_filter is None or
+                     (b.checkbox_visible and (b.checked == checkbox_filter)))
+                )
             ]
             
             if matching:
