@@ -4,7 +4,7 @@ import json
 import sys
 import math
 
-#★ Version 1.2.2 ★
+#★ Version 1.2.3 ★
 
 # Import tkinterdnd2 for drag-and-drop support
 try:
@@ -773,7 +773,7 @@ class CanvasApp:
         
         # Define your search rules here: key → (required_words (AND), optional_words (OR))
         # (required_words (AND), optional_words (OR), checkbox_state_filter)
-        # checkbox_state_filter: True = checked, False = unchecked, None = ignore
+        # checkbox_visible_filter: True = checked, False = unchecked, None = ignore
         search_rules = {
             'c': (["generate"], ["concerto"], None),  # generate AND concerto WITHOUT checkboxes
             'r': (["generate"], ["resonance"], None),
@@ -798,7 +798,7 @@ class CanvasApp:
                     (not optional or any(word.lower() in b.text.lower() for word in optional)) and
                     # Checkbox visibility filter (if specified)
                     (checkbox_filter is None or
-                     (b.checkbox_visible and (b.checked == checkbox_filter)))
+                     (b.checkbox_visible == checkbox_filter))
                 )
             ]
             
