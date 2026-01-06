@@ -1,5 +1,5 @@
 {
-    "canvas_width": 2481,
+    "canvas_width": 2495,
     "canvas_height": 1380,
     "text_bubbles": [
         {
@@ -844,14 +844,14 @@
         },
         {
             "id": 72,
-            "x": 8.0,
-            "y": 15.0,
+            "x": 1620.0,
+            "y": 580.0,
             "width": 245,
             "height": 48,
             "text": "Resonance 1",
             "font_size": 24,
             "checkbox_visible": true,
-            "checked": false,
+            "checked": true,
             "visible": true
         },
         {
@@ -864,7 +864,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
         },
         {
             "id": 74,
@@ -876,7 +876,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
         },
         {
             "id": 75,
@@ -888,7 +888,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
         },
         {
             "id": 76,
@@ -900,12 +900,12 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": false
+            "visible": true
         },
         {
             "id": 77,
-            "x": 9.0,
-            "y": 75.0,
+            "x": 1193.0,
+            "y": 601.0,
             "width": 245,
             "height": 48,
             "text": "Resonance 2",
@@ -928,8 +928,8 @@
         },
         {
             "id": 79,
-            "x": 1036.0,
-            "y": 524.0,
+            "x": 1028.0,
+            "y": 540.0,
             "width": 246,
             "height": 43,
             "text": "For every Crit Rate over 100%, gain Crit DMG +2%, up to +100%",
@@ -940,8 +940,8 @@
         },
         {
             "id": 80,
-            "x": 11.0,
-            "y": 136.0,
+            "x": 1094.0,
+            "y": 485.0,
             "width": 245,
             "height": 48,
             "text": "Resonance 3",
@@ -952,8 +952,8 @@
         },
         {
             "id": 81,
-            "x": 444.0,
-            "y": 543.0,
+            "x": 1381.0,
+            "y": 526.0,
             "width": 181,
             "height": 24,
             "text": "DMG Multiplied by 1.25x",
@@ -964,8 +964,8 @@
         },
         {
             "id": 82,
-            "x": 12.0,
-            "y": 198.0,
+            "x": 2225.0,
+            "y": 540.0,
             "width": 245,
             "height": 48,
             "text": "Resonance 4",
@@ -1012,8 +1012,8 @@
         },
         {
             "id": 86,
-            "x": 12.0,
-            "y": 258.0,
+            "x": 2216.0,
+            "y": 243.0,
             "width": 245,
             "height": 48,
             "text": "Resonance 5",
@@ -1036,8 +1036,8 @@
         },
         {
             "id": 88,
-            "x": 14.0,
-            "y": 319.0,
+            "x": 960.0,
+            "y": 413.0,
             "width": 245,
             "height": 48,
             "text": "Resonance 6",
@@ -1060,8 +1060,8 @@
         },
         {
             "id": 90,
-            "x": 502.0,
-            "y": 473.0,
+            "x": 832.0,
+            "y": 485.0,
             "width": 238,
             "height": 43,
             "text": "For every Crit Rate over 150%, gain Crit DMG +2%, up to +50%",
@@ -1529,57 +1529,57 @@
         {
             "start_id": 71,
             "end_id": 73,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 72,
             "end_id": 73,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 24,
             "end_id": 75,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 75,
             "end_id": 65,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 72,
             "end_id": 75,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 30,
             "end_id": 76,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 31,
             "end_id": 76,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 32,
             "end_id": 76,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 72,
             "end_id": 76,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 72,
             "end_id": 74,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 74,
             "end_id": 65,
-            "visible": false
+            "visible": true
         },
         {
             "start_id": 71,

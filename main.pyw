@@ -4,7 +4,7 @@ import json
 import sys
 import math
 
-# Version 1.2
+# Version 1.2.1
 
 # Import tkinterdnd2 for drag-and-drop support
 try:
@@ -1037,20 +1037,38 @@ class CanvasApp:
             x = self.canvas.canvasx(event.x)
             y = self.canvas.canvasy(event.y)
             
+            target_bubble = None
             for bubble in self.text_bubbles:
                 bx1, by1, bx2, by2 = bubble.get_position()
                 if bx1 <= x <= bx2 and by1 <= y <= by2:
-                    if bubble == self.start_bubble:
-                        # If released on the same bubble, open the context menu
-                        self.selected_bubble = bubble
-                        self.show_canvas_context_menu(event)
-                    else:
-                        # If released on a different bubble, create a connection line
-                        line = ConnectionLine(self.canvas, self.start_bubble, bubble)
-                        self.lines.append(line)
+                    target_bubble = bubble
                     break
+            
+            if target_bubble:
+                if target_bubble == self.start_bubble:
+                    # Released on the same bubble → open context menu
+                    self.selected_bubble = self.start_bubble
+                    self.show_canvas_context_menu(event)
+                else:
+                    # Released on a different bubble → create connection
+                    line = ConnectionLine(self.canvas, self.start_bubble, target_bubble)
+                    self.lines.append(line)
+            else:
+                # Released on empty canvas space → create new bubble and connect
+                text = simpledialog.askstring("Input", "Enter text for the new bubble:", parent=self.root)
+                if text:  # Only create if user provided text (cancel does nothing)
+                    new_bubble = TextBubble(
+                        self.canvas, x - 110, y - 24, text,  # centered roughly under cursor
+                        id=self.next_bubble_id, app=self
+                    )
+                    self.next_bubble_id += 1
+                    self.text_bubbles.append(new_bubble)
+                    
+                    # Create connection from start_bubble → new_bubble
+                    line = ConnectionLine(self.canvas, self.start_bubble, new_bubble)
+                    self.lines.append(line)
 
-            # Reset the line and start bubble
+            # Reset state
             self.current_line = None
             self.start_bubble = None
 

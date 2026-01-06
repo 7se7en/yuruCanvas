@@ -1000,8 +1000,8 @@
         },
         {
             "id": 90,
-            "x": 453.0,
-            "y": 1340.0,
+            "x": 440.0,
+            "y": 1347.0,
             "width": 114,
             "height": 24,
             "text": "deals damage",
@@ -1024,8 +1024,8 @@
         },
         {
             "id": 92,
-            "x": 445.0,
-            "y": 1305.0,
+            "x": 431.0,
+            "y": 1287.0,
             "width": 98,
             "height": 24,
             "text": "combos into",
@@ -1036,8 +1036,8 @@
         },
         {
             "id": 93,
-            "x": 378.0,
-            "y": 1232.0,
+            "x": 384.0,
+            "y": 1218.0,
             "width": 407,
             "height": 48,
             "text": "To a Vivid Tomorrow (Basic)",
@@ -1144,11 +1144,11 @@
         },
         {
             "id": 104,
-            "x": 2118.0,
+            "x": 2136.0,
             "y": 779.0,
-            "width": 349,
-            "height": 59,
-            "text": "Incoming Resonator gains for 14 seconds:\nAll-DMG multiplied by 1.15x\nResonance Liberation DMG multiplied by 1.25x",
+            "width": 308,
+            "height": 56,
+            "text": "Incoming Resonator gains for 14 seconds:\nAll-DMG multiplied by 1.15x\nLiberation DMG multiplied by 1.25x",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -1660,8 +1660,8 @@
         },
         {
             "id": 147,
-            "x": 647.0,
-            "y": 1331.0,
+            "x": 609.0,
+            "y": 1321.0,
             "width": 177,
             "height": 24,
             "text": "DMG multiplied by 1.7x",
@@ -1756,11 +1756,11 @@
         },
         {
             "id": 155,
-            "x": 838.0,
-            "y": 466.0,
-            "width": 108,
+            "x": 763.0,
+            "y": 468.0,
+            "width": 308,
             "height": 24,
-            "text": "resets charge",
+            "text": "resets K. Parade (Mid-air Heavy\u2605) charge",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -2741,16 +2741,6 @@
             "visible": false
         },
         {
-            "start_id": 146,
-            "end_id": 147,
-            "visible": false
-        },
-        {
-            "start_id": 147,
-            "end_id": 90,
-            "visible": false
-        },
-        {
             "start_id": 141,
             "end_id": 149,
             "visible": false
@@ -2904,6 +2894,16 @@
             "start_id": 85,
             "end_id": 82,
             "visible": true
+        },
+        {
+            "start_id": 146,
+            "end_id": 147,
+            "visible": false
+        },
+        {
+            "start_id": 147,
+            "end_id": 89,
+            "visible": false
         }
     ]
 }
