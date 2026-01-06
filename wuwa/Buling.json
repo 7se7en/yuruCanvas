@@ -304,8 +304,8 @@
         },
         {
             "id": 25,
-            "x": 981.0,
-            "y": 636.0,
+            "x": 1865.0,
+            "y": 395.0,
             "width": 396,
             "height": 48,
             "text": "Flashing Thunder Spell (R)",
@@ -352,8 +352,8 @@
         },
         {
             "id": 29,
-            "x": 1675.0,
-            "y": 482.0,
+            "x": 1653.0,
+            "y": 483.0,
             "width": 296,
             "height": 24,
             "text": "unlocks if you have both Yin and Yang",
@@ -668,7 +668,7 @@
             "y": 466.0,
             "width": 263,
             "height": 59,
-            "text": "Once per 24 seconds, restores 25 Resonance Energy upon entering Yin-Yang Balance state",
+            "text": "Once per 24 seconds, generates 25 Resonance Energy upon entering Yin-Yang Balance state",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -789,6 +789,54 @@
             "width": 65,
             "height": 24,
             "text": "additive",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 70,
+            "x": 1139.0,
+            "y": 37.0,
+            "width": 172,
+            "height": 24,
+            "text": "generates 15 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 71,
+            "x": 506.0,
+            "y": 507.0,
+            "width": 174,
+            "height": 24,
+            "text": "generates 23 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 72,
+            "x": 1980.0,
+            "y": 483.0,
+            "width": 170,
+            "height": 24,
+            "text": "generates 20 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 73,
+            "x": 1752.0,
+            "y": 42.0,
+            "width": 175,
+            "height": 24,
+            "text": "generates 10 Concerto",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -1134,6 +1182,31 @@
         {
             "start_id": 67,
             "end_id": 69,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 70,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 71,
+            "visible": true
+        },
+        {
+            "start_id": 30,
+            "end_id": 72,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 72,
+            "visible": true
+        },
+        {
+            "start_id": 45,
+            "end_id": 73,
             "visible": true
         }
     ]

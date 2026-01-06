@@ -4,7 +4,7 @@ import json
 import sys
 import math
 
-#★ Version 1.2.3 ★
+#★ Version 1.2.4 ★
 
 # Import tkinterdnd2 for drag-and-drop support
 try:
@@ -773,16 +773,16 @@ class CanvasApp:
         
         # Define your search rules here: key → (required_words (AND), optional_words (OR))
         # (required_words (AND), optional_words (OR), checkbox_state_filter)
-        # checkbox_visible_filter: True = checked, False = unchecked, None = ignore
+        # checkbox_visible_filter: True = Visible, None = Not visible and not once ever initialized, False = It was visible once, but you disabled it
         search_rules = {
             'c': (["generate"], ["concerto"], None),  # generate AND concerto WITHOUT checkboxes
             'r': (["generate"], ["resonance"], None),
-            '1': (["1"], ["resonance", "eidolon", "constellation", "mindscape"], True),   # 1 AND resonance OR eidolon OR constellation OR mindscape WITH checkboxes
-            '2': (["2"], ["resonance", "eidolon", "constellation", "mindscape"], True),
-            '3': (["3"], ["resonance", "eidolon", "constellation", "mindscape"], True),
-            '4': (["4"], ["resonance", "eidolon", "constellation", "mindscape"], True),
-            '5': (["5"], ["resonance", "eidolon", "constellation", "mindscape"], True),
-            '6': (["6"], ["resonance", "eidolon", "constellation", "mindscape"], True),
+            '1': (["1"], ["resonance", "eidolon", "constellation", "mindscape", "sequence"], True), # 1 AND resonance OR eidolon ... OR sequence WITH checkboxes
+            '2': (["2"], ["resonance", "eidolon", "constellation", "mindscape", "sequence"], True),
+            '3': (["3"], ["resonance", "eidolon", "constellation", "mindscape", "sequence"], True),
+            '4': (["4"], ["resonance", "eidolon", "constellation", "mindscape", "sequence"], True),
+            '5': (["5"], ["resonance", "eidolon", "constellation", "mindscape", "sequence"], True),
+            '6': (["6"], ["resonance", "eidolon", "constellation", "mindscape", "sequence"], True),
         }
         # After adding search rules, you need to add the key to the below on_key_release function
         # otherwise the highlights won't be undone when you release the key
