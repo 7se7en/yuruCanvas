@@ -1,10 +1,12 @@
-Program made with DeepSeek-R1 (AI)
+Program made with DeepSeek-R1 & Grok & ChatGPT (Vibecoder)
 
 Just posting online to maybe share with others. Though as complexity increases, so does the inefficiency. As is the nature with a fully-AI-created program.
 
 # What is it?
 
 Blank canvas where you can create text bubbles and then link them together with directional arrows. Upon mousing over a text bubble with arrows linked to it, text bubbles it's connected to will become red, text bubbles connecting to it will become orange, and any children from those highlighted text bubbles will become highlighted black.
+
+Wuthering Waves (gacha game) character kits are full of words, words, and more words, so I used AI to create this program to make sense of what's going on with these characters and fully understand how they work. You can find the files I've created in the folders as .JSON files. For shits and giggles, I also made some files for other gacha games to compare complexities between games
 
 # How to run
 
@@ -21,10 +23,11 @@ Requires Python and tkinterdnd2 to have access to drag and drop load functionali
 * Mouse Wheel : Scroll up and down (if canvas is bigger than window)
 * Ctrl + Mouse Wheel : Scroll left to right (if canvas is bigger than window)
 
-# Other Hotkeys (press and hold functionality to highlight matches in text, but only defined in .pyw for now)
+# Other Hotkeys
+* L : Lock the canvas
 * C : Highlights bubbles containing "generate" and "concerto"
 * R : Highlights bubbles containing "generate" and "resonance"
-* 1~6 : Highlights bubbles for Wuwa, HSR, Genshin, and ZZZ containing "resonance, eidolon, constellation, mindscape" and "1, 2, 3, 4, 5, 6"
+* 1~6 : Highlights bubbles for Wuwa, HSR, Genshin, and ZZZ containing "resonance, eidolon, constellation, mindscape, sequence" and "1, 2, 3, 4, 5, 6"
 * can define your own in-file
 
 # Quick Way to Load files

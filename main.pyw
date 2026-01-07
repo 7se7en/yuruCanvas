@@ -4,7 +4,7 @@ import json
 import sys
 import math
 
-#★ Version 1.2.5 ★
+#★ Version 1.2.6 ★
 
 # Import tkinterdnd2 for drag-and-drop support
 try:
@@ -812,12 +812,16 @@ class CanvasApp:
                 self.root.title(current_title + " [LOCKED]")
 
         else:
-            # Show all resize handles
+            # Only show resize handles for VISIBLE bubbles
             for bubble in self.text_bubbles:
-                for handle in bubble.resize_handles:
-                    self.canvas.itemconfig(handle, state='normal')
+                if bubble.visible:  # Respect current visibility state
+                    for handle in bubble.resize_handles:
+                        self.canvas.itemconfig(handle, state='normal')
+                else:
+                    for handle in bubble.resize_handles:
+                        self.canvas.itemconfig(handle, state='hidden')
                 
-                # Re-enable dragging
+                # Re-enable dragging (safe even if bubble is hidden — drag events won't fire anyway)
                 self.canvas.tag_bind(bubble.rect, "<Button-1>", bubble.start_drag)
                 self.canvas.tag_bind(bubble.rect, "<B1-Motion>", bubble.on_drag)
                 self.canvas.tag_bind(bubble.label, "<Button-1>", bubble.start_drag)
