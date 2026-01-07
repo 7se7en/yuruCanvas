@@ -1,6 +1,7 @@
 {
     "canvas_width": 2495,
     "canvas_height": 1380,
+    "launch_locked": true,
     "text_bubbles": [
         {
             "id": 0,

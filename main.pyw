@@ -4,7 +4,7 @@ import json
 import sys
 import math
 
-#★ Version 1.2.4 ★
+#★ Version 1.2.5 ★
 
 # Import tkinterdnd2 for drag-and-drop support
 try:
@@ -674,6 +674,7 @@ class CanvasApp:
     def __init__(self, root, file_path=None):
         self.root = root
         self.root.title("yuruCanvas")  # Set the window title
+        self.is_locked = False
 
         # Track the last loaded file path
         self.last_loaded_file_path = file_path
@@ -726,6 +727,12 @@ class CanvasApp:
         menu_bar.add_cascade(label="Edit", menu=edit_menu)
         edit_menu.add_command(label="Add Text Bubble", command=self.add_text_bubble)
         edit_menu.add_command(label="Resize...", command=self.change_canvas_size, accelerator="Ctrl+R")
+        
+        # Settings menu
+        settings_menu = tk.Menu(menu_bar, tearoff=0)
+        menu_bar.add_cascade(label="Settings", menu=settings_menu)
+        self.launch_locked_var = tk.BooleanVar(value=False)  # Default: start unlocked
+        settings_menu.add_checkbutton(label="Lock this file on open", variable=self.launch_locked_var, command=self.update_launch_locked_state, accelerator="Ctrl+L")
 
         # Debug menu
         debug_menu = tk.Menu(menu_bar, tearoff=0)
@@ -758,6 +765,8 @@ class CanvasApp:
         self.root.bind("<Control-s>", lambda event: self.save_canvas())
         self.root.bind("<Control-Shift-S>", lambda event: self.save_as_canvas())     
         self.root.bind("<Control-r>", lambda event: self.change_canvas_size())
+        self.root.bind("<Control-l>", self.toggle_launch_locked_setting)
+        self.root.bind("<KeyPress-l>", self.toggle_lock)
 
         # Bind key press and release for search highlight
         self.root.bind("<KeyPress>", self.on_key_press)
@@ -767,6 +776,57 @@ class CanvasApp:
         # Load a file if provided as an argument
         if file_path:
             self.load_canvas_from_file(file_path)
+    
+    def toggle_launch_locked_setting(self, event=None):
+        current = self.launch_locked_var.get()
+        self.launch_locked_var.set(not current)
+        if not current:
+            if not self.is_locked:
+                self.toggle_lock()
+        else:
+            if self.is_locked:
+                self.toggle_lock()
+    
+    def update_launch_locked_state(self):
+        if self.launch_locked_var.get() != self.is_locked:
+            self.toggle_lock()
+    
+    def toggle_lock(self, event=None):
+        self.is_locked = not self.is_locked
+
+        if self.is_locked:
+            # Hide all resize handles
+            for bubble in self.text_bubbles:
+                for handle in bubble.resize_handles:
+                    self.canvas.itemconfig(handle, state='hidden')
+                
+                # Disable dragging by unbinding drag events
+                self.canvas.tag_unbind(bubble.rect, "<Button-1>")
+                self.canvas.tag_unbind(bubble.rect, "<B1-Motion>")
+                self.canvas.tag_unbind(bubble.label, "<Button-1>")
+                self.canvas.tag_unbind(bubble.label, "<B1-Motion>")
+            
+            # Update window title
+            current_title = self.root.title()
+            if "[LOCKED]" not in current_title:
+                self.root.title(current_title + " [LOCKED]")
+
+        else:
+            # Show all resize handles
+            for bubble in self.text_bubbles:
+                for handle in bubble.resize_handles:
+                    self.canvas.itemconfig(handle, state='normal')
+                
+                # Re-enable dragging
+                self.canvas.tag_bind(bubble.rect, "<Button-1>", bubble.start_drag)
+                self.canvas.tag_bind(bubble.rect, "<B1-Motion>", bubble.on_drag)
+                self.canvas.tag_bind(bubble.label, "<Button-1>", bubble.start_drag)
+                self.canvas.tag_bind(bubble.label, "<B1-Motion>", bubble.on_drag)
+            
+            # Update window title - remove [LOCKED]
+            current_title = self.root.title()
+            if current_title.endswith(" [LOCKED]"):
+                self.root.title(current_title[:-9])  # Remove " [LOCKED]"
 
     def on_key_press(self, event):
         key = event.keysym.lower()
@@ -1100,6 +1160,7 @@ class CanvasApp:
         canvas_state = {
             "canvas_width": self.canvas.winfo_width(),  # Save canvas width
             "canvas_height": self.canvas.winfo_height(),  # Save canvas height
+            "launch_locked": self.launch_locked_var.get(),  # Save the setting
             "text_bubbles": [],
             "connections": [],
         }
@@ -1221,6 +1282,16 @@ class CanvasApp:
             max_x = max(bubble.get_position()[2] for bubble in self.text_bubbles) if self.text_bubbles else canvas_width
             max_y = max(bubble.get_position()[3] for bubble in self.text_bubbles) if self.text_bubbles else canvas_height
             self.canvas.config(scrollregion=(0, 0, max_x, max_y))
+            
+            # Restore open locked setting (if saved)
+            launch_locked = canvas_state.get("launch_locked", False)
+            self.launch_locked_var.set(launch_locked)
+            # Force the canvas to match the loaded setting (unlock first to avoid conflicts)
+            if self.is_locked:
+                self.toggle_lock()  # Unlock temporarily if currently locked
+            if launch_locked:
+                self.toggle_lock()  # Then lock if the file wants it locked
+                
         except Exception as e:
             messagebox.showerror("Error", f"Failed to load file: {e}")
 
