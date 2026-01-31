@@ -1,0 +1,587 @@
+{
+    "canvas_width": 2495,
+    "canvas_height": 1380,
+    "launch_locked": false,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 108.0,
+            "y": 68.0,
+            "width": 383,
+            "height": 48,
+            "text": "Foreign Ironwind (Normal)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 1,
+            "x": 325.0,
+            "y": 186.0,
+            "width": 130,
+            "height": 24,
+            "text": "hold",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 431.0,
+            "y": 265.0,
+            "width": 230,
+            "height": 48,
+            "text": "Charged Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 153.0,
+            "y": 187.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 153.0,
+            "y": 278.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 153.0,
+            "y": 375.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 154.0,
+            "y": 459.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 155.0,
+            "y": 563.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 5",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 862.0,
+            "y": 119.0,
+            "width": 246,
+            "height": 48,
+            "text": "Palm Vortex (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 1043.0,
+            "y": 191.0,
+            "width": 44,
+            "height": 24,
+            "text": "hold",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 12,
+            "x": 1205.0,
+            "y": 82.0,
+            "width": 130,
+            "height": 24,
+            "text": "Anemo DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 1105.0,
+            "y": 257.0,
+            "width": 258,
+            "height": 24,
+            "text": "DMG and AOE gradually increases",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 1172.0,
+            "y": 123.0,
+            "width": 195,
+            "height": 24,
+            "text": "has Elemental Absorption",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 534.0,
+            "y": 16.0,
+            "width": 245,
+            "height": 48,
+            "text": "Constellation 5",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 773.0,
+            "y": 83.0,
+            "width": 76,
+            "height": 24,
+            "text": "Level +3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 1227.0,
+            "y": 164.0,
+            "width": 89,
+            "height": 24,
+            "text": "has Vortex",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 1437.0,
+            "y": 122.0,
+            "width": 242,
+            "height": 48,
+            "text": "Gust Surge (R)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 19,
+            "x": 1857.0,
+            "y": 14.0,
+            "width": 245,
+            "height": 48,
+            "text": "Constellation 3",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 20,
+            "x": 1729.0,
+            "y": 81.0,
+            "width": 82,
+            "height": 24,
+            "text": "Level +3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 361.0,
+            "y": 563.0,
+            "width": 161,
+            "height": 24,
+            "text": "triggers Slitting Wind",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 94.0,
+            "y": 646.0,
+            "width": 223,
+            "height": 48,
+            "text": "Slitting Wind",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 376.0,
+            "y": 660.0,
+            "width": 194,
+            "height": 24,
+            "text": "60% ATK as Anemo DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 714.0,
+            "y": 260.0,
+            "width": 245,
+            "height": 48,
+            "text": "Second Wind",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 791.0,
+            "y": 194.0,
+            "width": 206,
+            "height": 24,
+            "text": "triggers Second Wind on kill",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 26,
+            "x": 661.0,
+            "y": 348.0,
+            "width": 263,
+            "height": 24,
+            "text": "regenerate 10% HP over 5 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 27,
+            "x": 1414.0,
+            "y": 259.0,
+            "width": 245,
+            "height": 48,
+            "text": "Constellation 1",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 28,
+            "x": 1210.0,
+            "y": 208.0,
+            "width": 186,
+            "height": 24,
+            "text": "increases Vortex radius",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 29,
+            "x": 2178.0,
+            "y": 34.0,
+            "width": 245,
+            "height": 48,
+            "text": "Constellation 2",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 30,
+            "x": 2209.0,
+            "y": 125.0,
+            "width": 182,
+            "height": 24,
+            "text": "Energy Recharge +16%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 31,
+            "x": 982.0,
+            "y": 307.0,
+            "width": 235,
+            "height": 24,
+            "text": "DMG Taken -10% while casting",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 32,
+            "x": 993.0,
+            "y": 398.0,
+            "width": 245,
+            "height": 48,
+            "text": "Constellation 4",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 33,
+            "x": 1733.0,
+            "y": 153.0,
+            "width": 310,
+            "height": 24,
+            "text": "on hit, reduces Enemy Anemo RES by 20%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 34,
+            "x": 1571.0,
+            "y": 209.0,
+            "width": 455,
+            "height": 24,
+            "text": "on hit, reduces Enemy RES by Element Absorption Type by 20%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 35,
+            "x": 2147.0,
+            "y": 198.0,
+            "width": 245,
+            "height": 48,
+            "text": "Constellation 6",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 0,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 3,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 7,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 15,
+            "end_id": 16,
+            "visible": true
+        },
+        {
+            "start_id": 16,
+            "end_id": 8,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 19,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 20,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 22,
+            "visible": true
+        },
+        {
+            "start_id": 22,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 25,
+            "visible": true
+        },
+        {
+            "start_id": 25,
+            "end_id": 24,
+            "visible": true
+        },
+        {
+            "start_id": 24,
+            "end_id": 26,
+            "visible": true
+        },
+        {
+            "start_id": 27,
+            "end_id": 28,
+            "visible": true
+        },
+        {
+            "start_id": 28,
+            "end_id": 8,
+            "visible": true
+        },
+        {
+            "start_id": 29,
+            "end_id": 30,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 32,
+            "end_id": 31,
+            "visible": true
+        },
+        {
+            "start_id": 18,
+            "end_id": 33,
+            "visible": false
+        },
+        {
+            "start_id": 18,
+            "end_id": 34,
+            "visible": false
+        },
+        {
+            "start_id": 35,
+            "end_id": 34,
+            "visible": false
+        },
+        {
+            "start_id": 35,
+            "end_id": 33,
+            "visible": false
+        }
+    ]
+}

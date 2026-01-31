@@ -4,7 +4,7 @@ import json
 import sys
 import math
 
-#★ Version 1.2.6 ★
+#★ Version 1.2.7 ★
 
 # Import tkinterdnd2 for drag-and-drop support
 try:
@@ -726,6 +726,7 @@ class CanvasApp:
         edit_menu = tk.Menu(menu_bar, tearoff=0)
         menu_bar.add_cascade(label="Edit", menu=edit_menu)
         edit_menu.add_command(label="Add Text Bubble", command=self.add_text_bubble)
+        edit_menu.add_command(label="Lock Canvas Toggle", command=self.toggle_lock, accelerator="L")
         edit_menu.add_command(label="Resize...", command=self.change_canvas_size, accelerator="Ctrl+R")
         
         # Settings menu
@@ -738,6 +739,11 @@ class CanvasApp:
         debug_menu = tk.Menu(menu_bar, tearoff=0)
         menu_bar.add_cascade(label="Debug", menu=debug_menu)
         debug_menu.add_command(label="Open Debug Window", command=self.open_debug_window)
+        
+        # Help menu
+        help_menu = tk.Menu(menu_bar, tearoff=0)
+        menu_bar.add_cascade(label="Help", menu=help_menu)
+        help_menu.add_command(label="Keyboard Shortcuts...", command=self.show_keyboard_help)
 
         # Bind mouse events for drawing lines
         self.canvas.bind("<Button-3>", self.start_line)  # Right-click press
@@ -835,13 +841,22 @@ class CanvasApp:
     def on_key_press(self, event):
         key = event.keysym.lower()
         
-        # Define your search rules here: key → (required_words (AND), optional_words (OR))
-        # (required_words (AND), optional_words (OR), checkbox_state_filter)
-        # checkbox_visible_filter: True = Visible, None = Not visible and not once ever initialized, False = It was visible once, but you disabled it
+        # Define your search rules here:
+        # (["required_words"],      ["optional_words_1", "optional_words_2", ...],      None/True/False)
+        # Last value is checkbox_visible_filter: 
+        # True = Visible, None = Bubbles that you've never made into checkbox, False = It was a checkbox once, but you disabled it
+        #                                                                                          False is uncommon
         search_rules = {
-            'c': (["generate"], ["concerto"], None),  # generate AND concerto WITHOUT checkboxes
+            # generate AND concerto WITHOUT checkboxes
+            # '': ([""], [""], None),
+            'c': (["generate"], ["concerto"], None),
             'r': (["generate"], ["resonance"], None),
-            '1': (["1"], ["resonance", "eidolon", "constellation", "mindscape", "sequence"], True), # 1 AND resonance OR eidolon ... OR sequence WITH checkboxes
+            'e': (["(E"], [""], None),
+            'u': (["(R"], [""], None),
+            'b': ([""], ["(Basic", "(Normal"], None),
+            'h': ([""], ["(Heavy", "(Charged"], None),
+            # 1 AND resonance OR eidolon ... OR sequence WITH checkboxes
+            '1': (["1"], ["resonance", "eidolon", "constellation", "mindscape", "sequence"], True), 
             '2': (["2"], ["resonance", "eidolon", "constellation", "mindscape", "sequence"], True),
             '3': (["3"], ["resonance", "eidolon", "constellation", "mindscape", "sequence"], True),
             '4': (["4"], ["resonance", "eidolon", "constellation", "mindscape", "sequence"], True),
@@ -873,7 +888,7 @@ class CanvasApp:
     def on_key_release(self, event):
         key = event.keysym.lower()
         # Only revert if the released key was one of our search keys
-        search_keys = {'c', 'r', '1', '2', '3', '4', '5', '6'}  # add new keys here when you define them
+        search_keys = {'c', 'r', 'e', 'u', 'b', 'h', '1', '2', '3', '4', '5', '6'}  # add new keys here when you define them
         if key in search_keys:
             self.revert_highlight()
 
@@ -933,6 +948,55 @@ class CanvasApp:
     def revert_highlight(self):
         self.reset_styles()
         self.search_active = False
+        
+    def show_keyboard_help(self):
+        help_text = (
+            "Keyboard Shortcuts for Highlighting & Filtering\n"
+            "───────────────────────────────────────────────\n\n"
+            "Hold one of these keys to highlight matching bubbles:\n\n"
+            "  c     →  'generate' + 'concerto'\n"
+            "  r     →  'generate' + 'resonance'\n"
+            "  e     →  contains '(E'\n"
+            "  u     →  contains '(R'\n"
+            "  b     →  contains '(Basic' or '(Normal'\n"
+            "  h     →  contains '(Heavy' or '(Charged'\n\n"
+            "  1–6   →  contains the number + one of:\n"
+            "           resonance, eidolon, constellation,\n"
+            "           mindscape, sequence\n"
+            "           (only bubbles WITH checkbox enabled)\n\n"
+            "Release the key → everything returns to normal\n\n"
+            "Tip: These filters only work when the canvas has focus.\n"
+        )
+
+        # Updated dimensions: original 520×380 → 446×316
+        window_width = 446
+        window_height = 316
+
+        # Create the help window
+        help_window = tk.Toplevel(self.root)
+        help_window.title("Keyboard Shortcuts – yuruCanvas")
+        help_window.geometry(f"{window_width}x{window_height}")
+        help_window.resizable(False, False)
+
+        # Center on parent window
+        parent_x = self.root.winfo_rootx()
+        parent_y = self.root.winfo_rooty()
+        parent_w = self.root.winfo_width()
+        parent_h = self.root.winfo_height()
+        x = parent_x + (parent_w - window_width) // 2
+        y = parent_y + (parent_h - window_height) // 2
+        help_window.geometry(f"{window_width}x{window_height}+{x}+{y}")
+
+        # Text widget with slightly tighter padding to fit nicely
+        text = tk.Text(help_window, wrap=tk.WORD, font=("Consolas", 11), padx=10, pady=10)
+        text.insert(tk.END, help_text)
+        text.config(state=tk.DISABLED)
+        text.pack(fill=tk.BOTH, expand=True)
+
+        # Small close button
+        btn_frame = tk.Frame(help_window)
+        btn_frame.pack(pady=8)
+        tk.Button(btn_frame, text="Close", command=help_window.destroy, width=10).pack()
 
     def reset_styles(self):
         for bubble in self.text_bubbles:
@@ -1130,6 +1194,7 @@ class CanvasApp:
                 if text:  # Only create if user provided text (cancel does nothing)
                     new_bubble = TextBubble(
                         self.canvas, x - 110, y - 24, text,  # centered roughly under cursor
+                        height=24, width=130,
                         id=self.next_bubble_id, app=self
                     )
                     self.next_bubble_id += 1

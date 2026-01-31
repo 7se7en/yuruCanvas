@@ -1,0 +1,198 @@
+{
+    "canvas_width": 2499,
+    "canvas_height": 1384,
+    "launch_locked": false,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 108.0,
+            "y": 68.0,
+            "width": 220,
+            "height": 48,
+            "text": "_ (Normal)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 1,
+            "x": 325.0,
+            "y": 186.0,
+            "width": 130,
+            "height": 24,
+            "text": "hold",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 431.0,
+            "y": 265.0,
+            "width": 230,
+            "height": 48,
+            "text": "_ (Charged)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 153.0,
+            "y": 187.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 153.0,
+            "y": 278.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 153.0,
+            "y": 375.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 154.0,
+            "y": 459.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 155.0,
+            "y": 563.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 5",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 831.0,
+            "y": 40.0,
+            "width": 245,
+            "height": 48,
+            "text": "Constellation 5",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 890.0,
+            "y": 121.0,
+            "width": 130,
+            "height": 24,
+            "text": "Level +3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 10,
+            "x": 2157.0,
+            "y": 34.0,
+            "width": 245,
+            "height": 48,
+            "text": "Constellation 3",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 2244.0,
+            "y": 118.0,
+            "width": 74,
+            "height": 24,
+            "text": "Level +3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 0,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 3,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 7,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 9,
+            "visible": true
+        },
+        {
+            "start_id": 10,
+            "end_id": 11,
+            "visible": true
+        }
+    ]
+}

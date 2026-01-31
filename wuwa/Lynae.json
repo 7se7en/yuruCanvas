@@ -1,6 +1,7 @@
 {
     "canvas_width": 2495,
     "canvas_height": 1380,
+    "launch_locked": true,
     "text_bubbles": [
         {
             "id": 0,
@@ -616,8 +617,8 @@
         },
         {
             "id": 56,
-            "x": 361.0,
-            "y": 592.0,
+            "x": 300.0,
+            "y": 596.0,
             "width": 61,
             "height": 24,
             "text": "Jump 1",
@@ -988,8 +989,8 @@
         },
         {
             "id": 89,
-            "x": 60.0,
-            "y": 1307.0,
+            "x": 37.0,
+            "y": 1306.0,
             "width": 341,
             "height": 48,
             "text": "Prismatic Overblast (R)",
@@ -1000,7 +1001,7 @@
         },
         {
             "id": 90,
-            "x": 440.0,
+            "x": 437.0,
             "y": 1347.0,
             "width": 114,
             "height": 24,
@@ -1012,8 +1013,8 @@
         },
         {
             "id": 91,
-            "x": 31.0,
-            "y": 1249.0,
+            "x": 422.0,
+            "y": 1276.0,
             "width": 293,
             "height": 24,
             "text": "grants Party DMG +24% for 30 seconds",
@@ -1024,8 +1025,8 @@
         },
         {
             "id": 92,
-            "x": 431.0,
-            "y": 1287.0,
+            "x": 257.0,
+            "y": 1232.0,
             "width": 98,
             "height": 24,
             "text": "combos into",
@@ -1660,8 +1661,8 @@
         },
         {
             "id": 147,
-            "x": 609.0,
-            "y": 1321.0,
+            "x": 592.0,
+            "y": 1318.0,
             "width": 177,
             "height": 24,
             "text": "DMG multiplied by 1.7x",
@@ -1837,6 +1838,30 @@
             "checkbox_visible": false,
             "checked": true,
             "visible": false
+        },
+        {
+            "id": 162,
+            "x": 43.0,
+            "y": 1246.0,
+            "width": 172,
+            "height": 24,
+            "text": "generates 20 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 163,
+            "x": 410.0,
+            "y": 585.0,
+            "width": 172,
+            "height": 24,
+            "text": "generates 10 Concerto",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
         }
     ],
     "connections": [
@@ -2904,6 +2929,16 @@
             "start_id": 147,
             "end_id": 89,
             "visible": false
+        },
+        {
+            "start_id": 89,
+            "end_id": 162,
+            "visible": true
+        },
+        {
+            "start_id": 75,
+            "end_id": 163,
+            "visible": true
         }
     ]
 }

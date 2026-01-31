@@ -1,0 +1,833 @@
+{
+    "canvas_width": 1855,
+    "canvas_height": 1020,
+    "launch_locked": false,
+    "text_bubbles": [
+        {
+            "id": 0,
+            "x": 108.0,
+            "y": 68.0,
+            "width": 408,
+            "height": 48,
+            "text": "Foreign Rockblade (Normal)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 1,
+            "x": 325.0,
+            "y": 186.0,
+            "width": 130,
+            "height": 24,
+            "text": "hold",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 2,
+            "x": 431.0,
+            "y": 265.0,
+            "width": 230,
+            "height": 48,
+            "text": "Charged Attack",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 3,
+            "x": 153.0,
+            "y": 187.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 1",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 4,
+            "x": 153.0,
+            "y": 278.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 2",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 5,
+            "x": 153.0,
+            "y": 375.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 6,
+            "x": 154.0,
+            "y": 459.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 4",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 7,
+            "x": 153.0,
+            "y": 542.0,
+            "width": 130,
+            "height": 24,
+            "text": "Basic Attack 5",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 8,
+            "x": 708.0,
+            "y": 168.0,
+            "width": 285,
+            "height": 48,
+            "text": "Starfell Sword (E)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 9,
+            "x": 591.0,
+            "y": 181.0,
+            "width": 67,
+            "height": 24,
+            "text": "limit 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 10,
+            "x": 967.0,
+            "y": 93.0,
+            "width": 186,
+            "height": 24,
+            "text": "hold to control placement",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 11,
+            "x": 670.0,
+            "y": 351.0,
+            "width": 145,
+            "height": 24,
+            "text": "30 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 12,
+            "x": 1036.0,
+            "y": 183.0,
+            "width": 140,
+            "height": 24,
+            "text": "is a Geo Construct",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 13,
+            "x": 1299.0,
+            "y": 174.0,
+            "width": 223,
+            "height": 48,
+            "text": "Geo Construct",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 14,
+            "x": 1053.0,
+            "y": 249.0,
+            "width": 92,
+            "height": 24,
+            "text": "climbable",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 15,
+            "x": 1512.0,
+            "y": 118.0,
+            "width": 130,
+            "height": 24,
+            "text": "can block attacks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 16,
+            "x": 1408.0,
+            "y": 74.0,
+            "width": 161,
+            "height": 24,
+            "text": "can block movement",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 17,
+            "x": 1015.0,
+            "y": 401.0,
+            "width": 274,
+            "height": 48,
+            "text": "Wake of Earth (R)",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 18,
+            "x": 1343.0,
+            "y": 412.0,
+            "width": 130,
+            "height": 24,
+            "text": "60 Energy Cost",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 19,
+            "x": 1009.0,
+            "y": 321.0,
+            "width": 286,
+            "height": 24,
+            "text": "creates three Geo Constructs in a circle",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 20,
+            "x": 825.0,
+            "y": 319.0,
+            "width": 145,
+            "height": 24,
+            "text": "15 second duration",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 21,
+            "x": 332.0,
+            "y": 542.0,
+            "width": 201,
+            "height": 24,
+            "text": "triggers Frenzied Rockslide",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 22,
+            "x": 70.0,
+            "y": 616.0,
+            "width": 280,
+            "height": 48,
+            "text": "Frenzied Rockslide",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 23,
+            "x": 382.0,
+            "y": 624.0,
+            "width": 178,
+            "height": 24,
+            "text": "60% ATK as Geo DMG",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 24,
+            "x": 609.0,
+            "y": 952.0,
+            "width": 325,
+            "height": 48,
+            "text": "Foreign Adamantine",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": false,
+            "visible": true
+        },
+        {
+            "id": 25,
+            "x": 987.0,
+            "y": 978.0,
+            "width": 112,
+            "height": 24,
+            "text": "DEF +20%",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 26,
+            "x": 991.0,
+            "y": 900.0,
+            "width": 195,
+            "height": 65,
+            "text": "when Party Member gains or refreshes a Shield, or creates a Geo Construct",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 27,
+            "x": 846.0,
+            "y": 844.0,
+            "width": 310,
+            "height": 24,
+            "text": "generate 1 stack of Blade of Archaic Petra",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 28,
+            "x": 727.0,
+            "y": 763.0,
+            "width": 329,
+            "height": 48,
+            "text": "Blade of Archaic Petra",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 29,
+            "x": 562.0,
+            "y": 787.0,
+            "width": 130,
+            "height": 24,
+            "text": "maximum 3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 30,
+            "x": 454.0,
+            "y": 811.0,
+            "width": 69,
+            "height": 24,
+            "text": "unlocks",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 31,
+            "x": 124.0,
+            "y": 859.0,
+            "width": 403,
+            "height": 48,
+            "text": "Charged Attack (Rockfell)\u2605",
+            "font_size": 24,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 32,
+            "x": 134.0,
+            "y": 942.0,
+            "width": 169,
+            "height": 59,
+            "text": "on hit, Party Member Shield Strength +20% for 15 seconds",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 33,
+            "x": 350.0,
+            "y": 961.0,
+            "width": 154,
+            "height": 24,
+            "text": "15 second cooldown",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": false
+        },
+        {
+            "id": 34,
+            "x": 1567.0,
+            "y": 225.0,
+            "width": 245,
+            "height": 48,
+            "text": "Constellation 1",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 35,
+            "x": 1337.0,
+            "y": 311.0,
+            "width": 255,
+            "height": 41,
+            "text": "grants Crit Rate +10% and interruption resistance within radius",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 36,
+            "x": 330.0,
+            "y": 427.0,
+            "width": 245,
+            "height": 48,
+            "text": "Constellation 2",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 37,
+            "x": 411.0,
+            "y": 360.0,
+            "width": 217,
+            "height": 24,
+            "text": "explodes and deals damage",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 38,
+            "x": 1336.0,
+            "y": 558.0,
+            "width": 245,
+            "height": 48,
+            "text": "Constellation 3",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 39,
+            "x": 1239.0,
+            "y": 494.0,
+            "width": 130,
+            "height": 24,
+            "text": "Level +3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 40,
+            "x": 729.0,
+            "y": 14.0,
+            "width": 245,
+            "height": 48,
+            "text": "Constellation 5",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 41,
+            "x": 814.0,
+            "y": 103.0,
+            "width": 75,
+            "height": 24,
+            "text": "Level +3",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 42,
+            "x": 1031.0,
+            "y": 542.0,
+            "width": 254,
+            "height": 45,
+            "text": "generates 5 Energy per Enemy hit, up to 25",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 43,
+            "x": 1100.0,
+            "y": 634.0,
+            "width": 245,
+            "height": 48,
+            "text": "Constellation 4",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 44,
+            "x": 702.0,
+            "y": 544.0,
+            "width": 245,
+            "height": 48,
+            "text": "Constellation 6",
+            "font_size": 24,
+            "checkbox_visible": true,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 45,
+            "x": 847.0,
+            "y": 451.0,
+            "width": 97,
+            "height": 24,
+            "text": "duration +5",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        },
+        {
+            "id": 46,
+            "x": 692.0,
+            "y": 452.0,
+            "width": 98,
+            "height": 24,
+            "text": "duration +10",
+            "font_size": 12,
+            "checkbox_visible": false,
+            "checked": true,
+            "visible": true
+        }
+    ],
+    "connections": [
+        {
+            "start_id": 0,
+            "end_id": 1,
+            "visible": true
+        },
+        {
+            "start_id": 1,
+            "end_id": 2,
+            "visible": true
+        },
+        {
+            "start_id": 0,
+            "end_id": 3,
+            "visible": true
+        },
+        {
+            "start_id": 3,
+            "end_id": 4,
+            "visible": true
+        },
+        {
+            "start_id": 4,
+            "end_id": 5,
+            "visible": true
+        },
+        {
+            "start_id": 5,
+            "end_id": 6,
+            "visible": true
+        },
+        {
+            "start_id": 6,
+            "end_id": 7,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 9,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 10,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 11,
+            "visible": true
+        },
+        {
+            "start_id": 8,
+            "end_id": 12,
+            "visible": true
+        },
+        {
+            "start_id": 12,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 15,
+            "visible": true
+        },
+        {
+            "start_id": 13,
+            "end_id": 16,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 18,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 19,
+            "visible": true
+        },
+        {
+            "start_id": 19,
+            "end_id": 13,
+            "visible": true
+        },
+        {
+            "start_id": 19,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 12,
+            "end_id": 14,
+            "visible": true
+        },
+        {
+            "start_id": 7,
+            "end_id": 21,
+            "visible": true
+        },
+        {
+            "start_id": 21,
+            "end_id": 22,
+            "visible": true
+        },
+        {
+            "start_id": 22,
+            "end_id": 23,
+            "visible": true
+        },
+        {
+            "start_id": 24,
+            "end_id": 25,
+            "visible": false
+        },
+        {
+            "start_id": 24,
+            "end_id": 26,
+            "visible": false
+        },
+        {
+            "start_id": 26,
+            "end_id": 27,
+            "visible": false
+        },
+        {
+            "start_id": 27,
+            "end_id": 28,
+            "visible": false
+        },
+        {
+            "start_id": 28,
+            "end_id": 29,
+            "visible": false
+        },
+        {
+            "start_id": 29,
+            "end_id": 30,
+            "visible": false
+        },
+        {
+            "start_id": 30,
+            "end_id": 31,
+            "visible": false
+        },
+        {
+            "start_id": 31,
+            "end_id": 32,
+            "visible": false
+        },
+        {
+            "start_id": 24,
+            "end_id": 27,
+            "visible": false
+        },
+        {
+            "start_id": 24,
+            "end_id": 28,
+            "visible": false
+        },
+        {
+            "start_id": 24,
+            "end_id": 29,
+            "visible": false
+        },
+        {
+            "start_id": 24,
+            "end_id": 30,
+            "visible": false
+        },
+        {
+            "start_id": 24,
+            "end_id": 31,
+            "visible": false
+        },
+        {
+            "start_id": 24,
+            "end_id": 32,
+            "visible": false
+        },
+        {
+            "start_id": 31,
+            "end_id": 33,
+            "visible": false
+        },
+        {
+            "start_id": 24,
+            "end_id": 33,
+            "visible": false
+        },
+        {
+            "start_id": 19,
+            "end_id": 35,
+            "visible": true
+        },
+        {
+            "start_id": 34,
+            "end_id": 35,
+            "visible": true
+        },
+        {
+            "start_id": 11,
+            "end_id": 37,
+            "visible": true
+        },
+        {
+            "start_id": 36,
+            "end_id": 37,
+            "visible": true
+        },
+        {
+            "start_id": 38,
+            "end_id": 39,
+            "visible": true
+        },
+        {
+            "start_id": 39,
+            "end_id": 17,
+            "visible": true
+        },
+        {
+            "start_id": 40,
+            "end_id": 41,
+            "visible": true
+        },
+        {
+            "start_id": 41,
+            "end_id": 8,
+            "visible": true
+        },
+        {
+            "start_id": 17,
+            "end_id": 42,
+            "visible": true
+        },
+        {
+            "start_id": 43,
+            "end_id": 42,
+            "visible": true
+        },
+        {
+            "start_id": 44,
+            "end_id": 45,
+            "visible": true
+        },
+        {
+            "start_id": 45,
+            "end_id": 20,
+            "visible": true
+        },
+        {
+            "start_id": 44,
+            "end_id": 46,
+            "visible": true
+        },
+        {
+            "start_id": 46,
+            "end_id": 11,
+            "visible": true
+        }
+    ]
+}

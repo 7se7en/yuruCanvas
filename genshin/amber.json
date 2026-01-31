@@ -1,6 +1,7 @@
 {
-    "canvas_width": 2481,
-    "canvas_height": 1380,
+    "canvas_width": 1855,
+    "canvas_height": 1020,
+    "launch_locked": false,
     "text_bubbles": [
         {
             "id": 0,
@@ -136,11 +137,11 @@
         },
         {
             "id": 11,
-            "x": 297.0,
-            "y": 679.0,
-            "width": 359,
+            "x": 468.0,
+            "y": 659.0,
+            "width": 151,
             "height": 24,
-            "text": "Has Crit Rate +10% and 30% increased range",
+            "text": "has Crit Rate +10%",
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
@@ -192,7 +193,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 16,
@@ -216,7 +217,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 18,
@@ -228,7 +229,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 20,
@@ -252,7 +253,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 22,
@@ -276,7 +277,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 24,
@@ -288,7 +289,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 25,
@@ -312,7 +313,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 27,
@@ -324,7 +325,7 @@
             "font_size": 12,
             "checkbox_visible": false,
             "checked": true,
-            "visible": true
+            "visible": false
         },
         {
             "id": 28,
